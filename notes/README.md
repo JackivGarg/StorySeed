@@ -5,6 +5,7 @@ Phase 1 has eight connected subphases. Read each concept chapter, inspect its co
 | Subphase | Chapter | Practice / solutions | Actual output |
 |---|---|---|---|
 | 1.1 | [environment tensors and gradients](phase01/01-environment-tensors-and-gradients.md) | [Try and explain](phase01/01-practice-and-solutions.md) | [Observed run](../reports/phase01/01_environment.md) |
+| 1.2 | [text tokens and targets](phase01/02-text-tokens-and-targets.md) | [Try and explain](phase01/02-practice-and-solutions.md) | [Observed run](../reports/phase01/02_tokens.md) |
 
 Remaining phases and uncompleted Phase 1 subphases are planned, not delivered. The code and chapters at each historical commit describe that revision.
 
