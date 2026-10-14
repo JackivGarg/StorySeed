@@ -1,12 +1,24 @@
-# Fresh StorySeed progress
+# StorySeed progress
 
-Active folder: C:/Users/JACKIV/OneDrive/Desktop/StorySeed.
-Verified locally: main, origin https://github.com/JackivGarg/StorySeed.git, initial commit a332e7a containing README.md and .gitignore.
+Active fresh repository: Desktop/StorySeed, branch main, origin https://github.com/JackivGarg/StorySeed.git. Earlier folders remain references.
 
-Current change: establish new project guidance and the agreed teaching/commit sequence. No old files or Git history are imported. No executable lessons, model implementation, trained weights, downloads or GPU runs exist in this fresh repository.
+Phase 1 implementation and teaching material are being completed at the student's explicit request to deliver the whole phase. Understanding checks remain pending; no independent mastery is inferred.
 
-Remote publication: the initial authentication-pending handoff is resolved. On 2026-10-14, `git push -u origin main` succeeded, publishing a332e7a and f676586 and configuring main to track origin/main. No force-push or history import occurred.
+| Subphase | Build / actual run / notes | Student evidence |
+|---|---|---|
+| 1.1: environment | Implemented, executed, chapter and solutions written | Pending |
+| 1.2: tokens | Planned | Pending |
+| 1.3: batches | Planned | Pending |
+| 1.4: bigram | Planned | Pending |
+| 1.5: loss | Planned | Pending |
+| 1.6: training | Planned | Pending |
+| 1.7: generation | Planned | Pending |
+| 1.8: checkpoint | Planned | Pending |
 
-Next implementation: 1.1, isolated Python/PyTorch environment, actual tensor/gradient example and detailed accompanying chapter. Prior hardware observations need rechecking. The older toy-token lesson is reference material, not a completed subphase here.
+Environment: project venv shares the installed PyTorch 2.6.0+cu124 dependency. CPU and CUDA gradient examples actually ran. Full dependency isolation is an alternate documented setup, not the environment used here.
 
-All 49 core subphases are planned. Concepts demonstrated by the student remain unassessed. Use END_TO_END_PLAN.md, NOTES_STANDARD.md and COMMIT_WORKFLOW.md for the next increment.
+Phase 1 uses an authored toy corpus and a character bigram model. It is not the final transformer or TinyStories training.
+
+Next implementation: subphase 1.2.
+
+Initial publication succeeded on 2026-10-14. New Phase 1 commits are local until the final push succeeds. Check actual Git tracking state before claiming synchronization.

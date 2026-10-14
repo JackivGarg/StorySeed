@@ -1,0 +1,29 @@
+{
+  "command": ".venv/Scripts/python lessons/phase01/01_environment.py",
+  "python": "3.12.4",
+  "torch": "2.6.0+cu124",
+  "cuda_build": "12.4",
+  "is_virtual_environment": true,
+  "shares_installed_dependencies": true,
+  "gpu": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+  "worked_calculations": [
+    {
+      "device": "cpu",
+      "weight": 2.0,
+      "prediction": 6.0,
+      "loss": 1.0,
+      "gradient": 6.0,
+      "updated_weight": 1.399999976158142,
+      "loss_after_update": 0.6400002837181091
+    },
+    {
+      "device": "cuda",
+      "weight": 2.0,
+      "prediction": 6.0,
+      "loss": 1.0,
+      "gradient": 6.0,
+      "updated_weight": 1.399999976158142,
+      "loss_after_update": 0.6400002837181091
+    }
+  ]
+}
