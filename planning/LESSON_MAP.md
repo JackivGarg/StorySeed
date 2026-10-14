@@ -5,6 +5,10 @@ Code folder: `C:/Users/JACKIV/OneDrive/Desktop/StorySeed`.
 
 Open `START_HERE.md` in the notes folder. The notes were initially copied unchanged, then rewritten on 2026-10-14 at the user's explicit request as practical guided build sessions. Notes are stored locally outside this Git repository. Code, execution reports and operational planning remain here.
 
+## New teaching-style sample — approval pending
+
+The active 2026-10-15 direction teaches concepts and reasoning through project dependencies before the code. Read `samples/SAMPLE_01_WHY_PYTORCH_AND_HOW_LEARNING_WORKS.md`. Existing Phase 1 sessions below are the earlier style; they will be rewritten only after sample approval. See planning/TEACHING_PREVIEW.md for the review boundary.
+
 ## Phase 1
 
 All chapter paths below are relative to the external notes folder. Each session has a companion hands-on lab `phase01/NN-practice-and-solutions.md` with the same two-digit prefix. Filenames were preserved for continuity; these are practical labs, not exam answers. The current rewritten lessons explain the existing implementation, while the listed commits identify its original build increments.

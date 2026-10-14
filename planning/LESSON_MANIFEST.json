@@ -1,14 +1,14 @@
 {
   "format": "storyseed.external-lessons.v1",
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "notes_root": "C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes",
   "implementation_revision": "059c13b",
   "originals_archive": "history/059c13b-before-practical-rewrite",
   "files": [
     {
       "path": "AGENTS.md",
-      "sha256": "5f0118c3f430afae9e89f076c48622109a2c92c2bbc16f32ddf01a12a694aa00",
-      "words": 238
+      "sha256": "c139d1b4124c68024e09193b1d46fec87c220c95e10c356e3c28eacec857bc2e",
+      "words": 248
     },
     {
       "path": "READING_ORDER.md",
@@ -22,8 +22,8 @@
     },
     {
       "path": "START_HERE.md",
-      "sha256": "ad6788fe3c5ac91453c661859f4f851bc3ba0bf8d5bbbbc0aacd2989242d3e97",
-      "words": 114
+      "sha256": "c40a7dda2dea5310872a008c4a8ef30dd33e17a31d0bccee2bbdfdcde2ef9944",
+      "words": 161
     },
     {
       "path": "phase01/00-follow-one-character-through-the-system.md",
@@ -114,6 +114,15 @@
       "path": "phase01/README.md",
       "sha256": "927fcfa6014f63dbea8dd84dd51e246e6fbc36549194a5470c11c4291a3dc57c",
       "words": 675
+    },
+    {
+      "path": "samples/SAMPLE_01_WHY_PYTORCH_AND_HOW_LEARNING_WORKS.md",
+      "sha256": "7a19b2a5f72be6249d8c64c4c3380ada98d7adcf878412e67807946a0da96912",
+      "words": 2977
     }
-  ]
+  ],
+  "teaching_preview": {
+    "status": "awaiting_user_approval",
+    "sample": "samples/SAMPLE_01_WHY_PYTORCH_AND_HOW_LEARNING_WORKS.md"
+  }
 }

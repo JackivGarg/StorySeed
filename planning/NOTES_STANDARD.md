@@ -1,34 +1,43 @@
-# Standard for guided build notes
+# Notes standard — concept and reasoning first, connected to the build
 
-Apply the user's practical teaching contract in TEACHING_RULES.md to every new or revised phase.
+Follow TEACHING_RULES.md, updated for the user's 2026-10-15 feedback.
 
-## Write from the working system
+## A chapter starts from an unresolved project need
 
-Start with an immediate engineering goal and the concrete limitation of the previous step. Explain our approach before the code. Use actual StorySeed files and functions, then inspect a small example. Explain the decisions a student would have to make independently: dimensions, representation, label alignment, architecture, loss, device placement and update behavior.
+Explain the immediate goal within the larger SLM journey. Show why the current system cannot yet accomplish it. Consider a plausible approach, then identify the concept or prerequisite needed to assess or implement that approach.
 
-The usual progression is goal/problem → approach → implementation → important code/data flow → observation → achievement/next step → debugging. Use natural headings and transitions instead of mechanically repeating eight headings.
+Follow the conceptual dependency: project need → reasoning/choice → prerequisite learning → explicit return to the project → justified implementation → observation/limitation → next dependency. The source-file order is not the teaching syllabus.
 
-## Code and evidence
+## Teach the mechanism before a code tour
 
-- Link the real source and function. Excerpts must match the current code; say when a snippet is only the core excerpt.
-- A standalone inspection example must include imports and all values it needs. Put the execution command nearby. For multi-line Python on this Windows setup, use a clearly described temporary local scratch file run from the code repository.
-- A simplified numerical fixture must be labelled. It does not change the actual vocabulary or model.
-- Trace the value and shape across important boundaries. Explain B (examples), T (positions), V (vocabulary choices), and any feature dimension at their first use. Do not give token IDs the meaning of learned features.
-- Cite the report for recorded numbers. Label predicted or hand-calculated outcomes as expected, not as observed execution. Preserve existing reports when merely rewriting notes.
-- Do not add code or experiments for decoration. Every inspection should diagnose a property or make an operation understandable.
+Develop the concept with intuition, concrete examples and appropriate mathematics. Define symbols and tensor axes when needed. State what is adjustable, fixed, observed or computed. Explain why each transformation is necessary and how it supports the next component.
 
-## Engineering explanation
+A small snippet may reveal a concept. Do not begin by importing a project function, running it, and explaining its lines as the main lesson. The student should be able to follow the reasoning without opening the finished code first.
 
-Explain what enters, what changes, what leaves and which module uses it next. Introduce the relevant theory while interpreting those operations. Define symbols and explain gradients/parameter updates where they occur. Describe a useful alternative briefly and justify the actual choice.
+Do not make every paragraph a definition or a rigid checklist. Give prerequisites space and then reconnect them: “we paused this component to understand X; now X lets us decide/do Y.”
 
-Debug through symptoms and localization: inspect representation and targets first, then score shapes, loss inputs, gradients, updates, evaluation and decoding. Demonstrate a concrete failing line or state and its correction when useful; do not only enumerate potential errors. State when a checkpoint supports inference but not exact training resume.
+## Scope and depth
 
-## Practical independence
+Assume basic Python and limited practical deep learning fluency, despite prior lecture exposure. Skip redundant elementary token/Python explanations. Teach unfamiliar PyTorch, differentiation, representation and architecture ideas carefully where they belong. There is no fixed maximum chapter length; multiple files are welcome when connected and useful.
 
-A stage ends with a short "What I should now understand" list of things the student should be able to do. Companion practice is a small implementation/inspection session with a purpose, expectation, hints and worked repair or verification. Avoid routine exams, interview lists, MCQs, memorization and lengthy disconnected derivations.
+Preserve a continuing concrete prediction example where possible. Separate conceptual illustrations from actual model behavior. Explain alternatives briefly and why our project chooses one.
 
-Keep detail useful during coding. Several files may serve one subphase, but avoid repeated concept explanations. Revisit course concepts where they help this particular build. A runnable system and authored notes are not evidence of student mastery.
+## Code and observations
 
-## Location and revision
+Reference real files/functions after their purpose is understood. Complete runnable illustrations need imports and all required values; excerpts must be identified. Explain important operations semantically, not just syntactically.
 
-Write lessons only in C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes/phaseXX. Use working absolute Markdown links to code/reports in the separate StorySeed folder, and relative links between notes. Update the external index and planning/LESSON_MAP.md. Preserve old notes in external history before content revisions, labelled with the code revision. The 2026-10-14 rewrite explicitly supersedes the copy-only relocation instruction; the originals remain archived. Do not recreate notes in the code repository.
+Use actual report links for observed values. Hand calculations and predicted results are labelled as expectations. Do not run or invent a new training job to support an editorial rewrite. Do not change functioning model source for presentation.
+
+Trace data values/shapes as part of explaining the mechanism, not as a replacement for the reasoning. Distinguish IDs, parameters, features, scores, probabilities, loss, gradients and updates when they occur.
+
+## Understanding and debugging
+
+Show how conceptual understanding locates a failure: wrong examples, incompatible representation, inadequate context, incorrect objective, broken differentiation or missing update. Include occasional useful small experiments and reasoning pauses with hints/verification.
+
+Close by reconstructing the decisions taken and the next missing piece. Avoid routine interview lists, MCQs and exam answers. Student mastery remains pending until demonstrated.
+
+## Preview gate and location
+
+The user requested a sample for approval before the full rewrite. Put the sample in the separate notes folder's samples directory and label it pending review. Update instructions now, but do not replace the existing Phase 1 chapters until approval.
+
+Canonical lessons remain in C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes. Use absolute source/report links and relative companion links. Record references and hashes in the code repository, never recreate its notes directory. Archive previous content before a later approved rewrite.

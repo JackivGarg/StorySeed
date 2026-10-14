@@ -19,3 +19,5 @@ Evidence comes from the user's course-progress screenshots in this conversation.
 This establishes exposure, not independent implementation, retained fluency or mastery. The user identifies as a third-year BTech CSE student with basic Python. Teach PyTorch and system-building operations in context; do not assume independent tensor/debugging fluency or require a separate introductory course.
 
 Use ANN training as the bridge to loss/gradients/optimizer updates; LSTM next-word prediction for shifted targets; recurrence for context/order comparisons; seq2seq attention for causal self-attention; transformer theory for explicitly traced decoder blocks. Revise required mathematics and tensor operations as used. No scored preliminary exam is required.
+
+2026-10-15 teaching clarification: assume the practical mechanisms are new despite lecture exposure. Explain PyTorch and deeper prerequisites through the current build decision. Avoid repeating extreme basics such as simple token definitions and elementary Python; define necessary mathematical symbols and system concepts in context.

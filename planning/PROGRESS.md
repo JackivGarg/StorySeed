@@ -2,7 +2,7 @@
 
 Active fresh repository: Desktop/StorySeed, branch main, origin https://github.com/JackivGarg/StorySeed.git. Earlier folders remain references.
 
-Phase 1 implementation, teaching material and verification are complete at the student's explicit request to deliver the whole phase. Understanding checks remain pending; no independent mastery is inferred.
+Phase 1 implementation and its recorded verification are complete. Earlier teaching files exist, but the user requested a revised concept-and-flow style on 2026-10-15. One sample is prepared for review; the full teaching rewrite awaits explicit approval. Understanding remains pending.
 
 | Subphase | Build / actual run / notes | Student evidence |
 |---|---|---|
@@ -19,7 +19,7 @@ Environment: project venv shares the installed PyTorch 2.6.0+cu124 dependency. C
 
 Phase 1 uses an authored toy corpus and a character bigram model. It is not the final transformer or TinyStories training.
 
-Next implementation: Phase 2, after working through the Phase 1 build sessions and unresolved questions.
+Next teaching step: review samples/SAMPLE_01_WHY_PYTORCH_AND_HOW_LEARNING_WORKS.md in the external notes folder. After user approval, rewrite Phase 1 in the accepted style and work through its concepts before dependent Phase 2 teaching.
 
 Teaching update, 2026-10-14: the user authorized replacing the earlier teaching style with practical guided build sessions. All eight Phase 1 sessions and eight companion labs were rewritten against the actual code and reports. A complete data-flow guide connects the modules; reading indexes and permanent instructions now follow the mentor style. The originals were archived in the external notes folder at history/059c13b-before-practical-rewrite. Model source and historical execution reports were not changed for the rewrite. Student understanding evidence remains pending.
 

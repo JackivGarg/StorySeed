@@ -30,7 +30,7 @@ Optional later work: one justified modern component, or a separately documented 
 
 ## A subphase is both a change and a lesson
 
-Teach as an engineer building beside the student. Start from the immediate project goal and previous working limitation, choose an approach, implement the actual step, inspect its data/shapes and behavior, explain relevant theory in place, and diagnose realistic failures. Revise relevant course concepts where the operation needs them. Use occasional small implementation labs with hints and verification, rather than exam-style questions or an unrelated syllabus. End stages with practical-understanding summaries. Follow the updated TEACHING_RULES.md and NOTES_STANDARD.md throughout Phases 1–9.
+Teach the concept and decision journey: identify a missing project capability, reason about an approach, learn its prerequisite in depth, return explicitly to the original build question, implement the motivated component, interpret the result and discover the next limitation. Source-file order does not determine the learning order. A sample of this style is pending user review; rewrite the remaining Phase 1 teaching only after approval. Keep the 49-subphase implementation sequence, actual code and existing observations as references. Follow the 2026-10-15 teaching rules.
 
 Write the detailed chapters in the separate Desktop StorySeed-Study-Notes folder. Commit the implementation, small observations and updated lesson-map/state together. Commit messages describe the actual change, for example `feat: implement a trainable bigram language model`. The commit body states subphase, external lesson paths, code paths, evidence and next dependency. A job-start/configuration commit and a later result commit accurately represent long runs.
 

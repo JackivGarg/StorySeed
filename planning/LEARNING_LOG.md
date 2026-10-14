@@ -1,5 +1,9 @@
 # Learning evidence in the fresh repository
 
+## 2026-10-15: concept-and-flow sample pending approval
+
+The user found the earlier notes too focused on explaining code and requested the conceptual journey behind independent SLM construction. Updated persistent instructions and drafted one sample that starts from learning predictions, develops parameters/loss/gradients/updates, motivates PyTorch, then returns to the implemented score model. Existing Phase 1 chapters are not replaced before approval. Sample content is authored, not evidence of student mastery or a new model run. The next step is user feedback on the sample, then an explicitly approved rewrite.
+
 ## 2026-10-14: practical guided build teaching
 
 The user requested engineering mentoring rather than textbook or exam preparation: immediate goal, actual implementation choices, important operations and shapes, complete data flow, observations and realistic diagnosis. Persisted this contract in both folders' AGENTS.md and the teaching/notes standards. Rewrote eight sessions and eight lab files, added a complete-system trace and updated reading guides. Archived the original notes under external history/059c13b-before-practical-rewrite before replacement. Existing model code and prior run reports remain the evidence for the main training results; no new main run or student mastery is inferred from this editorial update.
