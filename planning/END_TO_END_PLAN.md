@@ -12,7 +12,7 @@ The student's outcome is independent reconstruction and explanation using detail
 
 ## Phase/subphase sequence
 
-These 49 core subphases are planned. Each row is a coherent build-and-teach sequence, not already implemented work. Detailed lesson/run-specific decisions are made before the corresponding increment.
+There are 49 core subphases. Phase 1's eight build increments, runs and teaching files are now complete; student understanding checkpoints remain pending. Phases 2–9 are planned. Each row describes a coherent build-and-teach sequence, with run-specific decisions recorded in the corresponding reports.
 
 | Phase | Subphases in order | Working outcome |
 |---|---|---|
@@ -56,6 +56,6 @@ Provisional learning allowance: 180–260 active hours, revised after Phase 1 an
 
 ## Current start
 
-The new project has no executable lessons or model implementation. Begin at 1.1: establish an isolated runnable tensor/gradient environment with an original chapter and observed calculation. Older toy examples can inform teaching at 1.2, but they are not completed work in this repository.
+Phase 1 is implemented in this fresh repository with eight natural subphase commits, sixteen concept/practice Markdown files, actual execution reports, GPU training and fresh-process checkpoint reproduction. The model is an authored-corpus character bigram with 289 trainable parameters. It is not the final transformer. The project venv explicitly shares the already-installed PyTorch dependency; a fully isolated installation is a documented alternate path. Next: review Phase 1 learning questions, then Phase 2's documented story corpus. Earlier folders remain references rather than imported source/history.
 
 Primary references for later teaching: https://docs.pytorch.org/tutorials/beginner/basics/ , https://arxiv.org/abs/1706.03762 , https://arxiv.org/abs/2305.07759 , https://huggingface.co/datasets/roneneldan/TinyStories . Explain methods originally and credit any implementation reference actually used.

@@ -16,6 +16,6 @@ Canonical code and study chapters live here. At a historical commit the notes mu
 
 Preserve these earlier folders as reference material: SLM-From-Scratch, CampusCare-AI, StorySeed-Learning-Notes and CampusCare-Learning-Notes on the Desktop. Do not update their source/planning state or import their artifacts wholesale. A future separate reading mirror for new lessons may use the fresh Desktop StorySeed-Study-Notes folder; preserve old reading folders.
 
-The user reported the initial GitHub push is pending command-line authentication. Local commits can proceed. Do not claim publication without a successful push or force-push/rewrite published history. Never expose tokens, credentials or private records. Remote upload status is recorded in PROGRESS.md.
+GitHub authentication and pushing succeeded after the initial handoff. The user requested completing all of Phase 1 together, so its eight build increments and written lessons are complete while student checkpoints remain pending. Do not claim publication without a successful push or force-push/rewrite published history. Never expose tokens, credentials or private records. Remote upload status is recorded in PROGRESS.md.
 
 Keep raw corpora, environments, caches and checkpoints out of Git. Version small configurations, provenance/split manifests, sample outputs and reports. Use compatible tokenizer/evaluation units, story-level splits and a held-out final protocol. Select main model size and run budget from actual memory/throughput pilots.

@@ -32,4 +32,4 @@ Long runs have a configuration/lesson commit before execution and a later outcom
 
 Record prior hashes during a later change: a commit cannot contain its own final hash. Final handoffs give the actual hash, lesson links, observed behavior, a few supportive checks and next increment.
 
-Remote origin is configured. The handoff reports initial publication pending Git authentication; this session does not verify remote content or attempt a push. Track local and remote status honestly. Never force-push or expose credentials to make history appear complete.
+Remote origin is configured and authentication/pushing succeeded. Phase 1 subphase history was published through 5326d0c. Check actual Git tracking state for the latest synchronization and update PROGRESS.md when publication changes. Never force-push or expose credentials to make history appear complete.

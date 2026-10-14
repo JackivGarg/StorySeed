@@ -2,7 +2,7 @@
 
 Active fresh repository: Desktop/StorySeed, branch main, origin https://github.com/JackivGarg/StorySeed.git. Earlier folders remain references.
 
-Phase 1 implementation and teaching material are being completed at the student's explicit request to deliver the whole phase. Understanding checks remain pending; no independent mastery is inferred.
+Phase 1 implementation, teaching material and verification are complete at the student's explicit request to deliver the whole phase. Understanding checks remain pending; no independent mastery is inferred.
 
 | Subphase | Build / actual run / notes | Student evidence |
 |---|---|---|
@@ -21,4 +21,6 @@ Phase 1 uses an authored toy corpus and a character bigram model. It is not the 
 
 Next implementation: Phase 2, after reviewing Phase 1 learning questions.
 
-Initial publication succeeded on 2026-10-14. New Phase 1 commits are local until the final push succeeds. Check actual Git tracking state before claiming synchronization.
+Phase 1 subphase commits through 5326d0c were successfully pushed to origin/main on 2026-10-14. The final study-summary commit follows separately. Git tracking state is authoritative for the latest publication status.
+
+Actual results: 400 CUDA Adam updates, 289 parameters, 240 training/67 development prediction positions. Training loss 2.835582 to 1.212152; development loss 2.834067 to 1.216261. All eight contract tests passed. Saved weights and tokenizer reproduce the seeded result in a fresh process. CPU reproduction commands also ran. Local checkpoint: checkpoints/phase01/bigram.pt; weights remain ignored by Git, with a hash/manifest in reports/phase01/08_checkpoint.json.
