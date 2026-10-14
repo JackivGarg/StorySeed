@@ -11,7 +11,7 @@ Learning proceeds alongside implementation through detailed, connected chapters.
 - [Build-and-teach plan: 49 core subphases](planning/END_TO_END_PLAN.md).
 - [Detailed notes standard](planning/NOTES_STANDARD.md).
 - [Commit-based learning workflow](planning/COMMIT_WORKFLOW.md).
-- [Study book](notes/README.md).
+- [Study book location and chapter map](planning/LESSON_MAP.md).
 - [Current progress](planning/PROGRESS.md).
 
 Each subphase pairs a natural code commit with its explanation and observed behavior. Main weights start randomly. Model size and training budget follow a measured hardware pilot.
@@ -20,7 +20,7 @@ Branch: main. Remote origin: https://github.com/JackivGarg/StorySeed.git. Git au
 
 ## Phase 1: run and study
 
-Read [the Phase 1 study guide](notes/phase01/README.md), then the [chapter index](notes/README.md). Each of the eight subphase commits contains its code, explanations, practice and actual observations.
+Teaching notes are stored separately on this computer in `C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes`. Open `START_HERE.md` there for the study guide and reading index. See [the chapter map](planning/LESSON_MAP.md) for corresponding code commits. The original eight subphase commits still contain their historical explanations; current lessons live in the separate Desktop folder.
 
 On this machine the project environment reuses the installed PyTorch CUDA build through system-site-packages. The environment and a fully isolated alternate installation are explained in the first chapter. After setup:
 

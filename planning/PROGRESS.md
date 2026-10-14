@@ -21,6 +21,8 @@ Phase 1 uses an authored toy corpus and a character bigram model. It is not the 
 
 Next implementation: Phase 2, after reviewing Phase 1 learning questions.
 
-Phase 1 subphase commits through 5326d0c were successfully pushed to origin/main on 2026-10-14. The final study-summary commit follows separately. Git tracking state is authoritative for the latest publication status.
+Phase 1 subphase commits and the final study-summary commit 2c7c874 were successfully pushed to origin/main on 2026-10-14. Git tracking state is authoritative for the latest publication status.
+
+The user subsequently requested separating the notes and copying existing files unchanged. All 18 original note Markdown files (eight chapters, eight practice files, study guide and index) were copied byte for byte to C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes and removed from the current code tree. Code and execution reports remain here. Future lessons belong in that external folder; planning/LESSON_MAP.md links lessons to subphases. This relocation adds no model training or student-mastery evidence.
 
 Actual results: 400 CUDA Adam updates, 289 parameters, 240 training/67 development prediction positions. Training loss 2.835582 to 1.212152; development loss 2.834067 to 1.216261. All eight contract tests passed. Saved weights and tokenizer reproduce the seeded result in a fresh process. CPU reproduction commands also ran. Local checkpoint: checkpoints/phase01/bigram.pt; weights remain ignored by Git, with a hash/manifest in reports/phase01/08_checkpoint.json.

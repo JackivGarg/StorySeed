@@ -21,6 +21,6 @@ Use multiple files for different learning questions: a concept chapter, worked e
 
 A setup lesson needs a clear runnable environment explanation, not an invented mathematical derivation. Attention needs worked matrix calculations and shape tracing. The same principle adapts depth to each concept.
 
-Canonical chapters belong in notes/phaseXX and are committed with their implementation and small observations. Keep notes/README.md ordered and link companion files. Fix code/lesson discrepancies in a truthful follow-up commit. Do not mark templates or planned chapter titles as delivered lessons.
+Canonical chapters belong in C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes/phaseXX. The user requested a separate Desktop folder and exact copies of the existing files. Keep the external reading index ordered and link companion files; map lessons to their code increments in planning/LESSON_MAP.md. Do not place teaching chapters in this code repository. Fix future code/lesson discrepancies truthfully. Do not mark templates or planned chapter titles as delivered lessons.
 
-Older notes remain reference material outside this fresh repository. New chapters will be written against the actual implementation here. Any future Desktop reading mirror must preserve old folders and identify this repository as the authoritative source.
+Older project notes remain reference material. New chapters will be written in StorySeed-Study-Notes against the actual implementation in StorySeed. Preserve previous lesson versions in the external folder before revising their content, labelled with the corresponding code commit, so historical study remains possible.

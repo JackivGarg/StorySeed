@@ -24,4 +24,4 @@ Timing/memory definitions and precise values are in 06_training.json. Primary ch
 
 Actual sampled text for prompt `mia ` and seed 17: untrained `mia tcrsdwnsahmeddmt`, trained `mia sat m t.`. Top-k=1 produced `mia sat.`. These illustrate local transition learning and its limits; no coherent-story capability is claimed.
 
-All eight subphases have concept chapters and guided practice/solutions, linked in notes/README.md. Student comprehension is unassessed until explanations or applied exercises provide evidence.
+All eight subphases have concept chapters and guided practice/solutions in the separate Desktop StorySeed-Study-Notes folder, mapped in planning/LESSON_MAP.md. Student comprehension is unassessed until explanations or applied exercises provide evidence.

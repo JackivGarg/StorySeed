@@ -32,11 +32,11 @@ Optional later work: one justified modern component, or a separately documented 
 
 Start from the previous working state and its limitation. Revise relevant prior knowledge. Explain the next concept with intuition, worked mathematics and defined shapes. Implement it, inspect actual behavior, teach the interpretation and give supportive checkpoints. Follow TEACHING_RULES.md and NOTES_STANDARD.md.
 
-Normally commit the implementation, detailed chapter files, small observations and updated index/state together. Commit messages describe the actual change, for example `feat: implement a trainable bigram language model`. The commit body states subphase, lesson paths, code paths, evidence and next dependency. A job-start/configuration commit and a later result commit accurately represent long runs.
+Write the detailed chapters in the separate Desktop StorySeed-Study-Notes folder. Commit the implementation, small observations and updated lesson-map/state together. Commit messages describe the actual change, for example `feat: implement a trainable bigram language model`. The commit body states subphase, external lesson paths, code paths, evidence and next dependency. A job-start/configuration commit and a later result commit accurately represent long runs.
 
 ## Planned file organization
 
-`notes/phaseXX/`: substantial concept chapters, examples, code walkthroughs and practice/solutions.
+`C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes/phaseXX/`: substantial concept chapters, examples, code walkthroughs and practice/solutions, outside the code repository.
 `lessons/phaseXX/`: bounded, inspectable learning experiments.
 `src/storyseed/`: reusable data, model, training and generation components.
 `configs/` and `scripts/`: reproducible settings and commands.
@@ -44,7 +44,7 @@ Normally commit the implementation, detailed chapter files, small observations a
 `data/manifests/`: source/split/tokenizer provenance.
 `planning/`: sequence, rules, learning evidence and experiment protocol.
 
-Introduce directories when needed. Raw/processed data, large checkpoints, runs, caches and environments are local artifacts outside Git. Notes stay versioned beside code. The previous Desktop study folders remain historical references.
+Introduce directories when needed. Raw/processed data, large checkpoints, runs, caches and environments are local artifacts outside Git. Notes live separately on the Desktop; planning/LESSON_MAP.md associates them with the code subphases. Existing notes in older Git commits remain available without rewriting history. The previous Desktop study folders remain historical references.
 
 ## Research controls and realistic budget
 
