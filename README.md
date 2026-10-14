@@ -6,6 +6,8 @@ This fresh repository began on 2026-10-14. Its Phase 1 code and lessons were dev
 
 Learning proceeds alongside implementation through detailed, connected chapters. The intended outcome is understanding tokenization, the causal transformer, training, evaluation, and generation.
 
+The current teaching style is a practical guided build: engineering decisions, real code, tensor/data flow, observations and debugging. Eight Phase 1 sessions, eight small labs and a complete-system trace live in the separate Desktop study folder. The [teaching agreement](planning/TEACHING_RULES.md) applies to future phases.
+
 ## Start here
 
 - [Build-and-teach plan: 49 core subphases](planning/END_TO_END_PLAN.md).

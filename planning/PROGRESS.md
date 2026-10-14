@@ -19,7 +19,9 @@ Environment: project venv shares the installed PyTorch 2.6.0+cu124 dependency. C
 
 Phase 1 uses an authored toy corpus and a character bigram model. It is not the final transformer or TinyStories training.
 
-Next implementation: Phase 2, after reviewing Phase 1 learning questions.
+Next implementation: Phase 2, after working through the Phase 1 build sessions and unresolved questions.
+
+Teaching update, 2026-10-14: the user authorized replacing the earlier teaching style with practical guided build sessions. All eight Phase 1 sessions and eight companion labs were rewritten against the actual code and reports. A complete data-flow guide connects the modules; reading indexes and permanent instructions now follow the mentor style. The originals were archived in the external notes folder at history/059c13b-before-practical-rewrite. Model source and historical execution reports were not changed for the rewrite. Student understanding evidence remains pending.
 
 Phase 1 subphase commits and the final study-summary commit 2c7c874 were successfully pushed to origin/main on 2026-10-14. Git tracking state is authoritative for the latest publication status.
 

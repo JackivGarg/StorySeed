@@ -3,11 +3,11 @@
 Authoritative notes folder: `C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes`.
 Code folder: `C:/Users/JACKIV/OneDrive/Desktop/StorySeed`.
 
-Open `START_HERE.md` in the notes folder. The original 18 note files were copied unchanged, as requested. Notes are stored locally outside this Git repository. Code, execution reports and operational planning remain here.
+Open `START_HERE.md` in the notes folder. The notes were initially copied unchanged, then rewritten on 2026-10-14 at the user's explicit request as practical guided build sessions. Notes are stored locally outside this Git repository. Code, execution reports and operational planning remain here.
 
 ## Phase 1
 
-All chapter paths below are relative to the external notes folder. Each chapter has a companion `phase01/NN-practice-and-solutions.md` with the same two-digit prefix.
+All chapter paths below are relative to the external notes folder. Each session has a companion hands-on lab `phase01/NN-practice-and-solutions.md` with the same two-digit prefix. Filenames were preserved for continuity; these are practical labs, not exam answers. The current rewritten lessons explain the existing implementation, while the listed commits identify its original build increments.
 
 | Subphase | Code commit | Chapter |
 |---|---|---|
@@ -20,9 +20,9 @@ All chapter paths below are relative to the external notes folder. Each chapter 
 | 1.7 | e60b4db | phase01/07-generation-and-sampling.md |
 | 1.8 | 5326d0c | phase01/08-saving-and-loading.md |
 
-The phase study guide is `phase01/README.md`; the copied original index is `README.md`. `READING_ORDER.md` is the pre-existing convenience index with local report links.
+The phase build guide is `phase01/README.md`; the whole-system trace is `phase01/00-follow-one-character-through-the-system.md`. `READING_ORDER.md` links sessions, labs, actual source and reports. Rewritten notes use absolute source/report links and relative companion links, appropriate to their separate folder.
 
-The original relative code/report links inside the unchanged copied files were written for the old location. Resolve those paths against the original `StorySeed/notes` location, or open the corresponding files in the code repository. Use the convenience index for direct report links. Historical Phase 1 notes remain accessible through `git show <commit>:notes/phase01/<filename>`.
+The original pre-rewrite notes and indexes remain in `history/059c13b-before-practical-rewrite/`. That archive identifies the code revision before the style rewrite. Historical Phase 1 notes also remain accessible through `git show <commit>:notes/phase01/<filename>`. The current external note hashes are recorded in `planning/LESSON_MANIFEST.json` for detecting later edits; this manifest is not a substitute for the note content or its external archive.
 
 ## Future subphases
 

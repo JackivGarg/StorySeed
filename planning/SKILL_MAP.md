@@ -16,6 +16,6 @@ Evidence comes from the user's course-progress screenshots in this conversation.
 | Seq2seq attention | 1/1 |
 | Transformers | 14/14 |
 
-This establishes exposure, not independent implementation, retained fluency or mastery. Python/PyTorch/debugging skills are unmeasured rather than presumed absent.
+This establishes exposure, not independent implementation, retained fluency or mastery. The user identifies as a third-year BTech CSE student with basic Python. Teach PyTorch and system-building operations in context; do not assume independent tensor/debugging fluency or require a separate introductory course.
 
 Use ANN training as the bridge to loss/gradients/optimizer updates; LSTM next-word prediction for shifted targets; recurrence for context/order comparisons; seq2seq attention for causal self-attention; transformer theory for explicitly traced decoder blocks. Revise required mathematics and tensor operations as used. No scored preliminary exam is required.

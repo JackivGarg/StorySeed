@@ -30,7 +30,7 @@ Optional later work: one justified modern component, or a separately documented 
 
 ## A subphase is both a change and a lesson
 
-Start from the previous working state and its limitation. Revise relevant prior knowledge. Explain the next concept with intuition, worked mathematics and defined shapes. Implement it, inspect actual behavior, teach the interpretation and give supportive checkpoints. Follow TEACHING_RULES.md and NOTES_STANDARD.md.
+Teach as an engineer building beside the student. Start from the immediate project goal and previous working limitation, choose an approach, implement the actual step, inspect its data/shapes and behavior, explain relevant theory in place, and diagnose realistic failures. Revise relevant course concepts where the operation needs them. Use occasional small implementation labs with hints and verification, rather than exam-style questions or an unrelated syllabus. End stages with practical-understanding summaries. Follow the updated TEACHING_RULES.md and NOTES_STANDARD.md throughout Phases 1–9.
 
 Write the detailed chapters in the separate Desktop StorySeed-Study-Notes folder. Commit the implementation, small observations and updated lesson-map/state together. Commit messages describe the actual change, for example `feat: implement a trainable bigram language model`. The commit body states subphase, external lesson paths, code paths, evidence and next dependency. A job-start/configuration commit and a later result commit accurately represent long runs.
 
@@ -56,6 +56,6 @@ Provisional learning allowance: 180–260 active hours, revised after Phase 1 an
 
 ## Current start
 
-Phase 1 is implemented in this fresh repository with eight natural subphase commits, sixteen concept/practice Markdown files, actual execution reports, GPU training and fresh-process checkpoint reproduction. The model is an authored-corpus character bigram with 289 trainable parameters. It is not the final transformer. The project venv explicitly shares the already-installed PyTorch dependency; a fully isolated installation is a documented alternate path. Next: review Phase 1 learning questions, then Phase 2's documented story corpus. Earlier folders remain references rather than imported source/history.
+Phase 1 is implemented in this fresh repository with eight natural subphase commits, actual execution reports, GPU training and fresh-process checkpoint reproduction. Its eight external teaching sessions and eight lab files were rewritten on 2026-10-14 in the user's implementation-first mentor style, with a phase guide and a complete data-flow guide. Original notes remain archived externally. The model is an authored-corpus character bigram with 289 trainable parameters. It is not the final transformer. The project venv explicitly shares the already-installed PyTorch dependency; a fully isolated installation is a documented alternate path. Next: work through the Phase 1 sessions and then Phase 2's documented story corpus. Earlier folders remain references rather than imported source/history.
 
 Primary references for later teaching: https://docs.pytorch.org/tutorials/beginner/basics/ , https://arxiv.org/abs/1706.03762 , https://arxiv.org/abs/2305.07759 , https://huggingface.co/datasets/roneneldan/TinyStories . Explain methods originally and credit any implementation reference actually used.

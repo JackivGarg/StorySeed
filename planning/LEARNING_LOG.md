@@ -1,5 +1,9 @@
 # Learning evidence in the fresh repository
 
+## 2026-10-14: practical guided build teaching
+
+The user requested engineering mentoring rather than textbook or exam preparation: immediate goal, actual implementation choices, important operations and shapes, complete data flow, observations and realistic diagnosis. Persisted this contract in both folders' AGENTS.md and the teaching/notes standards. Rewrote eight sessions and eight lab files, added a complete-system trace and updated reading guides. Archived the original notes under external history/059c13b-before-practical-rewrite before replacement. Existing model code and prior run reports remain the evidence for the main training results; no new main run or student mastery is inferred from this editorial update.
+
 ## 2026-10-14: separate Desktop notes folder
 
 At the user's request, copied the 18 existing note Markdown files unchanged to C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes and removed their current-tree copies from StorySeed. Verified exact file contents by SHA-256 before removal. The external folder is now authoritative for lessons; the code repository retains the lesson map, rules, progress and execution evidence. Older commits still preserve their original lessons. No teaching content was rewritten and no new learning or training outcome is claimed.

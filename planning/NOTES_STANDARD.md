@@ -1,26 +1,34 @@
-# Notes delivery standard
+# Standard for guided build notes
 
-Our notes are the student's main learning resource. Write detailed, connected chapters alongside the implementation. Do not substitute brief definitions, a checklist, external links or unexplained code for a lesson.
+Apply the user's practical teaching contract in TEACHING_RULES.md to every new or revised phase.
 
-For each substantive chapter:
+## Write from the working system
 
-1. Identify phase/subphase, previous working state and learning question. Link actual prior chapters and relevant code.
-2. Explain the concrete limitation that motivates the next idea and why it belongs at this point.
-3. Revise relevant prior concepts with an example. Explain similarities and differences; do not dismiss them as already known.
-4. Develop intuition and a hand-worked numerical example for major numerical ideas. Define all symbols, axes and assumptions.
-5. Derive the relevant formula and interpret each step. Trace input/intermediate/output shapes. Distinguish IDs, vectors, logits, probabilities, labels, weights, loss and gradients.
-6. Walk through important code in execution order, relating expressions to the calculation. Explain unfamiliar Python and library calls.
-7. Explain training versus inference, learned/fixed values and gradient/update behavior when relevant.
-8. Give the actual run command, relevant setup and observed outputs; interpret evidence without inventing measurements.
-9. Discuss common mistakes, their symptoms and useful alternative choices. Use bounded experiments when they answer a specific question.
-10. Provide a few guided exercises, hints and worked solutions, separated so the student can try first.
-11. Explain the remaining limitation and next dependency. Record understanding as pending until the student's own evidence arrives.
-12. Include relevant primary references and vocabulary. Optional sources support the chapter rather than replace it.
+Start with an immediate engineering goal and the concrete limitation of the previous step. Explain our approach before the code. Use actual StorySeed files and functions, then inspect a small example. Explain the decisions a student would have to make independently: dimensions, representation, label alignment, architecture, loss, device placement and update behavior.
 
-Use multiple files for different learning questions: a concept chapter, worked examples, a code walkthrough and practice/solutions when useful. There is no compulsory number of files or word limit. Length serves understanding; repeated filler does not.
+The usual progression is goal/problem → approach → implementation → important code/data flow → observation → achievement/next step → debugging. Use natural headings and transitions instead of mechanically repeating eight headings.
 
-A setup lesson needs a clear runnable environment explanation, not an invented mathematical derivation. Attention needs worked matrix calculations and shape tracing. The same principle adapts depth to each concept.
+## Code and evidence
 
-Canonical chapters belong in C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes/phaseXX. The user requested a separate Desktop folder and exact copies of the existing files. Keep the external reading index ordered and link companion files; map lessons to their code increments in planning/LESSON_MAP.md. Do not place teaching chapters in this code repository. Fix future code/lesson discrepancies truthfully. Do not mark templates or planned chapter titles as delivered lessons.
+- Link the real source and function. Excerpts must match the current code; say when a snippet is only the core excerpt.
+- A standalone inspection example must include imports and all values it needs. Put the execution command nearby. For multi-line Python on this Windows setup, use a clearly described temporary local scratch file run from the code repository.
+- A simplified numerical fixture must be labelled. It does not change the actual vocabulary or model.
+- Trace the value and shape across important boundaries. Explain B (examples), T (positions), V (vocabulary choices), and any feature dimension at their first use. Do not give token IDs the meaning of learned features.
+- Cite the report for recorded numbers. Label predicted or hand-calculated outcomes as expected, not as observed execution. Preserve existing reports when merely rewriting notes.
+- Do not add code or experiments for decoration. Every inspection should diagnose a property or make an operation understandable.
 
-Older project notes remain reference material. New chapters will be written in StorySeed-Study-Notes against the actual implementation in StorySeed. Preserve previous lesson versions in the external folder before revising their content, labelled with the corresponding code commit, so historical study remains possible.
+## Engineering explanation
+
+Explain what enters, what changes, what leaves and which module uses it next. Introduce the relevant theory while interpreting those operations. Define symbols and explain gradients/parameter updates where they occur. Describe a useful alternative briefly and justify the actual choice.
+
+Debug through symptoms and localization: inspect representation and targets first, then score shapes, loss inputs, gradients, updates, evaluation and decoding. Demonstrate a concrete failing line or state and its correction when useful; do not only enumerate potential errors. State when a checkpoint supports inference but not exact training resume.
+
+## Practical independence
+
+A stage ends with a short "What I should now understand" list of things the student should be able to do. Companion practice is a small implementation/inspection session with a purpose, expectation, hints and worked repair or verification. Avoid routine exams, interview lists, MCQs, memorization and lengthy disconnected derivations.
+
+Keep detail useful during coding. Several files may serve one subphase, but avoid repeated concept explanations. Revisit course concepts where they help this particular build. A runnable system and authored notes are not evidence of student mastery.
+
+## Location and revision
+
+Write lessons only in C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes/phaseXX. Use working absolute Markdown links to code/reports in the separate StorySeed folder, and relative links between notes. Update the external index and planning/LESSON_MAP.md. Preserve old notes in external history before content revisions, labelled with the code revision. The 2026-10-14 rewrite explicitly supersedes the copy-only relocation instruction; the originals remain archived. Do not recreate notes in the code repository.
