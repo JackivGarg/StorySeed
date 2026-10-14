@@ -12,13 +12,13 @@ Phase 1 implementation and teaching material are being completed at the student'
 | 1.4: bigram | Implemented, executed, chapter and solutions written | Pending |
 | 1.5: loss | Implemented, executed, chapter and solutions written | Pending |
 | 1.6: training | Implemented, executed, chapter and solutions written | Pending |
-| 1.7: generation | Planned | Pending |
+| 1.7: generation | Implemented, executed, chapter and solutions written | Pending |
 | 1.8: checkpoint | Planned | Pending |
 
 Environment: project venv shares the installed PyTorch 2.6.0+cu124 dependency. CPU and CUDA gradient examples actually ran. Full dependency isolation is an alternate documented setup, not the environment used here.
 
 Phase 1 uses an authored toy corpus and a character bigram model. It is not the final transformer or TinyStories training.
 
-Next implementation: subphase 1.7.
+Next implementation: subphase 1.8.
 
 Initial publication succeeded on 2026-10-14. New Phase 1 commits are local until the final push succeeds. Check actual Git tracking state before claiming synchronization.
