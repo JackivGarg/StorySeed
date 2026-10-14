@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.cache/
+data/raw/
+checkpoints/
+runs/
+models/
+*.pt
+*.pth
+*.safetensors
+.DS_Store
+Thumbs.db
+Desktop.ini
