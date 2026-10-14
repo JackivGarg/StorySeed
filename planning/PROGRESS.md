@@ -9,7 +9,7 @@ Phase 1 implementation and teaching material are being completed at the student'
 | 1.1: environment | Implemented, executed, chapter and solutions written | Pending |
 | 1.2: tokens | Implemented, executed, chapter and solutions written | Pending |
 | 1.3: batches | Implemented, executed, chapter and solutions written | Pending |
-| 1.4: bigram | Planned | Pending |
+| 1.4: bigram | Implemented, executed, chapter and solutions written | Pending |
 | 1.5: loss | Planned | Pending |
 | 1.6: training | Planned | Pending |
 | 1.7: generation | Planned | Pending |
@@ -19,6 +19,6 @@ Environment: project venv shares the installed PyTorch 2.6.0+cu124 dependency. C
 
 Phase 1 uses an authored toy corpus and a character bigram model. It is not the final transformer or TinyStories training.
 
-Next implementation: subphase 1.4.
+Next implementation: subphase 1.5.
 
 Initial publication succeeded on 2026-10-14. New Phase 1 commits are local until the final push succeeds. Check actual Git tracking state before claiming synchronization.
