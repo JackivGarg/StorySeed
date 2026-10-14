@@ -11,6 +11,7 @@ Phase 1 has eight connected subphases. Read each concept chapter, inspect its co
 | 1.5 | [probability and cross entropy](phase01/05-probability-and-cross-entropy.md) | [Try and explain](phase01/05-practice-and-solutions.md) | [Observed run](../reports/phase01/05_loss.md) |
 | 1.6 | [training and updates](phase01/06-training-and-updates.md) | [Try and explain](phase01/06-practice-and-solutions.md) | [Observed run](../reports/phase01/06_training.md) |
 | 1.7 | [generation and sampling](phase01/07-generation-and-sampling.md) | [Try and explain](phase01/07-practice-and-solutions.md) | [Observed run](../reports/phase01/07_generation.md) |
+| 1.8 | [saving and loading](phase01/08-saving-and-loading.md) | [Try and explain](phase01/08-practice-and-solutions.md) | [Observed run](../reports/phase01/08_checkpoint.md) |
 
 Remaining phases and uncompleted Phase 1 subphases are planned, not delivered. The code and chapters at each historical commit describe that revision.
 

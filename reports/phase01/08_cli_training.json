@@ -1,0 +1,14 @@
+{
+  "checkpoint": "checkpoints\\phase01\\cli_reproduced.pt",
+  "artifact": {
+    "format": "storyseed.bigram.v1",
+    "bytes": 3726,
+    "sha256": "278eea52d504a362eea640d82cbefa784bf31326755e206a7a7c86c697bc3a07"
+  },
+  "device": "cpu",
+  "final_losses": {
+    "step": 400,
+    "train_loss": 1.212152123451233,
+    "development_loss": 1.2162615060806274
+  }
+}

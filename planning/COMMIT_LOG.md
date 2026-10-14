@@ -11,5 +11,6 @@
 | `84a001a` | feat: implement a trainable bigram score table |
 | `d1cb25d` | feat: measure next-token error and inspect cross-entropy gradients |
 | `3377bd4` | feat: train the character bigram model from random weights |
+| `e60b4db` | feat: sample bounded text continuations from learned scores |
 
 The current change cannot contain its own hash; use git log to locate it. Add its known hash during the next real change.
