@@ -9,6 +9,7 @@ Phase 1 has eight connected subphases. Read each concept chapter, inspect its co
 | 1.3 | [windows batches and shapes](phase01/03-windows-batches-and-shapes.md) | [Try and explain](phase01/03-practice-and-solutions.md) | [Observed run](../reports/phase01/03_batches.md) |
 | 1.4 | [bigram scores](phase01/04-bigram-scores.md) | [Try and explain](phase01/04-practice-and-solutions.md) | [Observed run](../reports/phase01/04_bigram.md) |
 | 1.5 | [probability and cross entropy](phase01/05-probability-and-cross-entropy.md) | [Try and explain](phase01/05-practice-and-solutions.md) | [Observed run](../reports/phase01/05_loss.md) |
+| 1.6 | [training and updates](phase01/06-training-and-updates.md) | [Try and explain](phase01/06-practice-and-solutions.md) | [Observed run](../reports/phase01/06_training.md) |
 
 Remaining phases and uncompleted Phase 1 subphases are planned, not delivered. The code and chapters at each historical commit describe that revision.
 

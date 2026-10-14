@@ -1,0 +1,127 @@
+{
+  "command": ".venv/Scripts/python lessons/phase01/06_training.py",
+  "single_sgd_update": {
+    "learning_rate": 0.3,
+    "before_row": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "gradient_row": [
+      0.3333333134651184,
+      -0.6666666865348816,
+      0.3333333134651184
+    ],
+    "after_row": [
+      -0.10000000149011612,
+      0.20000001788139343,
+      -0.10000000149011612
+    ],
+    "loss_before": 1.0986123085021973,
+    "loss_after": 0.9089182019233704,
+    "unvisited_rows_unchanged": true
+  },
+  "main_training": {
+    "configuration": {
+      "steps": 400,
+      "learning_rate": 0.1,
+      "seed": 17,
+      "device": "auto"
+    },
+    "actual_device": "cuda",
+    "trainable_parameters": 289,
+    "train_prediction_positions": 240,
+    "development_prediction_positions": 67,
+    "tokens_presented_to_loss": 96000,
+    "history": [
+      {
+        "step": 0,
+        "train_loss": 2.8355820178985596,
+        "development_loss": 2.8340671062469482
+      },
+      {
+        "step": 1,
+        "train_loss": 2.693499803543091,
+        "development_loss": 2.692884922027588
+      },
+      {
+        "step": 50,
+        "train_loss": 1.2317509651184082,
+        "development_loss": 1.2345647811889648
+      },
+      {
+        "step": 100,
+        "train_loss": 1.2201300859451294,
+        "development_loss": 1.224203109741211
+      },
+      {
+        "step": 150,
+        "train_loss": 1.216585636138916,
+        "development_loss": 1.2205721139907837
+      },
+      {
+        "step": 200,
+        "train_loss": 1.2147549390792847,
+        "development_loss": 1.2187936305999756
+      },
+      {
+        "step": 250,
+        "train_loss": 1.2136743068695068,
+        "development_loss": 1.2177436351776123
+      },
+      {
+        "step": 300,
+        "train_loss": 1.2129769325256348,
+        "development_loss": 1.2170647382736206
+      },
+      {
+        "step": 350,
+        "train_loss": 1.2124977111816406,
+        "development_loss": 1.2165980339050293
+      },
+      {
+        "step": 400,
+        "train_loss": 1.212152361869812,
+        "development_loss": 1.216261386871338
+      }
+    ],
+    "empirical_bigram_train_loss_infimum": 1.2105119146043417,
+    "training_loop_seconds": 0.993160999999418,
+    "peak_allocated_cuda_bytes": 60928,
+    "m_row_observed_successors": {
+      " ": 6,
+      ".": 3,
+      "a": 2,
+      "e": 3,
+      "i": 8
+    },
+    "m_row_learned_probabilities": {
+      " ": 0.2722877264022827,
+      ".": 0.13623850047588348,
+      "a": 0.09085864573717117,
+      "e": 0.13623946905136108,
+      "i": 0.36291396617889404
+    },
+    "corpus": "original toy sentences; no pretrained weights or TinyStories"
+  },
+  "vocabulary": [
+    " ",
+    ".",
+    "a",
+    "c",
+    "d",
+    "e",
+    "h",
+    "i",
+    "m",
+    "n",
+    "o",
+    "r",
+    "s",
+    "t",
+    "u",
+    "w",
+    "<eos>"
+  ],
+  "training_performed": true
+}
