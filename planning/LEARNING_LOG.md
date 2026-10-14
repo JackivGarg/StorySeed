@@ -15,3 +15,7 @@ Implemented the lesson code, executed its recorded command, and wrote a concept 
 ## Phase 1.2: tokens
 
 Implemented the lesson code, executed its recorded command, and wrote a concept chapter plus guided practice/solutions. Actual output: reports/phase01/02_tokens.json. The user requested completing the entire phase now; written explanations are available before dependent chapters. Student explanation/applied evidence remains pending.
+
+## Phase 1.3: batches
+
+Implemented the lesson code, executed its recorded command, and wrote a concept chapter plus guided practice/solutions. Actual output: reports/phase01/03_batches.json. The user requested completing the entire phase now; written explanations are available before dependent chapters. Student explanation/applied evidence remains pending.
