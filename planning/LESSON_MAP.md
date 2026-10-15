@@ -5,9 +5,11 @@ Code folder: `C:/Users/JACKIV/OneDrive/Desktop/StorySeed`.
 
 Open `START_HERE.md` in the notes folder. The notes were initially copied unchanged, then rewritten on 2026-10-14 at the user's explicit request as practical guided build sessions. Notes are stored locally outside this Git repository. Code, execution reports and operational planning remain here.
 
-## New teaching-style sample — approval pending
+## Approved conceptual teaching — 2026-10-15
 
-The active 2026-10-15 direction teaches concepts and reasoning through project dependencies before the code. Read `samples/SAMPLE_01_WHY_PYTORCH_AND_HOW_LEARNING_WORKS.md`. Existing Phase 1 sessions below are the earlier style; they will be rewritten only after sample approval. See planning/TEACHING_PREVIEW.md for the review boundary.
+The user approved the sample and requested a full rewrite of current teaching. All Phase 1 chapters and reasoning companions now follow the conceptual build journey. Begin at phase01/README.md. Extra guides: phase01/01-working-with-the-project-environment.md, phase01/COVERAGE.md and THE_SLM_JOURNEY.md. The approved sample is retained in samples.
+
+The previous current notes are archived in history/b7ebfb7-before-approved-concept-flow. Existing earlier archives are preserved. The listed code commits remain the original implementation increments, not invented new code changes for this teaching revision.
 
 ## Phase 1
 

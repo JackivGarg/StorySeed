@@ -6,7 +6,7 @@ This fresh repository began on 2026-10-14. Its Phase 1 code and lessons were dev
 
 Learning proceeds alongside implementation through detailed, connected chapters. The intended outcome is understanding tokenization, the causal transformer, training, evaluation, and generation.
 
-The active teaching approach follows the concepts and reasoning needed to build each component: project need, prerequisite learning, return to the build, implementation and the next limitation. A PyTorch/learning-mechanism sample in the separate Desktop notes folder is pending review before the full Phase 1 teaching rewrite. See [the sample review status](planning/TEACHING_PREVIEW.md) and [teaching agreement](planning/TEACHING_RULES.md).
+The active teaching approach follows the concepts and reasoning needed to build each component: project need, prerequisite learning, return to the build, implementation and the next limitation. The user approved the PyTorch/learning-mechanism sample on 2026-10-15. All current Phase 1 teaching files now follow that style in the separate Desktop notes folder. See [the approved teaching reference](planning/TEACHING_PREVIEW.md) and [teaching agreement](planning/TEACHING_RULES.md).
 
 ## Start here
 

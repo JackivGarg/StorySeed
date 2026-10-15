@@ -1,5 +1,9 @@
 # Learning evidence in the fresh repository
 
+## 2026-10-15: approved concept-and-flow rewrite completed
+
+The user explicitly approved the PyTorch/learning sample and requested applying its approach to all current teaching. Rewrote all Phase 1 chapters/companions, the reconstruction and reading guides; added an environment companion, a concept-coverage map and the full SLM journey. Earlier material is preserved in external history/b7ebfb7-before-approved-concept-flow. Persistent guidance records the approval as granted. Existing source and execution evidence remain the reference; this editorial work does not claim a new main training run, implemented future phases or student mastery.
+
 ## 2026-10-15: concept-and-flow sample pending approval
 
 The user found the earlier notes too focused on explaining code and requested the conceptual journey behind independent SLM construction. Updated persistent instructions and drafted one sample that starts from learning predictions, develops parameters/loss/gradients/updates, motivates PyTorch, then returns to the implemented score model. Existing Phase 1 chapters are not replaced before approval. Sample content is authored, not evidence of student mastery or a new model run. The next step is user feedback on the sample, then an explicitly approved rewrite.

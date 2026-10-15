@@ -46,11 +46,11 @@ Include occasional thinking pauses or small modifications with guidance, not rou
 
 Keep learner understanding separate from authored notes and completed assistant runs.
 
-## Current approval boundary
+## Approved direction
 
-The user requested ONE sample file before a wider rewrite. Draft the concept-and-flow sample, update persistent rules, and wait for explicit user approval before replacing existing Phase 1 chapters or proceeding with the full teaching rewrite. Do not treat elapsed time or silence as approval.
+The user explicitly approved the sample on 2026-10-15 and requested applying this approach to all current teaching files. That approval is already granted; do not ask for it again. Continue the same flow in future phase/subphase teaching. Archive previous content before revisions and keep complete coverage of each implemented stage.
 
-The sample is samples/SAMPLE_01_WHY_PYTORCH_AND_HOW_LEARNING_WORKS.md in the separate notes folder. It is a teaching-style preview, not approved full-phase material.
+The approved sample remains in samples/SAMPLE_01_WHY_PYTORCH_AND_HOW_LEARNING_WORKS.md. The detailed Phase 1 book is the current learning resource. Future components receive their detailed chapters alongside actual implementation; a roadmap must not claim they are already built.
 
 ## Storage and commits
 

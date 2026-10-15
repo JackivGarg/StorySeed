@@ -7,122 +7,138 @@
   "files": [
     {
       "path": "AGENTS.md",
-      "sha256": "c139d1b4124c68024e09193b1d46fec87c220c95e10c356e3c28eacec857bc2e",
-      "words": 248
-    },
-    {
-      "path": "READING_ORDER.md",
-      "sha256": "72853d6ea1e7e3ecb0795894267a9a2ce90a9d30fb81a7e9c20bafade93ebe2f",
-      "words": 195
-    },
-    {
-      "path": "README.md",
-      "sha256": "1f9998fa721102b2c4b88cdc045de3f27f1255cc0c8c951d1211e718242080e7",
-      "words": 125
-    },
-    {
-      "path": "START_HERE.md",
-      "sha256": "c40a7dda2dea5310872a008c4a8ef30dd33e17a31d0bccee2bbdfdcde2ef9944",
-      "words": 161
+      "sha256": "4b6460d56da5fe18d8fe745ab84431648fb1151d17246b840246418f422f9129",
+      "words": 177
     },
     {
       "path": "phase01/00-follow-one-character-through-the-system.md",
-      "sha256": "5d837c4656d11c8d977994f67bc4ff6f390164c71c00fd245e2ac7e4df16d2cc",
-      "words": 773
+      "sha256": "e57f2f3addc9d99af8c3975c939f609fbd11562114b0680355eb15b0e548177a",
+      "words": 918
     },
     {
       "path": "phase01/01-environment-tensors-and-gradients.md",
-      "sha256": "860fe11a44154e8a0e203600bb3d51ca95f818c2bb163aa1dcad17d302b7d878",
-      "words": 1088
+      "sha256": "5cfb09ebd9f378ab290f30a43b2a8c7fc31d55962eda637dfd7b9fe157ec9377",
+      "words": 2993
     },
     {
       "path": "phase01/01-practice-and-solutions.md",
-      "sha256": "c1383e9bd321a2c36638eeca1070faafbb9af1773af02e31c77bdb2dbce29c1b",
-      "words": 305
+      "sha256": "5f5d88bc8abc25bbfbe2fa632b402925887771613ae2b375f8c205351e4b4afe",
+      "words": 398
+    },
+    {
+      "path": "phase01/01-working-with-the-project-environment.md",
+      "sha256": "fcb4700b5aa95dc465149c39912f154e389aab7a6fec8855640d411f581191c8",
+      "words": 433
     },
     {
       "path": "phase01/02-practice-and-solutions.md",
-      "sha256": "9d1c5e57732f90f8fa3cc6187917954ad9f7785315ff40c4dd8ffc3ad31c280d",
-      "words": 274
+      "sha256": "37967f5d20fc077b5dda3cd41ad3b9b1e2a8fee90ff520b0441735eabe90e60e",
+      "words": 387
     },
     {
       "path": "phase01/02-text-tokens-and-targets.md",
-      "sha256": "2e597827121758b9b53fc22758aad6752e852136767902c23a404e8e951c6875",
-      "words": 1130
+      "sha256": "d60c4a1b802c36c08ac61a9882085100f2b1f0163691c74ba0ef07db6f9eaab0",
+      "words": 1469
     },
     {
       "path": "phase01/03-practice-and-solutions.md",
-      "sha256": "3437396f71379a31f025f7edc44488a7cfd02149ba42b86bfc3a4a2032d702b0",
-      "words": 300
+      "sha256": "2d9c555e82a79c56b84de2d8405c22e91da7d8d158819e2d17bf7dd68b0bab45",
+      "words": 385
     },
     {
       "path": "phase01/03-windows-batches-and-shapes.md",
-      "sha256": "d78b0522219c0f7a6eb191cd7db1e4c920a099c8bc9286fae2972b608fefef3d",
-      "words": 1003
+      "sha256": "340744d46089a96deb94fdcab24c6cba1f7dd243bacbec379bf2c9f3478b0965",
+      "words": 1358
     },
     {
       "path": "phase01/04-bigram-scores.md",
-      "sha256": "801a8edd92ab19ae00a0a47f7a74a986f1af75bb2f23ebdf76a3a36b84f4e9de",
-      "words": 904
+      "sha256": "ffe04966fc092ab9f719bb9b2aea54eaf075494b97bf8a7d36111855da81ded3",
+      "words": 1531
     },
     {
       "path": "phase01/04-practice-and-solutions.md",
-      "sha256": "c9388586ec983935df034cf37a82bc6b8c2a650f9b8ffa0ee063601367af8ecf",
-      "words": 275
+      "sha256": "39beb3f45c496166e234c88ce8b6710b7a0904cb449122dc17d5814882496d99",
+      "words": 374
     },
     {
       "path": "phase01/05-practice-and-solutions.md",
-      "sha256": "5bbc6d09206c6740a40a237772fb9d7b512dc9d395078555b7ad93c4495da456",
-      "words": 273
+      "sha256": "ce13ac929a764f32f8f94d27fd4f4ff5cf12bb8ceaada93f78fa626a7ba350d0",
+      "words": 322
     },
     {
       "path": "phase01/05-probability-and-cross-entropy.md",
-      "sha256": "8d761cf24ba42d93d79ad013aa431816bd28739668690b4517d848bf9d2169d1",
-      "words": 1107
+      "sha256": "098660018b29254156ac7a310e936835c1307596e5b5543d4031c6d7cb9d538a",
+      "words": 1437
     },
     {
       "path": "phase01/06-practice-and-solutions.md",
-      "sha256": "c99139380b045a79641e5f279704934050ae6156e101738a4fda06933d9c2883",
-      "words": 253
+      "sha256": "43cc8f33b3d696580f50628fc397a0fc9abf268b10babeede4991c3101db6678",
+      "words": 259
     },
     {
       "path": "phase01/06-training-and-updates.md",
-      "sha256": "69569e11c3eac760f0c505f16145cc1d27a50eaa7f6062cd01077e9ab233efe5",
-      "words": 1393
+      "sha256": "35a19b4a27facfc10be5c620415dff5bba20d50e5ccf289417cc7448540f4723",
+      "words": 1239
     },
     {
       "path": "phase01/07-generation-and-sampling.md",
-      "sha256": "45bc08790fb538b7ddef6af3d009680aed75e8385a5b3d80e065b43f7c992273",
-      "words": 1120
+      "sha256": "7d1f3f9f33d6ac75088ff70c545a32a05f21004507b616f8613e0eb367e22d45",
+      "words": 1116
     },
     {
       "path": "phase01/07-practice-and-solutions.md",
-      "sha256": "3028cc8aa1f3e7d9230409295fb2c1751a816324765b27180339524c024f724d",
-      "words": 355
+      "sha256": "8de50b45fa3eebf5cd3d185adc91b5575933dcf93f082909de9884acbaf2e672",
+      "words": 251
     },
     {
       "path": "phase01/08-practice-and-solutions.md",
-      "sha256": "b98a34fd56ce0502a6df3d9a40875149227280366b17649b88f812dfc511f4e8",
-      "words": 255
+      "sha256": "82589683a98ac2dcd72fe743d615729b1d6baa5c8e6e5b6a693038019d13c023",
+      "words": 257
     },
     {
       "path": "phase01/08-saving-and-loading.md",
-      "sha256": "2b88b6812320da7e8cc4cb1d29a0706e476023da2a5dcc76ce1e2205f769f713",
-      "words": 1024
+      "sha256": "a0507a15c87894b1427e73c647c5bbda47e4a792bb21f9d811c22c764ad96882",
+      "words": 1022
+    },
+    {
+      "path": "phase01/COVERAGE.md",
+      "sha256": "e52dbd27da282c33c58c62793bfd3ccb5a302169db092c421ab2cde780653c9f",
+      "words": 520
     },
     {
       "path": "phase01/README.md",
-      "sha256": "927fcfa6014f63dbea8dd84dd51e246e6fbc36549194a5470c11c4291a3dc57c",
-      "words": 675
+      "sha256": "82721fab358e146e49acafafd655e9459e07225171899a682bd691dc5dcbfd47",
+      "words": 626
+    },
+    {
+      "path": "READING_ORDER.md",
+      "sha256": "4848abf218c70a770d816c6a7049fb4d5226dee7b0ad9a24aba3ce3a8fb31cb3",
+      "words": 220
+    },
+    {
+      "path": "README.md",
+      "sha256": "55f25500283c4e17236f2e4f94f801152a727c58b4897c72d83258a010d35f5b",
+      "words": 157
     },
     {
       "path": "samples/SAMPLE_01_WHY_PYTORCH_AND_HOW_LEARNING_WORKS.md",
-      "sha256": "7a19b2a5f72be6249d8c64c4c3380ada98d7adcf878412e67807946a0da96912",
-      "words": 2977
+      "sha256": "73f166c448daebfb145a0daae4aae27c896ba36c434c6bd671d2de781fb14ec2",
+      "words": 2974
+    },
+    {
+      "path": "START_HERE.md",
+      "sha256": "8324f16c78b36d65e758600074fbf15dd3bd24cce621f74d0b48c9d483f0e50e",
+      "words": 111
+    },
+    {
+      "path": "THE_SLM_JOURNEY.md",
+      "sha256": "8c66357698d1a4e74c1b6611af4939691c1bee05e5bd248c3a73e51b9a913a0f",
+      "words": 1177
     }
   ],
   "teaching_preview": {
-    "status": "awaiting_user_approval",
+    "status": "approved",
     "sample": "samples/SAMPLE_01_WHY_PYTORCH_AND_HOW_LEARNING_WORKS.md"
-  }
+  },
+  "current_revision_archive": "history/b7ebfb7-before-approved-concept-flow"
 }

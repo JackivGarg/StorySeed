@@ -36,8 +36,8 @@ Show how conceptual understanding locates a failure: wrong examples, incompatibl
 
 Close by reconstructing the decisions taken and the next missing piece. Avoid routine interview lists, MCQs and exam answers. Student mastery remains pending until demonstrated.
 
-## Preview gate and location
+## Approved scope and location
 
-The user requested a sample for approval before the full rewrite. Put the sample in the separate notes folder's samples directory and label it pending review. Update instructions now, but do not replace the existing Phase 1 chapters until approval.
+The user approved the sample on 2026-10-15. Apply its concept-and-reasoning flow to all current Phase 1 chapters/companions and future teaching. Approval is granted; do not repeat the sample gate. Preserve the approved sample as a reference and archive old content before revisions.
 
 Canonical lessons remain in C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes. Use absolute source/report links and relative companion links. Record references and hashes in the code repository, never recreate its notes directory. Archive previous content before a later approved rewrite.
