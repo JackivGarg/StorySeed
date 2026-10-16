@@ -1,6 +1,6 @@
 {
   "format": "storyseed.external-lessons.v1",
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "notes_root": "C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes",
   "implementation_revision": "059c13b",
   "originals_archive": "history/059c13b-before-practical-rewrite",
@@ -111,14 +111,29 @@
       "words": 626
     },
     {
+      "path": "phase02/01-thinking-and-inspection.md",
+      "sha256": "8f168b8a126d78e9a6264585847a3ecb9237d8d36ec794aa781509252fe7f1b8",
+      "words": 235
+    },
+    {
+      "path": "phase02/01-why-the-corpus-is-part-of-the-model.md",
+      "sha256": "29adaaa1cf9640c756b69374597fd0fc7f693edaf411089db5d68d10bd5716bc",
+      "words": 1038
+    },
+    {
+      "path": "phase02/README.md",
+      "sha256": "4832d6c36706a9c3c766286d3f272e6504a4a2e6c36e1808a5a559fcef7a2ead",
+      "words": 251
+    },
+    {
       "path": "READING_ORDER.md",
-      "sha256": "4848abf218c70a770d816c6a7049fb4d5226dee7b0ad9a24aba3ce3a8fb31cb3",
-      "words": 220
+      "sha256": "c07d6ca279f3d0141a702b5732e4795e1fcbad1a215d7fc2bc9a6098d3c22726",
+      "words": 241
     },
     {
       "path": "README.md",
-      "sha256": "55f25500283c4e17236f2e4f94f801152a727c58b4897c72d83258a010d35f5b",
-      "words": 157
+      "sha256": "fc3a2d53f43e4596ecf273b41d8e2b1554ae43041183dc88caeeb1af1f960d29",
+      "words": 191
     },
     {
       "path": "samples/SAMPLE_01_WHY_PYTORCH_AND_HOW_LEARNING_WORKS.md",
@@ -127,8 +142,8 @@
     },
     {
       "path": "START_HERE.md",
-      "sha256": "8324f16c78b36d65e758600074fbf15dd3bd24cce621f74d0b48c9d483f0e50e",
-      "words": 111
+      "sha256": "050c551525d64ef4c0c325a7b7d8adf6b5d3203504afafcade2356f191ff26f3",
+      "words": 145
     },
     {
       "path": "THE_SLM_JOURNEY.md",

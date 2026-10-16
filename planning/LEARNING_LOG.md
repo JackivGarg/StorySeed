@@ -1,5 +1,9 @@
 # Learning evidence in the fresh repository
 
+## 2026-10-16: Phase 2.1 — Traceable corpus
+
+Taught the project need and prerequisite concepts before code in external phase02/01-why-the-corpus-is-part-of-the-model.md and its companion. Implemented the focused source increment and executed the recorded command; evidence is reports/phase02/01_corpus.json. Student understanding remains pending. No final-holdout quality evaluation is claimed.
+
 ## 2026-10-15: approved concept-and-flow rewrite completed
 
 The user explicitly approved the PyTorch/learning sample and requested applying its approach to all current teaching. Rewrote all Phase 1 chapters/companions, the reconstruction and reading guides; added an environment companion, a concept-coverage map and the full SLM journey. Earlier material is preserved in external history/b7ebfb7-before-approved-concept-flow. Persistent guidance records the approval as granted. Existing source and execution evidence remain the reference; this editorial work does not claim a new main training run, implemented future phases or student mastery.

@@ -19,7 +19,7 @@ Environment: project venv shares the installed PyTorch 2.6.0+cu124 dependency. C
 
 Phase 1 uses an authored toy corpus and a character bigram model. It is not the final transformer or TinyStories training.
 
-Next teaching step: begin the approved Phase 1 guide, follow its conceptual dependencies and resolve unclear connections before dependent Phase 2 learning. See external phase01/COVERAGE.md and THE_SLM_JOURNEY.md for complete coverage and future scope.
+The user requested Phase 2 on 2026-10-16. Proceed with its connected explanations; prior and new student-understanding evidence remain pending. The new notes live in the separate phase02 folder.
 
 Teaching update, 2026-10-14: the user authorized replacing the earlier teaching style with practical guided build sessions. All eight Phase 1 sessions and eight companion labs were rewritten against the actual code and reports. A complete data-flow guide connects the modules; reading indexes and permanent instructions now follow the mentor style. The originals were archived in the external notes folder at history/059c13b-before-practical-rewrite. Model source and historical execution reports were not changed for the rewrite. Student understanding evidence remains pending.
 
@@ -28,3 +28,14 @@ Phase 1 subphase commits and the final study-summary commit 2c7c874 were success
 The user subsequently requested separating the notes and copying existing files unchanged. All 18 original note Markdown files (eight chapters, eight practice files, study guide and index) were copied byte for byte to C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes and removed from the current code tree. Code and execution reports remain here. Future lessons belong in that external folder; planning/LESSON_MAP.md links lessons to subphases. This relocation adds no model training or student-mastery evidence.
 
 Actual results: 400 CUDA Adam updates, 289 parameters, 240 training/67 development prediction positions. Training loss 2.835582 to 1.212152; development loss 2.834067 to 1.216261. All eight contract tests passed. Saved weights and tokenizer reproduce the seeded result in a fresh process. CPU reproduction commands also ran. Local checkpoint: checkpoints/phase01/bigram.pt; weights remain ignored by Git, with a hash/manifest in reports/phase01/08_checkpoint.json.
+
+## Phase 2 — requested next build
+
+Completed increments: 1/6. Next increment: 2.2. Student understanding is not inferred from assistant execution.
+
+- 2.1 Traceable corpus: written, implemented, executed; student evidence pending.
+- 2.2 Story splits and leakage: planned; student evidence pending.
+- 2.3 How BPE discovers units: planned; student evidence pending.
+- 2.4 A fitted, saved tokenizer: planned; student evidence pending.
+- 2.5 Boundary-aware batches: planned; student evidence pending.
+- 2.6 A comparable baseline: planned; student evidence pending.
