@@ -1,0 +1,3 @@
+
+# Keep the byte-hashed tokenizer identical across Git checkouts.
+artifacts/phase02/tokenizer.json -text

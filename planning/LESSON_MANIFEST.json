@@ -111,6 +111,11 @@
       "words": 626
     },
     {
+      "path": "phase02/00-connect-the-whole-pipeline.md",
+      "sha256": "13912f3781042acb3e141b22ca697ad29dd783fe899e089c73068bec0a00321c",
+      "words": 828
+    },
+    {
       "path": "phase02/01-thinking-and-inspection.md",
       "sha256": "8f168b8a126d78e9a6264585847a3ecb9237d8d36ec794aa781509252fe7f1b8",
       "words": 235
@@ -161,9 +166,24 @@
       "words": 202
     },
     {
+      "path": "phase02/06-establish-an-honest-baseline.md",
+      "sha256": "055512059721b010015a039e93a7258a005d2afb675b7e53445d92a9e7cbcc10",
+      "words": 1255
+    },
+    {
+      "path": "phase02/06-thinking-and-inspection.md",
+      "sha256": "d6be1bc57e6884ba079fc477e31191ac362579b4dc79c3b195c948544e78aaf4",
+      "words": 261
+    },
+    {
+      "path": "phase02/COVERAGE.md",
+      "sha256": "0cba6ec0d32ce7fa7455bbcaba101f053a50774bc2e1ccc96cbd8a4c97468c6c",
+      "words": 446
+    },
+    {
       "path": "phase02/README.md",
-      "sha256": "8730f830c3cfcca85cde5a5c88738fb65efac8b3de23ae6caba66a11e7083361",
-      "words": 255
+      "sha256": "ff58d9e485555c170d365a375acca9b198ed292de42cf2b3e9f8be3a930b6cac",
+      "words": 280
     },
     {
       "path": "READING_ORDER.md",

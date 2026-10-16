@@ -1,0 +1,8 @@
+{
+  "format": "storyseed.phase02.bigram.v1",
+  "checkpoint": "checkpoints/phase02/bigram.pt",
+  "sha256": "e0a304db4ea07ab72d4de151be6b0dc99c813bae43a8145176396dc3b9386b7f",
+  "tokenizer_sha256": "3540aba1c244ed063b9fb317f0d62280a63d00725cac980e16c3b583cdf549cb",
+  "inference_only": true,
+  "optimizer_resume": false
+}

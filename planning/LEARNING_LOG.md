@@ -1,5 +1,9 @@
 # Learning evidence in the fresh repository
 
+## 2026-10-16: Phase 2.6 — A comparable baseline
+
+Taught the project need and prerequisite concepts before code in external phase02/06-establish-an-honest-baseline.md and its companion. Implemented the focused source increment and executed the recorded command; evidence is reports/phase02/06_baseline.json. Student understanding remains pending. No final-holdout quality evaluation is claimed.
+
 ## 2026-10-16: Phase 2.5 — Boundary-aware batches
 
 Taught the project need and prerequisite concepts before code in external phase02/05-preserve-the-task-while-batching.md and its companion. Implemented the focused source increment and executed the recorded command; evidence is reports/phase02/05_batches.json. Student understanding remains pending. No final-holdout quality evaluation is claimed.

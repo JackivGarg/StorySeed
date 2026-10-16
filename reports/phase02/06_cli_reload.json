@@ -1,0 +1,5 @@
+{
+  "fresh_process_matches_recorded_sample": true,
+  "checkpoint_unchanged": true,
+  "command": ".venv/Scripts/python scripts/generate_phase02.py --json"
+}
