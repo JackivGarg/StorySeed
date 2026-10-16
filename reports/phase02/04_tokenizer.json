@@ -1,0 +1,62 @@
+{
+  "backend": "tokenizers",
+  "backend_version": "0.22.1",
+  "requested_vocabulary": 512,
+  "actual_vocabulary": 512,
+  "base_byte_alphabet": 256,
+  "special_tokens": {
+    "<|pad|>": 0,
+    "<|bos|>": 1,
+    "<|eos|>": 2
+  },
+  "normalizer": null,
+  "pre_tokenizer": "ByteLevel(add_prefix_space=False,use_regex=True)",
+  "decoder": "ByteLevel",
+  "min_frequency": 2,
+  "artifact": "artifacts/phase02/tokenizer.json",
+  "artifact_sha256": "3540aba1c244ed063b9fb317f0d62280a63d00725cac980e16c3b583cdf549cb",
+  "train_file_sha256": "7368e7e9a438d1cec824f994aebf13f699962f94d45944b22600d84005ea86e2",
+  "fitting_population": "training stories only; development used for post-fit inspection",
+  "final_holdout_access": "not loaded, encoded or scored by this stage",
+  "literal_control_strings": "rejected in ordinary text; controls inserted by explicit ID",
+  "statistics": {
+    "train": {
+      "stories": 904,
+      "utf8_bytes": 835127,
+      "ordinary_tokens": 359029,
+      "bytes_per_ordinary_token": 2.3260711530266356
+    },
+    "development": {
+      "stories": 105,
+      "utf8_bytes": 91758,
+      "ordinary_tokens": 39606,
+      "bytes_per_ordinary_token": 2.3167701863354035
+    }
+  },
+  "roundtrip_and_reload_story_checks": 1009,
+  "additional_roundtrip_probes": 3,
+  "command": ".venv/Scripts/python scripts/phase02/04_train_tokenizer.py",
+  "teaching_probe": {
+    "text": "Mia saw a cat.",
+    "ids": [
+      47,
+      75,
+      67,
+      416,
+      261,
+      278,
+      296,
+      16
+    ],
+    "pieces": [
+      "M",
+      "i",
+      "a",
+      "Ġsaw",
+      "Ġa",
+      "Ġc",
+      "at",
+      "."
+    ]
+  }
+}

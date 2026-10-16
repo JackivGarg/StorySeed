@@ -141,9 +141,19 @@
       "words": 190
     },
     {
+      "path": "phase02/04-choose-and-freeze-the-tokenizer.md",
+      "sha256": "33c051bc86a9ef3444196f2eb35a2222a519ba48f747b61293ed1dcfae1e975f",
+      "words": 1101
+    },
+    {
+      "path": "phase02/04-thinking-and-inspection.md",
+      "sha256": "b646dbbbf65c4496f5113676826a65af16c4249e0023c7f0f94382a44d4c1b2f",
+      "words": 224
+    },
+    {
       "path": "phase02/README.md",
-      "sha256": "1a6249e987a17325a6e31116848cbe69e647210f8efcd03f9c2d9bc795f29f85",
-      "words": 253
+      "sha256": "77d780e72e682755187a50bc3ebb435ce78f3d909be35ae02cd5be677e84803b",
+      "words": 254
     },
     {
       "path": "READING_ORDER.md",

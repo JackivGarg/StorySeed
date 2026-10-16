@@ -1,0 +1,3 @@
+-r requirements-phase01.txt
+tokenizers==0.22.1
+numpy==1.26.4
