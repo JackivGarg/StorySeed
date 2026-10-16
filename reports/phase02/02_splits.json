@@ -1,0 +1,27 @@
+{
+  "seed": 17,
+  "source_manifest_sha256": "154565184f2e2fd013ba2a48bd840474b10a090e15f6526e8fda6af7b93bece8",
+  "duplicate_key": "SHA-256 of NFKC + casefold + collapsed whitespace; retained text unchanged",
+  "assignment": "first 64 hash bits of 17:group-id modulo 1000; <800 train, <900 development, else holdout",
+  "duplicate_records_removed": 0,
+  "unique_stories": 1129,
+  "overlap_groups": 0,
+  "files": {
+    "train": {
+      "stories": 904,
+      "sha256": "7368e7e9a438d1cec824f994aebf13f699962f94d45944b22600d84005ea86e2"
+    },
+    "development": {
+      "stories": 105,
+      "sha256": "492e3c8a762206adbab2f7180e64bfb04b85757a02da06b73dd9c439a96b1674"
+    },
+    "final_holdout": {
+      "stories": 120,
+      "sha256": "9f598b88b79440dbcca566fa2a39a4278ce8290211d9407451a6cadecaf8c888"
+    }
+  },
+  "holdout_policy": "reserve final_holdout; no tokenizer fitting, encoding pilots, tuning or quality scoring on it in Phase 2",
+  "near_duplicate_limit": "normalization-equivalent groups only; no semantic/paraphrase duplicate claim",
+  "command": ".venv/Scripts/python scripts/phase02/02_split_stories.py",
+  "normalization_fixture_same_key": true
+}

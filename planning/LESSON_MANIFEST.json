@@ -121,9 +121,19 @@
       "words": 1038
     },
     {
+      "path": "phase02/02-thinking-and-inspection.md",
+      "sha256": "3d56f7c3f4c8e26ae4dd2b3d0bfa1f6c810b32294bbd5b578e3ba70eaab023dc",
+      "words": 249
+    },
+    {
+      "path": "phase02/02-why-the-split-comes-before-learning.md",
+      "sha256": "b54e95128ef53edbd75b7490e04ecf56a7506bf1a5b5a0652bec2a154c9118e3",
+      "words": 1075
+    },
+    {
       "path": "phase02/README.md",
-      "sha256": "4832d6c36706a9c3c766286d3f272e6504a4a2e6c36e1808a5a559fcef7a2ead",
-      "words": 251
+      "sha256": "5d4f7e6fce7508a911c4e7eea1a9a248d8417e68c240003b4d57a25e5b9e37d2",
+      "words": 252
     },
     {
       "path": "READING_ORDER.md",
