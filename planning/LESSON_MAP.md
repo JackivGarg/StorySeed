@@ -42,7 +42,7 @@ External folder: phase02. The learner requested this phase on 2026-10-16 with th
 |---|---|---|---|
 | 2.1 | phase02/01-why-the-corpus-is-part-of-the-model.md | src/storyseed/corpus.py | Written, implemented and executed; understanding pending |
 | 2.2 | phase02/02-why-the-split-comes-before-learning.md | src/storyseed/story_splits.py | Written, implemented and executed; understanding pending |
-| 2.3 | phase02/03-learn-byte-pair-merging.md | src/storyseed/bpe_reference.py | Planned |
+| 2.3 | phase02/03-learn-byte-pair-merging.md | src/storyseed/bpe_reference.py | Written, implemented and executed; understanding pending |
 | 2.4 | phase02/04-choose-and-freeze-the-tokenizer.md | src/storyseed/story_tokenizer.py | Planned |
 | 2.5 | phase02/05-preserve-the-task-while-batching.md | src/storyseed/story_batches.py | Planned |
 | 2.6 | phase02/06-establish-an-honest-baseline.md | src/storyseed/story_baseline.py | Planned |

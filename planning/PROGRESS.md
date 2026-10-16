@@ -31,11 +31,11 @@ Actual results: 400 CUDA Adam updates, 289 parameters, 240 training/67 developme
 
 ## Phase 2 — requested next build
 
-Completed increments: 2/6. Next increment: 2.3. Student understanding is not inferred from assistant execution.
+Completed increments: 3/6. Next increment: 2.4. Student understanding is not inferred from assistant execution.
 
 - 2.1 Traceable corpus: written, implemented, executed; student evidence pending.
 - 2.2 Story splits and leakage: written, implemented, executed; student evidence pending.
-- 2.3 How BPE discovers units: planned; student evidence pending.
+- 2.3 How BPE discovers units: written, implemented, executed; student evidence pending.
 - 2.4 A fitted, saved tokenizer: planned; student evidence pending.
 - 2.5 Boundary-aware batches: planned; student evidence pending.
 - 2.6 A comparable baseline: planned; student evidence pending.

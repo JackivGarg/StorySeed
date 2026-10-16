@@ -1,5 +1,9 @@
 # Learning evidence in the fresh repository
 
+## 2026-10-16: Phase 2.3 — How BPE discovers units
+
+Taught the project need and prerequisite concepts before code in external phase02/03-learn-byte-pair-merging.md and its companion. Implemented the focused source increment and executed the recorded command; evidence is reports/phase02/03_bpe.json. Student understanding remains pending. No final-holdout quality evaluation is claimed.
+
 ## 2026-10-16: Phase 2.2 — Story splits and leakage
 
 Taught the project need and prerequisite concepts before code in external phase02/02-why-the-split-comes-before-learning.md and its companion. Implemented the focused source increment and executed the recorded command; evidence is reports/phase02/02_splits.json. Student understanding remains pending. No final-holdout quality evaluation is claimed.

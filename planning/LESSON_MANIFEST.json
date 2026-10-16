@@ -131,9 +131,19 @@
       "words": 1075
     },
     {
+      "path": "phase02/03-learn-byte-pair-merging.md",
+      "sha256": "287eaa4fe2cf0114b6fd1b47ceb13de4fc28100b9fa812743c0602d8a87a6494",
+      "words": 990
+    },
+    {
+      "path": "phase02/03-thinking-and-inspection.md",
+      "sha256": "c96e1b9ed7399d625e7eabf6ce7c6fbe3d3f96624441703cee50a582c2c95b55",
+      "words": 190
+    },
+    {
       "path": "phase02/README.md",
-      "sha256": "5d4f7e6fce7508a911c4e7eea1a9a248d8417e68c240003b4d57a25e5b9e37d2",
-      "words": 252
+      "sha256": "1a6249e987a17325a6e31116848cbe69e647210f8efcd03f9c2d9bc795f29f85",
+      "words": 253
     },
     {
       "path": "READING_ORDER.md",

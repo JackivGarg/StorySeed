@@ -1,0 +1,111 @@
+{
+  "command": ".venv/Scripts/python scripts/phase02/03_bpe_demo.py",
+  "fixture": [
+    "banana banana",
+    "banana bandana",
+    "bandana"
+  ],
+  "base_byte_types": 256,
+  "merges": [
+    {
+      "new_id": 256,
+      "pair": [
+        97,
+        110
+      ],
+      "adjacent_count": 10,
+      "piece": "an",
+      "tokens_before": 34,
+      "tokens_after": 24
+    },
+    {
+      "new_id": 257,
+      "pair": [
+        98,
+        256
+      ],
+      "adjacent_count": 5,
+      "piece": "ban",
+      "tokens_before": 24,
+      "tokens_after": 19
+    },
+    {
+      "new_id": 258,
+      "pair": [
+        256,
+        97
+      ],
+      "adjacent_count": 5,
+      "piece": "ana",
+      "tokens_before": 19,
+      "tokens_after": 14
+    },
+    {
+      "new_id": 259,
+      "pair": [
+        257,
+        258
+      ],
+      "adjacent_count": 3,
+      "piece": "banana",
+      "tokens_before": 14,
+      "tokens_after": 11
+    },
+    {
+      "new_id": 260,
+      "pair": [
+        100,
+        258
+      ],
+      "adjacent_count": 2,
+      "piece": "dana",
+      "tokens_before": 11,
+      "tokens_after": 9
+    },
+    {
+      "new_id": 261,
+      "pair": [
+        257,
+        260
+      ],
+      "adjacent_count": 2,
+      "piece": "bandana",
+      "tokens_before": 9,
+      "tokens_after": 7
+    },
+    {
+      "new_id": 262,
+      "pair": [
+        259,
+        32
+      ],
+      "adjacent_count": 2,
+      "piece": "banana ",
+      "tokens_before": 7,
+      "tokens_after": 5
+    },
+    {
+      "new_id": 263,
+      "pair": [
+        262,
+        259
+      ],
+      "adjacent_count": 1,
+      "piece": "banana banana",
+      "tokens_before": 5,
+      "tokens_after": 4
+    }
+  ],
+  "encoded_first": [
+    263
+  ],
+  "roundtrip_probes": 5,
+  "overlap_example": {
+    "input": "aaaa",
+    "adjacent_aa_pairs": 3,
+    "nonoverlapping_replacements": 2
+  },
+  "role": "transparent BPE concept fixture; not the trained corpus tokenizer",
+  "tie_break": "highest adjacent frequency, then lexicographically smallest token-ID pair",
+  "boundaries": "no cross-document merges; unlike main tokenizer, no regex pre-tokenization"
+}
