@@ -1,5 +1,9 @@
 # Learning evidence in the fresh repository
 
+## 2026-10-16: Phase 2.5 — Boundary-aware batches
+
+Taught the project need and prerequisite concepts before code in external phase02/05-preserve-the-task-while-batching.md and its companion. Implemented the focused source increment and executed the recorded command; evidence is reports/phase02/05_batches.json. Student understanding remains pending. No final-holdout quality evaluation is claimed.
+
 ## 2026-10-16: Phase 2.4 — A fitted, saved tokenizer
 
 Taught the project need and prerequisite concepts before code in external phase02/04-choose-and-freeze-the-tokenizer.md and its companion. Implemented the focused source increment and executed the recorded command; evidence is reports/phase02/04_tokenizer.json. Student understanding remains pending. No final-holdout quality evaluation is claimed.

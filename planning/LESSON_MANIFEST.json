@@ -151,9 +151,19 @@
       "words": 224
     },
     {
+      "path": "phase02/05-preserve-the-task-while-batching.md",
+      "sha256": "145759477651342551d0601218212e58e223e1b62d31e060389c1004f2275e16",
+      "words": 1087
+    },
+    {
+      "path": "phase02/05-thinking-and-inspection.md",
+      "sha256": "516653a7b40317817831503e0d950ab635afd3fd7dcc3dec83028168c48b0cd6",
+      "words": 202
+    },
+    {
       "path": "phase02/README.md",
-      "sha256": "77d780e72e682755187a50bc3ebb435ce78f3d909be35ae02cd5be677e84803b",
-      "words": 254
+      "sha256": "8730f830c3cfcca85cde5a5c88738fb65efac8b3de23ae6caba66a11e7083361",
+      "words": 255
     },
     {
       "path": "READING_ORDER.md",

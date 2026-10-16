@@ -1,0 +1,30 @@
+{
+  "command": ".venv/Scripts/python scripts/phase02/05_prepare_batches.py",
+  "context": 64,
+  "splits": {
+    "train": {
+      "chunks": 6050,
+      "scored_positions": 359933,
+      "eos_targets": 904
+    },
+    "development": {
+      "chunks": 673,
+      "scored_positions": 39711,
+      "eos_targets": 105
+    }
+  },
+  "sample_shape": [
+    3,
+    64
+  ],
+  "sample_valid_per_row": [
+    64,
+    11,
+    28
+  ],
+  "padding_logits_do_not_change_loss": true,
+  "uniform_fixture_loss": 6.23832368850708,
+  "prediction_weighting": "all true target positions once; no mean-of-unequal-batch-means",
+  "boundary_policy": "one story per row chunk; nonoverlapping target positions; right-pad final chunk",
+  "final_holdout_encoded": false
+}

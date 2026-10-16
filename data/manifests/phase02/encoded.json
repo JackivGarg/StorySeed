@@ -1,0 +1,27 @@
+{
+  "tokenizer_sha256": "3540aba1c244ed063b9fb317f0d62280a63d00725cac980e16c3b583cdf549cb",
+  "context_demonstration": 64,
+  "files": {
+    "train": {
+      "stories": 904,
+      "stored_ids": 360837,
+      "prediction_positions": 359933,
+      "dtype": "uint16",
+      "tokens_sha256": "ad765f12aa75fe40711235ab4375c9568457acac2a5525b1220f4fd99bd54586",
+      "offsets_sha256": "de5a37ca7ebbbeff82c307706976687a66e350985373d1cbd28f36735c31b5a4",
+      "source_split_sha256": "7368e7e9a438d1cec824f994aebf13f699962f94d45944b22600d84005ea86e2"
+    },
+    "development": {
+      "stories": 105,
+      "stored_ids": 39816,
+      "prediction_positions": 39711,
+      "dtype": "uint16",
+      "tokens_sha256": "c6f2ec0a22b09cd03e28c561ae6159cebc76552a925cb8ffe4d9c9bbca0ca66d",
+      "offsets_sha256": "ff95287e1efae88d1223307a01fcddef35bf5bc981480d3e7c5f95649b18619d",
+      "source_split_sha256": "492e3c8a762206adbab2f7180e64bfb04b85757a02da06b73dd9c439a96b1674"
+    }
+  },
+  "packing": "one story per row chunk; nonoverlapping target positions; right-pad final chunk",
+  "controls": "one BOS before content and one EOS after; PAD only fills tensor shape",
+  "final_holdout_access": "not encoded; left reserved for later protocol"
+}
