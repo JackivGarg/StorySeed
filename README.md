@@ -36,3 +36,9 @@ On this machine the project environment reuses the installed PyTorch CUDA build 
 Training starts with random weights. The local checkpoint is checkpoints/phase01/bigram.pt and stays outside Git. Recreate it using the first command; its observed artifact identity is recorded in reports/phase01/08_checkpoint.json. Generation loads weights without retraining. CPU training/generation also ran successfully.
 
 The toy model has 289 parameters and was trained on 16 authored sentences. CUDA training loss fell from 2.835582 to 1.212152; development loss fell from 2.834067 to 1.216261 over 400 steps. Its one-character context can learn transitions but cannot reliably write coherent stories. All eight contract checks passed. Implementation completeness does not establish student mastery; learning checkpoints remain pending.
+
+## Phase 2: reproducible story pipeline
+
+Six completed increments capture/split a pinned TinyStories teaching prefix, demonstrate BPE explicitly, fit/save a training-only tokenizer, build boundary-aware masked batches and train a compatible baseline. Read the external StorySeed-Study-Notes/phase02/README.md; [lesson references and original commits](planning/LESSON_MAP.md) remain in this repository.
+
+Generate from its local checkpoint with `.venv/Scripts/python scripts/generate_phase02.py --json`. The final holdout remains reserved. See [the measured Phase 2 summary](reports/phase02/SUMMARY.md).

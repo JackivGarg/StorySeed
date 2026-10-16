@@ -12,7 +12,7 @@ The student's outcome is independent reconstruction and explanation using detail
 
 ## Phase/subphase sequence
 
-There are 49 core subphases. Phase 1's eight build increments, runs and teaching files are now complete; student understanding checkpoints remain pending. Phases 2–9 are planned. Each row describes a coherent build-and-teach sequence, with run-specific decisions recorded in the corresponding reports.
+There are 49 core subphases. Phase 1's eight build increments, runs and teaching files are now complete; student understanding checkpoints remain pending. Phase 2 is now implemented and taught on its documented teaching pilot. Phases 3–9 remain planned. Each row describes a coherent build-and-teach sequence, with run-specific decisions recorded in the corresponding reports.
 
 | Phase | Subphases in order | Working outcome |
 |---|---|---|
@@ -63,3 +63,7 @@ Primary references for later teaching: https://docs.pytorch.org/tutorials/beginn
 ## Approved teaching coverage — 2026-10-15
 
 The external Phase 1 guide, eight core chapters, eight reasoning companions, full-system reconstruction, environment companion and coverage map follow the approved concept-first flow. THE_SLM_JOURNEY.md explains why each later phase is needed. Later detailed chapters remain implementation-dependent; this documentation revision does not implement Phases 2–9 or establish learner mastery.
+
+## Phase 2 completion — 2026-10-16
+
+The six story-pipeline increments were implemented and executed with their conceptual chapters/companions in external phase02. Source prefix: 1 MiB, 1,129 complete stories. Splits: 904 training, 105 development, 120 reserved holdout. Main tokenizer: 512 byte-level BPE entries, training-only fit. Batches preserve each target once with padding masks. A random-initialized compatible bigram ran 200 count-weighted Adam updates and was reloaded in a fresh process. The final holdout remains unencoded/unscored; learner understanding is pending. Next architecture increment: Phase 3 learned representations and contextual ANN.

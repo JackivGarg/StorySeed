@@ -181,9 +181,14 @@
       "words": 446
     },
     {
+      "path": "phase02/IMPLEMENTATION_AND_EVIDENCE.md",
+      "sha256": "8a115925da8a3b3fb5d4d00f91f738ceff8b157bbaac7ac3358a8439e4bda8cf",
+      "words": 101
+    },
+    {
       "path": "phase02/README.md",
-      "sha256": "ff58d9e485555c170d365a375acca9b198ed292de42cf2b3e9f8be3a930b6cac",
-      "words": 280
+      "sha256": "b3a4b2289312f7817b470e74a696dd47227f0686885a18a92b8b034db5a1a822",
+      "words": 285
     },
     {
       "path": "READING_ORDER.md",
@@ -207,8 +212,8 @@
     },
     {
       "path": "THE_SLM_JOURNEY.md",
-      "sha256": "8c66357698d1a4e74c1b6611af4939691c1bee05e5bd248c3a73e51b9a913a0f",
-      "words": 1177
+      "sha256": "2b54b466a2b6360b3cd1423fa89d1eaed022361eb8c9f1752049a15252a50b9a",
+      "words": 1162
     }
   ],
   "teaching_preview": {

@@ -15,3 +15,14 @@
 | `5326d0c` | feat: save and reload the trained model in a fresh process |
 
 The current change cannot contain its own hash; use git log to locate it. Add its known hash during the next real change.
+
+## Phase 2 implementation commits
+
+| Stage | Commit | Change |
+|---|---|---|
+| 2.1 | 25609f8 | Corpus provenance |
+| 2.2 | 39ce747 | Whole-story splits |
+| 2.3 | 532f7d9 | Explicit BPE |
+| 2.4 | bd8c46b | Frozen tokenizer |
+| 2.5 | e62fe7e | Boundary-aware batches |
+| 2.6 | 1a39605 | Comparable trained baseline |

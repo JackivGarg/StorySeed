@@ -46,3 +46,14 @@ External folder: phase02. The learner requested this phase on 2026-10-16 with th
 | 2.4 | phase02/04-choose-and-freeze-the-tokenizer.md | src/storyseed/story_tokenizer.py | Written, implemented and executed; understanding pending |
 | 2.5 | phase02/05-preserve-the-task-while-batching.md | src/storyseed/story_batches.py | Written, implemented and executed; understanding pending |
 | 2.6 | phase02/06-establish-an-honest-baseline.md | src/storyseed/story_baseline.py | Written, implemented and executed; understanding pending |
+
+## Phase 2 implementation commits
+
+| Stage | Commit | Change |
+|---|---|---|
+| 2.1 | 25609f8 | Corpus provenance |
+| 2.2 | 39ce747 | Whole-story splits |
+| 2.3 | 532f7d9 | Explicit BPE |
+| 2.4 | bd8c46b | Frozen tokenizer |
+| 2.5 | e62fe7e | Boundary-aware batches |
+| 2.6 | 1a39605 | Comparable trained baseline |

@@ -79,7 +79,7 @@ def capture_prefix() -> dict:
         card = response.read(100_000).decode('utf-8')
     if 'license: cdla-sharing-1.0' not in card:
         raise ValueError('Pinned dataset-card license metadata differs; inspect before proceeding.')
-    (RAW / 'UPSTREAM_README.md').write_text(card, encoding='utf-8')
+    (RAW / 'UPSTREAM_README.md').write_bytes(card.encode('utf-8'))
     sizes = [len(row['text'].encode('utf-8')) for row in rows]
     manifest = {
         'dataset': DATASET, 'revision': REVISION, 'source_file': SOURCE_FILE,

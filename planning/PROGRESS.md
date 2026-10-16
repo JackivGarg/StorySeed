@@ -39,3 +39,5 @@ Completed increments: 6/6. Implementation and written teaching complete; Phase 3
 - 2.4 A fitted, saved tokenizer: written, implemented, executed; student evidence pending.
 - 2.5 Boundary-aware batches: written, implemented, executed; student evidence pending.
 - 2.6 A comparable baseline: written, implemented, executed; student evidence pending.
+
+Phase 2's six implementation commits through 1a39605 were successfully pushed to origin/main on 2026-10-16. The separate phase02 teaching folder contains 16 Markdown files; all current lesson hashes match the manifest and Phase 1 notes remain unchanged. Final closure documentation follows in its own commit; Git tracking state records its publication.
