@@ -1,0 +1,17 @@
+{
+  "format": "storyseed.phase03.pilot.v1",
+  "contexts": [1, 8],
+  "dimensions": 32,
+  "hidden": 64,
+  "steps": 300,
+  "batch_targets": 256,
+  "learning_rate": 0.003,
+  "initialization_seed": 17,
+  "sampling_seed": 2026,
+  "device": "cpu",
+  "threads": 1,
+  "evaluation_batch_targets": 2048,
+  "compute_deadline_seconds_per_condition": 40,
+  "selection": "fixed final update; no development checkpoint selection",
+  "scope": "one seed, source-prefix teaching pilot; parameter and compute budgets are not matched to Phase 2"
+}
