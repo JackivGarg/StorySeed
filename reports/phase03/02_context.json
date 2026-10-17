@@ -1,0 +1,83 @@
+{
+  "command": ".venv/Scripts/python scripts/phase03/02_inspect_context.py",
+  "configuration": {
+    "vocabulary": 512,
+    "context": 8,
+    "dimensions": 32,
+    "hidden": 64
+  },
+  "rows": [
+    0,
+    64,
+    359932
+  ],
+  "contexts": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      350,
+      387,
+      377,
+      407,
+      14,
+      282,
+      314,
+      85
+    ],
+    [
+      263,
+      289,
+      474,
+      281,
+      283,
+      297,
+      505,
+      16
+    ]
+  ],
+  "targets": [
+    439,
+    91,
+    2
+  ],
+  "shapes": {
+    "contexts": [
+      3,
+      8
+    ],
+    "embedding": [
+      3,
+      8,
+      32
+    ],
+    "flattened": [
+      3,
+      256
+    ],
+    "hidden": [
+      3,
+      64
+    ],
+    "logits": [
+      3,
+      512
+    ]
+  },
+  "stored_parameters_including_fixed_pad_row": 66112,
+  "random_model_loss": 6.116108417510986,
+  "embedding_gradient_norm": 0.1321040689945221,
+  "hidden_gradient_norm": 3.574337959289551,
+  "target_count": 359933,
+  "target_index_64_retains_prior_chunk_history": true,
+  "context_order": "oldest to current; PAD on the left only before the story begins",
+  "objective": "one real target per context; no padded targets in this adapter",
+  "final_holdout_accessed": false
+}

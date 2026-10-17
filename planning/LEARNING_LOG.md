@@ -87,3 +87,7 @@ Implemented the lesson code, executed its recorded command, and wrote a concept 
 ## Phase 3.1 — 2026-10-17
 
 The connected concept chapter and companion were written alongside this increment. Actual evidence: reports/phase03/01_embeddings.json. Assistant execution is not student understanding.
+
+## Phase 3.2 — 2026-10-17
+
+The connected concept chapter and companion were written alongside this increment. Actual evidence: reports/phase03/02_context.json. Assistant execution is not student understanding.

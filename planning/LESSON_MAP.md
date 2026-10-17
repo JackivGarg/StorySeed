@@ -61,3 +61,7 @@ External folder: phase02. The learner requested this phase on 2026-10-16 with th
 ## Phase 3.1
 
 Chapter: phase03/01-why-prediction-needs-learned-features.md. Companion: phase03/01-thinking-and-inspection.md. Code: src/storyseed/token_features.py. Actual evidence: reports/phase03/01_embeddings.json. Written, implemented, executed; learner understanding pending.
+
+## Phase 3.2
+
+Chapter: phase03/02-build-an-ordered-context-predictor.md. Companion: phase03/02-thinking-and-inspection.md. Code: src/storyseed/fixed_context.py. Actual evidence: reports/phase03/02_context.json. Written, implemented, executed; learner understanding pending.
