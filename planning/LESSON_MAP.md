@@ -95,3 +95,7 @@ Chapter: phase04/02-turn-matches-into-retrieved-information.md; companion: phase
 ## Phase 4.3
 
 Chapter: phase04/03-make-the-past-the-only-available-source.md; companion: phase04/03-thinking-and-inspection.md. Code: src/storyseed/attention.py. Actual evidence: reports/phase04/03_causality.json. Written, implemented and executed; learner understanding pending.
+
+## Phase 4.4
+
+Chapter: phase04/04-give-retrieval-a-sense-of-position.md; companion: phase04/04-thinking-and-inspection.md. Code: src/storyseed/position_features.py. Actual evidence: reports/phase04/04_positions.json. Written, implemented and executed; learner understanding pending.
