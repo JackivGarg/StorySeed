@@ -1,5 +1,9 @@
 # StorySeed progress
 
+## Current phase — 2026-10-17
+
+Phase 3: 4/4 subphases written, implemented and executed. The new external phase03 folder contains the connected concept journey and reasoning companions. K=1/8 both learn but do not beat the Phase 2 bigram; this is not the final Transformer. Phase 4 attention is next. Student understanding remains pending and the final holdout remains unencoded/unscored. Historical entries below preserve the earlier progression.
+
 Active fresh repository: Desktop/StorySeed, branch main, origin https://github.com/JackivGarg/StorySeed.git. Earlier folders remain references.
 
 Phase 1 implementation and its recorded verification are complete. Earlier teaching files exist, but the user requested a revised concept-and-flow style on 2026-10-15. The user approved the sample on 2026-10-15; all current Phase 1 teaching files now follow that conceptual approach. Understanding remains pending.
@@ -49,3 +53,5 @@ Phase 3.2: written, implemented and executed on 2026-10-17. See reports/phase03/
 Phase 3.3: written, implemented and executed on 2026-10-17. See reports/phase03/03_training_k8.json and external phase03/03-make-context-features-learn.md. Student evidence pending.
 
 Phase 3.4: written, implemented and executed on 2026-10-17. See reports/phase03/04_limits.json and external phase03/04-discover-what-fixed-context-cannot-do.md. Student evidence pending.
+
+Phase 3 implementation/protocol/result commits through effd9d4 were successfully pushed to origin/main on 2026-10-17. Final guide/closure documentation follows in its own commit; Git tracking state records its publication.

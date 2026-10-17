@@ -42,3 +42,13 @@ The toy model has 289 parameters and was trained on 16 authored sentences. CUDA 
 Six completed increments capture/split a pinned TinyStories teaching prefix, demonstrate BPE explicitly, fit/save a training-only tokenizer, build boundary-aware masked batches and train a compatible baseline. Read the external StorySeed-Study-Notes/phase02/README.md; [lesson references and original commits](planning/LESSON_MAP.md) remain in this repository.
 
 Generate from its local checkpoint with `.venv/Scripts/python scripts/generate_phase02.py --json`. The final holdout remains reserved. See [the measured Phase 2 summary](reports/phase02/SUMMARY.md).
+
+## Phase 3: learned representations and contextual prediction
+
+The fixed-window neural baseline and its four build-and-teach subphases are implemented. Both K=1/8 conditions learned from random initialization, but this short pilot did not beat the Phase 2 bigram. See [actual outcome](reports/phase03/SUMMARY.md). The separate Desktop StorySeed-Study-Notes/phase03 folder contains the conceptual reading journey. Generate locally without fitting again:
+
+```powershell
+.venv/Scripts/python scripts/generate_phase03.py --prompt "Once upon a time" --json
+```
+
+The local checkpoint is ignored by Git; its identity is recorded in data/manifests/phase03. Attention and the final Transformer remain later phases.

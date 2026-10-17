@@ -73,3 +73,13 @@ Chapter: phase03/03-make-context-features-learn.md. Companion: phase03/03-thinki
 ## Phase 3.4
 
 Chapter: phase03/04-discover-what-fixed-context-cannot-do.md. Companion: phase03/04-thinking-and-inspection.md. Code: src/storyseed/context_generation.py. Actual evidence: reports/phase03/04_limits.json. Written, implemented, executed; learner understanding pending.
+
+## Phase 3 implementation commits
+
+| Stage | Commit | Change |
+|---|---|---|
+| 3.1 | b700b50 | Shared trainable features |
+| 3.2 | a0fc359 | Ordered contextual predictor |
+| 3.3 setup | 737ae66 | Predeclared training protocol |
+| 3.3 outcome | 5ed57b1 | Actual learning and baseline gap |
+| 3.4 | effd9d4 | Causal generation and information boundary |

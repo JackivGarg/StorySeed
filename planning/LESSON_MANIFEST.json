@@ -7,8 +7,8 @@
   "files": [
     {
       "path": "AGENTS.md",
-      "sha256": "4b6460d56da5fe18d8fe745ab84431648fb1151d17246b840246418f422f9129",
-      "words": 177
+      "sha256": "02d5632fed5aa2d9ce44775ebe9f0af60cd3010c0ac456c7b9775a8f6c9a2f3a",
+      "words": 226
     },
     {
       "path": "phase01/00-follow-one-character-through-the-system.md",
@@ -246,19 +246,24 @@
       "words": 450
     },
     {
+      "path": "phase03/IMPLEMENTATION_AND_EVIDENCE.md",
+      "sha256": "26e70adb5f48a086a900e801fbe400b59559e59c38d3d5a5eaa58781fc972fc8",
+      "words": 218
+    },
+    {
       "path": "phase03/README.md",
       "sha256": "97c99fe0b1a3fc436693440cbfc2f67dc8dea83f82dd07276a1b6f4e46d6bade",
       "words": 420
     },
     {
       "path": "READING_ORDER.md",
-      "sha256": "c07d6ca279f3d0141a702b5732e4795e1fcbad1a215d7fc2bc9a6098d3c22726",
-      "words": 241
+      "sha256": "0214499c96228ff38ff23ffdf21a74b3c906664f69ac34f744069fad6822cc7b",
+      "words": 287
     },
     {
       "path": "README.md",
-      "sha256": "fc3a2d53f43e4596ecf273b41d8e2b1554ae43041183dc88caeeb1af1f960d29",
-      "words": 191
+      "sha256": "5763c614afcbcfa9b5b7fb48a6d20bf01ccc14d74b271e229bdff97066b07018",
+      "words": 237
     },
     {
       "path": "samples/SAMPLE_01_WHY_PYTORCH_AND_HOW_LEARNING_WORKS.md",
@@ -267,13 +272,13 @@
     },
     {
       "path": "START_HERE.md",
-      "sha256": "050c551525d64ef4c0c325a7b7d8adf6b5d3203504afafcade2356f191ff26f3",
-      "words": 145
+      "sha256": "e76203bf7f5c5cce890afb64a453a03d34d3404710180e955923682ac4ea24e8",
+      "words": 191
     },
     {
       "path": "THE_SLM_JOURNEY.md",
-      "sha256": "2b54b466a2b6360b3cd1423fa89d1eaed022361eb8c9f1752049a15252a50b9a",
-      "words": 1162
+      "sha256": "df0e21be76f4a7372fa39f0d100b2889f9de36c72cdd1969e264c6e8c242706b",
+      "words": 1181
     }
   ],
   "teaching_preview": {

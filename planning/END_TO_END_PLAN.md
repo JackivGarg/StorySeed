@@ -12,7 +12,7 @@ The student's outcome is independent reconstruction and explanation using detail
 
 ## Phase/subphase sequence
 
-There are 49 core subphases. Phase 1's eight build increments, runs and teaching files are now complete; student understanding checkpoints remain pending. Phase 2 is now implemented and taught on its documented teaching pilot. Phases 3–9 remain planned. Each row describes a coherent build-and-teach sequence, with run-specific decisions recorded in the corresponding reports.
+There are 49 core subphases. Phase 1's eight build increments, runs and teaching files are now complete; student understanding checkpoints remain pending. Phase 2 is now implemented and taught on its documented teaching pilot. Phase 3 is implemented on the same pilot; Phases 4–9 remain planned. Each row describes a coherent build-and-teach sequence, with run-specific decisions recorded in the corresponding reports.
 
 | Phase | Subphases in order | Working outcome |
 |---|---|---|
@@ -67,3 +67,7 @@ The external Phase 1 guide, eight core chapters, eight reasoning companions, ful
 ## Phase 2 completion — 2026-10-16
 
 The six story-pipeline increments were implemented and executed with their conceptual chapters/companions in external phase02. Source prefix: 1 MiB, 1,129 complete stories. Splits: 904 training, 105 development, 120 reserved holdout. Main tokenizer: 512 byte-level BPE entries, training-only fit. Batches preserve each target once with padding masks. A random-initialized compatible bigram ran 200 count-weighted Adam updates and was reloaded in a fresh process. The final holdout remains unencoded/unscored; learner understanding is pending. Next architecture increment: Phase 3 learned representations and contextual ANN.
+
+## Phase 3 completion — 2026-10-17
+
+Four subphases implemented and executed with separate external phase03 chapters: learned token features, ordered finite-context ANN, fixed-budget K=1/8 training, and common inference with boundary observations. Training setup and completed outcomes have separate commits. Both neural conditions learn but do not beat the Phase 2 bigram under this budget. The unchanged tokenizer/splits/target positions anchor the comparison; capacity/compute are not matched. Fresh-process inference reproduces the saved sample. See reports/phase03/SUMMARY.md. Next: Phase 4 causal attention; final holdout remains unencoded/unscored and student evidence pending.

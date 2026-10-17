@@ -26,3 +26,13 @@ The current change cannot contain its own hash; use git log to locate it. Add it
 | 2.4 | bd8c46b | Frozen tokenizer |
 | 2.5 | e62fe7e | Boundary-aware batches |
 | 2.6 | 1a39605 | Comparable trained baseline |
+
+## Phase 3 implementation commits
+
+| Stage | Commit | Change |
+|---|---|---|
+| 3.1 | b700b50 | Shared trainable features |
+| 3.2 | a0fc359 | Ordered contextual predictor |
+| 3.3 setup | 737ae66 | Predeclared training protocol |
+| 3.3 outcome | 5ed57b1 | Actual learning and baseline gap |
+| 3.4 | effd9d4 | Causal generation and information boundary |

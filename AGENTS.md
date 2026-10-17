@@ -21,3 +21,5 @@ GitHub authentication and pushing succeeded after the initial handoff. The user 
 Keep raw corpora, environments, caches and checkpoints out of Git. Version small configurations, provenance/split manifests, sample outputs and reports. Use compatible tokenizer/evaluation units, story-level splits and a held-out final protocol. Select main model size and run budget from actual memory/throughput pilots.
 
 Phase 2 was requested and completed on 2026-10-16 with separate external phase02 notes and six natural implementation commits. Read reports/phase02/SUMMARY.md and the source/split/tokenizer/encoded/baseline manifests before changing the pipeline. The pilot final holdout remains unencoded/unscored. Phase 3 is next; do not infer learner mastery or main-transformer completion.
+
+Phase 3 completed on 2026-10-17. Canonical new chapters are in phase03. Follow their concept-first reading flow and preserve Phase 1/2 chapters. The K=8 pilot did not beat K=1 or the Phase 2 bigram; use the actual reports. Next is Phase 4 attention. Final holdout and learner understanding remain reserved/pending.
