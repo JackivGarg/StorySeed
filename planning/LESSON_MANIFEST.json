@@ -1,6 +1,6 @@
 {
   "format": "storyseed.external-lessons.v1",
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "notes_root": "C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes",
   "implementation_revision": "059c13b",
   "originals_archive": "history/059c13b-before-practical-rewrite",
@@ -191,6 +191,16 @@
       "words": 285
     },
     {
+      "path": "phase03/01-thinking-and-inspection.md",
+      "sha256": "1a8b99943bedc6620d3621f0ec58decb62e324fa308f8a85db45a1f63f4bd50f",
+      "words": 430
+    },
+    {
+      "path": "phase03/01-why-prediction-needs-learned-features.md",
+      "sha256": "82adb5abedccf607258c474205d5be8da7fec15a317fcee1468e1ab2d652671d",
+      "words": 1502
+    },
+    {
       "path": "READING_ORDER.md",
       "sha256": "c07d6ca279f3d0141a702b5732e4795e1fcbad1a215d7fc2bc9a6098d3c22726",
       "words": 241
@@ -220,5 +230,6 @@
     "status": "approved",
     "sample": "samples/SAMPLE_01_WHY_PYTORCH_AND_HOW_LEARNING_WORKS.md"
   },
-  "current_revision_archive": "history/b7ebfb7-before-approved-concept-flow"
+  "current_revision_archive": "history/b7ebfb7-before-approved-concept-flow",
+  "phase03_base_revision": "cc5c465"
 }

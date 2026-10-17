@@ -57,3 +57,7 @@ External folder: phase02. The learner requested this phase on 2026-10-16 with th
 | 2.4 | bd8c46b | Frozen tokenizer |
 | 2.5 | e62fe7e | Boundary-aware batches |
 | 2.6 | 1a39605 | Comparable trained baseline |
+
+## Phase 3.1
+
+Chapter: phase03/01-why-prediction-needs-learned-features.md. Companion: phase03/01-thinking-and-inspection.md. Code: src/storyseed/token_features.py. Actual evidence: reports/phase03/01_embeddings.json. Written, implemented, executed; learner understanding pending.

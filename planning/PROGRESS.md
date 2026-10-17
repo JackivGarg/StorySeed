@@ -41,3 +41,5 @@ Completed increments: 6/6. Implementation and written teaching complete; Phase 3
 - 2.6 A comparable baseline: written, implemented, executed; student evidence pending.
 
 Phase 2's six implementation commits through 1a39605 were successfully pushed to origin/main on 2026-10-16. The separate phase02 teaching folder contains 16 Markdown files; all current lesson hashes match the manifest and Phase 1 notes remain unchanged. Final closure documentation follows in its own commit; Git tracking state records its publication.
+
+Phase 3.1: written, implemented and executed on 2026-10-17. See reports/phase03/01_embeddings.json and external phase03/01-why-prediction-needs-learned-features.md. Student evidence pending.

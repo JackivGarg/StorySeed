@@ -83,3 +83,7 @@ Implemented the lesson code, executed its recorded command, and wrote a concept 
 ## Phase 1.8: checkpoint
 
 Implemented the lesson code, executed its recorded command, and wrote a concept chapter plus guided practice/solutions. Actual output: reports/phase01/08_checkpoint.json. The user requested completing the entire phase now; written explanations are available before dependent chapters. Student explanation/applied evidence remains pending.
+
+## Phase 3.1 — 2026-10-17
+
+The connected concept chapter and companion were written alongside this increment. Actual evidence: reports/phase03/01_embeddings.json. Assistant execution is not student understanding.
