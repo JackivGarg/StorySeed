@@ -7,8 +7,8 @@
   "files": [
     {
       "path": "AGENTS.md",
-      "sha256": "02d5632fed5aa2d9ce44775ebe9f0af60cd3010c0ac456c7b9775a8f6c9a2f3a",
-      "words": 226
+      "sha256": "37a30dd6cb0d2b27f1574b3c184b227b07e4534f3cea4ddede7de2c57a5bd8f7",
+      "words": 288
     },
     {
       "path": "phase01/00-follow-one-character-through-the-system.md",
@@ -256,9 +256,14 @@
       "words": 420
     },
     {
+      "path": "phase04/00-reconstruct-the-attention-journey.md",
+      "sha256": "2b53d9d30875363142d09eea209198d9aec3c1e70c649aa2228c1dad5d41dd4a",
+      "words": 1228
+    },
+    {
       "path": "phase04/01-learn-to-request-and-offer-information.md",
-      "sha256": "142b13e03bbb5e8a7d832eef7a3c71be77982fbc33081a74556bc424487bc5fd",
-      "words": 1431
+      "sha256": "9c2e58e1aef6d77d24c4272cd419320885bbd54708718b37d47873bf9e557a24",
+      "words": 1480
     },
     {
       "path": "phase04/01-thinking-and-inspection.md",
@@ -277,8 +282,8 @@
     },
     {
       "path": "phase04/03-make-the-past-the-only-available-source.md",
-      "sha256": "982d25488a5bbb717f15459ba55bfaa87d15c169dbaeece4efcb75d771ddc6ab",
-      "words": 1437
+      "sha256": "6d2d5737754e0b18e784985c9d145400acb2d592e1cf8ee2f5fe4697d712ea72",
+      "words": 1486
     },
     {
       "path": "phase04/03-thinking-and-inspection.md",
@@ -297,8 +302,13 @@
     },
     {
       "path": "phase04/05-build-and-train-the-attention-predictor.md",
-      "sha256": "26f8ba39ba1fccf7727c150b7ff36b3c83199ded3005ca68fe3b073ec37cdd3c",
-      "words": 1671
+      "sha256": "f58d900dfc7a4d2dc8816223238a6dd8ec999393e0a0e6d11ce90598246a67c8",
+      "words": 1716
+    },
+    {
+      "path": "phase04/05-how-a-prediction-error-teaches-retrieval.md",
+      "sha256": "8451401332957ded0c0a649062b00ecd8d68d5a8256d76893e399bebe1ea6c9b",
+      "words": 817
     },
     {
       "path": "phase04/05-observed-results-and-interpretation.md",
@@ -311,14 +321,29 @@
       "words": 366
     },
     {
+      "path": "phase04/COVERAGE.md",
+      "sha256": "59dfadb5141648f74fcd2c4537effdd8596b2d3cedea3eb5a490f816fd84f01d",
+      "words": 544
+    },
+    {
+      "path": "phase04/IMPLEMENTATION_AND_EVIDENCE.md",
+      "sha256": "c831d96eee985fb3e1affb69206662b9f56f6e4da1ed266f4eefa13e93c6290a",
+      "words": 222
+    },
+    {
+      "path": "phase04/README.md",
+      "sha256": "8c782a0d233e3a1802157ca77b4fc282459d0a2ecbf894894bbe0067e5ce385c",
+      "words": 412
+    },
+    {
       "path": "READING_ORDER.md",
-      "sha256": "0214499c96228ff38ff23ffdf21a74b3c906664f69ac34f744069fad6822cc7b",
-      "words": 287
+      "sha256": "af90bdc82e4957383c5d15417fd64f0344690f9e842ae2067d0d74ccb2043b3a",
+      "words": 343
     },
     {
       "path": "README.md",
-      "sha256": "5763c614afcbcfa9b5b7fb48a6d20bf01ccc14d74b271e229bdff97066b07018",
-      "words": 237
+      "sha256": "dcc9471d0ae31621979166d3f76058e2b3ae263fce77969109043ba2a6939272",
+      "words": 293
     },
     {
       "path": "samples/SAMPLE_01_WHY_PYTORCH_AND_HOW_LEARNING_WORKS.md",
@@ -327,13 +352,13 @@
     },
     {
       "path": "START_HERE.md",
-      "sha256": "e76203bf7f5c5cce890afb64a453a03d34d3404710180e955923682ac4ea24e8",
-      "words": 191
+      "sha256": "34b57eac21d8895c75943a0bed28235c05a487fc319086f7bff7223ddfc36ec4",
+      "words": 247
     },
     {
       "path": "THE_SLM_JOURNEY.md",
-      "sha256": "df0e21be76f4a7372fa39f0d100b2889f9de36c72cdd1969e264c6e8c242706b",
-      "words": 1181
+      "sha256": "0cd0219f0921791a313892230e3bcef5bd9ac2219393332240c2997f6eccdc10",
+      "words": 1216
     }
   ],
   "teaching_preview": {

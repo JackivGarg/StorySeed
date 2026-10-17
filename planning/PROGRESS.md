@@ -2,6 +2,10 @@
 
 ## Current phase — 2026-10-17
 
+Phase 4: 5/5 subphases written, implemented and executed. The separate external phase04 folder preserves the concept-first learning flow through the attention mechanism and trained single-head predictor. Train NLL improves, but development NLL 4.653214 is worse than prior baselines. Full/final-query equivalence, causal boundaries and fresh-process inference are recorded. Next: Phase 5 complete decoder. Earlier phase chapters are unchanged, the final holdout remains unencoded/unscored, and learner understanding remains pending.
+
+## Previous phase — 2026-10-17
+
 Phase 3: 4/4 subphases written, implemented and executed. The new external phase03 folder contains the connected concept journey and reasoning companions. K=1/8 both learn but do not beat the Phase 2 bigram; this is not the final Transformer. Phase 4 attention is next. Student understanding remains pending and the final holdout remains unencoded/unscored. Historical entries below preserve the earlier progression.
 
 Active fresh repository: Desktop/StorySeed, branch main, origin https://github.com/JackivGarg/StorySeed.git. Earlier folders remain references.
@@ -65,3 +69,5 @@ Phase 4.3: written, implemented and executed on 2026-10-17. Read external phase0
 Phase 4.4: written, implemented and executed on 2026-10-17. Read external phase04/04-give-retrieval-a-sense-of-position.md; actual evidence: reports/phase04/04_positions.json. Student understanding pending.
 
 Phase 4.5: written, implemented and executed on 2026-10-17. Read external phase04/05-build-and-train-the-attention-predictor.md; actual evidence: reports/phase04/05_training.json. Student understanding pending.
+
+Phase 4 implementation/protocol/outcome commits through 0a436a4 were successfully pushed to origin/main on 2026-10-17. The final guide and documentation closure follow in their own commit; Git tracking state records that publication.

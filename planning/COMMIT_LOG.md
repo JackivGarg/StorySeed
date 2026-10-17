@@ -36,3 +36,14 @@ The current change cannot contain its own hash; use git log to locate it. Add it
 | 3.3 setup | 737ae66 | Predeclared training protocol |
 | 3.3 outcome | 5ed57b1 | Actual learning and baseline gap |
 | 3.4 | effd9d4 | Causal generation and information boundary |
+
+## Phase 4 implementation commits
+
+| Stage | Commit | Change |
+|---|---|---|
+| 4.1 | 0750d9a | Retrieval-role projections |
+| 4.2 | 8b727f4 | Scaled position matches and values |
+| 4.3 | 4e0e7ea | Causal/padding restrictions |
+| 4.4 | 430d0b6 | Learned window positions |
+| 4.5 setup | 3489023 | Integrated model and declared pilot |
+| 4.5 outcome | 0a436a4 | Actual learning, information flow and restored inference |

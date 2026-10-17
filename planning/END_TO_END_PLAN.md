@@ -12,7 +12,7 @@ The student's outcome is independent reconstruction and explanation using detail
 
 ## Phase/subphase sequence
 
-There are 49 core subphases. Phase 1's eight build increments, runs and teaching files are now complete; student understanding checkpoints remain pending. Phase 2 is now implemented and taught on its documented teaching pilot. Phase 3 is implemented on the same pilot; Phases 4–9 remain planned. Each row describes a coherent build-and-teach sequence, with run-specific decisions recorded in the corresponding reports.
+There are 49 core subphases. Phase 1's eight build increments, runs and teaching files are now complete; student understanding checkpoints remain pending. Phase 2 is now implemented and taught on its documented teaching pilot. Phase 3 is implemented on the same pilot; Phase 4 is implemented on the same teaching pilot; Phases 5–9 remain planned. Each row describes a coherent build-and-teach sequence, with run-specific decisions recorded in the corresponding reports.
 
 | Phase | Subphases in order | Working outcome |
 |---|---|---|
@@ -71,3 +71,7 @@ The six story-pipeline increments were implemented and executed with their conce
 ## Phase 3 completion — 2026-10-17
 
 Four subphases implemented and executed with separate external phase03 chapters: learned token features, ordered finite-context ANN, fixed-budget K=1/8 training, and common inference with boundary observations. Training setup and completed outcomes have separate commits. Both neural conditions learn but do not beat the Phase 2 bigram under this budget. The unchanged tokenizer/splits/target positions anchor the comparison; capacity/compute are not matched. Fresh-process inference reproduces the saved sample. See reports/phase03/SUMMARY.md. Next: Phase 4 causal attention; final holdout remains unencoded/unscored and student evidence pending.
+
+## Phase 4 completion — 2026-10-17
+
+Five subphases are written, implemented and executed: Q/K/V projections, scaled retrieval, causal/padding restrictions, learned position features and an integrated single-head predictor. Training setup and outcome are separate commits. The 300-update pilot learns but development NLL 4.653214 does not beat prior baselines. Whole-model information/gradient observations, a common evaluator and fresh-process generation are recorded. See reports/phase04/SUMMARY.md and external phase04/README.md. Next: Phase 5 complete decoder. Earlier chapters and final-holdout reservation are preserved; learner understanding remains pending.

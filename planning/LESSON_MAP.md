@@ -103,3 +103,14 @@ Chapter: phase04/04-give-retrieval-a-sense-of-position.md; companion: phase04/04
 ## Phase 4.5
 
 Chapter: phase04/05-build-and-train-the-attention-predictor.md; companion: phase04/05-thinking-and-inspection.md. Code: src/storyseed/attention_model.py. Actual evidence: reports/phase04/05_training.json. Written, implemented and executed; learner understanding pending.
+
+## Phase 4 implementation commits
+
+| Stage | Commit | Change |
+|---|---|---|
+| 4.1 | 0750d9a | Retrieval-role projections |
+| 4.2 | 8b727f4 | Scaled position matches and values |
+| 4.3 | 4e0e7ea | Causal/padding restrictions |
+| 4.4 | 430d0b6 | Learned window positions |
+| 4.5 setup | 3489023 | Integrated model and declared pilot |
+| 4.5 outcome | 0a436a4 | Actual learning, information flow and restored inference |

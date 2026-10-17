@@ -1,0 +1,14 @@
+{
+  "phase04_markdown_files": 16,
+  "phase04_words": 13528,
+  "python_snippets_syntax_parsed": 11,
+  "new_python_source_files_syntax_parsed": 14,
+  "local_links_checked": 48,
+  "broken_links": [],
+  "phase01_through_phase03_chapters_unchanged": true,
+  "earlier_chapters_checked": 49,
+  "local_checkpoint_hash_matches_manifest": true,
+  "final_holdout_encoded_or_scored": false,
+  "execution_scope": "Actual teaching fixtures, bounded training and inference commands; no automated test suite added or run.",
+  "all_current_external_lesson_hashes_verified": 71
+}

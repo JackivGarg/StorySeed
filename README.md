@@ -52,3 +52,13 @@ The fixed-window neural baseline and its four build-and-teach subphases are impl
 ```
 
 The local checkpoint is ignored by Git; its identity is recorded in data/manifests/phase03. Attention and the final Transformer remain later phases.
+
+## Phase 4: explicit causal attention
+
+Q/K/V retrieval, score scaling, causal/padding restrictions and learned positions now form a trained single-head teaching predictor. See [actual outcomes and limitations](reports/phase04/SUMMARY.md). Detailed concept-first chapters are in the separate Desktop StorySeed-Study-Notes/phase04 folder. Generate without fitting again:
+
+```powershell
+.venv/Scripts/python scripts/generate_phase04.py --prompt "Once upon a time" --json
+```
+
+The local inference checkpoint remains ignored by Git and is identified in data/manifests/phase04/attention.json. This short pilot did not beat the previous baselines; the full decoder and main scratch-training run are later phases.
