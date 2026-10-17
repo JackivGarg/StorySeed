@@ -63,8 +63,11 @@ class CausalSelfAttention(nn.Module):
         self.projection = QKVProjection(dimensions, head_dimensions)
 
     def forward(self, states, valid, *, last_only=False, return_weights=False):
-        q, k, v = self.projection(states)
         if last_only:
-            q = q[:, -1:, :]
+            q = self.projection.query(states[:, -1:, :])
+            k = self.projection.key(states)
+            v = self.projection.value(states)
+        else:
+            q, k, v = self.projection(states)
         output, weights = causal_attention(q, k, v, valid)
         return (output, weights) if return_weights else output
