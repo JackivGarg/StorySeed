@@ -57,3 +57,5 @@ Phase 3.4: written, implemented and executed on 2026-10-17. See reports/phase03/
 Phase 3 implementation/protocol/result commits through effd9d4 were successfully pushed to origin/main on 2026-10-17. Final guide/closure documentation follows in its own commit; Git tracking state records its publication.
 
 Phase 4.1: written, implemented and executed on 2026-10-17. Read external phase04/01-learn-to-request-and-offer-information.md; actual evidence: reports/phase04/01_qkv.json. Student understanding pending.
+
+Phase 4.2: written, implemented and executed on 2026-10-17. Read external phase04/02-turn-matches-into-retrieved-information.md; actual evidence: reports/phase04/02_retrieval.json. Student understanding pending.

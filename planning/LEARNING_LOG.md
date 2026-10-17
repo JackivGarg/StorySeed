@@ -103,3 +103,7 @@ The connected concept chapter and companion were written alongside this incremen
 ## Phase 4.1 — 2026-10-17
 
 The missing capability motivated the prerequisite and conceptual learning before returning to this component. The corresponding phase04 chapter and companion were delivered with actual evidence at reports/phase04/01_qkv.json. Assistant execution does not establish student mastery.
+
+## Phase 4.2 — 2026-10-17
+
+The missing capability motivated the prerequisite and conceptual learning before returning to this component. The corresponding phase04 chapter and companion were delivered with actual evidence at reports/phase04/02_retrieval.json. Assistant execution does not establish student mastery.

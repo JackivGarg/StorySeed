@@ -87,3 +87,7 @@ Chapter: phase03/04-discover-what-fixed-context-cannot-do.md. Companion: phase03
 ## Phase 4.1
 
 Chapter: phase04/01-learn-to-request-and-offer-information.md; companion: phase04/01-thinking-and-inspection.md. Code: src/storyseed/attention.py. Actual evidence: reports/phase04/01_qkv.json. Written, implemented and executed; learner understanding pending.
+
+## Phase 4.2
+
+Chapter: phase04/02-turn-matches-into-retrieved-information.md; companion: phase04/02-thinking-and-inspection.md. Code: src/storyseed/attention.py. Actual evidence: reports/phase04/02_retrieval.json. Written, implemented and executed; learner understanding pending.
