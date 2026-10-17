@@ -65,3 +65,7 @@ Chapter: phase03/01-why-prediction-needs-learned-features.md. Companion: phase03
 ## Phase 3.2
 
 Chapter: phase03/02-build-an-ordered-context-predictor.md. Companion: phase03/02-thinking-and-inspection.md. Code: src/storyseed/fixed_context.py. Actual evidence: reports/phase03/02_context.json. Written, implemented, executed; learner understanding pending.
+
+## Phase 3.3
+
+Chapter: phase03/03-make-context-features-learn.md. Companion: phase03/03-thinking-and-inspection.md. Code: src/storyseed/context_training.py. Actual evidence: reports/phase03/03_training_k8.json. Written, implemented, executed; learner understanding pending.

@@ -1,0 +1,9 @@
+{
+  "checkpoint": "checkpoints/phase03/context_k1.pt",
+  "sha256": "15c984730e10e963e984a84bb220d668dae5398dd3fa20797a37da0d7f24458b",
+  "format": "storyseed.phase03.context.v1",
+  "tokenizer_sha256": "3540aba1c244ed063b9fb317f0d62280a63d00725cac980e16c3b583cdf549cb",
+  "encoded_manifest_sha256": "d16c32659b06511b4d8696976030a1903a17c81a473a8898c9a87f862149c99b",
+  "inference_only": true,
+  "optimizer_resume": false
+}

@@ -45,3 +45,5 @@ Phase 2's six implementation commits through 1a39605 were successfully pushed to
 Phase 3.1: written, implemented and executed on 2026-10-17. See reports/phase03/01_embeddings.json and external phase03/01-why-prediction-needs-learned-features.md. Student evidence pending.
 
 Phase 3.2: written, implemented and executed on 2026-10-17. See reports/phase03/02_context.json and external phase03/02-build-an-ordered-context-predictor.md. Student evidence pending.
+
+Phase 3.3: written, implemented and executed on 2026-10-17. See reports/phase03/03_training_k8.json and external phase03/03-make-context-features-learn.md. Student evidence pending.

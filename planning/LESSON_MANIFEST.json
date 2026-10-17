@@ -211,6 +211,21 @@
       "words": 471
     },
     {
+      "path": "phase03/03-make-context-features-learn.md",
+      "sha256": "e830a02dc8b162d7a10ae584043ceb864e59f185d9e07c7dac8f09d55f370eb7",
+      "words": 1649
+    },
+    {
+      "path": "phase03/03-observed-results-and-interpretation.md",
+      "sha256": "465298b6cbd917d892b47e7d04017af4348dfde15f3807a8f3842f3352b7e495",
+      "words": 641
+    },
+    {
+      "path": "phase03/03-thinking-and-inspection.md",
+      "sha256": "f8506d82e821ae189116130ffb0dbee562d9b0395092c0f08e1efa15119afbc7",
+      "words": 467
+    },
+    {
       "path": "READING_ORDER.md",
       "sha256": "c07d6ca279f3d0141a702b5732e4795e1fcbad1a215d7fc2bc9a6098d3c22726",
       "words": 241

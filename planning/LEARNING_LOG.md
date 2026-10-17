@@ -91,3 +91,7 @@ The connected concept chapter and companion were written alongside this incremen
 ## Phase 3.2 — 2026-10-17
 
 The connected concept chapter and companion were written alongside this increment. Actual evidence: reports/phase03/02_context.json. Assistant execution is not student understanding.
+
+## Phase 3.3 — 2026-10-17
+
+The connected concept chapter and companion were written alongside this increment. Actual evidence: reports/phase03/03_training_k8.json. Assistant execution is not student understanding.

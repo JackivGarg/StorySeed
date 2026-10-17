@@ -1,0 +1,99 @@
+{
+  "command": ".venv/Scripts/python scripts/phase03/03_train_context.py --context 8",
+  "configuration": {
+    "format": "storyseed.phase03.pilot.v1",
+    "contexts": [
+      1,
+      8
+    ],
+    "dimensions": 32,
+    "hidden": 64,
+    "steps": 300,
+    "batch_targets": 256,
+    "learning_rate": 0.003,
+    "initialization_seed": 17,
+    "sampling_seed": 2026,
+    "device": "cpu",
+    "threads": 1,
+    "evaluation_batch_targets": 2048,
+    "compute_deadline_seconds_per_condition": 40,
+    "selection": "fixed final update; no development checkpoint selection",
+    "scope": "one seed, source-prefix teaching pilot; parameter and compute budgets are not matched to Phase 2"
+  },
+  "model_configuration": {
+    "vocabulary": 512,
+    "context": 8,
+    "dimensions": 32,
+    "hidden": 64
+  },
+  "stored_parameters_including_fixed_pad_row": 66112,
+  "sampled_training_targets_with_replacement": 76800,
+  "sampling": "uniform over training target events, with replacement; same index RNG for both conditions",
+  "initial": {
+    "train": {
+      "nats_per_target_token": 6.272892547590238,
+      "perplexity": 530.0082368173614,
+      "prediction_positions": 359933
+    },
+    "development": {
+      "nats_per_target_token": 6.273198230095321,
+      "perplexity": 530.1702758278902,
+      "prediction_positions": 39711
+    }
+  },
+  "final": {
+    "train": {
+      "nats_per_target_token": 3.9169136052918163,
+      "perplexity": 50.245128918328874,
+      "prediction_positions": 359933
+    },
+    "development": {
+      "nats_per_target_token": 3.9518378602413495,
+      "perplexity": 52.030904546246035,
+      "prediction_positions": 39711
+    }
+  },
+  "minibatch_history": [
+    {
+      "step": 1,
+      "pre_update_minibatch_loss": 6.232713222503662
+    },
+    {
+      "step": 50,
+      "pre_update_minibatch_loss": 5.121228218078613
+    },
+    {
+      "step": 100,
+      "pre_update_minibatch_loss": 4.7789201736450195
+    },
+    {
+      "step": 150,
+      "pre_update_minibatch_loss": 4.6765289306640625
+    },
+    {
+      "step": 200,
+      "pre_update_minibatch_loss": 4.398099899291992
+    },
+    {
+      "step": 250,
+      "pre_update_minibatch_loss": 4.139165878295898
+    },
+    {
+      "step": 300,
+      "pre_update_minibatch_loss": 4.011541843414307
+    }
+  ],
+  "elapsed_compute_seconds": 5.905999999999949,
+  "restored_probe_logits_equal": true,
+  "checkpoint": {
+    "checkpoint": "checkpoints/phase03/context_k8.pt",
+    "sha256": "03565f0c0b8326f5f109c08d31321aba70110e610011f4da4b8ccda8361ff7c7",
+    "format": "storyseed.phase03.context.v1",
+    "tokenizer_sha256": "3540aba1c244ed063b9fb317f0d62280a63d00725cac980e16c3b583cdf549cb",
+    "encoded_manifest_sha256": "d16c32659b06511b4d8696976030a1903a17c81a473a8898c9a87f862149c99b",
+    "inference_only": true,
+    "optimizer_resume": false
+  },
+  "final_holdout_accessed": false,
+  "limits": "single-seed fixed-budget demonstration; not a matched-parameter or matched-compute architecture study"
+}
