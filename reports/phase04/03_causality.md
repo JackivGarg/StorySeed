@@ -1,0 +1,88 @@
+# Observed Phase 4 result: 03_causality
+
+Actual recorded execution; learner understanding remains unmeasured.
+
+```json
+{
+  "command": ".venv/Scripts/python scripts/phase04/03_restrict_sources.py",
+  "causal_weights": [
+    [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.3302384614944458,
+        0.6697615385055542,
+        0.0
+      ],
+      [
+        0.3333333432674408,
+        0.3333333432674408,
+        0.3333333432674408
+      ]
+    ]
+  ],
+  "returned_values": [
+    [
+      [
+        2.0,
+        0.0
+      ],
+      [
+        0.6604769229888916,
+        1.3395230770111084
+      ],
+      [
+        1.3333333730697632,
+        1.0
+      ]
+    ]
+  ],
+  "future_weight_mass": 0.0,
+  "future_input_change_max_first_output_difference": 0.0,
+  "first_output_objective_future_gradients": {
+    "query": 0.0,
+    "key": 0.0,
+    "value": 0.0
+  },
+  "padding_valid_mask": [
+    [
+      false,
+      false,
+      true
+    ]
+  ],
+  "padding_weights": [
+    [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  ],
+  "padding_row_sums": [
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "padded_query_outputs_are_zero_and_finite": true,
+  "last_query_only_equals_full_final_row": true,
+  "mask_semantics": "True means allowed real token; candidates must be at/before query and nonpadding",
+  "final_holdout_accessed": false
+}
+```

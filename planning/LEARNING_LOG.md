@@ -107,3 +107,7 @@ The missing capability motivated the prerequisite and conceptual learning before
 ## Phase 4.2 — 2026-10-17
 
 The missing capability motivated the prerequisite and conceptual learning before returning to this component. The corresponding phase04 chapter and companion were delivered with actual evidence at reports/phase04/02_retrieval.json. Assistant execution does not establish student mastery.
+
+## Phase 4.3 — 2026-10-17
+
+The missing capability motivated the prerequisite and conceptual learning before returning to this component. The corresponding phase04 chapter and companion were delivered with actual evidence at reports/phase04/03_causality.json. Assistant execution does not establish student mastery.

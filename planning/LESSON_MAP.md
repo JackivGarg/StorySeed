@@ -91,3 +91,7 @@ Chapter: phase04/01-learn-to-request-and-offer-information.md; companion: phase0
 ## Phase 4.2
 
 Chapter: phase04/02-turn-matches-into-retrieved-information.md; companion: phase04/02-thinking-and-inspection.md. Code: src/storyseed/attention.py. Actual evidence: reports/phase04/02_retrieval.json. Written, implemented and executed; learner understanding pending.
+
+## Phase 4.3
+
+Chapter: phase04/03-make-the-past-the-only-available-source.md; companion: phase04/03-thinking-and-inspection.md. Code: src/storyseed/attention.py. Actual evidence: reports/phase04/03_causality.json. Written, implemented and executed; learner understanding pending.

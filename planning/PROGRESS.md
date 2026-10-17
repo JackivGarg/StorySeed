@@ -59,3 +59,5 @@ Phase 3 implementation/protocol/result commits through effd9d4 were successfully
 Phase 4.1: written, implemented and executed on 2026-10-17. Read external phase04/01-learn-to-request-and-offer-information.md; actual evidence: reports/phase04/01_qkv.json. Student understanding pending.
 
 Phase 4.2: written, implemented and executed on 2026-10-17. Read external phase04/02-turn-matches-into-retrieved-information.md; actual evidence: reports/phase04/02_retrieval.json. Student understanding pending.
+
+Phase 4.3: written, implemented and executed on 2026-10-17. Read external phase04/03-make-the-past-the-only-available-source.md; actual evidence: reports/phase04/03_causality.json. Student understanding pending.
