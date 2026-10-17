@@ -47,3 +47,5 @@ Phase 3.1: written, implemented and executed on 2026-10-17. See reports/phase03/
 Phase 3.2: written, implemented and executed on 2026-10-17. See reports/phase03/02_context.json and external phase03/02-build-an-ordered-context-predictor.md. Student evidence pending.
 
 Phase 3.3: written, implemented and executed on 2026-10-17. See reports/phase03/03_training_k8.json and external phase03/03-make-context-features-learn.md. Student evidence pending.
+
+Phase 3.4: written, implemented and executed on 2026-10-17. See reports/phase03/04_limits.json and external phase03/04-discover-what-fixed-context-cannot-do.md. Student evidence pending.

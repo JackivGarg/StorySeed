@@ -191,6 +191,11 @@
       "words": 285
     },
     {
+      "path": "phase03/00-connect-representations-context-and-learning.md",
+      "sha256": "fb93b407e9973573948238062a503e680f18f9734b8fb8fc5793f753a58c8f13",
+      "words": 1082
+    },
+    {
       "path": "phase03/01-thinking-and-inspection.md",
       "sha256": "1a8b99943bedc6620d3621f0ec58decb62e324fa308f8a85db45a1f63f4bd50f",
       "words": 430
@@ -224,6 +229,26 @@
       "path": "phase03/03-thinking-and-inspection.md",
       "sha256": "f8506d82e821ae189116130ffb0dbee562d9b0395092c0f08e1efa15119afbc7",
       "words": 467
+    },
+    {
+      "path": "phase03/04-discover-what-fixed-context-cannot-do.md",
+      "sha256": "467ab0790fea1634def5ea3bcef15f103f9bcdc42077dfa6007d1e4f6056e3e0",
+      "words": 1546
+    },
+    {
+      "path": "phase03/04-thinking-and-inspection.md",
+      "sha256": "f767ea36dab311465c784062648493936965fb929460e9cdc3cf1f1c1daa2c0c",
+      "words": 505
+    },
+    {
+      "path": "phase03/COVERAGE.md",
+      "sha256": "a85e33706dc67cd25e1ae86002d074d88becfc69ebea6e3e1446dd2055d9c247",
+      "words": 450
+    },
+    {
+      "path": "phase03/README.md",
+      "sha256": "97c99fe0b1a3fc436693440cbfc2f67dc8dea83f82dd07276a1b6f4e46d6bade",
+      "words": 420
     },
     {
       "path": "READING_ORDER.md",
