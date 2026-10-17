@@ -1,0 +1,9 @@
+{
+  "checkpoint": "checkpoints/phase04/attention.pt",
+  "format": "storyseed.phase04.attention.v1",
+  "sha256": "39ab8a77777d29711f9cb09020426f5a939bbc2a797d5eb146b5a01980f46b4f",
+  "tokenizer_sha256": "3540aba1c244ed063b9fb317f0d62280a63d00725cac980e16c3b583cdf549cb",
+  "encoded_manifest_sha256": "d16c32659b06511b4d8696976030a1903a17c81a473a8898c9a87f862149c99b",
+  "inference_only": true,
+  "optimizer_resume": false
+}

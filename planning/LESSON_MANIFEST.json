@@ -296,6 +296,21 @@
       "words": 369
     },
     {
+      "path": "phase04/05-build-and-train-the-attention-predictor.md",
+      "sha256": "26f8ba39ba1fccf7727c150b7ff36b3c83199ded3005ca68fe3b073ec37cdd3c",
+      "words": 1671
+    },
+    {
+      "path": "phase04/05-observed-results-and-interpretation.md",
+      "sha256": "842b403a23ec2589444f13f4b9e57f073d8a051b50f921deade45c9498672a39",
+      "words": 950
+    },
+    {
+      "path": "phase04/05-thinking-and-inspection.md",
+      "sha256": "a63ab8bd71c6b9f00cd1c20b9197e918f3a0e0132bc8ef70491872304a59b8c3",
+      "words": 366
+    },
+    {
       "path": "READING_ORDER.md",
       "sha256": "0214499c96228ff38ff23ffdf21a74b3c906664f69ac34f744069fad6822cc7b",
       "words": 287

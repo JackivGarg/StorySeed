@@ -99,3 +99,7 @@ Chapter: phase04/03-make-the-past-the-only-available-source.md; companion: phase
 ## Phase 4.4
 
 Chapter: phase04/04-give-retrieval-a-sense-of-position.md; companion: phase04/04-thinking-and-inspection.md. Code: src/storyseed/position_features.py. Actual evidence: reports/phase04/04_positions.json. Written, implemented and executed; learner understanding pending.
+
+## Phase 4.5
+
+Chapter: phase04/05-build-and-train-the-attention-predictor.md; companion: phase04/05-thinking-and-inspection.md. Code: src/storyseed/attention_model.py. Actual evidence: reports/phase04/05_training.json. Written, implemented and executed; learner understanding pending.
