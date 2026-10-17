@@ -83,3 +83,7 @@ Chapter: phase03/04-discover-what-fixed-context-cannot-do.md. Companion: phase03
 | 3.3 setup | 737ae66 | Predeclared training protocol |
 | 3.3 outcome | 5ed57b1 | Actual learning and baseline gap |
 | 3.4 | effd9d4 | Causal generation and information boundary |
+
+## Phase 4.1
+
+Chapter: phase04/01-learn-to-request-and-offer-information.md; companion: phase04/01-thinking-and-inspection.md. Code: src/storyseed/attention.py. Actual evidence: reports/phase04/01_qkv.json. Written, implemented and executed; learner understanding pending.

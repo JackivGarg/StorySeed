@@ -99,3 +99,7 @@ The connected concept chapter and companion were written alongside this incremen
 ## Phase 3.4 — 2026-10-17
 
 The connected concept chapter and companion were written alongside this increment. Actual evidence: reports/phase03/04_limits.json. Assistant execution is not student understanding.
+
+## Phase 4.1 — 2026-10-17
+
+The missing capability motivated the prerequisite and conceptual learning before returning to this component. The corresponding phase04 chapter and companion were delivered with actual evidence at reports/phase04/01_qkv.json. Assistant execution does not establish student mastery.

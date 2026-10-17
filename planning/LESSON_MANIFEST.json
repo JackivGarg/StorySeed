@@ -256,6 +256,16 @@
       "words": 420
     },
     {
+      "path": "phase04/01-learn-to-request-and-offer-information.md",
+      "sha256": "142b13e03bbb5e8a7d832eef7a3c71be77982fbc33081a74556bc424487bc5fd",
+      "words": 1431
+    },
+    {
+      "path": "phase04/01-thinking-and-inspection.md",
+      "sha256": "e8fd16cb69ca2561f535029b7daf9149a34e3b5611059cd666aa6b8da302a36e",
+      "words": 393
+    },
+    {
       "path": "READING_ORDER.md",
       "sha256": "0214499c96228ff38ff23ffdf21a74b3c906664f69ac34f744069fad6822cc7b",
       "words": 287
@@ -286,5 +296,6 @@
     "sample": "samples/SAMPLE_01_WHY_PYTORCH_AND_HOW_LEARNING_WORKS.md"
   },
   "current_revision_archive": "history/b7ebfb7-before-approved-concept-flow",
-  "phase03_base_revision": "cc5c465"
+  "phase03_base_revision": "cc5c465",
+  "phase04_base_revision": "106ab6b"
 }
