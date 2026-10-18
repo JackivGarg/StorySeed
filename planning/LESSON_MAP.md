@@ -142,3 +142,7 @@ Read phase05/06-make-the-whole-decoder-learn-a-tiny-batch.md, then 06-thinking-a
 ## Phase 6.1
 
 Read phase06/01-define-the-run-before-updating-weights.md, then 01-thinking-and-inspection.md in that folder. Code: src/storyseed/training_data.py, src/storyseed/training_config.py, src/storyseed/training_evaluation.py, configs/phase06_teaching.json, scripts/phase06/01_define_run.py. Actual evidence: reports/phase06/01_run_contract.json. Written, implemented and executed; student understanding pending.
+
+## Phase 6.2
+
+Read phase06/02-control-the-optimizer-update.md, then 02-thinking-and-inspection.md in that folder. Code: src/storyseed/training_optimizer.py, scripts/phase06/02_inspect_optimizer.py. Actual evidence: reports/phase06/02_optimizer.json. Written, implemented and executed; student understanding pending.

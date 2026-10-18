@@ -147,3 +147,7 @@ The missing capability motivates its prerequisite before returning to the actual
 ## Phase 6.1 — 2026-10-18
 
 The missing capability motivates its prerequisite before returning to the actual build. Read external phase06/01-define-the-run-before-updating-weights.md and companion. Actual observations are in reports/phase06/01_run_contract.json. No learner-mastery or final-holdout claim.
+
+## Phase 6.2 — 2026-10-18
+
+The missing capability motivates its prerequisite before returning to the actual build. Read external phase06/02-control-the-optimizer-update.md and companion. Actual observations are in reports/phase06/02_optimizer.json. No learner-mastery or final-holdout claim.

@@ -406,6 +406,16 @@
       "words": 194
     },
     {
+      "path": "phase06/02-control-the-optimizer-update.md",
+      "sha256": "5cad94149b8d97f55fb4863e0608994082f2c297dcad9c83acb98e613cafda07",
+      "words": 790
+    },
+    {
+      "path": "phase06/02-thinking-and-inspection.md",
+      "sha256": "33fc035a906a510bc318ed5468fdf026efd18a38bdc7ab8d790f3bc820fc116b",
+      "words": 196
+    },
+    {
       "path": "READING_ORDER.md",
       "sha256": "af90bdc82e4957383c5d15417fd64f0344690f9e842ae2067d0d74ccb2043b3a",
       "words": 343
