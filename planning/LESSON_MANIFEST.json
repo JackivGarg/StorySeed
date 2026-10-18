@@ -7,8 +7,8 @@
   "files": [
     {
       "path": "AGENTS.md",
-      "sha256": "9b9d7a9b50c3a324e4e021794a05b229ec4bde5e4c06c6a944b18d947572395d",
-      "words": 631
+      "sha256": "1735f12351fea18dcb92a21aded3963349a4992d529e44be164753df29f7100f",
+      "words": 748
     },
     {
       "path": "phase01/00-follow-one-character-through-the-system.md",
@@ -522,8 +522,8 @@
     },
     {
       "path": "phase07/02-follow-the-run-through-successful-updates.md",
-      "sha256": "758ebb2db299a1a189d0e736165a02d0d24bcd96a4664c392fc2e0300ed574a4",
-      "words": 1084
+      "sha256": "d0e5dc980312af2c3e65a2da1d8b9eb1d3ce7888186d79a9bce741b3cc8c38f2",
+      "words": 1104
     },
     {
       "path": "phase07/02-thinking-and-inspection.md",
@@ -552,8 +552,13 @@
     },
     {
       "path": "phase07/COVERAGE.md",
-      "sha256": "537742b3d8327a6cf5f076b92c04173bb7c2a0aa4998a43d042901eee7c4c822",
-      "words": 288
+      "sha256": "938a1537806c4b8517b90e9bb49be42e2e9460d295b9d7740e85e55469dfe07e",
+      "words": 299
+    },
+    {
+      "path": "phase07/EXECUTION.md",
+      "sha256": "9532bc0dced3ecc36c4292e9f1ef9e71d62f7513687b8510017f166858bf2961",
+      "words": 122
     },
     {
       "path": "phase07/IMPLEMENTATION_AND_EVIDENCE.md",
@@ -567,8 +572,8 @@
     },
     {
       "path": "phase07/README.md",
-      "sha256": "1965847b47be33448a3a19126772218aa8aabafa7933cb6eb54e396618797db2",
-      "words": 324
+      "sha256": "85c3c7dbc4ecba9df1bf9a12bf66ba722c3689eb0d70b0d69d2485a8b35c2a24",
+      "words": 330
     },
     {
       "path": "phase08/00-reconstruct-the-journey.md",
@@ -627,8 +632,13 @@
     },
     {
       "path": "phase08/COVERAGE.md",
-      "sha256": "9fa45b8f9ddaf9bea847c3e2bb8a776d35324879c1db50af0e8b00a22b96c084",
-      "words": 288
+      "sha256": "621ef350a38281119a1540ff22700869185f5545b784f0a0175c9d140f0291e9",
+      "words": 299
+    },
+    {
+      "path": "phase08/EXECUTION.md",
+      "sha256": "9532bc0dced3ecc36c4292e9f1ef9e71d62f7513687b8510017f166858bf2961",
+      "words": 122
     },
     {
       "path": "phase08/IMPLEMENTATION_AND_EVIDENCE.md",
@@ -642,8 +652,8 @@
     },
     {
       "path": "phase08/README.md",
-      "sha256": "735b28c073c6d374557036030465fe4dd41a5fb6333a34dc33e5c2d73ffaf12b",
-      "words": 347
+      "sha256": "72d27e6e32c9ba9488d0a5ab17c3124c2cc696ca7067522919d49d90c5c11522",
+      "words": 353
     },
     {
       "path": "READING_ORDER.md",
@@ -708,5 +718,6 @@
     }
   ],
   "phases07_08_base_revision": "9ea6847",
-  "phase07_08_status": "notes/source prepared; long training and final evaluation pending; human review and learner understanding pending"
+  "phase07_08_status": "notes/source prepared; long training and final evaluation pending; human review and learner understanding pending",
+  "phase07_08_execution": "direct Windows execution session after unsupported Codex Process Jobs launch; actual results pending"
 }

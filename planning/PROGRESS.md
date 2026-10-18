@@ -109,3 +109,9 @@ Phase 6.4: written, implemented and executed on 2026-10-18; external phase06/04-
 Phase 6.5: written, implemented and executed on 2026-10-18; external phase06/05-resume-the-same-training-process.md; evidence reports/phase06/05_resume.json. Understanding pending.
 
 Phase 6.6: written, implemented and executed on 2026-10-18; external phase06/06-measure-a-feasible-training-budget.md; evidence reports/phase06/06_resources.json. Understanding pending.
+
+## Actual execution on Windows — 2026-10-18
+
+Codex Process Jobs rejected its controller launch with `Unsupported platform: win32. Use macOS or Linux.` No successful background job or job ID was created. The already-authorized finite command `.venv/Scripts/python scripts/run_phase07_08.py` is running directly through the execution tool instead, with session 9576 for this chat. Do not launch a duplicate.
+
+The runner still writes full checkpoints every 250 successful updates and can restore its saved boundary. The direct tool session is not a claim that Codex Process Jobs is tracking the process or that it will survive every client shutdown. Frozen protocol/configuration and the training algorithm are unchanged. Read the active session/status and actual output before deciding whether continuation is needed.

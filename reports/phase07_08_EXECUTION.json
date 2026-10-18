@@ -1,0 +1,8 @@
+{
+  "controller": "Codex Process Jobs",
+  "launch_succeeded": false,
+  "reason": "Unsupported platform: win32. Use macOS or Linux.",
+  "fallback": "direct execution tool session 9576; full training checkpoints",
+  "protocol_changed": false,
+  "result": "pending"
+}
