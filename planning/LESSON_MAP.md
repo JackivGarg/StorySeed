@@ -212,3 +212,7 @@ Read external phase08/01-turn-a-working-model-into-a-research-question.md, then 
 ## Phase 8.2 preparation — 2026-10-18
 
 Read external phase08/02-measure-prediction-without-changing-the-question.md, then 02-thinking-and-inspection.md. Sources: src/storyseed/research_metrics.py. Setup record: reports/phase08/02_setup.json. Notes/source prepared; actual long execution pending, not claimed complete.
+
+## Phase 8.3 preparation — 2026-10-18
+
+Read external phase08/03-read-paired-stories-without-selecting-the-nicest-example.md, then 03-thinking-and-inspection.md. Sources: src/storyseed/sample_review.py. Setup record: reports/phase08/03_setup.json. Notes/source prepared; actual long execution pending, not claimed complete.

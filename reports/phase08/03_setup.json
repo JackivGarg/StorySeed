@@ -1,0 +1,14 @@
+{
+  "subphase": "8.3",
+  "date": "2026-10-18",
+  "chapter": "phase08/03-read-paired-stories-without-selecting-the-nicest-example.md",
+  "sources": [
+    "src/storyseed/sample_review.py"
+  ],
+  "notes_written": true,
+  "source_implemented": true,
+  "experiment_execution": "pending durable job, not a completed result",
+  "human_review": "pending",
+  "learner_understanding": "pending",
+  "final_population": "reserved until frozen final artifacts exist"
+}
