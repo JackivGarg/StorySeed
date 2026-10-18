@@ -187,3 +187,7 @@ The missing capability motivates its prerequisite and returns to the build in ex
 ## Phase 7.4 preparation — 2026-10-18
 
 The missing capability motivates its prerequisite and returns to the build in external phase07/04-make-the-learned-model-usable-in-another-process.md. Actual results await execution. Learner understanding pending.
+
+## Phase 8.1 preparation — 2026-10-18
+
+The missing capability motivates its prerequisite and returns to the build in external phase08/01-turn-a-working-model-into-a-research-question.md. Actual results await execution. Learner understanding pending.
