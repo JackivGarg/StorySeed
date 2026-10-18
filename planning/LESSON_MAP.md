@@ -188,3 +188,7 @@ External phase05/README.md gives the concept order; LOSS_AND_LEARNING.md explain
 | 6.6 | ee6abb8 | Resource candidate and end-to-end public pilot |
 
 External phase06/README.md gives the concept order; LOSS_AND_LEARNING.md explains actual metric changes and charts. The external IMPLEMENTATION_AND_EVIDENCE.md links each hash to its source and report.
+
+## Phase 7.1 preparation — 2026-10-18
+
+Read external phase07/01-decide-what-a-main-run-means.md, then 01-thinking-and-inspection.md. Sources: .gitattributes, configs/phase07_main.json, planning/PHASE07_08_PROTOCOL.json, src/storyseed/experiment_data.py. Setup record: reports/phase07/01_setup.json. Notes/source prepared; actual long execution pending, not claimed complete.

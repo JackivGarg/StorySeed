@@ -1,0 +1,6 @@
+{
+  "model":{"vocabulary":512,"context":128,"dimensions":256,"heads":8,"layers":8,"multiplier":4,"dropout":0.1},
+  "score_tokens":64,"micro_batch_rows":4,"accumulation_steps":4,"total_updates":2000,"warmup_updates":100,
+  "learning_rate":0.0003,"minimum_learning_rate":0.00003,"weight_decay":0.1,"beta1":0.9,"beta2":0.95,
+  "clip_norm":1.0,"seed":17,"data_seed":2026,"device":"cuda","precision":"bf16","threads":1,"evaluation_batch_rows":8
+}

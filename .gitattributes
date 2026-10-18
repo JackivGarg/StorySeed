@@ -1,3 +1,10 @@
 
 # Keep the byte-hashed tokenizer identical across Git checkouts.
 artifacts/phase02/tokenizer.json -text
+
+/planning/PHASE07_08*.json text eol=lf
+/configs/phase07_main.json text eol=lf
+/data/manifests/phase07/*.json text eol=lf
+/data/manifests/phase08/*.json text eol=lf
+/reports/phase07/*.json text eol=lf
+/reports/phase08/*.json text eol=lf

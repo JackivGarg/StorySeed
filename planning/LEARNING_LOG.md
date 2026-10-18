@@ -171,3 +171,7 @@ The missing capability motivates its prerequisite before returning to the actual
 ## Phases 5–6 teaching closure — 2026-10-18
 
 The separate phase05 and phase06 folders each contain 17 Markdown files. Their loss chapters trace probabilities, objective weighting, gradient/optimizer changes, actual exposure and observed results, with three charts generated from existing records. The fixed tiny batch and full development population are explicitly distinguished. Earlier phase files match all 65 recorded hashes. Future phases must continue interpreting why metrics change, not just listing them. Learner understanding remains pending; main training is Phase 7.
+
+## Phase 7.1 preparation — 2026-10-18
+
+The missing capability motivates its prerequisite and returns to the build in external phase07/01-decide-what-a-main-run-means.md. Actual results await execution. Learner understanding pending.

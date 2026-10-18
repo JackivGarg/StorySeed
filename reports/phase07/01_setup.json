@@ -1,0 +1,17 @@
+{
+  "subphase": "7.1",
+  "date": "2026-10-18",
+  "chapter": "phase07/01-decide-what-a-main-run-means.md",
+  "sources": [
+    ".gitattributes",
+    "configs/phase07_main.json",
+    "planning/PHASE07_08_PROTOCOL.json",
+    "src/storyseed/experiment_data.py"
+  ],
+  "notes_written": true,
+  "source_implemented": true,
+  "experiment_execution": "pending durable job, not a completed result",
+  "human_review": "not this subphase",
+  "learner_understanding": "pending",
+  "final_population": "reserved until frozen final artifacts exist"
+}

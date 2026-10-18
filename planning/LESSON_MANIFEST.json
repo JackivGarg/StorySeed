@@ -506,6 +506,136 @@
       "words": 412
     },
     {
+      "path": "phase07/00-reconstruct-the-journey.md",
+      "sha256": "7a03b5513502311b6192f12229e1f1e46536c9a6ad12bb4e9a3f7aa70109d90b",
+      "words": 255
+    },
+    {
+      "path": "phase07/01-decide-what-a-main-run-means.md",
+      "sha256": "b82978f5f37f692864554275edc0c11a4593e0009460b6488a01b1504efaa03b",
+      "words": 1194
+    },
+    {
+      "path": "phase07/01-thinking-and-inspection.md",
+      "sha256": "7d79c607154823222504f9eb9e82a6daa2adfecc958d0bfd80e5a6b35e5ca5dd",
+      "words": 220
+    },
+    {
+      "path": "phase07/02-follow-the-run-through-successful-updates.md",
+      "sha256": "758ebb2db299a1a189d0e736165a02d0d24bcd96a4664c392fc2e0300ed574a4",
+      "words": 1084
+    },
+    {
+      "path": "phase07/02-thinking-and-inspection.md",
+      "sha256": "35a497ea520f439b536fecc21ded3b2d882918ffecb0d772229c7fd511c4797b",
+      "words": 220
+    },
+    {
+      "path": "phase07/03-connect-curves-to-what-the-model-learned.md",
+      "sha256": "a86154d91475c9bd385c0fcc2428cf43e0583d0a5ae4c71bdaa44dc2a81a7abf",
+      "words": 706
+    },
+    {
+      "path": "phase07/03-thinking-and-inspection.md",
+      "sha256": "9e8744fe0cd78aeb3bc8edfd42e3c386f762b7d59e088c7efe1c09b203a1f889",
+      "words": 234
+    },
+    {
+      "path": "phase07/04-make-the-learned-model-usable-in-another-process.md",
+      "sha256": "78ccbcee179978dd6f54b87282df925b8d8742dd494dd9837196ce5948d302ab",
+      "words": 543
+    },
+    {
+      "path": "phase07/04-thinking-and-inspection.md",
+      "sha256": "051c24518740d40db8c6bcf418fc0b8348d89e1774583273c9f80aa26ec60a71",
+      "words": 219
+    },
+    {
+      "path": "phase07/COVERAGE.md",
+      "sha256": "537742b3d8327a6cf5f076b92c04173bb7c2a0aa4998a43d042901eee7c4c822",
+      "words": 288
+    },
+    {
+      "path": "phase07/LOSS_AND_LEARNING.md",
+      "sha256": "d27b6be2f4b2500f35712278ad4977975e74a7a578149d8ed379ffa3859b441b",
+      "words": 962
+    },
+    {
+      "path": "phase07/README.md",
+      "sha256": "1965847b47be33448a3a19126772218aa8aabafa7933cb6eb54e396618797db2",
+      "words": 324
+    },
+    {
+      "path": "phase08/00-reconstruct-the-journey.md",
+      "sha256": "5469507896a94a11884aa5d5bb83dd82daef54fc91bc44f08bb78580b57ca04f",
+      "words": 294
+    },
+    {
+      "path": "phase08/01-thinking-and-inspection.md",
+      "sha256": "c1424505e40ea969ac9de51f71c00f50612a6894412a12f766c8a9799d713eae",
+      "words": 225
+    },
+    {
+      "path": "phase08/01-turn-a-working-model-into-a-research-question.md",
+      "sha256": "8402647a11ff571a14cc0e0d285ee207f7f1263eae1d59ce83d6d7ab1365f50a",
+      "words": 731
+    },
+    {
+      "path": "phase08/02-measure-prediction-without-changing-the-question.md",
+      "sha256": "106bd6dd74746838b08be227bc797e5fece0d3a0e0bd42b0b5ffed65dfcc2e97",
+      "words": 723
+    },
+    {
+      "path": "phase08/02-thinking-and-inspection.md",
+      "sha256": "534cb2a989e44c72b657d30a5c79b6dd9814ea48f9a59d7a9217f5782b4f55cb",
+      "words": 222
+    },
+    {
+      "path": "phase08/03-read-paired-stories-without-selecting-the-nicest-example.md",
+      "sha256": "ea8b6b1ea8bd6ff2790d5ac3b910a201f9271cec3140cd5d4c28a12fd8d6413e",
+      "words": 601
+    },
+    {
+      "path": "phase08/03-thinking-and-inspection.md",
+      "sha256": "f43edbca975bacf2d09971b9001a901dfb9e41bcf8ebe6b77f9c9600c2757090",
+      "words": 230
+    },
+    {
+      "path": "phase08/04-compare-contexts-and-understand-uncertainty.md",
+      "sha256": "88525c76d9fbf43f60f39163dc61a45b11d4c75426b2ff7d3340083909465dbd",
+      "words": 673
+    },
+    {
+      "path": "phase08/04-thinking-and-inspection.md",
+      "sha256": "61fa4a459c9dce011e28403eebba6e25505b0b0968613468306836f20b2cca00",
+      "words": 221
+    },
+    {
+      "path": "phase08/05-thinking-and-inspection.md",
+      "sha256": "69bcd9f340b132b23c048dbdc67d92f1423668bfc7ae0cf6fd21bcaec00bfd44",
+      "words": 221
+    },
+    {
+      "path": "phase08/05-write-the-paper-from-the-evidence.md",
+      "sha256": "d1fea89474bb44ce56213569b9744cec18b88a9878792cbba1c239c64fcc098f",
+      "words": 613
+    },
+    {
+      "path": "phase08/COVERAGE.md",
+      "sha256": "9fa45b8f9ddaf9bea847c3e2bb8a776d35324879c1db50af0e8b00a22b96c084",
+      "words": 288
+    },
+    {
+      "path": "phase08/LOSS_AND_LEARNING.md",
+      "sha256": "86404b53f5c2142ecc65e66f269153a833bf0da7377797212c7bc13eadd63b00",
+      "words": 879
+    },
+    {
+      "path": "phase08/README.md",
+      "sha256": "735b28c073c6d374557036030465fe4dd41a5fb6333a34dc33e5c2d73ffaf12b",
+      "words": 347
+    },
+    {
       "path": "READING_ORDER.md",
       "sha256": "904796df285bd8cf2efeec9a9335af5c107c98a076dade5d2384c0a7a64e94a7",
       "words": 477
@@ -566,5 +696,7 @@
       "path": "phase06/assets/development-loss.svg",
       "sha256": "7b25bcde89cb386f8ed074f68a2a12700b1c46b47294e3cb4be4773d8b538aa7"
     }
-  ]
+  ],
+  "phases07_08_base_revision": "9ea6847",
+  "phase07_08_status": "notes/source prepared; long training and final evaluation pending; human review and learner understanding pending"
 }
