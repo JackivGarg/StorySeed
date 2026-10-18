@@ -259,3 +259,7 @@ Read external phase09/03-move-the-system-without-changing-its-meaning.md. Code/a
 ## Phase 9.4 — Explain and present the evidence
 
 Read external phase09/04-explain-what-we-built-and-what-it-proves.md. Code/artifacts: docs/MODEL_CARD.md, docs/UNIVERSITY_REPORT.md, docs/DEMO_GUIDE.md. See reports/phase09/04_*.json for execution evidence when present. Written/implemented here; actual execution and independent learner reconstruction are tracked separately. No new training or final-set scoring is part of this increment.
+
+## Phase 9.5 — Reconstruct the complete SLM independently
+
+Read external phase09/05-rebuild-the-journey-with-your-own-decisions.md. Code/artifacts: docs/RECONSTRUCTION_WORKBOOK.md, reports/phase09/SUMMARY.md. See reports/phase09/05_*.json for execution evidence when present. Written/implemented here; actual execution and independent learner reconstruction are tracked separately. No new training or final-set scoring is part of this increment.
