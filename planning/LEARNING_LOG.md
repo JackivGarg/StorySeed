@@ -243,3 +243,7 @@ Actual artifacts: reports/phase08/CONTEXT_STUDY.md, reports/phase08/matched_reso
 ## Phase 8.5 observed outcome — 2026-10-18
 
 Actual artifacts: reports/phase08/PAPER_DRAFT.md, reports/phase08/SUMMARY.md, reports/phase08/chart_assets.json. Explanations connect measured changes to the project decisions rather than list scores. Learner understanding remains pending.
+
+## Phase 9.1 — Separate a generation request from learning
+
+Read external phase09/01-from-learning-to-a-usable-predictor.md. Code/artifacts: src/storyseed/app_service.py, src/storyseed/app.py, planning/PHASE09_PLAN.md. See reports/phase09/01_*.json for execution evidence when present. Written/implemented here; actual execution and independent learner reconstruction are tracked separately. No new training or final-set scoring is part of this increment.

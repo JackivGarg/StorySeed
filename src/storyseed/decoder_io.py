@@ -15,10 +15,10 @@ def save_inference(model,path,purpose):
             'purpose':purpose,'optimizer_resume':False}
 
 
-def load_inference(path):
+def load_inference(path, *, tokenizer_path=TOKENIZER_PATH):
     payload=torch.load(path,map_location='cpu',weights_only=True)
     if payload.get('format')!='storyseed.decoder.inference.v1':raise ValueError('Expected a decoder inference bundle.')
-    tokenizer=StoryTokenizer.load(expected_sha256=payload['tokenizer_sha256'])
+    tokenizer=StoryTokenizer.load(tokenizer_path, expected_sha256=payload['tokenizer_sha256'])
     config=DecoderConfig(**payload['configuration'])
     if config.vocabulary!=tokenizer.vocab_size:raise ValueError('Vocabulary mismatch.')
     if any(not isinstance(v,torch.Tensor) or v.dtype!=torch.float32 or not torch.isfinite(v).all() for v in payload['state_dict'].values()):

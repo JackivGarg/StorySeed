@@ -119,3 +119,7 @@ Phase 6.6: written, implemented and executed on 2026-10-18; external phase06/06-
 Codex Process Jobs rejected its controller launch with `Unsupported platform: win32. Use macOS or Linux.` No successful background job or job ID was created. The already-authorized finite command `.venv/Scripts/python scripts/run_phase07_08.py` is running directly through the execution tool instead, with session 9576 for this chat. Do not launch a duplicate.
 
 The runner still writes full checkpoints every 250 successful updates and can restore its saved boundary. The direct tool session is not a claim that Codex Process Jobs is tracking the process or that it will survive every client shutdown. Frozen protocol/configuration and the training algorithm are unchanged. Read the active session/status and actual output before deciding whether continuation is needed.
+
+## Phase 9.1 — Separate a generation request from learning
+
+Read external phase09/01-from-learning-to-a-usable-predictor.md. Code/artifacts: src/storyseed/app_service.py, src/storyseed/app.py, planning/PHASE09_PLAN.md. See reports/phase09/01_*.json for execution evidence when present. Written/implemented here; actual execution and independent learner reconstruction are tracked separately. No new training or final-set scoring is part of this increment.

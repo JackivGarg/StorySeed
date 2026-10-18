@@ -244,3 +244,7 @@ Phase 8.3 actual outcome: reports/phase08/samples.json, reports/phase08/PAIRED_S
 Phase 8.4 actual outcome: reports/phase08/CONTEXT_STUDY.md, reports/phase08/matched_resources.json. Read separate phase08/ACTUAL_LOSS_AND_DECISIONS.md and OBSERVED_RESULTS.md after its concept chapter. Human review/learner understanding remain pending.
 
 Phase 8.5 actual outcome: reports/phase08/PAPER_DRAFT.md, reports/phase08/SUMMARY.md, reports/phase08/chart_assets.json. Read separate phase08/ACTUAL_LOSS_AND_DECISIONS.md and OBSERVED_RESULTS.md after its concept chapter. Human review/learner understanding remain pending.
+
+## Phase 9.1 — Separate a generation request from learning
+
+Read external phase09/01-from-learning-to-a-usable-predictor.md. Code/artifacts: src/storyseed/app_service.py, src/storyseed/app.py, planning/PHASE09_PLAN.md. See reports/phase09/01_*.json for execution evidence when present. Written/implemented here; actual execution and independent learner reconstruction are tracked separately. No new training or final-set scoring is part of this increment.
