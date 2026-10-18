@@ -1,6 +1,13 @@
 # StorySeed progress
 
-## Current phase — 2026-10-17
+## Current phase — 2026-10-18
+
+Phases 5 and 6: 6/6 subphases each written, implemented and executed. External phase05/phase06 each contain six concept chapters, six reasoning companions, a guide, reconstruction, coverage, actual commit map and detailed loss explanation. The complete decoder learns the tiny diagnostic; the training workflow has actual evaluation, accumulation, precision, fresh-process resume and resource evidence. Main training is Phase 7. Earlier phase chapters remain unchanged; final holdout stays unencoded/unscored; learner understanding remains pending.
+
+All twelve implementation commits through ee6abb8 were successfully pushed to origin/main on 2026-10-18. The final documentation/teaching closure follows in its own commit; Git tracking state records its publication.
+
+
+## Earlier state — 2026-10-17
 
 Phase 4: 5/5 subphases written, implemented and executed. The separate external phase04 folder preserves the concept-first learning flow through the attention mechanism and trained single-head predictor. Train NLL improves, but development NLL 4.653214 is worse than prior baselines. Full/final-query equivalence, causal boundaries and fresh-process inference are recorded. Next: Phase 5 complete decoder. Earlier phase chapters are unchanged, the final holdout remains unencoded/unscored, and learner understanding remains pending.
 

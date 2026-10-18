@@ -12,7 +12,7 @@ The student's outcome is independent reconstruction and explanation using detail
 
 ## Phase/subphase sequence
 
-There are 49 core subphases. Phase 1's eight build increments, runs and teaching files are now complete; student understanding checkpoints remain pending. Phase 2 is now implemented and taught on its documented teaching pilot. Phase 3 is implemented on the same pilot; Phase 4 is implemented on the same teaching pilot; Phases 5–9 remain planned. Each row describes a coherent build-and-teach sequence, with run-specific decisions recorded in the corresponding reports.
+There are 49 core subphases. Phase 1's eight build increments, runs and teaching files are now complete; student understanding checkpoints remain pending. Phase 2 is now implemented and taught on its documented teaching pilot. Phase 3 is implemented on the same pilot; Phase 4 is implemented on the same teaching pilot; Phases 5 and 6 are implemented and taught with bounded pilots; Phases 7–9 remain planned. Each row describes a coherent build-and-teach sequence, with run-specific decisions recorded in the corresponding reports.
 
 | Phase | Subphases in order | Working outcome |
 |---|---|---|
@@ -75,3 +75,9 @@ Four subphases implemented and executed with separate external phase03 chapters:
 ## Phase 4 completion — 2026-10-17
 
 Five subphases are written, implemented and executed: Q/K/V projections, scaled retrieval, causal/padding restrictions, learned position features and an integrated single-head predictor. Training setup and outcome are separate commits. The 300-update pilot learns but development NLL 4.653214 does not beat prior baselines. Whole-model information/gradient observations, a common evaluator and fresh-process generation are recorded. See reports/phase04/SUMMARY.md and external phase04/README.md. Next: Phase 5 complete decoder. Earlier chapters and final-holdout reservation are preserved; learner understanding remains pending.
+
+## Phase 5–6 completion — 2026-10-18
+
+Phases 5 and 6 each have six natural implementation commits and separate Desktop phase05/phase06 concept chapters, companions, reconstructions and LOSS_AND_LEARNING.md. Read reports/phase05/SUMMARY.md and reports/phase06/SUMMARY.md before Phase 7. Tiny-batch NLL 6.242738 → 0.001790 is memorization of 124 repeated events. The separate ten-update CPU pilot reduces full development NLL 6.246756 → 5.843923 on 39,711 targets. CPU fresh-process full-state resume matches its recorded reference. The 6,605,312-parameter CUDA candidate is a resource pilot; main training remains Phase 7. Preserve earlier Phase 1–4 chapters and the final holdout. Learner understanding remains pending.
+
+The user explicitly requires teaching how and why loss changes in relation to what we actually did. Carry this into every future phase: derive the metric, connect gradients/updates and data exposure to its movement, state population/mode/timing/mask denominator, use actual charts where useful, explain generalization and confounds, and diagnose realistic alternatives. Separate observed changes from hypotheses. Never invent intermediate curves or claim an individual component caused a combined improvement without a controlled measurement.

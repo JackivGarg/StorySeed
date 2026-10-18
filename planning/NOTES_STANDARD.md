@@ -41,3 +41,9 @@ Close by reconstructing the decisions taken and the next missing piece. Avoid ro
 The user approved the sample on 2026-10-15. Apply its concept-and-reasoning flow to all current Phase 1 chapters/companions and future teaching. Approval is granted; do not repeat the sample gate. Preserve the approved sample as a reference and archive old content before revisions.
 
 Canonical lessons remain in C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes. Use absolute source/report links and relative companion links. Record references and hashes in the code repository, never recreate its notes directory. Archive previous content before a later approved rewrite.
+
+## Completed Phases 5–6 and loss-teaching requirement — 2026-10-18
+
+Phases 5 and 6 each have six natural implementation commits and separate Desktop phase05/phase06 concept chapters, companions, reconstructions and LOSS_AND_LEARNING.md. Read reports/phase05/SUMMARY.md and reports/phase06/SUMMARY.md before Phase 7. Tiny-batch NLL 6.242738 → 0.001790 is memorization of 124 repeated events. The separate ten-update CPU pilot reduces full development NLL 6.246756 → 5.843923 on 39,711 targets. CPU fresh-process full-state resume matches its recorded reference. The 6,605,312-parameter CUDA candidate is a resource pilot; main training remains Phase 7. Preserve earlier Phase 1–4 chapters and the final holdout. Learner understanding remains pending.
+
+The user explicitly requires teaching how and why loss changes in relation to what we actually did. Carry this into every future phase: derive the metric, connect gradients/updates and data exposure to its movement, state population/mode/timing/mask denominator, use actual charts where useful, explain generalization and confounds, and diagnose realistic alternatives. Separate observed changes from hypotheses. Never invent intermediate curves or claim an individual component caused a combined improvement without a controlled measurement.

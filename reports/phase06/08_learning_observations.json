@@ -1,0 +1,175 @@
+{
+  "source_run": "runs/phase06/pilot-run.json",
+  "source_sha256": "56e9d1040998e9420d95a3ae5a8d7daa3083fbe6877a99860a95e05e2fd537a3",
+  "extraction": "existing observations copied; no training/evaluation launched",
+  "training_observations": [
+    {
+      "update": 1,
+      "attempt": 1,
+      "learning_rate": 0.00075,
+      "nll": 6.246096134185791,
+      "true_targets": 256,
+      "input_tokens": 512,
+      "microbatch_target_counts": [
+        128,
+        128
+      ],
+      "gradient_norm_before_clip": 0.727954626083374,
+      "optimizer_step_skipped": false,
+      "loss_scale": 1.0
+    },
+    {
+      "update": 2,
+      "attempt": 2,
+      "learning_rate": 0.0015,
+      "nll": 6.2361899928042765,
+      "true_targets": 228,
+      "input_tokens": 452,
+      "microbatch_target_counts": [
+        100,
+        128
+      ],
+      "gradient_norm_before_clip": 0.7388160228729248,
+      "optimizer_step_skipped": false,
+      "loss_scale": 1.0
+    },
+    {
+      "update": 3,
+      "attempt": 3,
+      "learning_rate": 0.0022500000000000003,
+      "nll": 6.232124328613281,
+      "true_targets": 256,
+      "input_tokens": 480,
+      "microbatch_target_counts": [
+        128,
+        128
+      ],
+      "gradient_norm_before_clip": 0.7744002342224121,
+      "optimizer_step_skipped": false,
+      "loss_scale": 1.0
+    },
+    {
+      "update": 4,
+      "attempt": 4,
+      "learning_rate": 0.003,
+      "nll": 6.2036356925964355,
+      "true_targets": 256,
+      "input_tokens": 512,
+      "microbatch_target_counts": [
+        128,
+        128
+      ],
+      "gradient_norm_before_clip": 0.8109723925590515,
+      "optimizer_step_skipped": false,
+      "loss_scale": 1.0
+    },
+    {
+      "update": 5,
+      "attempt": 5,
+      "learning_rate": 0.002974060128544361,
+      "nll": 6.114745616912842,
+      "true_targets": 256,
+      "input_tokens": 512,
+      "microbatch_target_counts": [
+        128,
+        128
+      ],
+      "gradient_norm_before_clip": 0.7401403784751892,
+      "optimizer_step_skipped": false,
+      "loss_scale": 1.0
+    },
+    {
+      "update": 6,
+      "attempt": 6,
+      "learning_rate": 0.0028972373688902374,
+      "nll": 6.0634355545043945,
+      "true_targets": 256,
+      "input_tokens": 512,
+      "microbatch_target_counts": [
+        128,
+        128
+      ],
+      "gradient_norm_before_clip": 0.6052669882774353,
+      "optimizer_step_skipped": false,
+      "loss_scale": 1.0
+    },
+    {
+      "update": 7,
+      "attempt": 7,
+      "learning_rate": 0.002772483976608436,
+      "nll": 6.007782459259033,
+      "true_targets": 256,
+      "input_tokens": 512,
+      "microbatch_target_counts": [
+        128,
+        128
+      ],
+      "gradient_norm_before_clip": 0.6160877346992493,
+      "optimizer_step_skipped": false,
+      "loss_scale": 1.0
+    },
+    {
+      "update": 8,
+      "attempt": 8,
+      "learning_rate": 0.002604594154601839,
+      "nll": 5.950004118034639,
+      "true_targets": 249,
+      "input_tokens": 505,
+      "microbatch_target_counts": [
+        121,
+        128
+      ],
+      "gradient_norm_before_clip": 0.6052753329277039,
+      "optimizer_step_skipped": false,
+      "loss_scale": 1.0
+    },
+    {
+      "update": 9,
+      "attempt": 9,
+      "learning_rate": 0.002400019814576463,
+      "nll": 5.932584779452434,
+      "true_targets": 226,
+      "input_tokens": 482,
+      "microbatch_target_counts": [
+        128,
+        98
+      ],
+      "gradient_norm_before_clip": 0.5697941184043884,
+      "optimizer_step_skipped": false,
+      "loss_scale": 1.0
+    },
+    {
+      "update": 10,
+      "attempt": 10,
+      "learning_rate": 0.0021666226336928716,
+      "nll": 5.8689985275268555,
+      "true_targets": 256,
+      "input_tokens": 512,
+      "microbatch_target_counts": [
+        128,
+        128
+      ],
+      "gradient_norm_before_clip": 0.5770705342292786,
+      "optimizer_step_skipped": false,
+      "loss_scale": 1.0
+    }
+  ],
+  "training_loss_timing": "before the associated optimizer update; sampled rows and dropout differ",
+  "development_observations": [
+    {
+      "completed_updates": 0,
+      "nll": 6.246756208669128,
+      "perplexity": 516.3352215266696,
+      "true_targets": 39711
+    },
+    {
+      "completed_updates": 10,
+      "nll": 5.843922512457613,
+      "perplexity": 345.1304675851018,
+      "true_targets": 39711
+    }
+  ],
+  "development_loss_timing": "initial seeded model and after ten successful updates; same full evaluation population/policy",
+  "sampled_target_presentations": 2495,
+  "final_holdout_accessed": false
+}

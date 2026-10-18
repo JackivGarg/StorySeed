@@ -1,0 +1,29 @@
+{
+  "source": "existing report observations; no fitting or evaluation performed",
+  "assets": [
+    {
+      "path": "phase05/assets/tiny-batch-loss.png",
+      "sha256": "577900bb31331a44bb3a618c92ed828692ec97e365783f4d9f82f561f1bd00b3"
+    },
+    {
+      "path": "phase05/assets/tiny-batch-loss.svg",
+      "sha256": "1794d2ab7686fa5e03bd0e1e4e2202e474b1355025401be00f1554cb3de5cc3b"
+    },
+    {
+      "path": "phase06/assets/pilot-training-loss.png",
+      "sha256": "d36b1a26df000102c569fbf2cbc1703ca972ad3ccbd517b7119308df0adf8642"
+    },
+    {
+      "path": "phase06/assets/pilot-training-loss.svg",
+      "sha256": "ad5167e2318f98a5c08fb06a2ec740181776d418f73d6f0ea1bf11826008ed79"
+    },
+    {
+      "path": "phase06/assets/development-loss.png",
+      "sha256": "5ff81d4d2b59258768ae5556dfc5a50397b5118e64080a96ca9ee63a29d74540"
+    },
+    {
+      "path": "phase06/assets/development-loss.svg",
+      "sha256": "7b25bcde89cb386f8ed074f68a2a12700b1c46b47294e3cb4be4773d8b538aa7"
+    }
+  ]
+}

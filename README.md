@@ -2,7 +2,7 @@
 
 A small language model built and trained from random initialization for short English story continuation.
 
-This fresh repository began on 2026-10-14. Its Phase 1 code and lessons were developed here without importing earlier project history or source files. Phase 1 now trains, generates and saves/reloads a small character bigram model; the final transformer is a later phase.
+This fresh repository began on 2026-10-14. Its Phase 1 code and lessons were developed here without importing earlier project history or source files. Phase 1 trained and saved a small character bigram; Phases 2–6 now add the story pipeline, contextual baselines, explicit complete causal decoder and repeatable training system. Main model training remains Phase 7.
 
 Learning proceeds alongside implementation through detailed, connected chapters. The intended outcome is understanding tokenization, the causal transformer, training, evaluation, and generation.
 
@@ -62,3 +62,17 @@ Q/K/V retrieval, score scaling, causal/padding restrictions and learned position
 ```
 
 The local inference checkpoint remains ignored by Git and is identified in data/manifests/phase04/attention.json. This short pilot did not beat the previous baselines; the full decoder and main scratch-training run are later phases.
+
+## Phases 5–6: complete decoder and dependable training
+
+Six increments per phase implement the explicit pre-normalized decoder and a configurable training workflow with masked target accounting, AdamW/schedule/clipping, correct accumulation, measured CUDA precision and full-state resume. Read [Phase 5 results](reports/phase05/SUMMARY.md) and [Phase 6 results](reports/phase06/SUMMARY.md).
+
+Detailed teaching is in the separate Desktop StorySeed-Study-Notes/phase05 and phase06 folders. Each has a loss-and-learning chapter with actual charts, explaining what changed and why the measured populations matter. The tiny memorization result is not a model-quality comparison. The ten-update CPU pilot improves full-development NLL but is not main training. The separate 6.6M CUDA model is only a measured resource candidate.
+
+Generate from the local pilot export without retraining:
+
+```powershell
+.venv/Scripts/python scripts/generate_decoder.py --checkpoint checkpoints/phase06/pilot-inference.pt --json
+```
+
+The full training CLI is `scripts/train_decoder.py`; use `--help` and the recorded teaching config/protocol before starting a new run. Checkpoint tensors remain local/ignored. Next: Phase 7's frozen main-training protocol. Final holdout remains unencoded/unscored; student understanding remains pending.

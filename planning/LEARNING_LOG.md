@@ -167,3 +167,7 @@ The missing capability motivates its prerequisite before returning to the actual
 ## Phase 6.6 — 2026-10-18
 
 The missing capability motivates its prerequisite before returning to the actual build. Read external phase06/06-measure-a-feasible-training-budget.md and companion. Actual observations are in reports/phase06/06_resources.json. No learner-mastery or final-holdout claim.
+
+## Phases 5–6 teaching closure — 2026-10-18
+
+The separate phase05 and phase06 folders each contain 17 Markdown files. Their loss chapters trace probabilities, objective weighting, gradient/optimizer changes, actual exposure and observed results, with three charts generated from existing records. The fixed tiny batch and full development population are explicitly distinguished. Earlier phase files match all 65 recorded hashes. Future phases must continue interpreting why metrics change, not just listing them. Learner understanding remains pending; main training is Phase 7.

@@ -162,3 +162,29 @@ Read phase06/05-resume-the-same-training-process.md, then 05-thinking-and-inspec
 ## Phase 6.6
 
 Read phase06/06-measure-a-feasible-training-budget.md, then 06-thinking-and-inspection.md in that folder. Code: configs/phase06_candidate.json, scripts/phase06/06_measure_resources.py, scripts/phase06/07_record_pipeline.py, reports/phase06/06_resources_initial.json, reports/phase06/06_resources_initial.md, reports/phase06/07_pipeline.json, reports/phase06/07_pipeline.md, data/manifests/phase06/pilot-artifacts.json. Actual evidence: reports/phase06/06_resources.json. Written, implemented and executed; student understanding pending.
+
+## Phase 5 implementation commits
+
+| Stage | Commit | Change |
+|---|---|---|
+| 5.1 | 5283713 | Multiple causal retrieval paths |
+| 5.2 | 651cf3d | Nonlinear position-wise processing |
+| 5.3 | 4fea6b9 | Residual paths and pre-normalization |
+| 5.4 | 64e1c33 | Explicit regularization and modes |
+| 5.5 | edfb7f6 | Complete stack and parameter ledger |
+| 5.6 | 5dff654 | Actual tiny fit, causal observations and inference |
+
+External phase05/README.md gives the concept order; LOSS_AND_LEARNING.md explains actual metric changes and charts. The external IMPLEMENTATION_AND_EVIDENCE.md links each hash to its source and report.
+
+## Phase 6 implementation commits
+
+| Stage | Commit | Change |
+|---|---|---|
+| 6.1 | 556bfb8 | Training/evaluation contract |
+| 6.2 | 120000f | AdamW groups, clipping and schedule |
+| 6.3 | 076737e | Global true-target accumulation |
+| 6.4 | 5fc1247 | Actual CUDA precision and scaling |
+| 6.5 | e2c5e72 | Full-state fresh-process resume |
+| 6.6 | ee6abb8 | Resource candidate and end-to-end public pilot |
+
+External phase06/README.md gives the concept order; LOSS_AND_LEARNING.md explains actual metric changes and charts. The external IMPLEMENTATION_AND_EVIDENCE.md links each hash to its source and report.

@@ -2,13 +2,13 @@
   "format": "storyseed.external-lessons.v1",
   "date": "2026-10-18",
   "notes_root": "C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes",
-  "implementation_revision": "059c13b",
+  "implementation_revision": "ee6abb8",
   "originals_archive": "history/059c13b-before-practical-rewrite",
   "files": [
     {
       "path": "AGENTS.md",
-      "sha256": "37a30dd6cb0d2b27f1574b3c184b227b07e4534f3cea4ddede7de2c57a5bd8f7",
-      "words": 288
+      "sha256": "cbb2209eaac6476c1f30c8328ffbcbc5254d97a70b635443ce3cd3057878a4dd",
+      "words": 456
     },
     {
       "path": "phase01/00-follow-one-character-through-the-system.md",
@@ -336,134 +336,184 @@
       "words": 412
     },
     {
+      "path": "phase05/00-reconstruct-the-decoder-journey.md",
+      "sha256": "3ac14cde3668ef5dcfc37a8576d6d64a3c19241d79be3badaf701cd5bcef393f",
+      "words": 1313
+    },
+    {
       "path": "phase05/01-preserve-several-retrieval-paths.md",
-      "sha256": "b34e937c226412631a4fb60013ae360b09dcecb04589eb6396e554972ba8e10d",
+      "sha256": "c08ee9cdc0643768f59158eddcf3c509b961e8b84a4dd5c1273d2830ccc586e0",
       "words": 962
     },
     {
       "path": "phase05/01-thinking-and-inspection.md",
-      "sha256": "78575fc60af9590d8974685a9466347b1d096751fcea6ca4ac9a0d6d9446210b",
+      "sha256": "0e06a832c69ddd754953f484f6ba8c332ed3195c5a4b784560d11bbcddb4388d",
       "words": 227
     },
     {
       "path": "phase05/02-process-the-retrieved-features.md",
-      "sha256": "ad6bd0c3f1bb1191424ca07c38f6cf0679f452c2a2ca6d96e3cdd20a3ac22e7b",
+      "sha256": "343d30ef3dc1481c8fe532d04ff4d495736fd5dcd9042c0120fc25413eaa61f9",
       "words": 732
     },
     {
       "path": "phase05/02-thinking-and-inspection.md",
-      "sha256": "0a633949e9352cd76e02e449bb9753a36a3051084e09fca3281df85bc2c9ce47",
+      "sha256": "da3d4e15a78deab498bfecd48e0df34b10c311df1b28eccb3f79c47c88e7c467",
       "words": 205
     },
     {
       "path": "phase05/03-keep-a-trainable-path-through-the-block.md",
-      "sha256": "c8d846a69feb2e6675d1b385f7c44510fe5354062f66c5191cacf783488cd0ea",
+      "sha256": "3974cf0a49bb9918defa7446f69b83d3e8b4e46fa930ba843f3ba8a35d47efab",
       "words": 821
     },
     {
       "path": "phase05/03-thinking-and-inspection.md",
-      "sha256": "d2d3ee9842ed3717d5b2ccb56b469964429b44fe5359c03cf9f2f0fc8e221443",
+      "sha256": "4a85b3c73a2bbb5a891028f11496d5f5c1fb8deb79028e77580fc4f601a9f627",
       "words": 225
     },
     {
       "path": "phase05/04-thinking-and-inspection.md",
-      "sha256": "84868a2b4689f10e75e992842077723437543fef113688058abcc6c7f021b933",
+      "sha256": "e1e593ddfa2923d4153f041f53bef92356b6acb8b14374687f6c670feb0d6dc4",
       "words": 180
     },
     {
       "path": "phase05/04-understand-training-and-evaluation-modes.md",
-      "sha256": "0991a082f676eb97053b537243a43688ea67cacdeea3a1a7bb4f1b2fe4cfcd12",
+      "sha256": "a83cd7d24b58ef0a1996fe1579e3efadf330c136fd325a80c6c839270efa024b",
       "words": 681
     },
     {
       "path": "phase05/05-assemble-the-complete-decoder.md",
-      "sha256": "60956c85aa9b93eae801f69b396cb7449f12cec36935d53f99c77a2f03b2b7f3",
+      "sha256": "4f52180442324b56114a0e6662465994c679f2a2d737ca5d1cc2696965b43a21",
       "words": 796
     },
     {
       "path": "phase05/05-thinking-and-inspection.md",
-      "sha256": "6d244b57f95076a037f81bbd81ad6ddc41e0267e4ae56946b7c9ed09c8687726",
+      "sha256": "1753b49df058df1547774244b6586c6f4f9794ad6f564bf7cc5555dc41abbb59",
       "words": 192
     },
     {
       "path": "phase05/06-make-the-whole-decoder-learn-a-tiny-batch.md",
-      "sha256": "ff6c859f147682c1525500e1c30678c084ca281aa89c69b4057bf985c16142b0",
+      "sha256": "828328514193236fc2a85e4163331e2846d5b668775cb51636c72fe6758e2573",
       "words": 790
     },
     {
       "path": "phase05/06-thinking-and-inspection.md",
-      "sha256": "88fa488a998d8ad9522856db13ef6797136ab175bdd978ca9e456ee653e8aa45",
+      "sha256": "1198feb57110086e7b1d0b9f64de8a377d47f567530ed5b861e85efa2781aca1",
       "words": 251
     },
     {
+      "path": "phase05/COVERAGE.md",
+      "sha256": "cc684bfbfb18bde89603cd6a2c3611959e56cd28de0946d8b3e6371d8a721fae",
+      "words": 459
+    },
+    {
+      "path": "phase05/IMPLEMENTATION_AND_EVIDENCE.md",
+      "sha256": "667a1dd0a6845dfe24965fd462a56bfe9c59e6414201157e7b0f4074323c2abf",
+      "words": 227
+    },
+    {
+      "path": "phase05/LOSS_AND_LEARNING.md",
+      "sha256": "4fa345c75dd356b434e897e5efa591163d832ff673bbc430ce204d4f7569de36",
+      "words": 1857
+    },
+    {
+      "path": "phase05/README.md",
+      "sha256": "005ce868ca8b278a925cf6803597e41ec65505c705b051f6917307e3d9023663",
+      "words": 389
+    },
+    {
+      "path": "phase06/00-reconstruct-the-training-journey.md",
+      "sha256": "aa8e476e42ff32068eae760b1a2317981dff5aac585905ec64704490949233ee",
+      "words": 1451
+    },
+    {
       "path": "phase06/01-define-the-run-before-updating-weights.md",
-      "sha256": "427ce017fb6ff85be5c1ea17eaae0a00d22838f40f970451d243df6349fedf73",
+      "sha256": "e43163171d8215e30d54b986c1cfd2a144fa242a582652210c12f4098e01a48c",
       "words": 881
     },
     {
       "path": "phase06/01-thinking-and-inspection.md",
-      "sha256": "33ddccb9349d3f2913b33fb143ca14c46792d75187604571a9b59bddd946a25e",
+      "sha256": "aa03715ba3487cf0979d0a1fffff659e0aefb7e2b1729fe27bfb03d6031e574c",
       "words": 194
     },
     {
       "path": "phase06/02-control-the-optimizer-update.md",
-      "sha256": "5cad94149b8d97f55fb4863e0608994082f2c297dcad9c83acb98e613cafda07",
+      "sha256": "3ae8d47eeddd6467ec84c86c77e3056709074c11362b70c28e85ba9204b2c953",
       "words": 790
     },
     {
       "path": "phase06/02-thinking-and-inspection.md",
-      "sha256": "33fc035a906a510bc318ed5468fdf026efd18a38bdc7ab8d790f3bc820fc116b",
+      "sha256": "c92a31c892cb121fcfcaa6fc07e64ffe261f1796da216501e4a83ef2a013d6ee",
       "words": 196
     },
     {
       "path": "phase06/03-accumulate-the-right-token-objective.md",
-      "sha256": "f5e913825a03d61df594087235f2a81cf105541713ecfdda701475bd79fa1dc0",
+      "sha256": "d5f2485b3f1e2be6e755ac65730075e9dc397371d6220b38c2d2af605235f7d5",
       "words": 742
     },
     {
       "path": "phase06/03-thinking-and-inspection.md",
-      "sha256": "4583e0dc5e552280f41298c8f72c30e77a9ac4b6da6f2ca5ed36518e557b1f4f",
+      "sha256": "d480d86656209eed2f64450016b24e55962a1ebd2626f0818b6711576d85a979",
       "words": 160
     },
     {
       "path": "phase06/04-thinking-and-inspection.md",
-      "sha256": "5bb2a3b73c0bd90b06f34db925e2f016a6b7cf816c33b79ac88322c72d02fc8a",
+      "sha256": "2304956c01a69e037830d6528556e6f6afbbb2f43fa9530f5e8fc47b4b294d98",
       "words": 175
     },
     {
       "path": "phase06/04-use-precision-that-the-machine-can-support.md",
-      "sha256": "a586a0f1be61c8af85de4786efebf135476a67ee9c595f6bbad7b52df96b5a64",
+      "sha256": "af5a748b4da22925b8ee96533404bd639173e703d0f91579ea4f285478aca863",
       "words": 724
     },
     {
       "path": "phase06/05-resume-the-same-training-process.md",
-      "sha256": "ebb17cab93146248bb2361e45c2af1eacd6f4af5e45465bdfb11513a626da558",
+      "sha256": "82afb56b902d41e3a1d462f073df3003daaf3a52b71169f6674a9bca485be43a",
       "words": 1014
     },
     {
       "path": "phase06/05-thinking-and-inspection.md",
-      "sha256": "d643a587f64994210841f1e952af87eb97efcc657cd50249a974eb7e41d4a4a9",
+      "sha256": "24c8dad44ff321255b242e428b46922d11a92e55d2eae67c4bffb38661f0f26b",
       "words": 212
     },
     {
       "path": "phase06/06-measure-a-feasible-training-budget.md",
-      "sha256": "1692c23b25dd9e2287761a6151e1cb41f17a4cdb27fd4f8b1365417212b5067b",
+      "sha256": "9550dc817e1760aef7be17a28e80aa9fdabe365b3aa246a3089536c0b4c72260",
       "words": 906
     },
     {
       "path": "phase06/06-thinking-and-inspection.md",
-      "sha256": "42b4d675c5ab7e73a62aab4bc4f4056b627542db5427a512e89fc36449ed6da5",
+      "sha256": "a5530d28c38e14361b8d51dbb96bef693f25849b864ad7390ab73376bead5f72",
       "words": 208
     },
     {
+      "path": "phase06/COVERAGE.md",
+      "sha256": "5a4c951c82a90fd3f4e4b40d8fff7820478a25877e8fceabb911860c7e02b9be",
+      "words": 561
+    },
+    {
+      "path": "phase06/IMPLEMENTATION_AND_EVIDENCE.md",
+      "sha256": "859d7b0a9717327bcd9a17eab91845a7bb1e8098a39dbddface9ced46b3ea2ea",
+      "words": 261
+    },
+    {
+      "path": "phase06/LOSS_AND_LEARNING.md",
+      "sha256": "22b37f678a1e5c5ac28caa5f838ddf1f10e5e63133494490b9eb1dd554b18c15",
+      "words": 2065
+    },
+    {
+      "path": "phase06/README.md",
+      "sha256": "4e162d638b32f359c1067699acc10378e99c29cd0265747f04a95a338d6e886d",
+      "words": 412
+    },
+    {
       "path": "READING_ORDER.md",
-      "sha256": "af90bdc82e4957383c5d15417fd64f0344690f9e842ae2067d0d74ccb2043b3a",
-      "words": 343
+      "sha256": "904796df285bd8cf2efeec9a9335af5c107c98a076dade5d2384c0a7a64e94a7",
+      "words": 477
     },
     {
       "path": "README.md",
-      "sha256": "dcc9471d0ae31621979166d3f76058e2b3ae263fce77969109043ba2a6939272",
-      "words": 293
+      "sha256": "2f3b43d79d017ea5193c8e50c280572b319ab2f70139beec243fce31b67bd3bf",
+      "words": 427
     },
     {
       "path": "samples/SAMPLE_01_WHY_PYTORCH_AND_HOW_LEARNING_WORKS.md",
@@ -472,13 +522,13 @@
     },
     {
       "path": "START_HERE.md",
-      "sha256": "34b57eac21d8895c75943a0bed28235c05a487fc319086f7bff7223ddfc36ec4",
-      "words": 247
+      "sha256": "aae9cea1602307cd097a6581354e6cb62276278b26844b4f53c800a43e449f2e",
+      "words": 381
     },
     {
       "path": "THE_SLM_JOURNEY.md",
-      "sha256": "0cd0219f0921791a313892230e3bcef5bd9ac2219393332240c2997f6eccdc10",
-      "words": 1216
+      "sha256": "c25b192c6590bbbb3945984224a6379d43c1c39c2d846e940c8895b551b71a0f",
+      "words": 1248
     }
   ],
   "teaching_preview": {
@@ -488,5 +538,33 @@
   "current_revision_archive": "history/b7ebfb7-before-approved-concept-flow",
   "phase03_base_revision": "cc5c465",
   "phase04_base_revision": "106ab6b",
-  "phases05_06_base_revision": "751ff38"
+  "phases05_06_base_revision": "751ff38",
+  "phase05_06_status": "written, implemented and executed; learner understanding pending",
+  "phase05_06_root_originals_archive": "history/751ff38-before-phases05-06",
+  "phase05_06_chart_assets": [
+    {
+      "path": "phase05/assets/tiny-batch-loss.png",
+      "sha256": "577900bb31331a44bb3a618c92ed828692ec97e365783f4d9f82f561f1bd00b3"
+    },
+    {
+      "path": "phase05/assets/tiny-batch-loss.svg",
+      "sha256": "1794d2ab7686fa5e03bd0e1e4e2202e474b1355025401be00f1554cb3de5cc3b"
+    },
+    {
+      "path": "phase06/assets/pilot-training-loss.png",
+      "sha256": "d36b1a26df000102c569fbf2cbc1703ca972ad3ccbd517b7119308df0adf8642"
+    },
+    {
+      "path": "phase06/assets/pilot-training-loss.svg",
+      "sha256": "ad5167e2318f98a5c08fb06a2ec740181776d418f73d6f0ea1bf11826008ed79"
+    },
+    {
+      "path": "phase06/assets/development-loss.png",
+      "sha256": "5ff81d4d2b59258768ae5556dfc5a50397b5118e64080a96ca9ee63a29d74540"
+    },
+    {
+      "path": "phase06/assets/development-loss.svg",
+      "sha256": "7b25bcde89cb386f8ed074f68a2a12700b1c46b47294e3cb4be4773d8b538aa7"
+    }
+  ]
 }

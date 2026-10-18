@@ -47,3 +47,25 @@ The current change cannot contain its own hash; use git log to locate it. Add it
 | 4.4 | 430d0b6 | Learned window positions |
 | 4.5 setup | 3489023 | Integrated model and declared pilot |
 | 4.5 outcome | 0a436a4 | Actual learning, information flow and restored inference |
+
+## Phase 5 implementation commits
+
+| Stage | Commit | Change |
+|---|---|---|
+| 5.1 | 5283713 | Multiple causal retrieval paths |
+| 5.2 | 651cf3d | Nonlinear position-wise processing |
+| 5.3 | 4fea6b9 | Residual paths and pre-normalization |
+| 5.4 | 64e1c33 | Explicit regularization and modes |
+| 5.5 | edfb7f6 | Complete stack and parameter ledger |
+| 5.6 | 5dff654 | Actual tiny fit, causal observations and inference |
+
+## Phase 6 implementation commits
+
+| Stage | Commit | Change |
+|---|---|---|
+| 6.1 | 556bfb8 | Training/evaluation contract |
+| 6.2 | 120000f | AdamW groups, clipping and schedule |
+| 6.3 | 076737e | Global true-target accumulation |
+| 6.4 | 5fc1247 | Actual CUDA precision and scaling |
+| 6.5 | e2c5e72 | Full-state fresh-process resume |
+| 6.6 | ee6abb8 | Resource candidate and end-to-end public pilot |
