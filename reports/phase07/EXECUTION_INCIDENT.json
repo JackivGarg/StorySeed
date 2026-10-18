@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-18",
+  "condition": "context64",
+  "completed_update_at_guard": 669,
+  "raw_outlier_seconds": 17768.505931299995,
+  "median_step_seconds_before_resume": 0.1819038000103319,
+  "recorded_elapsed_before_resume_seconds": 17901.343999999997,
+  "resume_session": 92051,
+  "scientific_protocol_changed": false,
+  "battery_observation_after_resume": {
+    "BatteryStatus": 1,
+    "EstimatedChargeRemaining": 51
+  },
+  "gpu_observation_after_resume": "P8, SM 345 MHz, memory 405 MHz, 5.93 W, utilization 22 percent",
+  "interpretation": "battery/low clocks are observed after resume and may affect subsequent speed; they do not establish the cause of the isolated long stall",
+  "timing_treatment": "preserve raw outlier and state incident; separate matched resource measurement before final evaluation"
+}

@@ -1,5 +1,5 @@
 """Separate short synchronized timing observation, retaining all samples and stalls."""
-import gc,json,time
+import gc,json,time,subprocess
 import numpy as np
 import torch
 from storyseed.corpus import ROOT,sha256
@@ -10,6 +10,9 @@ from storyseed.training_runner import TrainingRunner
 
 def main():
     spec=protocol();config=TrainingConfig.load(ROOT/spec['common_training_config'])
+    try:
+        observed=subprocess.run(['nvidia-smi','--query-gpu=name,pstate,clocks.current.sm,clocks.current.memory,power.draw,temperature.gpu','--format=csv,noheader'],capture_output=True,text=True,timeout=10,check=True).stdout.strip()
+    except (OSError,subprocess.SubprocessError):observed='device clock/power observation unavailable'
     results=[]
     for condition in spec['conditions']:
         context=condition['input_context'];data=ExperimentBatches('train',context,config.score_tokens)
@@ -31,7 +34,7 @@ def main():
             del runner;gc.collect();torch.cuda.empty_cache()
     output={'scope':'separate resource-only scratch copies; no change to frozen scientific training artifacts or final scores',
         'reason':'one original context64 update contained a 17,768-second stall; raw long-run timing remains preserved',
-        'protocol_sha256':sha256((ROOT/'planning/PHASE07_08_PROTOCOL.json').read_bytes()),'trials':results,
+        'protocol_sha256':sha256((ROOT/'planning/PHASE07_08_PROTOCOL.json').read_bytes()),'trials':results,'device_observation_before_trials':observed,
         'measurement':'synchronized wall duration per full update including CPU batching; not pure kernel time',
         'comparison_valid':not any(item['contaminated_by_predeclared_over_5_second_update'] for item in results),
         'limits':'short matched observations, one machine; no long-run thermal guarantee'}
