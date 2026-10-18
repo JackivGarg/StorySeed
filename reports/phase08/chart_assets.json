@@ -1,0 +1,26 @@
+[
+  {
+    "path": "phase07/assets/main128-learning.png",
+    "sha256": "76c3e1018d9690a32c6375989eb3afb6fa15183500cc1d2c83dc71495b422a79"
+  },
+  {
+    "path": "phase07/assets/main128-learning.svg",
+    "sha256": "9b0fe886536f61edb14866322c847d0ad61999e9dba197e76c0f6bcb33c6148f"
+  },
+  {
+    "path": "phase07/assets/context64-learning.png",
+    "sha256": "115d3ea58b5ede527f10dc2a80943ea05b8d4ce685d63f65a52346da5d84ae38"
+  },
+  {
+    "path": "phase07/assets/context64-learning.svg",
+    "sha256": "777210e2082edbaff89aca69e795cb344aab9082393d08b99b2008a4a5c53e11"
+  },
+  {
+    "path": "phase08/assets/final-loss.png",
+    "sha256": "1eb37fee06ea7f089e61d71c8f4af00f91c35177171af742c4be1bc2d03cae6b"
+  },
+  {
+    "path": "phase08/assets/final-loss.svg",
+    "sha256": "3487707d8ac7ad42aad38f648e02f2531577645f2c2cba7dc5b722b567747df0"
+  }
+]

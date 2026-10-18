@@ -239,3 +239,7 @@ Actual artifacts: reports/phase08/samples.json, reports/phase08/PAIRED_SAMPLE_RE
 ## Phase 8.4 observed outcome — 2026-10-18
 
 Actual artifacts: reports/phase08/CONTEXT_STUDY.md, reports/phase08/matched_resources.json. Explanations connect measured changes to the project decisions rather than list scores. Learner understanding remains pending.
+
+## Phase 8.5 observed outcome — 2026-10-18
+
+Actual artifacts: reports/phase08/PAPER_DRAFT.md, reports/phase08/SUMMARY.md, reports/phase08/chart_assets.json. Explanations connect measured changes to the project decisions rather than list scores. Learner understanding remains pending.
