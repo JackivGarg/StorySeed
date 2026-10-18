@@ -1,0 +1,15 @@
+{
+  "subphase": "8.5",
+  "date": "2026-10-18",
+  "chapter": "phase08/05-write-the-paper-from-the-evidence.md",
+  "sources": [
+    "scripts/summarize_phase07_08.py",
+    "scripts/run_phase07_08.py"
+  ],
+  "notes_written": true,
+  "source_implemented": true,
+  "experiment_execution": "pending durable job, not a completed result",
+  "human_review": "pending",
+  "learner_understanding": "pending",
+  "final_population": "reserved until frozen final artifacts exist"
+}

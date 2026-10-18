@@ -220,3 +220,7 @@ Read external phase08/03-read-paired-stories-without-selecting-the-nicest-exampl
 ## Phase 8.4 preparation — 2026-10-18
 
 Read external phase08/04-compare-contexts-and-understand-uncertainty.md, then 04-thinking-and-inspection.md. Sources: src/storyseed/context_comparison.py, src/storyseed/research_evaluation.py. Setup record: reports/phase08/04_setup.json. Notes/source prepared; actual long execution pending, not claimed complete.
+
+## Phase 8.5 preparation — 2026-10-18
+
+Read external phase08/05-write-the-paper-from-the-evidence.md, then 05-thinking-and-inspection.md. Sources: scripts/summarize_phase07_08.py, scripts/run_phase07_08.py. Setup record: reports/phase08/05_setup.json. Notes/source prepared; actual long execution pending, not claimed complete.

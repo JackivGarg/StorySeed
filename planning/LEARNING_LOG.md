@@ -203,3 +203,7 @@ The missing capability motivates its prerequisite and returns to the build in ex
 ## Phase 8.4 preparation — 2026-10-18
 
 The missing capability motivates its prerequisite and returns to the build in external phase08/04-compare-contexts-and-understand-uncertainty.md. Actual results await execution. Learner understanding pending.
+
+## Phase 8.5 preparation — 2026-10-18
+
+The missing capability motivates its prerequisite and returns to the build in external phase08/05-write-the-paper-from-the-evidence.md. Actual results await execution. Learner understanding pending.
