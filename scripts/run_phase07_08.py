@@ -3,7 +3,8 @@ import json
 import subprocess
 import sys
 from pathlib import Path
-from storyseed.corpus import ROOT,write_json,sha256
+from storyseed.corpus import ROOT,sha256
+from storyseed.experiment_data import write_json
 from storyseed.experiment_data import prepare_corpus,protocol,PROTOCOL
 from storyseed.experiment_training import train_condition
 from storyseed.research_evaluation import evaluate_study

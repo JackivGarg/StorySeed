@@ -4,7 +4,8 @@ import subprocess
 import sys
 from pathlib import Path
 import torch
-from storyseed.corpus import ROOT,write_json
+from storyseed.corpus import ROOT
+from storyseed.experiment_data import write_json
 from storyseed.decoder_io import load_inference
 from storyseed.context_generation import sample_context
 

@@ -6,7 +6,8 @@ import re
 from pathlib import Path
 import numpy as np
 import torch
-from storyseed.corpus import ROOT,write_json,sha256
+from storyseed.corpus import ROOT,sha256
+from storyseed.experiment_data import write_json
 from storyseed.experiment_data import protocol,PROTOCOL,MANIFEST,ExperimentBatches,encode_rows
 from storyseed.experiment_training import generate
 from storyseed.story_tokenizer import StoryTokenizer

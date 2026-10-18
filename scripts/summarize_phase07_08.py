@@ -4,7 +4,8 @@ from pathlib import Path
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from storyseed.corpus import ROOT,sha256,write_json
+from storyseed.corpus import ROOT,sha256
+from storyseed.experiment_data import write_json
 
 NOTES=Path('C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes')
 

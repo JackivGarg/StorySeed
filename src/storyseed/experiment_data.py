@@ -4,7 +4,7 @@ import urllib.request
 from pathlib import Path
 import numpy as np
 import torch
-from storyseed.corpus import ROOT,REVISION,DATASET,SOURCE_FILE,DELIMITER,sha256,write_json,write_jsonl
+from storyseed.corpus import ROOT,REVISION,DATASET,SOURCE_FILE,DELIMITER,sha256,write_jsonl
 from storyseed.story_splits import duplicate_key,split_name,load_split
 from storyseed.story_tokenizer import StoryTokenizer,TOKENIZER_PATH
 from storyseed.training_data import TrainingBatches
@@ -12,6 +12,11 @@ from storyseed.training_data import TrainingBatches
 MANIFEST=ROOT/'data/manifests/phase07/corpus.json'
 PROCESSED=ROOT/'data/processed/phase07'
 PROTOCOL=ROOT/'planning/PHASE07_08_PROTOCOL.json'
+
+
+def write_json(path,value):
+    path.parent.mkdir(parents=True,exist_ok=True)
+    path.write_text(json.dumps(value,indent=2,ensure_ascii=False)+'\n',encoding='utf-8',newline='\n')
 
 
 def protocol():return json.loads(PROTOCOL.read_text(encoding='utf-8'))

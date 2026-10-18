@@ -1,8 +1,8 @@
 {
   "format": "storyseed.pre-execution-freeze.v1",
   "date": "2026-10-18",
-  "protocol_sha256": "794b2ce781d59f39f601f79b56f26f4758f8449752d99b54d326bf8762aaea20",
-  "training_config_sha256": "740dc7fbad8eefeaf1073224fe6ee2a1ef81dc9b641df5449e8ebdc9164c203e",
+  "protocol_sha256": "642c1fa0c08bb23262a16a2a909ae9ccc19ef8926c90907895afd349fbe82bc9",
+  "training_config_sha256": "0eb2c4ea6325d4fdaf39a9b87b0a36deeb0cc7fdf9f6ad4f9828fe20942799fb",
   "state": "fixed before source expansion/training/final evaluation",
   "final_release": "only after both complete last-update exports and matched controls are verified",
   "line_endings": "protocol/config and new identity-bearing JSON files use LF through .gitattributes"

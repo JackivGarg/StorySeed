@@ -1,7 +1,8 @@
 """Prepare paired continuations and explicitly pending human rating forms."""
 import csv
 import numpy as np
-from storyseed.corpus import ROOT,write_json
+from storyseed.corpus import ROOT
+from storyseed.experiment_data import write_json
 
 def write_review_packet(samples,spec):
     packet=ROOT/'reports/phase08/PAIRED_SAMPLE_REVIEW.md'

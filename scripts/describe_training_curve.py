@@ -1,7 +1,8 @@
 """Describe existing curve observations; never fit or evaluate a model."""
 import argparse,json,math
 from pathlib import Path
-from storyseed.corpus import ROOT,write_json
+from storyseed.corpus import ROOT
+from storyseed.experiment_data import write_json
 
 
 def main():

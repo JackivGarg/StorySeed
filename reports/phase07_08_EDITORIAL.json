@@ -1,0 +1,13 @@
+{
+  "scope": "static editorial inspection, no model tests/training",
+  "local_links_inspected": 54,
+  "unexpected_broken_links": [],
+  "explicitly_pending_execution_output_links": [
+    {
+      "file": "phase07/03-connect-curves-to-what-the-model-learned.md",
+      "target": "C:/Users/JACKIV/OneDrive/Desktop/StorySeed/reports/phase07/main128.json"
+    }
+  ],
+  "identity_fix": "explicit LF JSON serialization agrees with new .gitattributes across checkouts",
+  "results": "still pending"
+}

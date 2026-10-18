@@ -5,7 +5,8 @@ import math
 import time
 from pathlib import Path
 import torch
-from storyseed.corpus import ROOT,write_json,sha256
+from storyseed.corpus import ROOT,sha256
+from storyseed.experiment_data import write_json
 from storyseed.training_config import TrainingConfig
 from storyseed.training_runner import TrainingRunner
 from storyseed.training_checkpoint import save_training,load_training,runtime_identity
