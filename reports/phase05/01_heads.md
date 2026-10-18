@@ -1,0 +1,38 @@
+# Observed Phase 5: 01_heads
+
+Actual execution; student understanding remains unmeasured.
+
+```json
+{
+  "command": ".venv/Scripts/python scripts/phase05/01_inspect_heads.py",
+  "input_shape": [
+    2,
+    4,
+    8
+  ],
+  "split_query_shape": [
+    2,
+    2,
+    4,
+    4
+  ],
+  "weight_shape": [
+    2,
+    2,
+    4,
+    4
+  ],
+  "output_shape": [
+    2,
+    4,
+    8
+  ],
+  "parameters": 256,
+  "head_loop_reference_max_difference": 0.0,
+  "head_weight_difference_norm": 0.7138364315032959,
+  "future_weight_mass": 0.0,
+  "query_gradient_norm": 0.033402591943740845,
+  "scope": "seeded random mechanism illustration, not learned semantic head specialization",
+  "final_holdout_accessed": false
+}
+```

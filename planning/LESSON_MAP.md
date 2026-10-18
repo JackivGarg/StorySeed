@@ -114,3 +114,7 @@ Chapter: phase04/05-build-and-train-the-attention-predictor.md; companion: phase
 | 4.4 | 430d0b6 | Learned window positions |
 | 4.5 setup | 3489023 | Integrated model and declared pilot |
 | 4.5 outcome | 0a436a4 | Actual learning, information flow and restored inference |
+
+## Phase 5.1
+
+Read phase05/01-preserve-several-retrieval-paths.md, then 01-thinking-and-inspection.md in that folder. Code: src/storyseed/decoder_components.py, src/storyseed/build_evidence.py, scripts/phase05/01_inspect_heads.py. Actual evidence: reports/phase05/01_heads.json. Written, implemented and executed; student understanding pending.

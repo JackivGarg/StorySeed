@@ -71,3 +71,5 @@ Phase 4.4: written, implemented and executed on 2026-10-17. Read external phase0
 Phase 4.5: written, implemented and executed on 2026-10-17. Read external phase04/05-build-and-train-the-attention-predictor.md; actual evidence: reports/phase04/05_training.json. Student understanding pending.
 
 Phase 4 implementation/protocol/outcome commits through 0a436a4 were successfully pushed to origin/main on 2026-10-17. The final guide and documentation closure follow in their own commit; Git tracking state records that publication.
+
+Phase 5.1: written, implemented and executed on 2026-10-18; external phase05/01-preserve-several-retrieval-paths.md; evidence reports/phase05/01_heads.json. Understanding pending.

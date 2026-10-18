@@ -1,6 +1,6 @@
 {
   "format": "storyseed.external-lessons.v1",
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "notes_root": "C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes",
   "implementation_revision": "059c13b",
   "originals_archive": "history/059c13b-before-practical-rewrite",
@@ -336,6 +336,16 @@
       "words": 412
     },
     {
+      "path": "phase05/01-preserve-several-retrieval-paths.md",
+      "sha256": "b34e937c226412631a4fb60013ae360b09dcecb04589eb6396e554972ba8e10d",
+      "words": 962
+    },
+    {
+      "path": "phase05/01-thinking-and-inspection.md",
+      "sha256": "78575fc60af9590d8974685a9466347b1d096751fcea6ca4ac9a0d6d9446210b",
+      "words": 227
+    },
+    {
       "path": "READING_ORDER.md",
       "sha256": "af90bdc82e4957383c5d15417fd64f0344690f9e842ae2067d0d74ccb2043b3a",
       "words": 343
@@ -367,5 +377,6 @@
   },
   "current_revision_archive": "history/b7ebfb7-before-approved-concept-flow",
   "phase03_base_revision": "cc5c465",
-  "phase04_base_revision": "106ab6b"
+  "phase04_base_revision": "106ab6b",
+  "phases05_06_base_revision": "751ff38"
 }
