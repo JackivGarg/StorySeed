@@ -366,6 +366,16 @@
       "words": 225
     },
     {
+      "path": "phase05/04-thinking-and-inspection.md",
+      "sha256": "84868a2b4689f10e75e992842077723437543fef113688058abcc6c7f021b933",
+      "words": 180
+    },
+    {
+      "path": "phase05/04-understand-training-and-evaluation-modes.md",
+      "sha256": "0991a082f676eb97053b537243a43688ea67cacdeea3a1a7bb4f1b2fe4cfcd12",
+      "words": 681
+    },
+    {
       "path": "READING_ORDER.md",
       "sha256": "af90bdc82e4957383c5d15417fd64f0344690f9e842ae2067d0d74ccb2043b3a",
       "words": 343

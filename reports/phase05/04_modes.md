@@ -1,0 +1,18 @@
+# Observed Phase 5: 04_modes
+
+Actual execution; student understanding remains unmeasured.
+
+```json
+{
+  "command": ".venv/Scripts/python scripts/phase05/04_inspect_modes.py",
+  "drop_probability": 0.25,
+  "train_outputs_differ_under_no_grad": true,
+  "eval_outputs_identical": true,
+  "inverted_dropout_observed_mean": 1.0034666061401367,
+  "nonzero_multiplier": 1.3333333333333333,
+  "returned_attention_weights": "normalized pre-dropout weights; used weights receive dropout during training",
+  "layernorm_has_running_statistics": false,
+  "scope": "mode/randomness mechanism, not evidence of reduced overfitting",
+  "final_holdout_accessed": false
+}
+```

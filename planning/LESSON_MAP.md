@@ -126,3 +126,7 @@ Read phase05/02-process-the-retrieved-features.md, then 02-thinking-and-inspecti
 ## Phase 5.3
 
 Read phase05/03-keep-a-trainable-path-through-the-block.md, then 03-thinking-and-inspection.md in that folder. Code: src/storyseed/decoder_components.py, scripts/phase05/03_inspect_residuals.py. Actual evidence: reports/phase05/03_residuals.json. Written, implemented and executed; student understanding pending.
+
+## Phase 5.4
+
+Read phase05/04-understand-training-and-evaluation-modes.md, then 04-thinking-and-inspection.md in that folder. Code: src/storyseed/decoder_components.py, scripts/phase05/04_inspect_modes.py. Actual evidence: reports/phase05/04_modes.json. Written, implemented and executed; student understanding pending.
