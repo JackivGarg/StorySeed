@@ -1,0 +1,14 @@
+{
+  "subphase": "7.4",
+  "date": "2026-10-18",
+  "chapter": "phase07/04-make-the-learned-model-usable-in-another-process.md",
+  "sources": [
+    "scripts/verify_main_export.py"
+  ],
+  "notes_written": true,
+  "source_implemented": true,
+  "experiment_execution": "pending durable job, not a completed result",
+  "human_review": "not this subphase",
+  "learner_understanding": "pending",
+  "final_population": "reserved until frozen final artifacts exist"
+}

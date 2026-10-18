@@ -200,3 +200,7 @@ Read external phase07/02-follow-the-run-through-successful-updates.md, then 02-t
 ## Phase 7.3 preparation — 2026-10-18
 
 Read external phase07/03-connect-curves-to-what-the-model-learned.md, then 03-thinking-and-inspection.md. Sources: scripts/describe_training_curve.py. Setup record: reports/phase07/03_setup.json. Notes/source prepared; actual long execution pending, not claimed complete.
+
+## Phase 7.4 preparation — 2026-10-18
+
+Read external phase07/04-make-the-learned-model-usable-in-another-process.md, then 04-thinking-and-inspection.md. Sources: scripts/verify_main_export.py. Setup record: reports/phase07/04_setup.json. Notes/source prepared; actual long execution pending, not claimed complete.
