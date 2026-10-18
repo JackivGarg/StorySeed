@@ -17,6 +17,15 @@ def main():
     config=ROOT/protocol()['common_training_config']
     if frozen['training_config_sha256']!=sha256(config.read_bytes()):raise ValueError('Frozen training config changed.')
     state_path=ROOT/'reports/phase07_08_STATUS.json'
+    if state_path.exists() and json.loads(state_path.read_text(encoding='utf-8')).get('results_complete'):
+        # Reuse verified completed artifacts; preserve reviewed notes, samples and timing observations.
+        for condition in protocol()['conditions']:
+            if not (ROOT/f"reports/phase07/{condition['id']}.json").exists():
+                raise ValueError('Completed status is missing a condition result; inspect before retrying.')
+            train_condition(condition)  # Completed branch verifies data/identity/artifact hashes and performs no update.
+        if not (ROOT/'reports/phase08/metrics.json').exists():raise ValueError('Completed status is missing final metrics.')
+        print(json.dumps({'completed':True,'reused_existing_artifacts':True,'training_updates_performed':0,'reviewed_outputs_preserved':True}),flush=True)
+        return
     write_json(state_path,{'state':'preparing expanded corpus','results_complete':False,'learner_understanding':'pending'})
     corpus=prepare_corpus()
     write_json(ROOT/'reports/phase07/01_corpus.json',corpus)

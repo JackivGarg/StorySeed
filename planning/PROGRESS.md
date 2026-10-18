@@ -1,5 +1,9 @@
 # StorySeed progress
 
+## Current outcome — Phases 7–8, 2026-10-18
+
+Both 2,000-update conditions completed. The main scratch-trained model is exported and reproduces in a fresh public process. Fixed-artifact final evaluation, matched context analysis, all paired continuations, charts and university draft are recorded. Read the phase summaries and separate external phase07/phase08 guides for actual loss explanations. Human ratings and learner understanding remain pending; Phase 9 is next. Earlier pending entries below are historical.
+
 ## Current work — Phases 7–8, 2026-10-18
 
 Nine core subphases have prepared source and separate concept-first chapters/companions. The frozen experiment is ready for durable execution, not yet a completed main training/evaluation result. Main128 and context64 each have a declared 2,000-successful-update budget. The original final population is reserved until both complete artifacts are fixed, then deliberately evaluated under the declared protocol. Human ratings and learner understanding remain pending.

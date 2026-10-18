@@ -2,7 +2,7 @@
   "format": "storyseed.external-lessons.v1",
   "date": "2026-10-18",
   "notes_root": "C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes",
-  "implementation_revision": "033f272",
+  "implementation_revision": "f849497",
   "originals_archive": "history/059c13b-before-practical-rewrite",
   "files": [
     {
@@ -532,8 +532,8 @@
     },
     {
       "path": "phase07/02-recover-a-real-interruption.md",
-      "sha256": "d3e169fdfd3ce0354a8ea94f153462d4aec130857d48c6418a20cbcde88d6b3a",
-      "words": 1057
+      "sha256": "fb2509c0d724ce5bae88a75a9408983f5a7173fa5165cffa56184c146b88779c",
+      "words": 1082
     },
     {
       "path": "phase07/02-thinking-and-inspection.md",
@@ -582,8 +582,8 @@
     },
     {
       "path": "phase07/IMPLEMENTATION_AND_EVIDENCE.md",
-      "sha256": "642eb690f196acb2592ab5a356032a7543b4b7fae9255ce7843612fe3666499e",
-      "words": 109
+      "sha256": "4fe9ece09d19d5ba0506dfc06a9ec1ab4a8cb7b8ae5dd3767a2decdefc18e240",
+      "words": 178
     },
     {
       "path": "phase07/LOSS_AND_LEARNING.md",
@@ -682,8 +682,8 @@
     },
     {
       "path": "phase08/IMPLEMENTATION_AND_EVIDENCE.md",
-      "sha256": "31acd511d2166d4e3d96e7a9d924bd4f469e844338d85ef316987daa730488ba",
-      "words": 118
+      "sha256": "b6d2c3c6ed01d1a8fc7380523be15880f2874512c2015c48a69b5cea1dd49c9c",
+      "words": 174
     },
     {
       "path": "phase08/LOSS_AND_LEARNING.md",

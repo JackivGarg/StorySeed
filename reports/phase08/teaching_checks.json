@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-18",
+  "scope": "documentation/identity inspection, not an automated model test suite",
+  "phases": {
+    "phase07": {
+      "markdown_files": 19,
+      "words": 10599,
+      "local_links_inspected": 38,
+      "python_snippet_syntax_inspected": 0,
+      "source_and_execution": "complete",
+      "human_review": "pending",
+      "learner_understanding": "pending"
+    },
+    "phase08": {
+      "markdown_files": 20,
+      "words": 9907,
+      "local_links_inspected": 31,
+      "python_snippet_syntax_inspected": 1,
+      "source_and_execution": "complete",
+      "human_review": "pending",
+      "learner_understanding": "pending"
+    }
+  },
+  "earlier_phase_files_preserved": 99,
+  "earlier_hash_changes": [],
+  "broken_local_links": [],
+  "snippet_syntax_errors": [],
+  "chart_hash_failures": [],
+  "chart_pngs_visually_inspected_in_chat": true,
+  "review_form_rows": 24,
+  "human_rating_rows_supplied": 0,
+  "human_review": "pending",
+  "final_population": "used under fixed-artifact protocol, no longer untouched",
+  "scientific_training_config_and_original_protocol_unchanged": true,
+  "execution_only_amendment_recorded": true,
+  "runtime_incident": "preserved; checkpoint resume; separate matched resource observation",
+  "learner_understanding": "pending"
+}

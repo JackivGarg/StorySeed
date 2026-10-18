@@ -2,7 +2,7 @@
 
 A small language model built and trained from random initialization for short English story continuation.
 
-This fresh repository began on 2026-10-14. Its Phase 1 code and lessons were developed here without importing earlier project history or source files. Phase 1 trained and saved a small character bigram; Phases 2–6 now add the story pipeline, contextual baselines, explicit complete causal decoder and repeatable training system. Main model training remains Phase 7.
+This fresh repository began on 2026-10-14. Its Phase 1 code and lessons were developed here without importing earlier project history or source files. Phase 1 trained and saved a small character bigram; Phases 2–6 now add the story pipeline, contextual baselines, explicit complete causal decoder and repeatable training system. Main model training and fixed evaluation now run in completed Phases 7–8; Phase 9 remains next.
 
 Learning proceeds alongside implementation through detailed, connected chapters. The intended outcome is understanding tokenization, the causal transformer, training, evaluation, and generation.
 
@@ -80,3 +80,7 @@ The full training CLI is `scripts/train_decoder.py`; use `--help` and the record
 ## Phases 7–8: main training and research workflow
 
 The separate Desktop phase07/phase08 notes teach the frozen expanded-corpus scratch run and context-policy study. Source and protocol are prepared; actual runtime status is in reports/phase07_08_STATUS.json. Main training and final metrics are not claimed before completion. The finite workload is scripts/run_phase07_08.py; do not launch a duplicate while its tracked job is active. Human review remains pending.
+
+## Main scratch-trained result and evaluation
+
+Phases 7–8 executed successfully. See reports/phase07/SUMMARY.md and reports/phase08/SUMMARY.md for actual measured results, resources, limits and artifact identities. The main local model is checkpoints/phase07/main128-inference.pt. The paired context study, generated samples and PAPER_DRAFT.md are in reports/phase08. Human ratings and learner understanding remain pending; Phase 9 is next.

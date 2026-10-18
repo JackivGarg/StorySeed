@@ -96,3 +96,16 @@ These natural increments implement the upcoming workflow. Setup is distinct from
 | 8.5 | [95ef17a](https://github.com/JackivGarg/StorySeed/commit/95ef17a) | [05-write-the-paper-from-the-evidence.md](05-write-the-paper-from-the-evidence.md) | reports/phase08/05_setup.json |
 
 Source/configuration and small reports are in the repository. Detailed chapters remain in this separate Desktop folder. The upcoming run writes observed records; a setup commit is not proof of a trained model or final score.
+
+## Phases 7–8 actual outcome commits
+
+- 7.2: a3bb732 — reports/phase07/main128.json, reports/phase07/context64.json, reports/phase07/SUMMARY.md
+- 7.3: 587e7a4 — reports/phase07/main128-curve.json, reports/phase07/context64-curve.json, reports/phase07/main128-loss-interpretation.json, reports/phase07/context64-loss-interpretation.json
+- 7.4: ebfa7b8 — reports/phase07/04_fresh_inference.json
+- 8.1: 00312ff — data/manifests/phase08/final.json
+- 8.2: dfd9885 — reports/phase08/metrics.json
+- 8.3: 6b4a573 — reports/phase08/samples.json, reports/phase08/PAIRED_SAMPLE_REVIEW.md, reports/phase08/review_key.json, reports/phase08/review_ratings.csv, reports/phase08/ASSISTANT_SAMPLE_REVIEW.md, src/storyseed/sample_review.py
+- 8.4: 033f272 — reports/phase08/CONTEXT_STUDY.md, reports/phase08/matched_resources.json
+- 8.5: f849497 — reports/phase08/PAPER_DRAFT.md, reports/phase08/SUMMARY.md, reports/phase08/chart_assets.json
+
+Phase 7 intermediate evidence: capture `34ef116`; early learning `9159ffa`; recovery `08ba38e`; incident/device observations `cba39a9`. These precede the recorded final outcome commits.

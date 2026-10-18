@@ -1,6 +1,15 @@
 {
-  "state": "source/notes/protocol committed; durable workload not yet launched",
-  "results_complete": false,
-  "human_review": "pending",
-  "learner_understanding": "pending"
+  "state": "training, frozen evaluation, plots and draft artifacts completed",
+  "results_complete": true,
+  "human_review": "pending, blank ratings supplied",
+  "assistant_interpretation_and_result_commits": "complete; identified qualitative review and actual loss teaching recorded",
+  "learner_understanding": "pending",
+  "main_export": {
+    "path": "C:\\Users\\JACKIV\\OneDrive\\Desktop\\StorySeed\\checkpoints\\phase07\\main128-inference.pt",
+    "sha256": "f0f7241af4770372738c3c9b057e205cc60e66cc7fa1d21397a6281f383c0eed",
+    "format": "storyseed.decoder.inference.v1",
+    "purpose": "expanded-corpus scratch run; 128 supplied input slots; fixed last update",
+    "optimizer_resume": false
+  },
+  "final_population_scored": true
 }
