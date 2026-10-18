@@ -234,3 +234,5 @@ Phase 7.3 actual outcome: reports/phase07/main128-curve.json, reports/phase07/co
 Phase 7.4 actual outcome: reports/phase07/04_fresh_inference.json. Read separate phase07/ACTUAL_LOSS_AND_DECISIONS.md and OBSERVED_RESULTS.md after its concept chapter. Human review/learner understanding remain pending.
 
 Phase 8.1 actual outcome: data/manifests/phase08/final.json. Read separate phase08/ACTUAL_LOSS_AND_DECISIONS.md and OBSERVED_RESULTS.md after its concept chapter. Human review/learner understanding remain pending.
+
+Phase 8.2 actual outcome: reports/phase08/metrics.json. Read separate phase08/ACTUAL_LOSS_AND_DECISIONS.md and OBSERVED_RESULTS.md after its concept chapter. Human review/learner understanding remain pending.
