@@ -93,3 +93,5 @@ Phase 6.3: written, implemented and executed on 2026-10-18; external phase06/03-
 Phase 6.4: written, implemented and executed on 2026-10-18; external phase06/04-use-precision-that-the-machine-can-support.md; evidence reports/phase06/04_precision.json. Understanding pending.
 
 Phase 6.5: written, implemented and executed on 2026-10-18; external phase06/05-resume-the-same-training-process.md; evidence reports/phase06/05_resume.json. Understanding pending.
+
+Phase 6.6: written, implemented and executed on 2026-10-18; external phase06/06-measure-a-feasible-training-budget.md; evidence reports/phase06/06_resources.json. Understanding pending.

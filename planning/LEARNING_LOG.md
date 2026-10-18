@@ -163,3 +163,7 @@ The missing capability motivates its prerequisite before returning to the actual
 ## Phase 6.5 — 2026-10-18
 
 The missing capability motivates its prerequisite before returning to the actual build. Read external phase06/05-resume-the-same-training-process.md and companion. Actual observations are in reports/phase06/05_resume.json. No learner-mastery or final-holdout claim.
+
+## Phase 6.6 — 2026-10-18
+
+The missing capability motivates its prerequisite before returning to the actual build. Read external phase06/06-measure-a-feasible-training-budget.md and companion. Actual observations are in reports/phase06/06_resources.json. No learner-mastery or final-holdout claim.

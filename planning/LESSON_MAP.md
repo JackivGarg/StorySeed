@@ -158,3 +158,7 @@ Read phase06/04-use-precision-that-the-machine-can-support.md, then 04-thinking-
 ## Phase 6.5
 
 Read phase06/05-resume-the-same-training-process.md, then 05-thinking-and-inspection.md in that folder. Code: src/storyseed/training_runner.py, src/storyseed/training_checkpoint.py, scripts/train_decoder.py, scripts/phase06/05_inspect_resume.py, data/manifests/phase06/resume-checkpoint.json. Actual evidence: reports/phase06/05_resume.json. Written, implemented and executed; student understanding pending.
+
+## Phase 6.6
+
+Read phase06/06-measure-a-feasible-training-budget.md, then 06-thinking-and-inspection.md in that folder. Code: configs/phase06_candidate.json, scripts/phase06/06_measure_resources.py, scripts/phase06/07_record_pipeline.py, reports/phase06/06_resources_initial.json, reports/phase06/06_resources_initial.md, reports/phase06/07_pipeline.json, reports/phase06/07_pipeline.md, data/manifests/phase06/pilot-artifacts.json. Actual evidence: reports/phase06/06_resources.json. Written, implemented and executed; student understanding pending.

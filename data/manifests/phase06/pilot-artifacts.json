@@ -1,0 +1,15 @@
+{
+  "training": {
+    "path": "checkpoints\\phase06\\pilot-training.pt",
+    "sha256": "a0de9a13efe591bf720b71566aa0a57647a782e5298459f094a7273b0b4658ae",
+    "format": "storyseed.decoder.training.v1",
+    "completed_updates": 10
+  },
+  "inference": {
+    "path": "checkpoints\\phase06\\pilot-inference.pt",
+    "sha256": "2588ae21e342a8a10fbf6915e65c7eaaa81163ff7f9e4460ac06361304f7dfb9",
+    "format": "storyseed.decoder.inference.v1",
+    "purpose": "configured decoder training export",
+    "optimizer_resume": false
+  }
+}
