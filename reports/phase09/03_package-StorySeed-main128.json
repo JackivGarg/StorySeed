@@ -1,0 +1,14 @@
+{
+  "folder": "C:\\Users\\JACKIV\\OneDrive\\Desktop\\StorySeed\\exports\\StorySeed-main128",
+  "archive": "C:\\Users\\JACKIV\\OneDrive\\Desktop\\StorySeed\\exports\\StorySeed-main128.zip",
+  "archive_bytes": 24570663,
+  "archive_sha256": "3e45b0f40d7a985cbcf59e84604a57d1dafb121fa3258ca7b7789ec17e761f1c",
+  "manifest_sha256": "fc47464437ee387359d82163f91cfab23bb1fdf2ba73615edfa62625f94ab6b3",
+  "files": 25,
+  "model_sha256": "f0f7241af4770372738c3c9b057e205cc60e66cc7fa1d21397a6281f383c0eed",
+  "tokenizer_sha256": "3540aba1c244ed063b9fb317f0d62280a63d00725cac980e16c3b583cdf549cb",
+  "source_base_revision": "467c84086cb296b1e38453cae47689f7b461819a",
+  "source_working_tree_dirty": true,
+  "raw_corpus_included": false,
+  "python_or_dependencies_included": false
+}

@@ -1,0 +1,5 @@
+# Direct runtime pins; not a complete hashed transitive lock or offline wheelhouse.
+# CPU inference needs no CUDA toolkit. A compatible installed torch 2.6.0+cu124 also works locally.
+torch==2.6.0
+tokenizers==0.22.1
+numpy==1.26.4
