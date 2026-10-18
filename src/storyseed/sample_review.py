@@ -16,7 +16,8 @@ def write_review_packet(samples,spec):
             for label,item in zip(['A','B'],pair):
                 content+=f"### Continuation {label}\n\n{item['continuation']}\n\n"
                 keys.append({'prompt_index':prompt_index,'seed':seed,'label':label,'model':item['model']})
-    packet.write_text(content,encoding='utf-8');write_json(ROOT/'reports/phase08/review_key.json',keys)
+    rendered='\n'.join(line.rstrip() for line in content.splitlines()).rstrip()+'\n'
+    packet.write_text(rendered,encoding='utf-8');write_json(ROOT/'reports/phase08/review_key.json',keys)
     with (ROOT/'reports/phase08/review_ratings.csv').open('w',encoding='utf-8',newline='') as stream:
         writer=csv.writer(stream);writer.writerow(['reviewer','date','prompt_index','seed','label','grammar','prompt_continuity','local_consistency','repetition','comment'])
         for item in keys:writer.writerow(['','',item['prompt_index'],item['seed'],item['label'],'','','','',''])
