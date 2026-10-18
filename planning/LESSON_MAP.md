@@ -196,3 +196,7 @@ Read external phase07/01-decide-what-a-main-run-means.md, then 01-thinking-and-i
 ## Phase 7.2 preparation — 2026-10-18
 
 Read external phase07/02-follow-the-run-through-successful-updates.md, then 02-thinking-and-inspection.md. Sources: src/storyseed/training_runner.py, src/storyseed/training_checkpoint.py, src/storyseed/experiment_training.py, scripts/train_experiment_condition.py. Setup record: reports/phase07/02_setup.json. Notes/source prepared; actual long execution pending, not claimed complete.
+
+## Phase 7.3 preparation — 2026-10-18
+
+Read external phase07/03-connect-curves-to-what-the-model-learned.md, then 03-thinking-and-inspection.md. Sources: scripts/describe_training_curve.py. Setup record: reports/phase07/03_setup.json. Notes/source prepared; actual long execution pending, not claimed complete.

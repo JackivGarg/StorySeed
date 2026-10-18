@@ -1,0 +1,14 @@
+{
+  "subphase": "7.3",
+  "date": "2026-10-18",
+  "chapter": "phase07/03-connect-curves-to-what-the-model-learned.md",
+  "sources": [
+    "scripts/describe_training_curve.py"
+  ],
+  "notes_written": true,
+  "source_implemented": true,
+  "experiment_execution": "pending durable job, not a completed result",
+  "human_review": "not this subphase",
+  "learner_understanding": "pending",
+  "final_population": "reserved until frozen final artifacts exist"
+}
