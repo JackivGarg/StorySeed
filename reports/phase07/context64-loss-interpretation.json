@@ -1,0 +1,12 @@
+{
+  "condition": "context64",
+  "initial_full_development_nll": 6.2974605370701395,
+  "final_full_development_nll": 2.6433074832888046,
+  "decrease_nats_per_target": 3.654153053781335,
+  "geometric_mean_correct_target_probability_factor": 38.63478566890577,
+  "same_development_target_count": true,
+  "development_observations": 9,
+  "sampled_training_loss_timing": "before its associated update, changing selected rows and dropout",
+  "development_timing": "after the declared number of completed updates, all fixed targets, dropout off",
+  "interpretation_limit": "likelihood change is not accuracy or a story-coherence score; no component-specific causal attribution"
+}

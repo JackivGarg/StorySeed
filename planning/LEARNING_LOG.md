@@ -211,3 +211,7 @@ The missing capability motivates its prerequisite and returns to the build in ex
 ## Phase 7.2 observed outcome — 2026-10-18
 
 Actual artifacts: reports/phase07/main128.json, reports/phase07/context64.json, reports/phase07/SUMMARY.md. Explanations connect measured changes to the project decisions rather than list scores. Learner understanding remains pending.
+
+## Phase 7.3 observed outcome — 2026-10-18
+
+Actual artifacts: reports/phase07/main128-curve.json, reports/phase07/context64-curve.json, reports/phase07/main128-loss-interpretation.json, reports/phase07/context64-loss-interpretation.json. Explanations connect measured changes to the project decisions rather than list scores. Learner understanding remains pending.

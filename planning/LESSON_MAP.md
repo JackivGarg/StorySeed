@@ -228,3 +228,5 @@ Read external phase08/05-write-the-paper-from-the-evidence.md, then 05-thinking-
 Phase 7.1 observed capture: 7,585 training stories / 2,818,569 available targets; full initialization development NLL 6.295087 over 39,711 events. Read external phase07/01-observed-data-and-the-first-loss.md. Main training remains active.
 
 Phase 7.2 actual outcome: reports/phase07/main128.json, reports/phase07/context64.json, reports/phase07/SUMMARY.md. Read separate phase07/ACTUAL_LOSS_AND_DECISIONS.md and OBSERVED_RESULTS.md after its concept chapter. Human review/learner understanding remain pending.
+
+Phase 7.3 actual outcome: reports/phase07/main128-curve.json, reports/phase07/context64-curve.json, reports/phase07/main128-loss-interpretation.json, reports/phase07/context64-loss-interpretation.json. Read separate phase07/ACTUAL_LOSS_AND_DECISIONS.md and OBSERVED_RESULTS.md after its concept chapter. Human review/learner understanding remain pending.
