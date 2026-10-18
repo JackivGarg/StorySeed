@@ -1,5 +1,7 @@
 """One correctly weighted effective-batch update at a time."""
 import math
+import random
+import numpy as np
 from contextlib import nullcontext
 import torch
 from storyseed.decoder import DecoderLanguageModel
@@ -13,12 +15,14 @@ class TrainingRunner:
         if config.precision=='bf16' and not torch.cuda.is_bf16_supported():raise ValueError('CUDA bf16 is unsupported on this machine.')
         self.config=config;self.device=torch.device(config.device)
         torch.set_num_threads(config.threads);torch.manual_seed(config.seed)
+        random.seed(config.seed);np.random.seed(config.seed%(2**32))
         self.model=DecoderLanguageModel(config.model).to(self.device)
         self.optimizer=make_optimizer(self.model,config)
         self.scaler=torch.amp.GradScaler('cuda',enabled=config.precision=='fp16',init_scale=1024.0)
         self.data=TrainingBatches('train',config.model.context,config.score_tokens)
         self.data_generator=torch.Generator().manual_seed(config.data_seed)
         self.updates=0;self.attempts=0;self.tokens_consumed=0;self.optimizer_target_tokens=0
+        self.at_boundary=True
 
     def autocast(self):
         if self.config.precision=='fp32':return nullcontext()
@@ -27,6 +31,8 @@ class TrainingRunner:
     def step(self,rows=None):
         config=self.config
         if self.updates>=config.total_updates:raise ValueError('Declared update budget completed.')
+        if not self.at_boundary:raise RuntimeError('Restore the last complete checkpoint after an interrupted attempt.')
+        self.at_boundary=False
         if rows is None:
             rows=torch.randint(len(self.data),(config.micro_batch_rows*config.accumulation_steps,),generator=self.data_generator).tolist()
         else:rows=list(rows)
@@ -56,6 +62,7 @@ class TrainingRunner:
             skipped=self.scaler.get_scale()<previous_scale
         self.attempts+=1;self.tokens_consumed+=total
         if not skipped:self.updates+=1;self.optimizer_target_tokens+=total
+        self.at_boundary=True
         return {'update':self.updates,'attempt':self.attempts,'learning_rate':lr,'nll':torch.stack(losses).sum().item()/total,
                 'true_targets':total,'input_tokens':inputs,'microbatch_target_counts':counts,'gradient_norm_before_clip':norm if math.isfinite(norm) else None,
                 'optimizer_step_skipped':skipped,'loss_scale':self.scaler.get_scale(),'rows':rows}

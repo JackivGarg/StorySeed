@@ -154,3 +154,7 @@ Read phase06/03-accumulate-the-right-token-objective.md, then 03-thinking-and-in
 ## Phase 6.4
 
 Read phase06/04-use-precision-that-the-machine-can-support.md, then 04-thinking-and-inspection.md in that folder. Code: src/storyseed/training_runner.py, scripts/phase06/04_inspect_precision.py. Actual evidence: reports/phase06/04_precision.json. Written, implemented and executed; student understanding pending.
+
+## Phase 6.5
+
+Read phase06/05-resume-the-same-training-process.md, then 05-thinking-and-inspection.md in that folder. Code: src/storyseed/training_runner.py, src/storyseed/training_checkpoint.py, scripts/train_decoder.py, scripts/phase06/05_inspect_resume.py, data/manifests/phase06/resume-checkpoint.json. Actual evidence: reports/phase06/05_resume.json. Written, implemented and executed; student understanding pending.

@@ -91,3 +91,5 @@ Phase 6.2: written, implemented and executed on 2026-10-18; external phase06/02-
 Phase 6.3: written, implemented and executed on 2026-10-18; external phase06/03-accumulate-the-right-token-objective.md; evidence reports/phase06/03_accumulation.json. Understanding pending.
 
 Phase 6.4: written, implemented and executed on 2026-10-18; external phase06/04-use-precision-that-the-machine-can-support.md; evidence reports/phase06/04_precision.json. Understanding pending.
+
+Phase 6.5: written, implemented and executed on 2026-10-18; external phase06/05-resume-the-same-training-process.md; evidence reports/phase06/05_resume.json. Understanding pending.
