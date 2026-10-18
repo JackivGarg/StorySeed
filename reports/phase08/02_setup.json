@@ -1,0 +1,14 @@
+{
+  "subphase": "8.2",
+  "date": "2026-10-18",
+  "chapter": "phase08/02-measure-prediction-without-changing-the-question.md",
+  "sources": [
+    "src/storyseed/research_metrics.py"
+  ],
+  "notes_written": true,
+  "source_implemented": true,
+  "experiment_execution": "pending durable job, not a completed result",
+  "human_review": "pending",
+  "learner_understanding": "pending",
+  "final_population": "reserved until frozen final artifacts exist"
+}

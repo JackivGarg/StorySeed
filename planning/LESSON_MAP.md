@@ -208,3 +208,7 @@ Read external phase07/04-make-the-learned-model-usable-in-another-process.md, th
 ## Phase 8.1 preparation — 2026-10-18
 
 Read external phase08/01-turn-a-working-model-into-a-research-question.md, then 01-thinking-and-inspection.md. Sources: planning/PHASE07_08_FREEZE.json, planning/PHASE08_REVIEW_RUBRIC.md. Setup record: reports/phase08/01_setup.json. Notes/source prepared; actual long execution pending, not claimed complete.
+
+## Phase 8.2 preparation — 2026-10-18
+
+Read external phase08/02-measure-prediction-without-changing-the-question.md, then 02-thinking-and-inspection.md. Sources: src/storyseed/research_metrics.py. Setup record: reports/phase08/02_setup.json. Notes/source prepared; actual long execution pending, not claimed complete.
