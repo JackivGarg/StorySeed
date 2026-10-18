@@ -356,6 +356,16 @@
       "words": 205
     },
     {
+      "path": "phase05/03-keep-a-trainable-path-through-the-block.md",
+      "sha256": "c8d846a69feb2e6675d1b385f7c44510fe5354062f66c5191cacf783488cd0ea",
+      "words": 821
+    },
+    {
+      "path": "phase05/03-thinking-and-inspection.md",
+      "sha256": "d2d3ee9842ed3717d5b2ccb56b469964429b44fe5359c03cf9f2f0fc8e221443",
+      "words": 225
+    },
+    {
       "path": "READING_ORDER.md",
       "sha256": "af90bdc82e4957383c5d15417fd64f0344690f9e842ae2067d0d74ccb2043b3a",
       "words": 343

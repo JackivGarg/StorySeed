@@ -75,3 +75,5 @@ Phase 4 implementation/protocol/outcome commits through 0a436a4 were successfull
 Phase 5.1: written, implemented and executed on 2026-10-18; external phase05/01-preserve-several-retrieval-paths.md; evidence reports/phase05/01_heads.json. Understanding pending.
 
 Phase 5.2: written, implemented and executed on 2026-10-18; external phase05/02-process-the-retrieved-features.md; evidence reports/phase05/02_feedforward.json. Understanding pending.
+
+Phase 5.3: written, implemented and executed on 2026-10-18; external phase05/03-keep-a-trainable-path-through-the-block.md; evidence reports/phase05/03_residuals.json. Understanding pending.

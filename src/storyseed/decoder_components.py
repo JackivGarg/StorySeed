@@ -48,3 +48,18 @@ class PositionwiseFeedForward(nn.Module):
 
     def forward(self,states):
         return self.contract(self.activation(self.expand(states)))
+
+
+class DecoderBlock(nn.Module):
+    """Pre-normalized attention and feature processing with residual paths."""
+    def __init__(self,dimensions,heads,multiplier=4):
+        super().__init__()
+        self.attention_norm=nn.LayerNorm(dimensions,eps=1e-5)
+        self.attention=MultiHeadCausalAttention(dimensions,heads)
+        self.feedforward_norm=nn.LayerNorm(dimensions,eps=1e-5)
+        self.feedforward=PositionwiseFeedForward(dimensions,multiplier)
+
+    def forward(self,states,valid):
+        states=states+self.attention(self.attention_norm(states),valid)
+        states=states+self.feedforward(self.feedforward_norm(states))
+        return states*valid.unsqueeze(-1)

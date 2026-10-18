@@ -1,0 +1,33 @@
+# Observed Phase 5: 03_residuals
+
+Actual execution; student understanding remains unmeasured.
+
+```json
+{
+  "command": ".venv/Scripts/python scripts/phase05/03_inspect_residuals.py",
+  "architecture": "pre-LN: x+Attention(LN(x)), then x+FFN(LN(x)); padded states zeroed",
+  "layernorm_example_input": [
+    [
+      1.0,
+      3.0
+    ]
+  ],
+  "layernorm_output": [
+    [
+      -0.9999949932098389,
+      0.9999949932098389
+    ]
+  ],
+  "layernorm_population_variance": 1.0,
+  "layernorm_epsilon": 1e-05,
+  "ordinary_output_shape": [
+    2,
+    4,
+    8
+  ],
+  "zero_branches_preserve_state_exactly": true,
+  "identity_path_input_gradient_is_one": true,
+  "scope": "controlled zero-branch mechanism, not a claim that all deep gradients are stable",
+  "final_holdout_accessed": false
+}
+```
