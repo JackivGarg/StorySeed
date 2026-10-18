@@ -240,3 +240,5 @@ Phase 8.2 actual outcome: reports/phase08/metrics.json. Read separate phase08/AC
 Phase 8.3 actual outcome: reports/phase08/samples.json, reports/phase08/PAIRED_SAMPLE_REVIEW.md, reports/phase08/review_key.json, reports/phase08/review_ratings.csv, reports/phase08/ASSISTANT_SAMPLE_REVIEW.md. Read separate phase08/ACTUAL_LOSS_AND_DECISIONS.md and OBSERVED_RESULTS.md after its concept chapter. Human review/learner understanding remain pending.
 
 Phase 8.3 actual outcome: reports/phase08/samples.json, reports/phase08/PAIRED_SAMPLE_REVIEW.md, reports/phase08/review_key.json, reports/phase08/review_ratings.csv, reports/phase08/ASSISTANT_SAMPLE_REVIEW.md, src/storyseed/sample_review.py. Read separate phase08/ACTUAL_LOSS_AND_DECISIONS.md and OBSERVED_RESULTS.md after its concept chapter. Human review/learner understanding remain pending.
+
+Phase 8.4 actual outcome: reports/phase08/CONTEXT_STUDY.md, reports/phase08/matched_resources.json. Read separate phase08/ACTUAL_LOSS_AND_DECISIONS.md and OBSERVED_RESULTS.md after its concept chapter. Human review/learner understanding remain pending.

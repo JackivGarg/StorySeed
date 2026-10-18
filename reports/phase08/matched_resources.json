@@ -1,0 +1,497 @@
+{
+  "scope": "separate resource-only scratch copies; no change to frozen scientific training artifacts or final scores",
+  "reason": "one original context64 update contained a 17,768-second stall; raw long-run timing remains preserved",
+  "protocol_sha256": "642c1fa0c08bb23262a16a2a909ae9ccc19ef8926c90907895afd349fbe82bc9",
+  "trials": [
+    {
+      "condition": "main128",
+      "trial": 0,
+      "warmup_updates": 3,
+      "timed_updates": 10,
+      "fixed_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "samples": [
+        {
+          "seconds": 0.6424322000093525,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.7238377000030596,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.8093273999984376,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.7286884999921313,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.6610608000046341,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.6443127999955323,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.6589807999989716,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.7268213999923319,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.6540930000046501,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.7048539999959758,
+          "true_targets": 919,
+          "real_inputs": 1751
+        }
+      ],
+      "contaminated_by_predeclared_over_5_second_update": false,
+      "scored_targets_per_second": 1321.4639128345875,
+      "median_update_seconds": 0.6829574000003049,
+      "peak_allocated_bytes": 213870592,
+      "peak_reserved_bytes": 243269632
+    },
+    {
+      "condition": "main128",
+      "trial": 1,
+      "warmup_updates": 3,
+      "timed_updates": 10,
+      "fixed_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "samples": [
+        {
+          "seconds": 0.8085608999972465,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.809383899992099,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.7214285999943968,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.8366219000017736,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.8468687999993563,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.8283975000085775,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.7816599999932805,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.776563499995973,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.7995015000051353,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.7909761000046274,
+          "true_targets": 919,
+          "real_inputs": 1751
+        }
+      ],
+      "contaminated_by_predeclared_over_5_second_update": false,
+      "scored_targets_per_second": 1148.7553560729295,
+      "median_update_seconds": 0.8040312000011909,
+      "peak_allocated_bytes": 213870592,
+      "peak_reserved_bytes": 243269632
+    },
+    {
+      "condition": "main128",
+      "trial": 2,
+      "warmup_updates": 3,
+      "timed_updates": 10,
+      "fixed_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "samples": [
+        {
+          "seconds": 0.7175500999874203,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.7570662000071025,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.8557647999987239,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.8073856999981217,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.866383800006588,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.7966328000038629,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.7493032000056701,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.7136677999951644,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.7786581999971531,
+          "true_targets": 919,
+          "real_inputs": 1751
+        },
+        {
+          "seconds": 0.724271700004465,
+          "true_targets": 919,
+          "real_inputs": 1751
+        }
+      ],
+      "contaminated_by_predeclared_over_5_second_update": false,
+      "scored_targets_per_second": 1183.25911611921,
+      "median_update_seconds": 0.7678622000021278,
+      "peak_allocated_bytes": 213870592,
+      "peak_reserved_bytes": 243269632
+    },
+    {
+      "condition": "context64",
+      "trial": 0,
+      "warmup_updates": 3,
+      "timed_updates": 10,
+      "fixed_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "samples": [
+        {
+          "seconds": 0.8140522000030614,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.7252792999934172,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.7128547000029357,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.7832054999889806,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.8459989999973914,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.714355300005991,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.7856901999912225,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.8272640999930445,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.8933316000038758,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.9204961000068579,
+          "true_targets": 919,
+          "real_inputs": 919
+        }
+      ],
+      "contaminated_by_predeclared_over_5_second_update": false,
+      "scored_targets_per_second": 1145.524203843869,
+      "median_update_seconds": 0.799871199997142,
+      "peak_allocated_bytes": 167141888,
+      "peak_reserved_bytes": 192937984
+    },
+    {
+      "condition": "context64",
+      "trial": 1,
+      "warmup_updates": 3,
+      "timed_updates": 10,
+      "fixed_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "samples": [
+        {
+          "seconds": 1.0102231999917421,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.9501972000143724,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.8236719999986235,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.8303430999949342,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.8290029000054346,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.7773098000034224,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.8376557000010507,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.7803838999971049,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.8030376999959117,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.7023086999979569,
+          "true_targets": 919,
+          "real_inputs": 919
+        }
+      ],
+      "contaminated_by_predeclared_over_5_second_update": false,
+      "scored_targets_per_second": 1101.372506688518,
+      "median_update_seconds": 0.8263374500020291,
+      "peak_allocated_bytes": 167141888,
+      "peak_reserved_bytes": 192937984
+    },
+    {
+      "condition": "context64",
+      "trial": 2,
+      "warmup_updates": 3,
+      "timed_updates": 10,
+      "fixed_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "samples": [
+        {
+          "seconds": 0.7319624999945518,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.5907205000112299,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.6869823000015458,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.8518507999979192,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.7964857000042684,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.7153008000022965,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.6050401999964379,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.6256339999963529,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.5524851999944076,
+          "true_targets": 919,
+          "real_inputs": 919
+        },
+        {
+          "seconds": 0.7140018999925815,
+          "true_targets": 919,
+          "real_inputs": 919
+        }
+      ],
+      "contaminated_by_predeclared_over_5_second_update": false,
+      "scored_targets_per_second": 1337.6098228259737,
+      "median_update_seconds": 0.7004920999970636,
+      "peak_allocated_bytes": 167141888,
+      "peak_reserved_bytes": 192937984
+    }
+  ],
+  "device_observation_before_trials": "NVIDIA GeForce RTX 3050 6GB Laptop GPU, P8, 210 MHz, 405 MHz, 3.88 W, 54",
+  "measurement": "synchronized wall duration per full update including CPU batching; not pure kernel time",
+  "comparison_valid": true,
+  "limits": "short matched observations, one machine; no long-run thermal guarantee"
+}
