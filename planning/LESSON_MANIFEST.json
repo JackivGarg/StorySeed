@@ -7,8 +7,8 @@
   "files": [
     {
       "path": "AGENTS.md",
-      "sha256": "cbb2209eaac6476c1f30c8328ffbcbc5254d97a70b635443ce3cd3057878a4dd",
-      "words": 456
+      "sha256": "9b9d7a9b50c3a324e4e021794a05b229ec4bde5e4c06c6a944b18d947572395d",
+      "words": 631
     },
     {
       "path": "phase01/00-follow-one-character-through-the-system.md",
@@ -556,6 +556,11 @@
       "words": 288
     },
     {
+      "path": "phase07/IMPLEMENTATION_AND_EVIDENCE.md",
+      "sha256": "642eb690f196acb2592ab5a356032a7543b4b7fae9255ce7843612fe3666499e",
+      "words": 109
+    },
+    {
       "path": "phase07/LOSS_AND_LEARNING.md",
       "sha256": "d27b6be2f4b2500f35712278ad4977975e74a7a578149d8ed379ffa3859b441b",
       "words": 962
@@ -626,6 +631,11 @@
       "words": 288
     },
     {
+      "path": "phase08/IMPLEMENTATION_AND_EVIDENCE.md",
+      "sha256": "31acd511d2166d4e3d96e7a9d924bd4f469e844338d85ef316987daa730488ba",
+      "words": 118
+    },
+    {
       "path": "phase08/LOSS_AND_LEARNING.md",
       "sha256": "86404b53f5c2142ecc65e66f269153a833bf0da7377797212c7bc13eadd63b00",
       "words": 879
@@ -637,13 +647,13 @@
     },
     {
       "path": "READING_ORDER.md",
-      "sha256": "904796df285bd8cf2efeec9a9335af5c107c98a076dade5d2384c0a7a64e94a7",
-      "words": 477
+      "sha256": "a4a37b5daa57ef719e2ab27b3e87d93baa42c7fb4632ee20feec3664f8af9412",
+      "words": 525
     },
     {
       "path": "README.md",
-      "sha256": "2f3b43d79d017ea5193c8e50c280572b319ab2f70139beec243fce31b67bd3bf",
-      "words": 427
+      "sha256": "6ec87f6bd690a5052051ff9cbc4482d8c3e847c257651db61886913c72c605fa",
+      "words": 475
     },
     {
       "path": "samples/SAMPLE_01_WHY_PYTORCH_AND_HOW_LEARNING_WORKS.md",
@@ -652,13 +662,13 @@
     },
     {
       "path": "START_HERE.md",
-      "sha256": "aae9cea1602307cd097a6581354e6cb62276278b26844b4f53c800a43e449f2e",
-      "words": 381
+      "sha256": "e3c532b289d97ef819bde934fbba866cab9bb34518133edffb0b59d5d533c652",
+      "words": 429
     },
     {
       "path": "THE_SLM_JOURNEY.md",
-      "sha256": "c25b192c6590bbbb3945984224a6379d43c1c39c2d846e940c8895b551b71a0f",
-      "words": 1248
+      "sha256": "1a3e4334b3530966de242b0a7f5c58966dc346a5177f8983116f22996eacbea1",
+      "words": 1296
     }
   ],
   "teaching_preview": {

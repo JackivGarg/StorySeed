@@ -69,3 +69,30 @@ The current change cannot contain its own hash; use git log to locate it. Add it
 | 6.4 | 5fc1247 | Actual CUDA precision and scaling |
 | 6.5 | e2c5e72 | Full-state fresh-process resume |
 | 6.6 | ee6abb8 | Resource candidate and end-to-end public pilot |
+
+# Phase 7: preparation commits and evidence
+
+These natural increments implement the upcoming workflow. Setup is distinct from completed execution; actual result commits will follow the job.
+
+| Stage | Commit | Chapter | Setup record |
+|---|---|---|---|
+| 7.1 | [e6929f5](https://github.com/JackivGarg/StorySeed/commit/e6929f5) | [01-decide-what-a-main-run-means.md](01-decide-what-a-main-run-means.md) | reports/phase07/01_setup.json |
+| 7.2 | [c781c22](https://github.com/JackivGarg/StorySeed/commit/c781c22) | [02-follow-the-run-through-successful-updates.md](02-follow-the-run-through-successful-updates.md) | reports/phase07/02_setup.json |
+| 7.3 | [79d6545](https://github.com/JackivGarg/StorySeed/commit/79d6545) | [03-connect-curves-to-what-the-model-learned.md](03-connect-curves-to-what-the-model-learned.md) | reports/phase07/03_setup.json |
+| 7.4 | [b51e397](https://github.com/JackivGarg/StorySeed/commit/b51e397) | [04-make-the-learned-model-usable-in-another-process.md](04-make-the-learned-model-usable-in-another-process.md) | reports/phase07/04_setup.json |
+
+Source/configuration and small reports are in the repository. Detailed chapters remain in this separate Desktop folder. The upcoming run writes observed records; a setup commit is not proof of a trained model or final score.
+
+# Phase 8: preparation commits and evidence
+
+These natural increments implement the upcoming workflow. Setup is distinct from completed execution; actual result commits will follow the job.
+
+| Stage | Commit | Chapter | Setup record |
+|---|---|---|---|
+| 8.1 | [13fb453](https://github.com/JackivGarg/StorySeed/commit/13fb453) | [01-turn-a-working-model-into-a-research-question.md](01-turn-a-working-model-into-a-research-question.md) | reports/phase08/01_setup.json |
+| 8.2 | [1502227](https://github.com/JackivGarg/StorySeed/commit/1502227) | [02-measure-prediction-without-changing-the-question.md](02-measure-prediction-without-changing-the-question.md) | reports/phase08/02_setup.json |
+| 8.3 | [7df1dde](https://github.com/JackivGarg/StorySeed/commit/7df1dde) | [03-read-paired-stories-without-selecting-the-nicest-example.md](03-read-paired-stories-without-selecting-the-nicest-example.md) | reports/phase08/03_setup.json |
+| 8.4 | [bea8344](https://github.com/JackivGarg/StorySeed/commit/bea8344) | [04-compare-contexts-and-understand-uncertainty.md](04-compare-contexts-and-understand-uncertainty.md) | reports/phase08/04_setup.json |
+| 8.5 | [95ef17a](https://github.com/JackivGarg/StorySeed/commit/95ef17a) | [05-write-the-paper-from-the-evidence.md](05-write-the-paper-from-the-evidence.md) | reports/phase08/05_setup.json |
+
+Source/configuration and small reports are in the repository. Detailed chapters remain in this separate Desktop folder. The upcoming run writes observed records; a setup commit is not proof of a trained model or final score.

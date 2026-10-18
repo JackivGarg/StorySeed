@@ -76,3 +76,7 @@ Generate from the local pilot export without retraining:
 ```
 
 The full training CLI is `scripts/train_decoder.py`; use `--help` and the recorded teaching config/protocol before starting a new run. Checkpoint tensors remain local/ignored. Next: Phase 7's frozen main-training protocol. Final holdout remains unencoded/unscored; student understanding remains pending.
+
+## Phases 7–8: main training and research workflow
+
+The separate Desktop phase07/phase08 notes teach the frozen expanded-corpus scratch run and context-policy study. Source and protocol are prepared; actual runtime status is in reports/phase07_08_STATUS.json. Main training and final metrics are not claimed before completion. The finite workload is scripts/run_phase07_08.py; do not launch a duplicate while its tracked job is active. Human review remains pending.

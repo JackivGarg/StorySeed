@@ -1,5 +1,12 @@
 # StorySeed progress
 
+## Current work — Phases 7–8, 2026-10-18
+
+Nine core subphases have prepared source and separate concept-first chapters/companions. The frozen experiment is ready for durable execution, not yet a completed main training/evaluation result. Main128 and context64 each have a declared 2,000-successful-update budget. The original final population is reserved until both complete artifacts are fixed, then deliberately evaluated under the declared protocol. Human ratings and learner understanding remain pending.
+
+Read reports/phase07_08_STATUS.json and the validated process-job record for current runtime state. After completion, inspect actual results before claiming either phase complete. Earlier Phase 1–6 chapters remain unchanged.
+
+
 ## Current phase — 2026-10-18
 
 Phases 5 and 6: 6/6 subphases each written, implemented and executed. External phase05/phase06 each contain six concept chapters, six reasoning companions, a guide, reconstruction, coverage, actual commit map and detailed loss explanation. The complete decoder learns the tiny diagnostic; the training workflow has actual evaluation, accumulation, precision, fresh-process resume and resource evidence. Main training is Phase 7. Earlier phase chapters remain unchanged; final holdout stays unencoded/unscored; learner understanding remains pending.

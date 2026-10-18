@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-18",
+  "scope": "pre-execution source/snippet syntax and preserved teaching identities, not model tests or completed runs",
+  "earlier_phase_files_preserved": 99,
+  "earlier_hash_changes": [],
+  "notes": {
+    "phase07": {
+      "files": 13,
+      "words": 6358
+    },
+    "phase08": {
+      "files": 15,
+      "words": 6386
+    }
+  },
+  "setup_commits": [
+    {
+      "subphase": "7.1",
+      "commit": "e6929f5",
+      "chapter": "01-decide-what-a-main-run-means.md",
+      "sources": [
+        ".gitattributes",
+        "configs/phase07_main.json",
+        "planning/PHASE07_08_PROTOCOL.json",
+        "src/storyseed/experiment_data.py"
+      ],
+      "setup_report": "reports/phase07/01_setup.json"
+    },
+    {
+      "subphase": "7.2",
+      "commit": "c781c22",
+      "chapter": "02-follow-the-run-through-successful-updates.md",
+      "sources": [
+        "src/storyseed/training_runner.py",
+        "src/storyseed/training_checkpoint.py",
+        "src/storyseed/experiment_training.py",
+        "scripts/train_experiment_condition.py"
+      ],
+      "setup_report": "reports/phase07/02_setup.json"
+    },
+    {
+      "subphase": "7.3",
+      "commit": "79d6545",
+      "chapter": "03-connect-curves-to-what-the-model-learned.md",
+      "sources": [
+        "scripts/describe_training_curve.py"
+      ],
+      "setup_report": "reports/phase07/03_setup.json"
+    },
+    {
+      "subphase": "7.4",
+      "commit": "b51e397",
+      "chapter": "04-make-the-learned-model-usable-in-another-process.md",
+      "sources": [
+        "scripts/verify_main_export.py"
+      ],
+      "setup_report": "reports/phase07/04_setup.json"
+    },
+    {
+      "subphase": "8.1",
+      "commit": "13fb453",
+      "chapter": "01-turn-a-working-model-into-a-research-question.md",
+      "sources": [
+        "planning/PHASE07_08_FREEZE.json",
+        "planning/PHASE08_REVIEW_RUBRIC.md"
+      ],
+      "setup_report": "reports/phase08/01_setup.json"
+    },
+    {
+      "subphase": "8.2",
+      "commit": "1502227",
+      "chapter": "02-measure-prediction-without-changing-the-question.md",
+      "sources": [
+        "src/storyseed/research_metrics.py"
+      ],
+      "setup_report": "reports/phase08/02_setup.json"
+    },
+    {
+      "subphase": "8.3",
+      "commit": "7df1dde",
+      "chapter": "03-read-paired-stories-without-selecting-the-nicest-example.md",
+      "sources": [
+        "src/storyseed/sample_review.py"
+      ],
+      "setup_report": "reports/phase08/03_setup.json"
+    },
+    {
+      "subphase": "8.4",
+      "commit": "bea8344",
+      "chapter": "04-compare-contexts-and-understand-uncertainty.md",
+      "sources": [
+        "src/storyseed/context_comparison.py",
+        "src/storyseed/research_evaluation.py"
+      ],
+      "setup_report": "reports/phase08/04_setup.json"
+    },
+    {
+      "subphase": "8.5",
+      "commit": "95ef17a",
+      "chapter": "05-write-the-paper-from-the-evidence.md",
+      "sources": [
+        "scripts/summarize_phase07_08.py",
+        "scripts/run_phase07_08.py"
+      ],
+      "setup_report": "reports/phase08/05_setup.json"
+    }
+  ],
+  "actual_training_and_evaluation": "pending"
+}
