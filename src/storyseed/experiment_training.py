@@ -90,9 +90,15 @@ def train_condition(condition):
         write_json(folder/'checkpoint.json',artifact)
         return artifact
 
+    limit=spec['maximum_seconds_per_condition']
+    allowance_path=ROOT/'planning/PHASE07_08_EXECUTION_AMENDMENT.json'
+    if allowance_path.exists():
+        allowance=json.loads(allowance_path.read_text(encoding='utf-8'))
+        if allowance['protocol_sha256']!=identity['protocol_sha256']:raise ValueError('Execution amendment refers to another scientific protocol.')
+        limit=allowance['cumulative_wall_limit_seconds'].get(name,limit)
     persist()
     while runner.updates<config.total_updates:
-        if prior_seconds+time.monotonic()-started>spec['maximum_seconds_per_condition']:
+        if prior_seconds+time.monotonic()-started>limit:
             persist();raise RuntimeError('Condition reached its time bound; valid checkpoint saved, completion not claimed.')
         torch.cuda.synchronize();tick=time.perf_counter()
         observation=runner.step()

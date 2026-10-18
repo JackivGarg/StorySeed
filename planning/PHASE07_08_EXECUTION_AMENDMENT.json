@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-18",
+  "protocol_sha256": "642c1fa0c08bb23262a16a2a909ae9ccc19ef8926c90907895afd349fbe82bc9",
+  "reason": "context64 update 669 recorded 17768.5059313 seconds of synchronized wall delay; median prior timing about 0.182 seconds; system/device cause not established",
+  "checkpoint_update": 669,
+  "prior_elapsed_seconds": 17901.343999999997,
+  "cumulative_wall_limit_seconds": {
+    "context64": 25101.343999999997
+  },
+  "scientific_changes": false,
+  "unchanged": [
+    "training data",
+    "model configuration",
+    "optimizer/schedule",
+    "random/data state restored from checkpoint",
+    "2000 successful updates per condition",
+    "same row/target budget",
+    "last checkpoint selection",
+    "final evaluation population"
+  ],
+  "timing_policy": "preserve raw stall; do not infer clean resource speed from gross long-run timing; independent matched short resource observation",
+  "matched_resource_policy": {
+    "trials": 3,
+    "warmup_updates": 3,
+    "timed_updates": 10,
+    "fixed_rows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "contamination_threshold_seconds_per_update": 5
+  },
+  "final_population_not_released_at_amendment": true
+}

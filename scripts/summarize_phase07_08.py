@@ -137,6 +137,16 @@ The project produces traceable scratch-trained weights and a controlled local co
 
 The protocol and its byte hashes are in planning/PHASE07_08_PROTOCOL.json and PHASE07_08_FREEZE.json. Source/configuration, provenance, split/tokenizer identities, condition reports, full curves, final metrics, generated samples and review forms are versioned; raw text and tensor checkpoints remain local and ignored. The main export SHA-256 is `{main_run['inference']['sha256']}`. The finite foreground command is `.venv/Scripts/python scripts/run_phase07_08.py`; re-executing it restores valid unfinished states or reads completed compatible records, rather than silently changing the protocol.
 '''
+    operational='''
+## Operational timing incident and recovery
+
+The context64 process stopped at a valid checkpoint after its runtime guard fired. One recorded update contained approximately 17,768 seconds of synchronized wall delay, while the median preceding update was approximately 0.182 seconds. The cause of that isolated system/device stall was not established. The execution allowance was explicitly amended before final-set access; data, optimizer settings, RNG checkpoint, target/update budgets and last-artifact selection stayed fixed. The unfinished condition resumed from update 669.
+
+Raw timing retains the stall; gross condition durations must not be interpreted as a clean context-speed comparison. A separate matched resource-only observation uses scratch copies, fixed rows, three trials per context, three warm-up and ten timed updates per trial. All samples are retained, and an update above the predeclared five-second threshold marks that observation contaminated. See matched_resources.json for actual validity and measurements. This resource observation does not change the frozen trained artifacts or their quality scores.
+'''
+    paper+=operational;phase7+=operational;phase8+=operational
+    with (NOTES/'phase07/OBSERVED_RESULTS.md').open('a',encoding='utf-8') as stream:stream.write(operational)
+    with (NOTES/'phase08/OBSERVED_RESULTS.md').open('a',encoding='utf-8') as stream:stream.write(operational)
     (ROOT/'reports/phase08/PAPER_DRAFT.md').write_text(paper,encoding='utf-8')
     (ROOT/'reports/phase07/SUMMARY.md').write_text(phase7.replace('(assets/','(C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes/phase07/assets/'),encoding='utf-8')
     (ROOT/'reports/phase08/SUMMARY.md').write_text(phase8.replace('(assets/','(C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes/phase08/assets/'),encoding='utf-8')

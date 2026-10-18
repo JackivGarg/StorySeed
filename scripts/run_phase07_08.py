@@ -26,6 +26,7 @@ def main():
         # Isolate GPU caches and RNG side effects between independent conditions.
         subprocess.run([sys.executable,str(ROOT/'scripts/train_experiment_condition.py'),'--condition',condition['id']],cwd=ROOT,check=True)
         conditions.append(json.loads((ROOT/f"reports/phase07/{condition['id']}.json").read_text(encoding='utf-8')))
+    subprocess.run([sys.executable,str(ROOT/'scripts/measure_matched_resources.py')],cwd=ROOT,check=True)
     write_json(state_path,{'state':'frozen final evaluation and sample generation','results_complete':False,'learner_understanding':'pending'})
     evaluation=evaluate_study(conditions)
     # Fresh public inference is a separate foreground process, with no training.
