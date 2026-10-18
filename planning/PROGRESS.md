@@ -123,3 +123,7 @@ The runner still writes full checkpoints every 250 successful updates and can re
 ## Phase 9.1 — Separate a generation request from learning
 
 Read external phase09/01-from-learning-to-a-usable-predictor.md. Code/artifacts: src/storyseed/app_service.py, src/storyseed/app.py, planning/PHASE09_PLAN.md. See reports/phase09/01_*.json for execution evidence when present. Written/implemented here; actual execution and independent learner reconstruction are tracked separately. No new training or final-set scoring is part of this increment.
+
+## Phase 9.2 — Keep a local interface responsive
+
+Read external phase09/02-give-the-model-a-responsive-interface.md. Code/artifacts: src/storyseed/desktop.py, src/storyseed/app.py. See reports/phase09/02_*.json for execution evidence when present. Written/implemented here; actual execution and independent learner reconstruction are tracked separately. No new training or final-set scoring is part of this increment.

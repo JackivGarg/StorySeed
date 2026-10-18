@@ -15,7 +15,17 @@ def main():
     parser.add_argument('--max-new-tokens', type=int, default=48)
     parser.add_argument('--json', action='store_true', help='Print generation settings and artifact identity with the text.')
     parser.add_argument('--output', type=Path, help='Save the complete result as a UTF-8 JSON file.')
+    parser.add_argument('--gui', action='store_true', help='Open the local desktop interface (requires Tkinter).')
     args = parser.parse_args()
+    if args.gui:
+        if args.output or args.json:
+            parser.error('--output/--json apply to command-line generation; use Save result inside the window.')
+        try:
+            from storyseed.desktop import launch
+            launch()
+        except (ImportError, RuntimeError) as error:
+            parser.error(f'Desktop interface unavailable: {error}. Use the command line or install Python with Tcl/Tk.')
+        return
     request = GenerationRequest(args.prompt, args.seed, args.temperature, args.top_k, args.max_new_tokens)
     try:
         request.validate()
