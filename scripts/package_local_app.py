@@ -64,6 +64,15 @@ def main():
         if source.is_file():
             target = folder / source.name
             shutil.copyfile(source, target)
+    for relative in ['reports/phase07/SUMMARY.md', 'reports/phase07/main128-curve.json',
+                     'reports/phase07/context64-curve.json', 'reports/phase08/metrics.json',
+                     'reports/phase08/CONTEXT_STUDY.md', 'reports/phase08/ASSISTANT_SAMPLE_REVIEW.md',
+                     'reports/phase08/samples.json', 'reports/phase08/PAPER_DRAFT.md',
+                     'reports/phase09/01_cli.json', 'reports/phase09/01_generation.json',
+                     'reports/phase09/02_desktop.json']:
+        target = folder / relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(ROOT / relative, target)
     provenance = folder / 'provenance'
     provenance.mkdir()
     for name, relative in {'corpus.json': 'data/manifests/phase07/corpus.json',

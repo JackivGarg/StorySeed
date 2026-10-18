@@ -1,5 +1,11 @@
 # Learning evidence in the fresh repository
 
+## Current completion — Phase 9
+
+All nine planned build phases have delivered implementation and detailed separate teaching. Phase 9 adds the local fixed-main app, source/weight/tokenizer release, model card, university report and reconstruction workbook. Read reports/phase09/SUMMARY.md for scoped actual execution. Student demonstration and independent human ratings remain pending. No new training or final scoring occurred; earlier entries are historical. The final complete release is identified by reports/phase09/FINAL_RELEASE.json after packaging closure.
+
+## Historical progression
+
 ## 2026-10-16: Phase 2.6 — A comparable baseline
 
 Taught the project need and prerequisite concepts before code in external phase02/06-establish-an-honest-baseline.md and its companion. Implemented the focused source increment and executed the recorded command; evidence is reports/phase02/06_baseline.json. Student understanding remains pending. No final-holdout quality evaluation is claimed.

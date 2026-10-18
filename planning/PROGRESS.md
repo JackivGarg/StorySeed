@@ -1,5 +1,11 @@
 # StorySeed progress
 
+## Current completion — Phase 9
+
+All nine planned build phases have delivered implementation and detailed separate teaching. Phase 9 adds the local fixed-main app, source/weight/tokenizer release, model card, university report and reconstruction workbook. Read reports/phase09/SUMMARY.md for scoped actual execution. Student demonstration and independent human ratings remain pending. No new training or final scoring occurred; earlier entries are historical. The final complete release is identified by reports/phase09/FINAL_RELEASE.json after packaging closure.
+
+## Historical progression
+
 ## Current outcome — Phases 7–8, 2026-10-18
 
 Both 2,000-update conditions completed. The main scratch-trained model is exported and reproduces in a fresh public process. Fixed-artifact final evaluation, matched context analysis, all paired continuations, charts and university draft are recorded. Read the phase summaries and separate external phase07/phase08 guides for actual loss explanations. Human ratings and learner understanding remain pending; Phase 9 is next. Earlier pending entries below are historical.

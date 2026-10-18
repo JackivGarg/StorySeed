@@ -1,5 +1,11 @@
 # StorySeed: fresh build, detailed teaching and natural commits
 
+## Current completion — Phase 9
+
+All nine planned build phases have delivered implementation and detailed separate teaching. Phase 9 adds the local fixed-main app, source/weight/tokenizer release, model card, university report and reconstruction workbook. Read reports/phase09/SUMMARY.md for scoped actual execution. Student demonstration and independent human ratings remain pending. No new training or final scoring occurred; earlier entries are historical. The final complete release is identified by reports/phase09/FINAL_RELEASE.json after packaging closure.
+
+## Historical progression
+
 Active location: `C:/Users/JACKIV/OneDrive/Desktop/StorySeed`.
 Repository: https://github.com/JackivGarg/StorySeed .
 Created from a332e7a with no imported source or history. This plan carries the agreed learning sequence forward as new project guidance, not a claim that earlier code exists here.
@@ -12,7 +18,7 @@ The student's outcome is independent reconstruction and explanation using detail
 
 ## Phase/subphase sequence
 
-There are 49 core subphases. Phase 1's eight build increments, runs and teaching files are now complete; student understanding checkpoints remain pending. Phase 2 is now implemented and taught on its documented teaching pilot. Phase 3 is implemented on the same pilot; Phase 4 is implemented on the same teaching pilot; Phases 5 and 6 are implemented and taught with bounded pilots; Phases 7 and 8 are implemented and executed; Phase 9 remains planned. Each row describes a coherent build-and-teach sequence, with run-specific decisions recorded in the corresponding reports.
+There are 49 core subphases. Phase 1's eight build increments, runs and teaching files are now complete; student understanding checkpoints remain pending. Phase 2 is now implemented and taught on its documented teaching pilot. Phase 3 is implemented on the same pilot; Phase 4 is implemented on the same teaching pilot; Phases 5 and 6 are implemented and taught with bounded pilots; Phases 7 and 8 are implemented and executed; Phase 9 is implemented with separate concept-first teaching; independent student reconstruction remains pending. Each row describes a coherent build-and-teach sequence, with run-specific decisions recorded in the corresponding reports.
 
 | Phase | Subphases in order | Working outcome |
 |---|---|---|

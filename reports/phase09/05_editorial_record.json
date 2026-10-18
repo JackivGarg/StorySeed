@@ -1,0 +1,11 @@
+{
+  "scope": "editorial/source parsing and preservation; not an automated runtime test suite",
+  "earlier_phase01_08_files_preserved": 138,
+  "changed_earlier_chapters": [],
+  "phase09_markdown_files": 14,
+  "phase09_words": 10682,
+  "broken_local_teaching_links": [],
+  "new_source_parsed": true,
+  "learner_reconstruction": "pending",
+  "human_ratings": "pending"
+}

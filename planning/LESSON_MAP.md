@@ -264,3 +264,13 @@ Read external phase09/04-explain-what-we-built-and-what-it-proves.md. Code/artif
 ## Phase 9.5 — Reconstruct the complete SLM independently
 
 Read external phase09/05-rebuild-the-journey-with-your-own-decisions.md. Code/artifacts: docs/RECONSTRUCTION_WORKBOOK.md, reports/phase09/SUMMARY.md. See reports/phase09/05_*.json for execution evidence when present. Written/implemented here; actual execution and independent learner reconstruction are tracked separately. No new training or final-set scoring is part of this increment.
+
+## Phase 9 commit reading map
+
+- f1f231d feat: give the trained main model a consistent generation command
+- 467c840 feat: add a responsive local story continuation window
+- 2827a50 feat: package the fixed model and tokenizer for local use
+- 469182b docs: explain the model and university evidence honestly
+- 4b50ae0 docs: connect the complete build to independent reconstruction
+
+Read the separate phase09/README.md in that order. Each chapter explains the missing capability/prerequisite before returning to code. A whole-system trace and LOSS_AND_LEARNING.md connect the earlier build to inference. Individual reconstruction remains pending.

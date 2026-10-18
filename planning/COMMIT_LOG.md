@@ -109,3 +109,13 @@ Source/configuration and small reports are in the repository. Detailed chapters 
 - 8.5: f849497 — reports/phase08/PAPER_DRAFT.md, reports/phase08/SUMMARY.md, reports/phase08/chart_assets.json
 
 Phase 7 intermediate evidence: capture `34ef116`; early learning `9159ffa`; recovery `08ba38e`; incident/device observations `cba39a9`. These precede the recorded final outcome commits.
+
+## Phase 9 focused commits
+
+- f1f231d feat: give the trained main model a consistent generation command
+- 467c840 feat: add a responsive local story continuation window
+- 2827a50 feat: package the fixed model and tokenizer for local use
+- 469182b docs: explain the model and university evidence honestly
+- 4b50ae0 docs: connect the complete build to independent reconstruction
+
+Final closure and release records follow in later commits. Source and notes are delivered; independent learning evidence remains pending.

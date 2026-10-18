@@ -1,8 +1,21 @@
 # StorySeed
 
+## Use the trained local app
+
+```powershell
+.venv/Scripts/python -m storyseed.app --gui
+.venv/Scripts/python -m storyseed.app --prompt "Once upon a time" --json
+```
+
+Use [local setup and release instructions](docs/LOCAL_APP.md), [model card](docs/MODEL_CARD.md), [university report](docs/UNIVERSITY_REPORT.md), [demo guide](docs/DEMO_GUIDE.md) and [independent reconstruction workbook](docs/RECONSTRUCTION_WORKBOOK.md). Trained weights remain local/ignored: cloning this repository alone does not supply them. Final complete release identity: reports/phase09/FINAL_RELEASE.json.
+
+All nine planned implementation phases are delivered, with detailed concept-first notes in the separate Desktop StorySeed-Study-Notes/phase09 folder. The app serves the predeclared main128 model, not newly tuned weights. Grammar and continuity limitations remain. Human ratings and independent student reconstruction are pending. Older progress entries below preserve historical states.
+
+## Historical progression
+
 A small language model built and trained from random initialization for short English story continuation.
 
-This fresh repository began on 2026-10-14. Its Phase 1 code and lessons were developed here without importing earlier project history or source files. Phase 1 trained and saved a small character bigram; Phases 2–6 now add the story pipeline, contextual baselines, explicit complete causal decoder and repeatable training system. Main model training and fixed evaluation now run in completed Phases 7–8; Phase 9 remains next.
+This fresh repository began on 2026-10-14. Its Phase 1 code and lessons were developed here without importing earlier project history or source files. Phase 1 trained and saved a small character bigram; Phases 2–6 now add the story pipeline, contextual baselines, explicit complete causal decoder and repeatable training system. Main model training and fixed evaluation now run in completed Phases 7–8; Phase 9 now supplies the local application, portable release and reconstruction guidance.
 
 Learning proceeds alongside implementation through detailed, connected chapters. The intended outcome is understanding tokenization, the causal transformer, training, evaluation, and generation.
 

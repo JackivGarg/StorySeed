@@ -2,13 +2,13 @@
   "format": "storyseed.external-lessons.v1",
   "date": "2026-10-18",
   "notes_root": "C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes",
-  "implementation_revision": "f849497",
+  "implementation_revision": "4b50ae0",
   "originals_archive": "history/059c13b-before-practical-rewrite",
   "files": [
     {
       "path": "AGENTS.md",
-      "sha256": "c4346a500512747f286bf9f50c861be7ab7ee91945f309801c6c00cb6e9460a9",
-      "words": 993
+      "sha256": "79c143c0217f05481cb7afc4142020135ba2b04997322f2fa1fb066dbb548047",
+      "words": 1154
     },
     {
       "path": "phase01/00-follow-one-character-through-the-system.md",
@@ -702,13 +702,13 @@
     },
     {
       "path": "READING_ORDER.md",
-      "sha256": "dbcd0c39f000993d74808a382f397c5b3d017402cc49e5e38cc26f332b058f04",
-      "words": 575
+      "sha256": "c660299b2c0a38cb37acff3bd46ad346f2a61ea0323d50746fa260a24c0f70c1",
+      "words": 711
     },
     {
       "path": "README.md",
-      "sha256": "9ba475805666ac4ca887cfa82d94cb85f953f38952a5715c61c6d3420eba1475",
-      "words": 525
+      "sha256": "4c73b1d969b55de6d70169eb76133967f16f96c81b810ee377c58ce115fe209b",
+      "words": 661
     },
     {
       "path": "samples/SAMPLE_01_WHY_PYTORCH_AND_HOW_LEARNING_WORKS.md",
@@ -717,13 +717,83 @@
     },
     {
       "path": "START_HERE.md",
-      "sha256": "83be429bebd2a3ad959d4654ea6b999cfcb1de442646913e45e278aeec46dafc",
-      "words": 479
+      "sha256": "83d00f26f2087b60d1e10aa1695cad3053b769bb09c8d294dccb7110b8a23eac",
+      "words": 615
     },
     {
       "path": "THE_SLM_JOURNEY.md",
-      "sha256": "c16fef602885c1d1f2f194232261132d31650c49d6d06a46a033e7ae6168158a",
-      "words": 1383
+      "sha256": "5f53e282d2623c9425523b9e04de15f5a72c72ee30dd6b7acedb27befd8433de",
+      "words": 1519
+    },
+    {
+      "path": "phase09/00-follow-one-story-through-the-whole-system.md",
+      "sha256": "a8ad200d46898d8219cc5f31197c02257a6d75288138a8d434cd5320ed8b2401",
+      "words": 1222
+    },
+    {
+      "path": "phase09/01-from-learning-to-a-usable-predictor.md",
+      "sha256": "5815b9bd76005381515c22721ac3f62316a52a163837b29188e712acde71a0e6",
+      "words": 1312
+    },
+    {
+      "path": "phase09/01-thinking-and-inspection.md",
+      "sha256": "f20f6de1b5055e334bbf1bfa6e0078171f80c378babea94472f38cdeabc2ee6a",
+      "words": 505
+    },
+    {
+      "path": "phase09/02-give-the-model-a-responsive-interface.md",
+      "sha256": "8bafa4d83c83c0d2a84d377f39d5a5e13ce0f77c9589bf108e1ff62d761c7003",
+      "words": 1159
+    },
+    {
+      "path": "phase09/02-thinking-and-inspection.md",
+      "sha256": "b6da87a995994cf7b6bd40e06e50caa53c5284298420c9b268231966df04c7d8",
+      "words": 497
+    },
+    {
+      "path": "phase09/03-move-the-system-without-changing-its-meaning.md",
+      "sha256": "a2f71b0e7ebd8124643c86337a1fef51d2043da7d4a360461ad51b2cd3db13d2",
+      "words": 1243
+    },
+    {
+      "path": "phase09/03-thinking-and-inspection.md",
+      "sha256": "f9065daf3a7faf96d2e62b7f138e3f59a672e7bbb47e6b00194aaeb81e0e0f26",
+      "words": 449
+    },
+    {
+      "path": "phase09/04-explain-what-we-built-and-what-it-proves.md",
+      "sha256": "b30b88c04db530c883c0eeaf7adf5ef94ed38a733bb13ce214574790d46435a6",
+      "words": 1067
+    },
+    {
+      "path": "phase09/04-thinking-and-inspection.md",
+      "sha256": "86c9fd087b5a8ebd57db283699b31499fa7a3d6d0b4e52fbf1980977a70346ca",
+      "words": 400
+    },
+    {
+      "path": "phase09/05-rebuild-the-journey-with-your-own-decisions.md",
+      "sha256": "cb0ee143372e61bb4277b53c692f55db6c4d6e66273e3fb89a4d2f6c082a01eb",
+      "words": 1147
+    },
+    {
+      "path": "phase09/COVERAGE.md",
+      "sha256": "bc883dc025c98b269c0b9bb9890722b648e8e5954314dee49a3b78d348d72fca",
+      "words": 227
+    },
+    {
+      "path": "phase09/IMPLEMENTATION_AND_EVIDENCE.md",
+      "sha256": "39f7d7651fa5deb76a12969d4739674645f26fd6bfad190922f074a89fdbb47e",
+      "words": 180
+    },
+    {
+      "path": "phase09/LOSS_AND_LEARNING.md",
+      "sha256": "0d8ec728d3167f2078fb524c4e4ff74baf466d5fee67e1956c11adbe8884f9c3",
+      "words": 1078
+    },
+    {
+      "path": "phase09/README.md",
+      "sha256": "4e86310903bd40e6cccf213bff55a19b7a75c16d361dcdf5772f8eb64397cefe",
+      "words": 196
     }
   ],
   "teaching_preview": {
@@ -790,5 +860,7 @@
       "path": "phase08/assets/final-loss.svg",
       "sha256": "3487707d8ac7ad42aad38f648e02f2531577645f2c2cba7dc5b722b567747df0"
     }
-  ]
+  ],
+  "phase09_status": "five increments implemented and taught; actual application observations recorded; independent reconstruction pending",
+  "phase09_original_index_archive": "history/4b50ae0-before-phase09-closure"
 }
