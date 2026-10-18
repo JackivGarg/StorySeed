@@ -1,0 +1,7 @@
+{
+  "path": "C:\\Users\\JACKIV\\OneDrive\\Desktop\\StorySeed\\checkpoints\\phase05\\tiny-decoder.pt",
+  "sha256": "b810810c520edae096d610537b53673e0eaa7d363c237a27714d7100a9938092",
+  "format": "storyseed.decoder.inference.v1",
+  "purpose": "four fixed training chunks: debugging overfit, not corpus quality",
+  "optimizer_resume": false
+}

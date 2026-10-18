@@ -81,3 +81,5 @@ Phase 5.3: written, implemented and executed on 2026-10-18; external phase05/03-
 Phase 5.4: written, implemented and executed on 2026-10-18; external phase05/04-understand-training-and-evaluation-modes.md; evidence reports/phase05/04_modes.json. Understanding pending.
 
 Phase 5.5: written, implemented and executed on 2026-10-18; external phase05/05-assemble-the-complete-decoder.md; evidence reports/phase05/05_stack.json. Understanding pending.
+
+Phase 5.6: written, implemented and executed on 2026-10-18; external phase05/06-make-the-whole-decoder-learn-a-tiny-batch.md; evidence reports/phase05/06_tiny_learning.json. Understanding pending.

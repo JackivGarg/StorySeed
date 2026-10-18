@@ -386,6 +386,16 @@
       "words": 192
     },
     {
+      "path": "phase05/06-make-the-whole-decoder-learn-a-tiny-batch.md",
+      "sha256": "ff6c859f147682c1525500e1c30678c084ca281aa89c69b4057bf985c16142b0",
+      "words": 790
+    },
+    {
+      "path": "phase05/06-thinking-and-inspection.md",
+      "sha256": "88fa488a998d8ad9522856db13ef6797136ab175bdd978ca9e456ee653e8aa45",
+      "words": 251
+    },
+    {
       "path": "READING_ORDER.md",
       "sha256": "af90bdc82e4957383c5d15417fd64f0344690f9e842ae2067d0d74ccb2043b3a",
       "words": 343
