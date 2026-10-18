@@ -1,0 +1,6 @@
+{
+  "model":{"vocabulary":512,"context":64,"dimensions":32,"heads":4,"layers":2,"multiplier":4,"dropout":0.1},
+  "score_tokens":32,"micro_batch_rows":4,"accumulation_steps":2,"total_updates":20,"warmup_updates":4,
+  "learning_rate":0.003,"minimum_learning_rate":0.0003,"weight_decay":0.1,"beta1":0.9,"beta2":0.95,
+  "clip_norm":1.0,"seed":17,"data_seed":2026,"device":"cpu","precision":"fp32","threads":1,"evaluation_batch_rows":16
+}

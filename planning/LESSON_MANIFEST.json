@@ -396,6 +396,16 @@
       "words": 251
     },
     {
+      "path": "phase06/01-define-the-run-before-updating-weights.md",
+      "sha256": "427ce017fb6ff85be5c1ea17eaae0a00d22838f40f970451d243df6349fedf73",
+      "words": 881
+    },
+    {
+      "path": "phase06/01-thinking-and-inspection.md",
+      "sha256": "33ddccb9349d3f2913b33fb143ca14c46792d75187604571a9b59bddd946a25e",
+      "words": 194
+    },
+    {
       "path": "READING_ORDER.md",
       "sha256": "af90bdc82e4957383c5d15417fd64f0344690f9e842ae2067d0d74ccb2043b3a",
       "words": 343

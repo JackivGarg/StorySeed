@@ -143,3 +143,7 @@ The missing capability motivates its prerequisite before returning to the actual
 ## Phase 5.6 — 2026-10-18
 
 The missing capability motivates its prerequisite before returning to the actual build. Read external phase05/06-make-the-whole-decoder-learn-a-tiny-batch.md and companion. Actual observations are in reports/phase05/06_tiny_learning.json. No learner-mastery or final-holdout claim.
+
+## Phase 6.1 — 2026-10-18
+
+The missing capability motivates its prerequisite before returning to the actual build. Read external phase06/01-define-the-run-before-updating-weights.md and companion. Actual observations are in reports/phase06/01_run_contract.json. No learner-mastery or final-holdout claim.

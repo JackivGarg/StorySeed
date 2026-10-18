@@ -138,3 +138,7 @@ Read phase05/05-assemble-the-complete-decoder.md, then 05-thinking-and-inspectio
 ## Phase 5.6
 
 Read phase05/06-make-the-whole-decoder-learn-a-tiny-batch.md, then 06-thinking-and-inspection.md in that folder. Code: src/storyseed/decoder_io.py, scripts/generate_decoder.py, scripts/phase05/06_learn_tiny_batch.py, data/manifests/phase05/tiny-decoder.json. Actual evidence: reports/phase05/06_tiny_learning.json. Written, implemented and executed; student understanding pending.
+
+## Phase 6.1
+
+Read phase06/01-define-the-run-before-updating-weights.md, then 01-thinking-and-inspection.md in that folder. Code: src/storyseed/training_data.py, src/storyseed/training_config.py, src/storyseed/training_evaluation.py, configs/phase06_teaching.json, scripts/phase06/01_define_run.py. Actual evidence: reports/phase06/01_run_contract.json. Written, implemented and executed; student understanding pending.
