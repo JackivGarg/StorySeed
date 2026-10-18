@@ -541,6 +541,11 @@
       "words": 706
     },
     {
+      "path": "phase07/03-observed-early-learning.md",
+      "sha256": "9fc8886bf97db4aeda15591b84a30b7e78c6c19a9ba25fa18d3ebbed8cd9a32e",
+      "words": 777
+    },
+    {
       "path": "phase07/03-thinking-and-inspection.md",
       "sha256": "9e8744fe0cd78aeb3bc8edfd42e3c386f762b7d59e088c7efe1c09b203a1f889",
       "words": 234
@@ -577,8 +582,8 @@
     },
     {
       "path": "phase07/README.md",
-      "sha256": "a1436265907a3e16d06f10d30529f0355670427992feb35720a6fd3c366dfd00",
-      "words": 352
+      "sha256": "8deb431ffd2fffebcb63411be2f0782c32124dc0e9256128a9b50e9b10ff70fa",
+      "words": 369
     },
     {
       "path": "phase08/00-reconstruct-the-journey.md",
