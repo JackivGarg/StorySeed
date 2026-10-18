@@ -35,3 +35,16 @@ class MultiHeadCausalAttention(nn.Module):
         joined=mixed.transpose(1,2).contiguous().reshape(b,t,d)
         output=self.output(joined)
         return (output,weights) if return_weights else output
+
+
+class PositionwiseFeedForward(nn.Module):
+    def __init__(self,dimensions,multiplier=4):
+        super().__init__()
+        if type(multiplier) is not int or multiplier<1:
+            raise ValueError('Positive integer expansion multiplier required.')
+        self.expand=nn.Linear(dimensions,multiplier*dimensions)
+        self.activation=nn.GELU()
+        self.contract=nn.Linear(multiplier*dimensions,dimensions)
+
+    def forward(self,states):
+        return self.contract(self.activation(self.expand(states)))

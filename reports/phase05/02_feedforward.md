@@ -1,0 +1,35 @@
+# Observed Phase 5: 02_feedforward
+
+Actual execution; student understanding remains unmeasured.
+
+```json
+{
+  "command": ".venv/Scripts/python scripts/phase05/02_inspect_feedforward.py",
+  "input_shape": [
+    2,
+    4,
+    8
+  ],
+  "expanded_shape": [
+    2,
+    4,
+    32
+  ],
+  "output_shape": [
+    2,
+    4,
+    8
+  ],
+  "parameters": 552,
+  "other_time_positions_unchanged": true,
+  "affine_cancellation_residual_norm": 0.7143306136131287,
+  "expand_gradient_norm": 0.11396925896406174,
+  "gelu_at_minus_one_zero_one": [
+    -0.1586552858352661,
+    0.0,
+    0.8413447141647339
+  ],
+  "scope": "random nonlinear feature-processing illustration, not language training",
+  "final_holdout_accessed": false
+}
+```

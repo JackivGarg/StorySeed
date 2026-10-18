@@ -118,3 +118,7 @@ Chapter: phase04/05-build-and-train-the-attention-predictor.md; companion: phase
 ## Phase 5.1
 
 Read phase05/01-preserve-several-retrieval-paths.md, then 01-thinking-and-inspection.md in that folder. Code: src/storyseed/decoder_components.py, src/storyseed/build_evidence.py, scripts/phase05/01_inspect_heads.py. Actual evidence: reports/phase05/01_heads.json. Written, implemented and executed; student understanding pending.
+
+## Phase 5.2
+
+Read phase05/02-process-the-retrieved-features.md, then 02-thinking-and-inspection.md in that folder. Code: src/storyseed/decoder_components.py, scripts/phase05/02_inspect_feedforward.py. Actual evidence: reports/phase05/02_feedforward.json. Written, implemented and executed; student understanding pending.
