@@ -5,12 +5,13 @@ import numpy as np
 from contextlib import nullcontext
 import torch
 from storyseed.decoder import DecoderLanguageModel
+from storyseed.training_config import data_identity
 from storyseed.training_data import TrainingBatches,token_losses
 from storyseed.training_optimizer import make_optimizer,set_update_learning_rate
 
 
 class TrainingRunner:
-    def __init__(self,config):
+    def __init__(self,config,*,data=None,identity=None):
         if config.device=='cuda' and not torch.cuda.is_available():raise ValueError('CUDA was requested but is unavailable.')
         if config.precision=='bf16' and not torch.cuda.is_bf16_supported():raise ValueError('CUDA bf16 is unsupported on this machine.')
         self.config=config;self.device=torch.device(config.device)
@@ -19,7 +20,8 @@ class TrainingRunner:
         self.model=DecoderLanguageModel(config.model).to(self.device)
         self.optimizer=make_optimizer(self.model,config)
         self.scaler=torch.amp.GradScaler('cuda',enabled=config.precision=='fp16',init_scale=1024.0)
-        self.data=TrainingBatches('train',config.model.context,config.score_tokens)
+        self.data=data if data is not None else TrainingBatches('train',config.model.context,config.score_tokens)
+        self.data_identity=identity if identity is not None else data_identity()
         self.data_generator=torch.Generator().manual_seed(config.data_seed)
         self.updates=0;self.attempts=0;self.tokens_consumed=0;self.optimizer_target_tokens=0
         self.at_boundary=True

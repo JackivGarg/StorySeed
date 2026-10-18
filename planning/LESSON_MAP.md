@@ -192,3 +192,7 @@ External phase06/README.md gives the concept order; LOSS_AND_LEARNING.md explain
 ## Phase 7.1 preparation — 2026-10-18
 
 Read external phase07/01-decide-what-a-main-run-means.md, then 01-thinking-and-inspection.md. Sources: .gitattributes, configs/phase07_main.json, planning/PHASE07_08_PROTOCOL.json, src/storyseed/experiment_data.py. Setup record: reports/phase07/01_setup.json. Notes/source prepared; actual long execution pending, not claimed complete.
+
+## Phase 7.2 preparation — 2026-10-18
+
+Read external phase07/02-follow-the-run-through-successful-updates.md, then 02-thinking-and-inspection.md. Sources: src/storyseed/training_runner.py, src/storyseed/training_checkpoint.py, src/storyseed/experiment_training.py, scripts/train_experiment_condition.py. Setup record: reports/phase07/02_setup.json. Notes/source prepared; actual long execution pending, not claimed complete.

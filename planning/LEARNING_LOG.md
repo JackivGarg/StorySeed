@@ -175,3 +175,7 @@ The separate phase05 and phase06 folders each contain 17 Markdown files. Their l
 ## Phase 7.1 preparation — 2026-10-18
 
 The missing capability motivates its prerequisite and returns to the build in external phase07/01-decide-what-a-main-run-means.md. Actual results await execution. Learner understanding pending.
+
+## Phase 7.2 preparation — 2026-10-18
+
+The missing capability motivates its prerequisite and returns to the build in external phase07/02-follow-the-run-through-successful-updates.md. Actual results await execution. Learner understanding pending.

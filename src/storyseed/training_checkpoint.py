@@ -35,7 +35,7 @@ def save_training(runner,path):
     if not runner.at_boundary:raise RuntimeError('Checkpoint only after a complete effective-batch attempt.')
     next_lr=learning_rate_for_update(runner.config,runner.updates+1) if runner.updates<runner.config.total_updates else None
     payload={'format':'storyseed.decoder.training.v1','configuration':runner.config.to_dict(),
-       'data_identity':data_identity(),'runtime':runtime_identity(runner),'model':cpu_tree(runner.model.state_dict()),
+       'data_identity':runner.data_identity,'runtime':runtime_identity(runner),'model':cpu_tree(runner.model.state_dict()),
        'optimizer':cpu_tree(runner.optimizer.state_dict()),'scaler':runner.scaler.state_dict(),
        'counters':{name:getattr(runner,name) for name in ['updates','attempts','tokens_consumed','optimizer_target_tokens']},
        'next_learning_rate':next_lr,'data_generator':runner.data_generator.get_state(),
@@ -46,13 +46,13 @@ def save_training(runner,path):
     return {'path':str(path),'sha256':sha256(path.read_bytes()),'format':payload['format'],'completed_updates':runner.updates}
 
 
-def load_training(path,expected_config=None):
+def load_training(path,expected_config=None,*,data=None,identity=None):
     payload=torch.load(path,map_location='cpu',weights_only=True)
     if payload.get('format')!='storyseed.decoder.training.v1':raise ValueError('Expected full training checkpoint, not inference-only weights.')
     config=TrainingConfig.from_dict(payload['configuration'])
     if expected_config is not None and config.to_dict()!=expected_config.to_dict():raise ValueError('Resume configuration differs from the saved experiment.')
-    if payload['data_identity']!=data_identity():raise ValueError('Tokenizer or encoded data identity changed.')
-    runner=TrainingRunner(config)
+    if payload['data_identity']!=(identity if identity is not None else data_identity()):raise ValueError('Tokenizer or encoded data identity changed.')
+    runner=TrainingRunner(config,data=data,identity=identity)
     if payload['runtime']!=runtime_identity(runner):raise ValueError('Training runtime differs; exact continuation is not assumed.')
     if any(value.dtype!=torch.float32 or not torch.isfinite(value).all() for value in payload['model'].values()):
         raise ValueError('Invalid saved master parameters.')
