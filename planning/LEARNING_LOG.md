@@ -207,3 +207,7 @@ The missing capability motivates its prerequisite and returns to the build in ex
 ## Phase 8.5 preparation — 2026-10-18
 
 The missing capability motivates its prerequisite and returns to the build in external phase08/05-write-the-paper-from-the-evidence.md. Actual results await execution. Learner understanding pending.
+
+## Phase 7.2 observed outcome — 2026-10-18
+
+Actual artifacts: reports/phase07/main128.json, reports/phase07/context64.json, reports/phase07/SUMMARY.md. Explanations connect measured changes to the project decisions rather than list scores. Learner understanding remains pending.

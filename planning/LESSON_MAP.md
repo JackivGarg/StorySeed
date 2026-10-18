@@ -226,3 +226,5 @@ Read external phase08/04-compare-contexts-and-understand-uncertainty.md, then 04
 Read external phase08/05-write-the-paper-from-the-evidence.md, then 05-thinking-and-inspection.md. Sources: scripts/summarize_phase07_08.py, scripts/run_phase07_08.py. Setup record: reports/phase08/05_setup.json. Notes/source prepared; actual long execution pending, not claimed complete.
 
 Phase 7.1 observed capture: 7,585 training stories / 2,818,569 available targets; full initialization development NLL 6.295087 over 39,711 events. Read external phase07/01-observed-data-and-the-first-loss.md. Main training remains active.
+
+Phase 7.2 actual outcome: reports/phase07/main128.json, reports/phase07/context64.json, reports/phase07/SUMMARY.md. Read separate phase07/ACTUAL_LOSS_AND_DECISIONS.md and OBSERVED_RESULTS.md after its concept chapter. Human review/learner understanding remain pending.

@@ -2,13 +2,13 @@
   "format": "storyseed.external-lessons.v1",
   "date": "2026-10-18",
   "notes_root": "C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes",
-  "implementation_revision": "ee6abb8",
+  "implementation_revision": "cba39a9",
   "originals_archive": "history/059c13b-before-practical-rewrite",
   "files": [
     {
       "path": "AGENTS.md",
-      "sha256": "1735f12351fea18dcb92a21aded3963349a4992d529e44be164753df29f7100f",
-      "words": 748
+      "sha256": "c4346a500512747f286bf9f50c861be7ab7ee91945f309801c6c00cb6e9460a9",
+      "words": 993
     },
     {
       "path": "phase01/00-follow-one-character-through-the-system.md",
@@ -531,6 +531,11 @@
       "words": 1104
     },
     {
+      "path": "phase07/02-recover-a-real-interruption.md",
+      "sha256": "d3e169fdfd3ce0354a8ea94f153462d4aec130857d48c6418a20cbcde88d6b3a",
+      "words": 1057
+    },
+    {
       "path": "phase07/02-thinking-and-inspection.md",
       "sha256": "35a497ea520f439b536fecc21ded3b2d882918ffecb0d772229c7fd511c4797b",
       "words": 220
@@ -561,14 +566,19 @@
       "words": 219
     },
     {
+      "path": "phase07/ACTUAL_LOSS_AND_DECISIONS.md",
+      "sha256": "8eb902c706146a157c4448b2426f7c61c5822a75c36139b75caf1c30ba9117f9",
+      "words": 834
+    },
+    {
       "path": "phase07/COVERAGE.md",
       "sha256": "938a1537806c4b8517b90e9bb49be42e2e9460d295b9d7740e85e55469dfe07e",
       "words": 299
     },
     {
       "path": "phase07/EXECUTION.md",
-      "sha256": "9532bc0dced3ecc36c4292e9f1ef9e71d62f7513687b8510017f166858bf2961",
-      "words": 122
+      "sha256": "c1c577064c8ff5200f2ecb9ee2be6ab40780995b4b39c53567fb769d7a641af7",
+      "words": 107
     },
     {
       "path": "phase07/IMPLEMENTATION_AND_EVIDENCE.md",
@@ -577,13 +587,18 @@
     },
     {
       "path": "phase07/LOSS_AND_LEARNING.md",
-      "sha256": "d27b6be2f4b2500f35712278ad4977975e74a7a578149d8ed379ffa3859b441b",
-      "words": 962
+      "sha256": "559a57af8508d8a9e4f5b7ec9e1adab3406a129e6ae4ed824df5ceb1a40cbf04",
+      "words": 986
+    },
+    {
+      "path": "phase07/OBSERVED_RESULTS.md",
+      "sha256": "e9278e509a62516c95255678081f00384915d59a8e859ac06ee316d032aedef5",
+      "words": 423
     },
     {
       "path": "phase07/README.md",
-      "sha256": "8deb431ffd2fffebcb63411be2f0782c32124dc0e9256128a9b50e9b10ff70fa",
-      "words": 369
+      "sha256": "76e0c3988e9535c6015fc51fead8fbbb7dd37b3a9dce983ad80d6066b57ed99a",
+      "words": 375
     },
     {
       "path": "phase08/00-reconstruct-the-journey.md",
@@ -626,6 +641,11 @@
       "words": 673
     },
     {
+      "path": "phase08/04-derive-the-resource-cost-of-our-actual-decoder.md",
+      "sha256": "950d4065777a3c7997507ee8bff5d1315f993eb765be79b029d4ff7f27035490",
+      "words": 985
+    },
+    {
       "path": "phase08/04-thinking-and-inspection.md",
       "sha256": "61fa4a459c9dce011e28403eebba6e25505b0b0968613468306836f20b2cca00",
       "words": 221
@@ -641,14 +661,24 @@
       "words": 613
     },
     {
+      "path": "phase08/ACTUAL_LOSS_AND_DECISIONS.md",
+      "sha256": "24769e63f9e35e60b59bf7a08d684b7387dbde256a4421e3291ee314970c8721",
+      "words": 817
+    },
+    {
+      "path": "phase08/ASSISTANT_SAMPLE_OBSERVATIONS.md",
+      "sha256": "75a359013a40bc5ab8f55012447683ea9073cd4377e9658bec6f34769a45efd0",
+      "words": 1015
+    },
+    {
       "path": "phase08/COVERAGE.md",
       "sha256": "621ef350a38281119a1540ff22700869185f5545b784f0a0175c9d140f0291e9",
       "words": 299
     },
     {
       "path": "phase08/EXECUTION.md",
-      "sha256": "9532bc0dced3ecc36c4292e9f1ef9e71d62f7513687b8510017f166858bf2961",
-      "words": 122
+      "sha256": "c1c577064c8ff5200f2ecb9ee2be6ab40780995b4b39c53567fb769d7a641af7",
+      "words": 107
     },
     {
       "path": "phase08/IMPLEMENTATION_AND_EVIDENCE.md",
@@ -657,23 +687,28 @@
     },
     {
       "path": "phase08/LOSS_AND_LEARNING.md",
-      "sha256": "86404b53f5c2142ecc65e66f269153a833bf0da7377797212c7bc13eadd63b00",
-      "words": 879
+      "sha256": "f102e2e52c862e92bf7275e33e7b2fcfc05ff1c4a85f5ffc47eda5e2f2b34939",
+      "words": 900
+    },
+    {
+      "path": "phase08/OBSERVED_RESULTS.md",
+      "sha256": "abae2a2e2e9ca72af92cc97075caaadff16f9a7cfc9ad3b4c6e56bc7d7ca1092",
+      "words": 479
     },
     {
       "path": "phase08/README.md",
-      "sha256": "72d27e6e32c9ba9488d0a5ab17c3124c2cc696ca7067522919d49d90c5c11522",
-      "words": 353
+      "sha256": "80e6e1d366a586cf4378785ecdebcc5b966752aa03053631d307516769dd0ee0",
+      "words": 377
     },
     {
       "path": "READING_ORDER.md",
-      "sha256": "a4a37b5daa57ef719e2ab27b3e87d93baa42c7fb4632ee20feec3664f8af9412",
-      "words": 525
+      "sha256": "dbcd0c39f000993d74808a382f397c5b3d017402cc49e5e38cc26f332b058f04",
+      "words": 575
     },
     {
       "path": "README.md",
-      "sha256": "6ec87f6bd690a5052051ff9cbc4482d8c3e847c257651db61886913c72c605fa",
-      "words": 475
+      "sha256": "9ba475805666ac4ca887cfa82d94cb85f953f38952a5715c61c6d3420eba1475",
+      "words": 525
     },
     {
       "path": "samples/SAMPLE_01_WHY_PYTORCH_AND_HOW_LEARNING_WORKS.md",
@@ -682,13 +717,13 @@
     },
     {
       "path": "START_HERE.md",
-      "sha256": "e3c532b289d97ef819bde934fbba866cab9bb34518133edffb0b59d5d533c652",
-      "words": 429
+      "sha256": "83be429bebd2a3ad959d4654ea6b999cfcb1de442646913e45e278aeec46dafc",
+      "words": 479
     },
     {
       "path": "THE_SLM_JOURNEY.md",
-      "sha256": "1a3e4334b3530966de242b0a7f5c58966dc346a5177f8983116f22996eacbea1",
-      "words": 1296
+      "sha256": "c16fef602885c1d1f2f194232261132d31650c49d6d06a46a033e7ae6168158a",
+      "words": 1383
     }
   ],
   "teaching_preview": {
@@ -728,6 +763,32 @@
     }
   ],
   "phases07_08_base_revision": "9ea6847",
-  "phase07_08_status": "notes/source prepared; long training and final evaluation pending; human review and learner understanding pending",
-  "phase07_08_execution": "direct Windows execution session after unsupported Codex Process Jobs launch; actual results pending"
+  "phase07_08_status": "source, actual training/evaluation, concept chapters and assistant analysis complete; human review and learner understanding pending",
+  "phase07_08_execution": "completed directly on Windows after unsupported CPJ launcher",
+  "phase07_08_chart_assets": [
+    {
+      "path": "phase07/assets/main128-learning.png",
+      "sha256": "76c3e1018d9690a32c6375989eb3afb6fa15183500cc1d2c83dc71495b422a79"
+    },
+    {
+      "path": "phase07/assets/main128-learning.svg",
+      "sha256": "9b0fe886536f61edb14866322c847d0ad61999e9dba197e76c0f6bcb33c6148f"
+    },
+    {
+      "path": "phase07/assets/context64-learning.png",
+      "sha256": "115d3ea58b5ede527f10dc2a80943ea05b8d4ce685d63f65a52346da5d84ae38"
+    },
+    {
+      "path": "phase07/assets/context64-learning.svg",
+      "sha256": "777210e2082edbaff89aca69e795cb344aab9082393d08b99b2008a4a5c53e11"
+    },
+    {
+      "path": "phase08/assets/final-loss.png",
+      "sha256": "1eb37fee06ea7f089e61d71c8f4af00f91c35177171af742c4be1bc2d03cae6b"
+    },
+    {
+      "path": "phase08/assets/final-loss.svg",
+      "sha256": "3487707d8ac7ad42aad38f648e02f2531577645f2c2cba7dc5b722b567747df0"
+    }
+  ]
 }
