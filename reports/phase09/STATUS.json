@@ -1,0 +1,16 @@
+{
+  "phase": 9,
+  "implementation": "five increments complete",
+  "teaching": "complete in separate Desktop phase09 folder",
+  "main_cli_and_bundle_ids_match_phase07": true,
+  "tk_scope": "withdrawn actual event-loop load/submit/display/copy",
+  "save_dialog_and_visual_usability_review": "not exercised",
+  "clean_other_machine_installation": "not observed",
+  "student_reconstruction": "pending",
+  "human_ratings": "pending",
+  "training_updates_this_phase": 0,
+  "final_set_scores_this_phase": 0,
+  "final_population": "already used in Phase 8; not untouched",
+  "local_release": "reports/phase09/FINAL_RELEASE.json",
+  "automated_test_suite": "not added or run"
+}

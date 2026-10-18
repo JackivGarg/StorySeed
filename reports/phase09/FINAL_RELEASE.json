@@ -1,0 +1,22 @@
+{
+  "folder": "C:\\Users\\JACKIV\\OneDrive\\Desktop\\StorySeed\\exports\\StorySeed-main128-final",
+  "archive": "C:\\Users\\JACKIV\\OneDrive\\Desktop\\StorySeed\\exports\\StorySeed-main128-final.zip",
+  "archive_bytes": 24805813,
+  "archive_sha256": "a2960cbaee56af7d2142a54aa5e943985775d9de90ea4e462680e71e97c81f6e",
+  "manifest_sha256": "13a1411561880221b1f3e7ff6aff9b75a2ea7c8ffc0d401c68fc92ced005fd12",
+  "files": 40,
+  "model_sha256": "f0f7241af4770372738c3c9b057e205cc60e66cc7fa1d21397a6281f383c0eed",
+  "tokenizer_sha256": "3540aba1c244ed063b9fb317f0d62280a63d00725cac980e16c3b583cdf549cb",
+  "source_base_revision": "c473ad4c07f34a01dbc168b9d4177fb9329a95dd",
+  "source_working_tree_dirty": false,
+  "raw_corpus_included": false,
+  "python_or_dependencies_included": false,
+  "status": "local release created and fresh-process relocation observed",
+  "fresh_process_generated_ids_match": true,
+  "source_record": "reports/phase09/03_relocated-StorySeed-main128-final.json",
+  "new_training_updates": 0,
+  "new_final_set_scores": 0,
+  "third_party_runtime_required": true,
+  "human_ratings": "pending",
+  "student_reconstruction": "pending"
+}

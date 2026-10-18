@@ -782,8 +782,8 @@
     },
     {
       "path": "phase09/IMPLEMENTATION_AND_EVIDENCE.md",
-      "sha256": "39f7d7651fa5deb76a12969d4739674645f26fd6bfad190922f074a89fdbb47e",
-      "words": 180
+      "sha256": "8848a48dec3610394f9ef0a7abd8c1ad125c8661bd968e2f1247066280bc386f",
+      "words": 286
     },
     {
       "path": "phase09/LOSS_AND_LEARNING.md",
@@ -792,8 +792,8 @@
     },
     {
       "path": "phase09/README.md",
-      "sha256": "4e86310903bd40e6cccf213bff55a19b7a75c16d361dcdf5772f8eb64397cefe",
-      "words": 196
+      "sha256": "78c0da4ba72b2b9cf10072b58290352d55d476d4312929d2d6d171ac1c79f44b",
+      "words": 199
     }
   ],
   "teaching_preview": {
@@ -862,5 +862,6 @@
     }
   ],
   "phase09_status": "five increments implemented and taught; actual application observations recorded; independent reconstruction pending",
-  "phase09_original_index_archive": "history/4b50ae0-before-phase09-closure"
+  "phase09_original_index_archive": "history/4b50ae0-before-phase09-closure",
+  "phase09_release_source_revision": "c473ad4c07f34a01dbc168b9d4177fb9329a95dd"
 }

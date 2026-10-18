@@ -119,3 +119,5 @@ Phase 7 intermediate evidence: capture `34ef116`; early learning `9159ffa`; reco
 - 4b50ae0 docs: connect the complete build to independent reconstruction
 
 Final closure and release records follow in later commits. Source and notes are delivered; independent learning evidence remains pending.
+
+Phase 9 teaching closure: c473ad4. Final complete release packaged from that clean source; this follow-up records the archive and actual relocation observation without changing model weights or runtime source.

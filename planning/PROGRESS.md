@@ -145,3 +145,7 @@ Read external phase09/04-explain-what-we-built-and-what-it-proves.md. Code/artif
 ## Phase 9.5 — Reconstruct the complete SLM independently
 
 Read external phase09/05-rebuild-the-journey-with-your-own-decisions.md. Code/artifacts: docs/RECONSTRUCTION_WORKBOOK.md, reports/phase09/SUMMARY.md. See reports/phase09/05_*.json for execution evidence when present. Written/implemented here; actual execution and independent learner reconstruction are tracked separately. No new training or final-set scoring is part of this increment.
+
+## Final complete local release
+
+exports/StorySeed-main128-final.zip was created from clean committed source c473ad4 and reproduced the default main sample in a fresh isolated process outside the repo. reports/phase09/FINAL_RELEASE.json records its exact identity. Weights stay local/ignored; code/report publication is tracked by Git origin/main. Independent human ratings and learner reconstruction remain pending.
