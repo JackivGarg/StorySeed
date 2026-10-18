@@ -87,3 +87,5 @@ Phase 5.6: written, implemented and executed on 2026-10-18; external phase05/06-
 Phase 6.1: written, implemented and executed on 2026-10-18; external phase06/01-define-the-run-before-updating-weights.md; evidence reports/phase06/01_run_contract.json. Understanding pending.
 
 Phase 6.2: written, implemented and executed on 2026-10-18; external phase06/02-control-the-optimizer-update.md; evidence reports/phase06/02_optimizer.json. Understanding pending.
+
+Phase 6.3: written, implemented and executed on 2026-10-18; external phase06/03-accumulate-the-right-token-objective.md; evidence reports/phase06/03_accumulation.json. Understanding pending.

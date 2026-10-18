@@ -146,3 +146,7 @@ Read phase06/01-define-the-run-before-updating-weights.md, then 01-thinking-and-
 ## Phase 6.2
 
 Read phase06/02-control-the-optimizer-update.md, then 02-thinking-and-inspection.md in that folder. Code: src/storyseed/training_optimizer.py, scripts/phase06/02_inspect_optimizer.py. Actual evidence: reports/phase06/02_optimizer.json. Written, implemented and executed; student understanding pending.
+
+## Phase 6.3
+
+Read phase06/03-accumulate-the-right-token-objective.md, then 03-thinking-and-inspection.md in that folder. Code: src/storyseed/training_runner.py, scripts/phase06/03_inspect_accumulation.py. Actual evidence: reports/phase06/03_accumulation.json. Written, implemented and executed; student understanding pending.
