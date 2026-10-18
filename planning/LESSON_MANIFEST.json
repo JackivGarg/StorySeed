@@ -376,6 +376,16 @@
       "words": 681
     },
     {
+      "path": "phase05/05-assemble-the-complete-decoder.md",
+      "sha256": "60956c85aa9b93eae801f69b396cb7449f12cec36935d53f99c77a2f03b2b7f3",
+      "words": 796
+    },
+    {
+      "path": "phase05/05-thinking-and-inspection.md",
+      "sha256": "6d244b57f95076a037f81bbd81ad6ddc41e0267e4ae56946b7c9ed09c8687726",
+      "words": 192
+    },
+    {
       "path": "READING_ORDER.md",
       "sha256": "af90bdc82e4957383c5d15417fd64f0344690f9e842ae2067d0d74ccb2043b3a",
       "words": 343
