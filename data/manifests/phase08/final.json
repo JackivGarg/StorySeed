@@ -1,0 +1,34 @@
+{
+  "format": "storyseed.final-population.v1",
+  "protocol_sha256": "642c1fa0c08bb23262a16a2a909ae9ccc19ef8926c90907895afd349fbe82bc9",
+  "tokenizer_sha256": "3540aba1c244ed063b9fb317f0d62280a63d00725cac980e16c3b583cdf549cb",
+  "original_split_manifest_sha256": "28057dee27976cb7956256f9de48dd1b6f8fbd3dd28397c2c57de942f28900d5",
+  "frozen_artifacts": {
+    "main128": {
+      "path": "C:\\Users\\JACKIV\\OneDrive\\Desktop\\StorySeed\\checkpoints\\phase07\\main128-inference.pt",
+      "sha256": "f0f7241af4770372738c3c9b057e205cc60e66cc7fa1d21397a6281f383c0eed",
+      "format": "storyseed.decoder.inference.v1",
+      "purpose": "expanded-corpus scratch run; 128 supplied input slots; fixed last update",
+      "optimizer_resume": false
+    },
+    "context64": {
+      "path": "C:\\Users\\JACKIV\\OneDrive\\Desktop\\StorySeed\\checkpoints\\phase07\\context64-inference.pt",
+      "sha256": "c7bb7ab1ff2ce95816d3f246858e44f353d7456b9d16a34f6a2c7492675371d2",
+      "format": "storyseed.decoder.inference.v1",
+      "purpose": "expanded-corpus scratch run; 64 supplied input slots; fixed last update",
+      "optimizer_resume": false
+    }
+  },
+  "release": "after both full training runs and fixed inference exports; no use in training/tokenizer/selection",
+  "files": {
+    "final": {
+      "stories": 120,
+      "prediction_positions": 44282,
+      "tokens": "data/processed/phase08/final_tokens.npy",
+      "offsets": "data/processed/phase08/final_offsets.npy",
+      "tokens_sha256": "91d0c48b74877bfb01d774941db1467bbbe0748afc4c9249159c3f61dd2d820d",
+      "offsets_sha256": "294932dc2df1ea2d1a52b49ed354ebb04dea6c4019ea5729bb1aaec7970ff170"
+    }
+  },
+  "source_split_sha256": "9f598b88b79440dbcca566fa2a39a4278ce8290211d9407451a6cadecaf8c888"
+}

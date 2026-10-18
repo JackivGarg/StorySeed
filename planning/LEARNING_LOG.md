@@ -219,3 +219,7 @@ Actual artifacts: reports/phase07/main128-curve.json, reports/phase07/context64-
 ## Phase 7.4 observed outcome — 2026-10-18
 
 Actual artifacts: reports/phase07/04_fresh_inference.json. Explanations connect measured changes to the project decisions rather than list scores. Learner understanding remains pending.
+
+## Phase 8.1 observed outcome — 2026-10-18
+
+Actual artifacts: data/manifests/phase08/final.json. Explanations connect measured changes to the project decisions rather than list scores. Learner understanding remains pending.
