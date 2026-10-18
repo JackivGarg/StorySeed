@@ -1,5 +1,6 @@
 """One correctly weighted effective-batch update at a time."""
 import math
+from contextlib import nullcontext
 import torch
 from storyseed.decoder import DecoderLanguageModel
 from storyseed.training_data import TrainingBatches,token_losses
@@ -8,14 +9,20 @@ from storyseed.training_optimizer import make_optimizer,set_update_learning_rate
 
 class TrainingRunner:
     def __init__(self,config):
-        if config.device!='cpu' or config.precision!='fp32':raise ValueError('This increment supports CPU fp32 updates.')
+        if config.device=='cuda' and not torch.cuda.is_available():raise ValueError('CUDA was requested but is unavailable.')
+        if config.precision=='bf16' and not torch.cuda.is_bf16_supported():raise ValueError('CUDA bf16 is unsupported on this machine.')
         self.config=config;self.device=torch.device(config.device)
         torch.set_num_threads(config.threads);torch.manual_seed(config.seed)
         self.model=DecoderLanguageModel(config.model).to(self.device)
         self.optimizer=make_optimizer(self.model,config)
+        self.scaler=torch.amp.GradScaler('cuda',enabled=config.precision=='fp16',init_scale=1024.0)
         self.data=TrainingBatches('train',config.model.context,config.score_tokens)
         self.data_generator=torch.Generator().manual_seed(config.data_seed)
         self.updates=0;self.attempts=0;self.tokens_consumed=0;self.optimizer_target_tokens=0
+
+    def autocast(self):
+        if self.config.precision=='fp32':return nullcontext()
+        return torch.autocast('cuda',dtype=torch.float16 if self.config.precision=='fp16' else torch.bfloat16)
 
     def step(self,rows=None):
         config=self.config
@@ -32,13 +39,23 @@ class TrainingRunner:
         losses=[]
         for batch in batches:
             x,y,mask=[batch[key].to(self.device) for key in ['inputs','targets','loss_mask']]
-            values=token_losses(self.model(x),y,mask)
-            objective=values.sum()/total
+            with self.autocast():
+                values=token_losses(self.model(x),y,mask)
+                objective=values.sum()/total
             if not torch.isfinite(objective):raise RuntimeError('Nonfinite microbatch loss.')
-            objective.backward();losses.append(values.detach().sum())
-        norm=torch.nn.utils.clip_grad_norm_(self.model.parameters(),config.clip_norm,error_if_nonfinite=True).item()
-        self.optimizer.step()
-        self.attempts+=1;self.updates+=1;self.tokens_consumed+=total;self.optimizer_target_tokens+=total
+            self.scaler.scale(objective).backward();losses.append(values.detach().sum())
+        self.scaler.unscale_(self.optimizer)
+        norm=torch.nn.utils.clip_grad_norm_(self.model.parameters(),config.clip_norm,error_if_nonfinite=False).item()
+        previous_scale=self.scaler.get_scale()
+        if not math.isfinite(norm):
+            if not self.scaler.is_enabled():raise RuntimeError('Nonfinite unscaled gradient norm.')
+            self.scaler.update(new_scale=previous_scale/2)
+            skipped=True
+        else:
+            self.scaler.step(self.optimizer);self.scaler.update()
+            skipped=self.scaler.get_scale()<previous_scale
+        self.attempts+=1;self.tokens_consumed+=total
+        if not skipped:self.updates+=1;self.optimizer_target_tokens+=total
         return {'update':self.updates,'attempt':self.attempts,'learning_rate':lr,'nll':torch.stack(losses).sum().item()/total,
-                'true_targets':total,'input_tokens':inputs,'microbatch_target_counts':counts,'gradient_norm_before_clip':norm,
-                'optimizer_step_skipped':False,'rows':rows}
+                'true_targets':total,'input_tokens':inputs,'microbatch_target_counts':counts,'gradient_norm_before_clip':norm if math.isfinite(norm) else None,
+                'optimizer_step_skipped':skipped,'loss_scale':self.scaler.get_scale(),'rows':rows}

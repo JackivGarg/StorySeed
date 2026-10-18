@@ -426,6 +426,16 @@
       "words": 160
     },
     {
+      "path": "phase06/04-thinking-and-inspection.md",
+      "sha256": "5bb2a3b73c0bd90b06f34db925e2f016a6b7cf816c33b79ac88322c72d02fc8a",
+      "words": 175
+    },
+    {
+      "path": "phase06/04-use-precision-that-the-machine-can-support.md",
+      "sha256": "a586a0f1be61c8af85de4786efebf135476a67ee9c595f6bbad7b52df96b5a64",
+      "words": 724
+    },
+    {
       "path": "READING_ORDER.md",
       "sha256": "af90bdc82e4957383c5d15417fd64f0344690f9e842ae2067d0d74ccb2043b3a",
       "words": 343

@@ -155,3 +155,7 @@ The missing capability motivates its prerequisite before returning to the actual
 ## Phase 6.3 — 2026-10-18
 
 The missing capability motivates its prerequisite before returning to the actual build. Read external phase06/03-accumulate-the-right-token-objective.md and companion. Actual observations are in reports/phase06/03_accumulation.json. No learner-mastery or final-holdout claim.
+
+## Phase 6.4 — 2026-10-18
+
+The missing capability motivates its prerequisite before returning to the actual build. Read external phase06/04-use-precision-that-the-machine-can-support.md and companion. Actual observations are in reports/phase06/04_precision.json. No learner-mastery or final-holdout claim.

@@ -150,3 +150,7 @@ Read phase06/02-control-the-optimizer-update.md, then 02-thinking-and-inspection
 ## Phase 6.3
 
 Read phase06/03-accumulate-the-right-token-objective.md, then 03-thinking-and-inspection.md in that folder. Code: src/storyseed/training_runner.py, scripts/phase06/03_inspect_accumulation.py. Actual evidence: reports/phase06/03_accumulation.json. Written, implemented and executed; student understanding pending.
+
+## Phase 6.4
+
+Read phase06/04-use-precision-that-the-machine-can-support.md, then 04-thinking-and-inspection.md in that folder. Code: src/storyseed/training_runner.py, scripts/phase06/04_inspect_precision.py. Actual evidence: reports/phase06/04_precision.json. Written, implemented and executed; student understanding pending.
