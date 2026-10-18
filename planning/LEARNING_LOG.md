@@ -255,3 +255,7 @@ Read external phase09/02-give-the-model-a-responsive-interface.md. Code/artifact
 ## Phase 9.3 — Preserve the meaning of a portable model
 
 Read external phase09/03-move-the-system-without-changing-its-meaning.md. Code/artifacts: src/storyseed/release_bundle.py, src/storyseed/app.py, scripts/package_local_app.py, docs/LOCAL_APP.md, requirements-inference.txt. See reports/phase09/03_*.json for execution evidence when present. Written/implemented here; actual execution and independent learner reconstruction are tracked separately. No new training or final-set scoring is part of this increment.
+
+## Phase 9.4 — Explain and present the evidence
+
+Read external phase09/04-explain-what-we-built-and-what-it-proves.md. Code/artifacts: docs/MODEL_CARD.md, docs/UNIVERSITY_REPORT.md, docs/DEMO_GUIDE.md. See reports/phase09/04_*.json for execution evidence when present. Written/implemented here; actual execution and independent learner reconstruction are tracked separately. No new training or final-set scoring is part of this increment.

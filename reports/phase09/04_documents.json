@@ -1,0 +1,21 @@
+{
+  "documents": [
+    {
+      "path": "docs/MODEL_CARD.md",
+      "sha256": "37c22c1b495be970b867347ab63be0073548552593878ca1117f2bc0d5179575"
+    },
+    {
+      "path": "docs/UNIVERSITY_REPORT.md",
+      "sha256": "3cd70a5115a61dc05b61b569ce8bc8f8cf5968acb95dab94186c4a8b289351d2"
+    },
+    {
+      "path": "docs/DEMO_GUIDE.md",
+      "sha256": "86e9a01a2e4ce2209ec4f4dfebbe798af69236ff3b0aaa5e46795198e3f8fa23"
+    }
+  ],
+  "status": "authored from existing measured evidence; no new empirical evaluation",
+  "human_ratings": "pending",
+  "student_explanation": "pending",
+  "source_metrics": "reports/phase08/metrics.json",
+  "novel_algorithm_or_acceptance_claim": false
+}
