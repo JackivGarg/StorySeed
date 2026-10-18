@@ -1,0 +1,42 @@
+{
+  "format": "storyseed.expanded-corpus.v1",
+  "protocol_sha256": "642c1fa0c08bb23262a16a2a909ae9ccc19ef8926c90907895afd349fbe82bc9",
+  "dataset": "roneneldan/TinyStories",
+  "revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+  "url": "https://huggingface.co/datasets/roneneldan/TinyStories/resolve/f54c09fd23315a6f9c86f9dc80f725de7d8f9c64/TinyStories-train.txt",
+  "prefix_bytes": 8388608,
+  "prefix_sha256": "effebff1be412625808dac7e5e3473b0401a50fa721ac7253d93364f184e4891",
+  "http_status": 206,
+  "content_range": "bytes 0-8388607/1924281556",
+  "complete_unique_stories": 9562,
+  "duplicate_groups_removed": 0,
+  "sampling": "convenience source prefix, not representative full TinyStories data",
+  "training_rule": "unique normalized groups assigned train by unchanged Phase 2 seed-17 hash rule, from the bounded source prefix",
+  "development_rule": "unchanged original 105 development stories; no new development groups used",
+  "tokenizer_sha256": "3540aba1c244ed063b9fb317f0d62280a63d00725cac980e16c3b583cdf549cb",
+  "original_split_manifest_sha256": "28057dee27976cb7956256f9de48dd1b6f8fbd3dd28397c2c57de942f28900d5",
+  "license_declared_by_pinned_card": "cdla-sharing-1.0",
+  "attribution": "Ronen Eldan and Yuanzhi Li, TinyStories (2023)",
+  "files": {
+    "train": {
+      "stories": 7585,
+      "prediction_positions": 2818569,
+      "tokens": "data/processed/phase07/train_tokens.npy",
+      "offsets": "data/processed/phase07/train_offsets.npy",
+      "tokens_sha256": "120826f9d7b995af8b6174fc954f1f7fb27c949d371cf3a540bf75ad0514fc83",
+      "offsets_sha256": "e4e03fed4573efaed4094aa44fa5b2c497ba4acd093cdf7fbf87d7347960b758"
+    },
+    "development": {
+      "stories": 105,
+      "prediction_positions": 39711,
+      "tokens": "data/processed/phase07/development_tokens.npy",
+      "offsets": "data/processed/phase07/development_offsets.npy",
+      "tokens_sha256": "c6f2ec0a22b09cd03e28c561ae6159cebc76552a925cb8ffe4d9c9bbca0ca66d",
+      "offsets_sha256": "ff95287e1efae88d1223307a01fcddef35bf5bc981480d3e7c5f95649b18619d"
+    }
+  },
+  "normalized_original_reserved_overlap": 0,
+  "near_duplicate_limit": "normalized exact groups only; semantic duplicates not ruled out",
+  "final_holdout_encoded": false,
+  "training_jsonl_sha256": "cb205b988163f021d35ff9e17e3ab4ffdccccb39710225dca6094e8e6b6603e0"
+}

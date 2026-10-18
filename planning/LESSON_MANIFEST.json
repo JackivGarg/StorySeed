@@ -516,6 +516,11 @@
       "words": 1194
     },
     {
+      "path": "phase07/01-observed-data-and-the-first-loss.md",
+      "sha256": "26a02a7c3f1007ccdadab5efb32fc3573bdc850722ad0d5a336971144895fc90",
+      "words": 843
+    },
+    {
       "path": "phase07/01-thinking-and-inspection.md",
       "sha256": "7d79c607154823222504f9eb9e82a6daa2adfecc958d0bfd80e5a6b35e5ca5dd",
       "words": 220
@@ -572,8 +577,8 @@
     },
     {
       "path": "phase07/README.md",
-      "sha256": "85c3c7dbc4ecba9df1bf9a12bf66ba722c3689eb0d70b0d69d2485a8b35c2a24",
-      "words": 330
+      "sha256": "a1436265907a3e16d06f10d30529f0355670427992feb35720a6fd3c366dfd00",
+      "words": 352
     },
     {
       "path": "phase08/00-reconstruct-the-journey.md",
