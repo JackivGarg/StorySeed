@@ -1,5 +1,13 @@
 # StorySeed progress
 
+## Active quality recovery — continuation running
+
+The original app's poor story quality is not treated as solved. A separate scratch recovery completed 16,000 updates, but its diagnostic stories still confused characters. An additional 32,000-update full-state stage is running under planning/QUALITY_RECOVERY_CONTINUATION_PROTOCOL.json. Current counters and checkpoint: reports/quality_recovery/LIVE_STATUS.json. Native execution session: 71643 in the active chat; do not launch a duplicate.
+
+The new final stories remain unencoded/unscored; evaluation and application promotion are pending. The current app still serves the historical model. Read the separate Desktop StorySeed-Study-Notes/quality-recovery folder for diagnosis, actual learning and the continuation decision. Earlier pipeline completion is not a quality guarantee.
+
+## Earlier progression
+
 ## Current completion — Phase 9
 
 All nine planned build phases have delivered implementation and detailed separate teaching. Phase 9 adds the local fixed-main app, source/weight/tokenizer release, model card, university report and reconstruction workbook. Read reports/phase09/SUMMARY.md for scoped actual execution. Student demonstration and independent human ratings remain pending. No new training or final scoring occurred; earlier entries are historical. The final complete release is identified by reports/phase09/FINAL_RELEASE.json after packaging closure.

@@ -1,5 +1,13 @@
 # StorySeed
 
+## Active quality recovery — continuation running
+
+The original app's poor story quality is not treated as solved. A separate scratch recovery completed 16,000 updates, but its diagnostic stories still confused characters. An additional 32,000-update full-state stage is running under planning/QUALITY_RECOVERY_CONTINUATION_PROTOCOL.json. Current counters and checkpoint: reports/quality_recovery/LIVE_STATUS.json. Native execution session: 71643 in the active chat; do not launch a duplicate.
+
+The new final stories remain unencoded/unscored; evaluation and application promotion are pending. The current app still serves the historical model. Read the separate Desktop StorySeed-Study-Notes/quality-recovery folder for diagnosis, actual learning and the continuation decision. Earlier pipeline completion is not a quality guarantee.
+
+## Earlier progression
+
 ## Use the trained local app
 
 ```powershell

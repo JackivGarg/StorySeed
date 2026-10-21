@@ -1,0 +1,27 @@
+{
+  "state": "continuation active, not completed",
+  "native_session": 71643,
+  "controller": "native execution tool; Codex Process Jobs rejected win32 before any successful job creation",
+  "initial_budget_completed": 16000,
+  "additional_budget": 32000,
+  "overall_budget": 48000,
+  "first_continuation_development": {
+    "update": 17000,
+    "stage_update": 1000,
+    "development": {
+      "nats_per_target_token": 1.8849046766013693,
+      "perplexity": 6.585726638247738,
+      "prediction_positions": 46082,
+      "batches": 59,
+      "complete_population": true,
+      "precision": "fp32 logits/loss, float64 sum"
+    }
+  },
+  "previous_best_development_nll": 1.8621285305418136,
+  "interpretation": "same fixed population; first new marker is worse, original best inference remains protected; schedule transition is a plausible contributor, not an isolated causal finding",
+  "fresh_final_accessed": false,
+  "app_promoted": false,
+  "native_execution_limit": "no CPJ durability/completion notification is claimed; full checkpoint supports restore if process actually exits",
+  "student_understanding": "pending",
+  "human_review": "pending"
+}

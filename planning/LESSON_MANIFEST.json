@@ -7,8 +7,8 @@
   "files": [
     {
       "path": "AGENTS.md",
-      "sha256": "6c4ee3ff46ad99689132cc8ea1a2f229c7819accf5ac71e07bb409b7f3a6035d",
-      "words": 1463
+      "sha256": "10856837821b966aa0876ae3ce60ac379980d0d99831e0ec9f8a07a6931ea804",
+      "words": 1488
     },
     {
       "path": "phase01/00-follow-one-character-through-the-system.md",
@@ -827,8 +827,8 @@
     },
     {
       "path": "quality-recovery/03-training-and-learning/07-continue-when-a-finished-budget-is-not-enough.md",
-      "sha256": "2a062c7e6003fd2867e3d56e7e31017eabb62906b63c15a150f5e0809f60e0ef",
-      "words": 880
+      "sha256": "549365b8bd892e70ea33c0665f880b87b24032951914ca0a4ffa290e19474769",
+      "words": 1040
     },
     {
       "path": "quality-recovery/03-training-and-learning/LOSS_AND_LEARNING.md",
@@ -968,5 +968,5 @@
       "sha256": "f16451087bdf3ec87a6ce2dd222ef608b408a02f25f9375cb9e7bbdcb1f5f4d7"
     }
   ],
-  "quality_recovery_notes_revision_base": "53ade6a605052e1467e959ace9175bea2662cabd"
+  "quality_recovery_notes_revision_base": "dee9c489ff29e30bd9dd2f58224d4a56cabdb4d2"
 }
