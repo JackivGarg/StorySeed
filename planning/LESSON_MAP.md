@@ -288,3 +288,7 @@ Read external quality-recovery/03-training-and-learning/06-connect-the-complete-
 ## Recovery continuation: require the actual missing capability
 
 Read external quality-recovery/03-training-and-learning/07-continue-when-a-finished-budget-is-not-enough.md. The initial budget is complete but diagnostic stories still fail. New pre-final continuation protocol/source preserves state and records the changed stage schedule. Additional budget: 32,000 updates. Final scoring/app promotion remain pending.
+
+## Recovery execution: save the result before power off
+
+Read external quality-recovery/03-training-and-learning/09-distinguish-training-completion-from-laptop-shutdown.md. Source: scripts/shutdown_after_training.py. Scope: authorized local shutdown after successful training/checkpoint verification; final quality/app work remains pending. Actual setup evidence: reports/quality_recovery/AUTO_SHUTDOWN_SETUP.json.

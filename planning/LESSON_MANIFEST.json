@@ -7,8 +7,8 @@
   "files": [
     {
       "path": "AGENTS.md",
-      "sha256": "10856837821b966aa0876ae3ce60ac379980d0d99831e0ec9f8a07a6931ea804",
-      "words": 1488
+      "sha256": "6faac7ef02e237e0a75c316b4fca913981bc7dad5cd0dc7e4598f2eec5e91e72",
+      "words": 1630
     },
     {
       "path": "phase01/00-follow-one-character-through-the-system.md",
@@ -831,6 +831,11 @@
       "words": 1040
     },
     {
+      "path": "quality-recovery/03-training-and-learning/09-distinguish-training-completion-from-laptop-shutdown.md",
+      "sha256": "da093786c81937e3a3d89c5c7450128eb07fc4405a520136d36257aace73dfb6",
+      "words": 357
+    },
+    {
       "path": "quality-recovery/03-training-and-learning/LOSS_AND_LEARNING.md",
       "sha256": "fe12a92f9f34f93f23bb60a7e5788e48915bb805ec47259a5b5c94dafd24ae71",
       "words": 685
@@ -968,5 +973,5 @@
       "sha256": "f16451087bdf3ec87a6ce2dd222ef608b408a02f25f9375cb9e7bbdcb1f5f4d7"
     }
   ],
-  "quality_recovery_notes_revision_base": "dee9c489ff29e30bd9dd2f58224d4a56cabdb4d2"
+  "quality_recovery_notes_revision_base": "60307a149ce807fab5a3aebc85f5410e333246aa"
 }

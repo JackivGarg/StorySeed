@@ -1,0 +1,20 @@
+{
+  "state_at_setup": {
+    "state": "waiting_for_training",
+    "utc": "2026-10-21T20:10:07.324104+00:00",
+    "watcher_pid": 37140,
+    "training_pid": 4084
+  },
+  "training_process_creation_filetime": 134370792386342836,
+  "expected_updates": 48000,
+  "helper_source_sha256": "8f3198688202383c56de9b003a0ec1680f56b6bc8b01bca401fcaded1eff5b44",
+  "scope": "automatic shutdown after verified successful training; later qualitative review/app work is pending",
+  "checkpoint_and_inference_hash_checks_required": true,
+  "training_exit_code_zero_required": true,
+  "shutdown_countdown_seconds": 120,
+  "incomplete_training_gate_observation": "completion_evidence raised FileNotFoundError while completed training report was absent; no shutdown command was invoked",
+  "observed_worker_stderr": "empty at setup",
+  "actual_shutdown": "pending successful training completion",
+  "runtime_state_file": "runs/quality_recovery/auto_shutdown_status.json",
+  "ai_polling_required": false
+}
