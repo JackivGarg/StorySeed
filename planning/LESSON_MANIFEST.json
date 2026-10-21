@@ -7,8 +7,8 @@
   "files": [
     {
       "path": "AGENTS.md",
-      "sha256": "79c143c0217f05481cb7afc4142020135ba2b04997322f2fa1fb066dbb548047",
-      "words": 1154
+      "sha256": "c4d29f3cd4ed290692a93cbb4defb3576fe5b565543fd7fa09286afd0f40c72c",
+      "words": 1386
     },
     {
       "path": "phase01/00-follow-one-character-through-the-system.md",
@@ -701,31 +701,6 @@
       "words": 377
     },
     {
-      "path": "READING_ORDER.md",
-      "sha256": "c660299b2c0a38cb37acff3bd46ad346f2a61ea0323d50746fa260a24c0f70c1",
-      "words": 711
-    },
-    {
-      "path": "README.md",
-      "sha256": "4c73b1d969b55de6d70169eb76133967f16f96c81b810ee377c58ce115fe209b",
-      "words": 661
-    },
-    {
-      "path": "samples/SAMPLE_01_WHY_PYTORCH_AND_HOW_LEARNING_WORKS.md",
-      "sha256": "73f166c448daebfb145a0daae4aae27c896ba36c434c6bd671d2de781fb14ec2",
-      "words": 2974
-    },
-    {
-      "path": "START_HERE.md",
-      "sha256": "83d00f26f2087b60d1e10aa1695cad3053b769bb09c8d294dccb7110b8a23eac",
-      "words": 615
-    },
-    {
-      "path": "THE_SLM_JOURNEY.md",
-      "sha256": "5f53e282d2623c9425523b9e04de15f5a72c72ee30dd6b7acedb27befd8433de",
-      "words": 1519
-    },
-    {
       "path": "phase09/00-follow-one-story-through-the-whole-system.md",
       "sha256": "a8ad200d46898d8219cc5f31197c02257a6d75288138a8d434cd5320ed8b2401",
       "words": 1222
@@ -796,9 +771,9 @@
       "words": 199
     },
     {
-      "path": "quality-recovery/README.md",
-      "sha256": "08189028e0e2063a562612d717b90f30204cf953ecbc7d990eea2b1b5bda4f17",
-      "words": 336
+      "path": "quality-recovery/00-how-to-recover-a-language-model-yourself.md",
+      "sha256": "9344a44c1a68a6ef91ec0846e01bdafbe355f9438e58f841abc8998c8de46732",
+      "words": 906
     },
     {
       "path": "quality-recovery/01-what-was-lacking/01-read-the-failure-before-changing-the-model.md",
@@ -816,6 +791,11 @@
       "words": 171
     },
     {
+      "path": "quality-recovery/02-what-we-changed/03-measure-how-much-story-the-window-can-hold.md",
+      "sha256": "7f8c7ca2d041028d3d7ccf4c3e5f45a7fdbaf26e570f3577eea8cd49a2572223",
+      "words": 438
+    },
+    {
       "path": "quality-recovery/03-training-and-learning/01-pilot-before-spending-the-training-budget.md",
       "sha256": "22a221b5c570033182cd8335058546f580af8419d008f243a27b6e4edaeba04e",
       "words": 895
@@ -826,9 +806,74 @@
       "words": 534
     },
     {
+      "path": "quality-recovery/03-training-and-learning/03-read-the-2000-update-stories-honestly.md",
+      "sha256": "387f9d68cfe005cc148c678eaf08c769834d5ba5955942cb65c1ffa9b5e9606c",
+      "words": 518
+    },
+    {
+      "path": "quality-recovery/03-training-and-learning/04-track-which-capability-is-still-missing.md",
+      "sha256": "cf1bf2745c3239654ae04ddf5dcd1a2dc3dda6aa2b491989625ff3bfcc72bea3",
+      "words": 479
+    },
+    {
+      "path": "quality-recovery/03-training-and-learning/05-distinguish-elapsed-time-from-learning-progress.md",
+      "sha256": "0900b4c439093af2bf6d8472d929c60fadf627c9ce81161269af4b73a9ca20a5",
+      "words": 381
+    },
+    {
+      "path": "quality-recovery/03-training-and-learning/06-connect-the-complete-curve-to-what-was-learned.md",
+      "sha256": "d8f24941c453ed064cc38e89f36cb5bc7344f423eefcf3f3a0692481970ab497",
+      "words": 1149
+    },
+    {
+      "path": "quality-recovery/03-training-and-learning/LOSS_AND_LEARNING.md",
+      "sha256": "930d27e8c368ae934cc6cc69bcc0623757a94b946f9cffb60ea728928f92f361",
+      "words": 676
+    },
+    {
       "path": "quality-recovery/04-before-and-after/01-compare-the-same-text-with-different-representations.md",
       "sha256": "299b876316256641c3c96aa3b89a7da8dcade0beba90841502695e9e37b2c807",
       "words": 837
+    },
+    {
+      "path": "quality-recovery/04-before-and-after/02-let-the-app-serve-the-model-we-actually-reviewed.md",
+      "sha256": "e99ae841c9cd85d2fa90d19ec045e5bdeff78fc868e6d34b76832e7f670c699b",
+      "words": 676
+    },
+    {
+      "path": "quality-recovery/04-before-and-after/03-why-masking-padding-does-not-remove-its-work.md",
+      "sha256": "7edd29de2849929d313751080903526aefc766ae54ec4a2686cfd395caa01ddc",
+      "words": 566
+    },
+    {
+      "path": "quality-recovery/README.md",
+      "sha256": "58e8953dba22e6b624e33cb115f92de20356988fcd635534b2d9191dbf0d9952",
+      "words": 398
+    },
+    {
+      "path": "READING_ORDER.md",
+      "sha256": "9d528876ac55a05e65ea669e52448e9cfc36e4c9f848d18aa93f32349df0a679",
+      "words": 789
+    },
+    {
+      "path": "README.md",
+      "sha256": "b4db03d956c63cce3884c576232710bf2d0adf56c2ec392c6f51516e126027bf",
+      "words": 739
+    },
+    {
+      "path": "samples/SAMPLE_01_WHY_PYTORCH_AND_HOW_LEARNING_WORKS.md",
+      "sha256": "73f166c448daebfb145a0daae4aae27c896ba36c434c6bd671d2de781fb14ec2",
+      "words": 2974
+    },
+    {
+      "path": "START_HERE.md",
+      "sha256": "dc87eda2bfd0fb496d40202e7959e9b1179852a60cb0c93ab95ce1148c09ba0f",
+      "words": 693
+    },
+    {
+      "path": "THE_SLM_JOURNEY.md",
+      "sha256": "5f53e282d2623c9425523b9e04de15f5a72c72ee30dd6b7acedb27befd8433de",
+      "words": 1519
     }
   ],
   "teaching_preview": {
@@ -899,5 +944,16 @@
   "phase09_status": "five increments implemented and taught; actual application observations recorded; independent reconstruction pending",
   "phase09_original_index_archive": "history/4b50ae0-before-phase09-closure",
   "phase09_release_source_revision": "c473ad4c07f34a01dbc168b9d4177fb9329a95dd",
-  "quality_recovery_status": "training active; diagnosis/data/resource/evaluation-concept notes available; improved final output not yet claimed"
+  "quality_recovery_status": "completed scratch training; later evaluation/application observations tracked separately",
+  "quality_recovery_assets": [
+    {
+      "path": "quality-recovery/03-training-and-learning/assets/actual-learning.png",
+      "sha256": "d187f05c1ded731bfebf6f3f663ffc57d0dfd006a44a1d51e2a85cb4ccb14d7b"
+    },
+    {
+      "path": "quality-recovery/03-training-and-learning/assets/actual-learning.svg",
+      "sha256": "f16451087bdf3ec87a6ce2dd222ef608b408a02f25f9375cb9e7bbdcb1f5f4d7"
+    }
+  ],
+  "quality_recovery_notes_revision_base": "431d2721f84250c024df1a8b5ec5e1c82fe5739f"
 }

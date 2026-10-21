@@ -280,3 +280,7 @@ Read the separate phase09/README.md in that order. Each chapter explains the mis
 User reported incoherent output and requested diagnosis, actual improvement and new teaching folders. Read the separate quality-recovery/README.md. Diagnostic evidence: reports/quality_recovery/01_diagnosis.json. A predeclared larger-data/tokenizer/context scratch run follows planning/QUALITY_RECOVERY_PROTOCOL.json. Old final evidence stays used; new reserved evaluation stays unencoded until candidate freeze. Setup is not yet improved output. Earlier chapters/artifacts remain unchanged.
 
 Recovery training is active with the committed protocol and measured resource pilot. Read quality-recovery/03-training-and-learning/01-pilot-before-spending-the-training-budget.md and 02-interpret-the-first-real-learning-observations.md. The next evaluator freezes the development-selected artifact before new final text/encoding/scoring. No final result is claimed at setup.
+
+## Recovery: complete learning observations
+
+Read external quality-recovery/03-training-and-learning/06-connect-the-complete-curve-to-what-was-learned.md alongside the actual learning chart. Source: quality_training.py and TrainingRunner.step. Evidence: reports/quality_recovery/03_training.json and 03_curve.json. The full 16,000-update scratch budget is complete; final evaluation and app promotion are separate increments.
