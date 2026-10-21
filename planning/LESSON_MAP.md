@@ -284,3 +284,7 @@ Recovery training is active with the committed protocol and measured resource pi
 ## Recovery: complete learning observations
 
 Read external quality-recovery/03-training-and-learning/06-connect-the-complete-curve-to-what-was-learned.md alongside the actual learning chart. Source: quality_training.py and TrainingRunner.step. Evidence: reports/quality_recovery/03_training.json and 03_curve.json. The full 16,000-update scratch budget is complete; final evaluation and app promotion are separate increments.
+
+## Recovery continuation: require the actual missing capability
+
+Read external quality-recovery/03-training-and-learning/07-continue-when-a-finished-budget-is-not-enough.md. The initial budget is complete but diagnostic stories still fail. New pre-final continuation protocol/source preserves state and records the changed stage schedule. Additional budget: 32,000 updates. Final scoring/app promotion remain pending.

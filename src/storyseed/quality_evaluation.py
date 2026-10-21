@@ -31,9 +31,16 @@ class TextBatches(TrainingBatches):
 
 def evaluate():
     torch.set_num_threads(1)
-    training = json.loads((REPORTS / '03_training.json').read_text(encoding='utf-8'))
     spec = plan()
-    if training['successful_updates'] != spec['training']['initial_total_updates']:
+    continuation_path = ROOT / 'planning/QUALITY_RECOVERY_CONTINUATION_PROTOCOL.json'
+    expected_updates = spec['training']['initial_total_updates']
+    training_path = REPORTS / '03_training.json'
+    if continuation_path.exists():
+        amendment = json.loads(continuation_path.read_text(encoding='utf-8'))
+        expected_updates += amendment['additional_updates']
+        training_path = REPORTS / '03b_training.json'
+    training = json.loads(training_path.read_text(encoding='utf-8'))
+    if training['successful_updates'] != expected_updates:
         raise ValueError('Full declared recovery budget is not complete.')
     candidate = Path(training['inference']['path'])
     if sha256(candidate.read_bytes()) != training['inference']['sha256']:
@@ -47,6 +54,10 @@ def evaluate():
               'tokenizer_sha256': manifest['tokenizer_sha256'], 'selected_update': training['best_update'],
               'selection': 'minimum recorded fixed-development NLL, before fresh-final access', 'context': 256,
               'checkpoint': candidate.relative_to(ROOT).as_posix(), 'tokenizer': TOKENIZER.relative_to(ROOT).as_posix()}
+    if continuation_path.exists():
+        frozen['continuation_protocol_sha256'] = sha256(continuation_path.read_bytes())
+        if training['continuation_protocol_sha256'] != frozen['continuation_protocol_sha256']:
+            raise ValueError('Continuation result/protocol identity differs.')
     if freeze_path.exists():
         if json.loads(freeze_path.read_text(encoding='utf-8')) != frozen:
             raise ValueError('Another recovery candidate was already frozen.')

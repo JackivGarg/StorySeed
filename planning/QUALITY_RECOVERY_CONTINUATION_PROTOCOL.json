@@ -1,0 +1,35 @@
+{
+  "format": "storyseed.quality-continuation.v1",
+  "client_date": "2026-10-21",
+  "reason": "Initial 16000-update diagnostic samples form readable clauses but still confuse fox identities, introduce flying foxes and change a balloon into a rabbit. The actual user continuation need is not yet met.",
+  "parent_checkpoint_sha256": "a0304ef1275f570fff229c2c78289da012299aa67c532eab29367a58ee2a8592",
+  "parent_global_updates": 16000,
+  "initial_protocol_sha256": "8c54aa92ad8c577165cccceae8153ec21f6f02da1207256c1ce0fe954befe4ef",
+  "additional_updates": 32000,
+  "overall_updates": 48000,
+  "schedule": {
+    "warmup_updates": 200,
+    "learning_rate": 0.00015,
+    "minimum_learning_rate": 3e-05,
+    "description": "new stage-local warmup/cosine schedule; parameters, AdamW moments/step counts and RNG streams are retained"
+  },
+  "unchanged": [
+    "training stories/encoded rows",
+    "tokenizer",
+    "architecture/context",
+    "effective rows/masks",
+    "optimizer betas/decay/clipping",
+    "precision",
+    "fixed development population",
+    "diagnostic prompts"
+  ],
+  "evaluation_every_stage_updates": 1000,
+  "sample_every_stage_updates": 4000,
+  "checkpoint_every_stage_updates": 250,
+  "maximum_stage_wall_seconds": 21600,
+  "selection": "minimum recorded fixed-development NLL across the initial and continuation stages, before fresh-final access",
+  "fresh_final_state_at_declaration": "unencoded and unscored; no deployment candidate frozen",
+  "interpretation": "development-informed extension, not the original unchanged schedule or a fixed-compute component ablation",
+  "estimated_active_hours": "2.5-3, based on the completed run excluding observed system sleeps",
+  "user_authorization": "several hours or overnight; continue after accidental sleep"
+}
