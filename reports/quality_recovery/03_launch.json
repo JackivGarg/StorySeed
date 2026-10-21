@@ -1,0 +1,23 @@
+{
+  "execution": "native Windows direct session 15211",
+  "cpj": "controller rejected win32 before successful launch; no CPJ ID exists",
+  "state_at_record": {
+    "state": "training",
+    "updates": 1000,
+    "total_updates": 16000,
+    "targets_presented": 3143168,
+    "elapsed_seconds": 376.5470000000205,
+    "best_update": 1000,
+    "best_development_nll": 3.1577456966971273,
+    "checkpoint": {
+      "path": "C:\\Users\\JACKIV\\OneDrive\\Desktop\\StorySeed\\checkpoints\\quality_recovery\\latest.pt",
+      "sha256": "c6e9b7cd6551ec91b04ad078dff55e756ef3f12c301434b15dcc3a0e7c3f3cf3",
+      "format": "storyseed.decoder.training.v1",
+      "completed_updates": 1000
+    }
+  },
+  "keep_awake": "finite thread execution-state request during training; no persistent power-setting change",
+  "old_models_preserved": true,
+  "fresh_final": "unencoded/unscored during training",
+  "completion": "not yet claimed"
+}

@@ -794,6 +794,41 @@
       "path": "phase09/README.md",
       "sha256": "78c0da4ba72b2b9cf10072b58290352d55d476d4312929d2d6d171ac1c79f44b",
       "words": 199
+    },
+    {
+      "path": "quality-recovery/README.md",
+      "sha256": "08189028e0e2063a562612d717b90f30204cf953ecbc7d990eea2b1b5bda4f17",
+      "words": 336
+    },
+    {
+      "path": "quality-recovery/01-what-was-lacking/01-read-the-failure-before-changing-the-model.md",
+      "sha256": "5ae876bdff81d6dc47bafe3f64a5779b2f72dab9f3c0a0ed07d3f27efdebf157",
+      "words": 1000
+    },
+    {
+      "path": "quality-recovery/02-what-we-changed/01-give-learning-more-useful-language-per-update.md",
+      "sha256": "2067b85714f920600b9fc0cd8eba30839e6e768baf262d4fa4e6e7c417a2c983",
+      "words": 908
+    },
+    {
+      "path": "quality-recovery/02-what-we-changed/02-observed-data-and-representation.md",
+      "sha256": "511a17be11d69406605022a7e12bb9d8fd46174f7e8330262e2bcc504da3b54d",
+      "words": 171
+    },
+    {
+      "path": "quality-recovery/03-training-and-learning/01-pilot-before-spending-the-training-budget.md",
+      "sha256": "22a221b5c570033182cd8335058546f580af8419d008f243a27b6e4edaeba04e",
+      "words": 895
+    },
+    {
+      "path": "quality-recovery/03-training-and-learning/02-interpret-the-first-real-learning-observations.md",
+      "sha256": "166ce507a85ff962a11c83483525d05968ab45da075897f60830f82b019a2c6d",
+      "words": 534
+    },
+    {
+      "path": "quality-recovery/04-before-and-after/01-compare-the-same-text-with-different-representations.md",
+      "sha256": "299b876316256641c3c96aa3b89a7da8dcade0beba90841502695e9e37b2c807",
+      "words": 837
     }
   ],
   "teaching_preview": {
@@ -863,5 +898,6 @@
   ],
   "phase09_status": "five increments implemented and taught; actual application observations recorded; independent reconstruction pending",
   "phase09_original_index_archive": "history/4b50ae0-before-phase09-closure",
-  "phase09_release_source_revision": "c473ad4c07f34a01dbc168b9d4177fb9329a95dd"
+  "phase09_release_source_revision": "c473ad4c07f34a01dbc168b9d4177fb9329a95dd",
+  "quality_recovery_status": "training active; diagnosis/data/resource/evaluation-concept notes available; improved final output not yet claimed"
 }
