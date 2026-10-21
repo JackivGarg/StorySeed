@@ -1,0 +1,21 @@
+{
+  "scope": "actual full-state parent and new stage-zero checkpoints, before subsequent stage updates",
+  "model_parameters_equal": true,
+  "adamw_state_equal": true,
+  "scaler_equal": true,
+  "random_states_equal": true,
+  "row_generator_state_equal": true,
+  "parent_counters": {
+    "updates": 16000,
+    "attempts": 16000,
+    "tokens_consumed": 50271951,
+    "optimizer_target_tokens": 50271951
+  },
+  "stage_counters": {
+    "updates": 0,
+    "attempts": 16000,
+    "tokens_consumed": 50271951,
+    "optimizer_target_tokens": 50271951
+  },
+  "scope_limit": "configuration/identity and stage-local update counter deliberately change; not the original unchanged learning-rate schedule"
+}

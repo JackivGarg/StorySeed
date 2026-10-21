@@ -7,8 +7,8 @@
   "files": [
     {
       "path": "AGENTS.md",
-      "sha256": "c4d29f3cd4ed290692a93cbb4defb3576fe5b565543fd7fa09286afd0f40c72c",
-      "words": 1386
+      "sha256": "6c4ee3ff46ad99689132cc8ea1a2f229c7819accf5ac71e07bb409b7f3a6035d",
+      "words": 1463
     },
     {
       "path": "phase01/00-follow-one-character-through-the-system.md",
@@ -826,6 +826,11 @@
       "words": 1149
     },
     {
+      "path": "quality-recovery/03-training-and-learning/07-continue-when-a-finished-budget-is-not-enough.md",
+      "sha256": "2a062c7e6003fd2867e3d56e7e31017eabb62906b63c15a150f5e0809f60e0ef",
+      "words": 880
+    },
+    {
       "path": "quality-recovery/03-training-and-learning/LOSS_AND_LEARNING.md",
       "sha256": "930d27e8c368ae934cc6cc69bcc0623757a94b946f9cffb60ea728928f92f361",
       "words": 676
@@ -847,8 +852,8 @@
     },
     {
       "path": "quality-recovery/README.md",
-      "sha256": "58e8953dba22e6b624e33cb115f92de20356988fcd635534b2d9191dbf0d9952",
-      "words": 398
+      "sha256": "1f80f9718d256b150440ba7f5f8f092d18e34a19aa01090e97445851c5bc1906",
+      "words": 446
     },
     {
       "path": "READING_ORDER.md",
@@ -944,7 +949,7 @@
   "phase09_status": "five increments implemented and taught; actual application observations recorded; independent reconstruction pending",
   "phase09_original_index_archive": "history/4b50ae0-before-phase09-closure",
   "phase09_release_source_revision": "c473ad4c07f34a01dbc168b9d4177fb9329a95dd",
-  "quality_recovery_status": "completed scratch training; later evaluation/application observations tracked separately",
+  "quality_recovery_status": "continuation_training; human assessment and student mastery pending",
   "quality_recovery_assets": [
     {
       "path": "quality-recovery/03-training-and-learning/assets/actual-learning.png",
@@ -955,5 +960,5 @@
       "sha256": "f16451087bdf3ec87a6ce2dd222ef608b408a02f25f9375cb9e7bbdcb1f5f4d7"
     }
   ],
-  "quality_recovery_notes_revision_base": "431d2721f84250c024df1a8b5ec5e1c82fe5739f"
+  "quality_recovery_notes_revision_base": "716a509f45e6a9924482aaf2dd2e86f7c8c1f0ea"
 }

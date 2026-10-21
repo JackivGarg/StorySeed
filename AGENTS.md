@@ -71,3 +71,5 @@ At4,000updates the fixed-development NLL is2.342769 from8.342617initial. Early s
 ## Recovery continuation — 2026-10-21
 
 The initial 16,000 updates completed in native session 15211, which is now finished. Its diagnostic fox outputs still confuse entities, so no final evaluation or app promotion occurred. A separate 32,000-update continuation is declared in planning/QUALITY_RECOVERY_CONTINUATION_PROTOCOL.json. It preserves weights/AdamW state/RNG and the data/tokenizer/model, while using an explicit new stage-local learning-rate schedule. Read reports/quality_recovery/LIVE_STATUS.json and the native session before resuming; never start a duplicate. Final stories remain unencoded/unscored. Canonical new concept lesson: quality-recovery/03-training-and-learning/07-continue-when-a-finished-budget-is-not-enough.md.
+
+Active continuation execution: native session 71643 in this chat. The initial session 15211 has exited successfully. Check LIVE_STATUS.json/checkpoints before any restart; do not duplicate training.
