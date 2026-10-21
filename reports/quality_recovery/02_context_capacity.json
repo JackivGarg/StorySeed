@@ -1,0 +1,20 @@
+{
+  "population": "same 200 new development stories, no final access",
+  "models": {
+    "original512": {
+      "context": 128,
+      "stories": 200,
+      "median_bos_plus_content_ids": 341.0,
+      "mean_bos_plus_content_ids": 389.725,
+      "stories_bos_plus_complete_content_fit_context": 0
+    },
+    "recovery4096": {
+      "context": 256,
+      "stories": 200,
+      "median_bos_plus_content_ids": 193.5,
+      "mean_bos_plus_content_ids": 230.41,
+      "stories_bos_plus_complete_content_fit_context": 152
+    }
+  },
+  "scope": "representation/window capacity, not a measure of successful narrative memory or model quality"
+}
