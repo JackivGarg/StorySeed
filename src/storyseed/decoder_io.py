@@ -5,10 +5,10 @@ from storyseed.story_tokenizer import StoryTokenizer,TOKENIZER_PATH
 from storyseed.decoder import DecoderConfig,DecoderLanguageModel
 
 
-def save_inference(model,path,purpose):
+def save_inference(model,path,purpose, *, tokenizer_path=TOKENIZER_PATH):
     path.parent.mkdir(parents=True,exist_ok=True)
     payload={'format':'storyseed.decoder.inference.v1','configuration':model.config.to_dict(),
-        'tokenizer_sha256':sha256(TOKENIZER_PATH.read_bytes()),'purpose':purpose,
+        'tokenizer_sha256':sha256(tokenizer_path.read_bytes()),'purpose':purpose,
         'state_dict':{k:v.detach().cpu().clone() for k,v in model.state_dict().items()}}
     temporary=path.with_suffix('.pt.tmp');torch.save(payload,temporary);temporary.replace(path)
     return {'path':str(path),'sha256':sha256(path.read_bytes()),'format':payload['format'],

@@ -8,3 +8,8 @@ artifacts/phase02/tokenizer.json -text
 /data/manifests/phase08/*.json text eol=lf
 /reports/phase07/*.json text eol=lf
 /reports/phase08/*.json text eol=lf
+
+/planning/QUALITY_RECOVERY_PROTOCOL.json text eol=lf
+/data/manifests/quality_recovery/*.json text eol=lf
+/artifacts/quality_recovery/tokenizer.json -text
+/reports/quality_recovery/*.json text eol=lf
