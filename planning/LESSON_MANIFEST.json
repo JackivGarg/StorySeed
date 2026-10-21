@@ -777,52 +777,52 @@
     },
     {
       "path": "quality-recovery/01-what-was-lacking/01-read-the-failure-before-changing-the-model.md",
-      "sha256": "5ae876bdff81d6dc47bafe3f64a5779b2f72dab9f3c0a0ed07d3f27efdebf157",
-      "words": 1000
+      "sha256": "f403fe7e39c9db863651a81f63d72c745f1ca8b4f4d7237fcd8a0710bc01de75",
+      "words": 1001
     },
     {
       "path": "quality-recovery/02-what-we-changed/01-give-learning-more-useful-language-per-update.md",
-      "sha256": "2067b85714f920600b9fc0cd8eba30839e6e768baf262d4fa4e6e7c417a2c983",
-      "words": 908
+      "sha256": "c57c2db423d8262c29c47b1fd5501112aa6d6168b4955f75a895f2f94b2943df",
+      "words": 914
     },
     {
       "path": "quality-recovery/02-what-we-changed/02-observed-data-and-representation.md",
-      "sha256": "511a17be11d69406605022a7e12bb9d8fd46174f7e8330262e2bcc504da3b54d",
-      "words": 171
+      "sha256": "95a86bf5eec44ae7046c2bbac9bdd70073463b7e23b8c8b34dc1c45b2bf19f05",
+      "words": 175
     },
     {
       "path": "quality-recovery/02-what-we-changed/03-measure-how-much-story-the-window-can-hold.md",
-      "sha256": "7f8c7ca2d041028d3d7ccf4c3e5f45a7fdbaf26e570f3577eea8cd49a2572223",
-      "words": 438
+      "sha256": "4a3a698d310efaa69b3948ea24be463db46cc89bcde51a8496bf83cd34edbdaf",
+      "words": 447
     },
     {
       "path": "quality-recovery/03-training-and-learning/01-pilot-before-spending-the-training-budget.md",
-      "sha256": "22a221b5c570033182cd8335058546f580af8419d008f243a27b6e4edaeba04e",
-      "words": 895
+      "sha256": "4069ca92887e82bef3b8464e4f827fefb205b15b518dd4d17fbe0b2f930383ce",
+      "words": 896
     },
     {
       "path": "quality-recovery/03-training-and-learning/02-interpret-the-first-real-learning-observations.md",
-      "sha256": "166ce507a85ff962a11c83483525d05968ab45da075897f60830f82b019a2c6d",
-      "words": 534
+      "sha256": "911a7409bf8aef05ff33deb25f3131a3963627950745d8ec8ef7e620d98fd1ef",
+      "words": 535
     },
     {
       "path": "quality-recovery/03-training-and-learning/03-read-the-2000-update-stories-honestly.md",
-      "sha256": "387f9d68cfe005cc148c678eaf08c769834d5ba5955942cb65c1ffa9b5e9606c",
-      "words": 518
+      "sha256": "80402133c6e99b3bce1d428805e69773c6d8cca266e49fd576230d6e5fe33898",
+      "words": 523
     },
     {
       "path": "quality-recovery/03-training-and-learning/04-track-which-capability-is-still-missing.md",
-      "sha256": "cf1bf2745c3239654ae04ddf5dcd1a2dc3dda6aa2b491989625ff3bfcc72bea3",
-      "words": 479
+      "sha256": "276a4fd227d83c58b18ed20346acf7c366427d77cd3e069586cd0c35df317e8d",
+      "words": 485
     },
     {
       "path": "quality-recovery/03-training-and-learning/05-distinguish-elapsed-time-from-learning-progress.md",
-      "sha256": "0900b4c439093af2bf6d8472d929c60fadf627c9ce81161269af4b73a9ca20a5",
-      "words": 381
+      "sha256": "9b71f20812717d3c12b250b6b0179b0c2d4e25791556424b4231731282587f2f",
+      "words": 382
     },
     {
       "path": "quality-recovery/03-training-and-learning/06-connect-the-complete-curve-to-what-was-learned.md",
-      "sha256": "d8f24941c453ed064cc38e89f36cb5bc7344f423eefcf3f3a0692481970ab497",
+      "sha256": "963d9166eefb4f24e9ab9b096742a9a033edfb01f593d5c22c406aabd9622b67",
       "words": 1149
     },
     {
@@ -832,23 +832,23 @@
     },
     {
       "path": "quality-recovery/03-training-and-learning/LOSS_AND_LEARNING.md",
-      "sha256": "930d27e8c368ae934cc6cc69bcc0623757a94b946f9cffb60ea728928f92f361",
-      "words": 676
+      "sha256": "fe12a92f9f34f93f23bb60a7e5788e48915bb805ec47259a5b5c94dafd24ae71",
+      "words": 685
     },
     {
       "path": "quality-recovery/04-before-and-after/01-compare-the-same-text-with-different-representations.md",
-      "sha256": "299b876316256641c3c96aa3b89a7da8dcade0beba90841502695e9e37b2c807",
-      "words": 837
+      "sha256": "34d091e8880cbcab63fc9e01594f3033198addb2a76b5985490d97d4781f669c",
+      "words": 842
     },
     {
       "path": "quality-recovery/04-before-and-after/02-let-the-app-serve-the-model-we-actually-reviewed.md",
-      "sha256": "e99ae841c9cd85d2fa90d19ec045e5bdeff78fc868e6d34b76832e7f670c699b",
-      "words": 676
+      "sha256": "a3d61ffe8195c1ad784d788c114db41e670caca931398489609bafdc6fc12e92",
+      "words": 679
     },
     {
       "path": "quality-recovery/04-before-and-after/03-why-masking-padding-does-not-remove-its-work.md",
-      "sha256": "7edd29de2849929d313751080903526aefc766ae54ec4a2686cfd395caa01ddc",
-      "words": 566
+      "sha256": "d6146141e440a73f0f46b9b8bd53447a30c2e2cc865404bef58027dfc6436f87",
+      "words": 567
     },
     {
       "path": "quality-recovery/README.md",
@@ -958,7 +958,15 @@
     {
       "path": "quality-recovery/03-training-and-learning/assets/actual-learning.svg",
       "sha256": "f16451087bdf3ec87a6ce2dd222ef608b408a02f25f9375cb9e7bbdcb1f5f4d7"
+    },
+    {
+      "path": "quality-recovery/03-training-and-learning/assets/initial-learning.png",
+      "sha256": "d187f05c1ded731bfebf6f3f663ffc57d0dfd006a44a1d51e2a85cb4ccb14d7b"
+    },
+    {
+      "path": "quality-recovery/03-training-and-learning/assets/initial-learning.svg",
+      "sha256": "f16451087bdf3ec87a6ce2dd222ef608b408a02f25f9375cb9e7bbdcb1f5f4d7"
     }
   ],
-  "quality_recovery_notes_revision_base": "716a509f45e6a9924482aaf2dd2e86f7c8c1f0ea"
+  "quality_recovery_notes_revision_base": "53ade6a605052e1467e959ace9175bea2662cabd"
 }
