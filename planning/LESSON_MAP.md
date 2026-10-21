@@ -278,3 +278,5 @@ Read the separate phase09/README.md in that order. Each chapter explains the mis
 ## Quality recovery — 2026-10-21
 
 User reported incoherent output and requested diagnosis, actual improvement and new teaching folders. Read the separate quality-recovery/README.md. Diagnostic evidence: reports/quality_recovery/01_diagnosis.json. A predeclared larger-data/tokenizer/context scratch run follows planning/QUALITY_RECOVERY_PROTOCOL.json. Old final evidence stays used; new reserved evaluation stays unencoded until candidate freeze. Setup is not yet improved output. Earlier chapters/artifacts remain unchanged.
+
+Recovery training is active with the committed protocol and measured resource pilot. Read quality-recovery/03-training-and-learning/01-pilot-before-spending-the-training-budget.md and 02-interpret-the-first-real-learning-observations.md. The next evaluator freezes the development-selected artifact before new final text/encoding/scoring. No final result is claimed at setup.
