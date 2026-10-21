@@ -269,3 +269,7 @@ Read external phase09/04-explain-what-we-built-and-what-it-proves.md. Code/artif
 ## Phase 9.5 — Reconstruct the complete SLM independently
 
 Read external phase09/05-rebuild-the-journey-with-your-own-decisions.md. Code/artifacts: docs/RECONSTRUCTION_WORKBOOK.md, reports/phase09/SUMMARY.md. See reports/phase09/05_*.json for execution evidence when present. Written/implemented here; actual execution and independent learner reconstruction are tracked separately. No new training or final-set scoring is part of this increment.
+
+## Quality recovery — 2026-10-21
+
+User reported incoherent output and requested diagnosis, actual improvement and new teaching folders. Read the separate quality-recovery/README.md. Diagnostic evidence: reports/quality_recovery/01_diagnosis.json. A predeclared larger-data/tokenizer/context scratch run follows planning/QUALITY_RECOVERY_PROTOCOL.json. Old final evidence stays used; new reserved evaluation stays unencoded until candidate freeze. Setup is not yet improved output. Earlier chapters/artifacts remain unchanged.

@@ -149,3 +149,7 @@ Read external phase09/05-rebuild-the-journey-with-your-own-decisions.md. Code/ar
 ## Final complete local release
 
 exports/StorySeed-main128-final.zip was created from clean committed source c473ad4 and reproduced the default main sample in a fresh isolated process outside the repo. reports/phase09/FINAL_RELEASE.json records its exact identity. Weights stay local/ignored; code/report publication is tracked by Git origin/main. Independent human ratings and learner reconstruction remain pending.
+
+## Quality recovery — 2026-10-21
+
+User reported incoherent output and requested diagnosis, actual improvement and new teaching folders. Read the separate quality-recovery/README.md. Diagnostic evidence: reports/quality_recovery/01_diagnosis.json. A predeclared larger-data/tokenizer/context scratch run follows planning/QUALITY_RECOVERY_PROTOCOL.json. Old final evidence stays used; new reserved evaluation stays unencoded until candidate freeze. Setup is not yet improved output. Earlier chapters/artifacts remain unchanged.

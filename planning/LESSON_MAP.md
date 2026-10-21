@@ -274,3 +274,7 @@ Read external phase09/05-rebuild-the-journey-with-your-own-decisions.md. Code/ar
 - 4b50ae0 docs: connect the complete build to independent reconstruction
 
 Read the separate phase09/README.md in that order. Each chapter explains the missing capability/prerequisite before returning to code. A whole-system trace and LOSS_AND_LEARNING.md connect the earlier build to inference. Individual reconstruction remains pending.
+
+## Quality recovery — 2026-10-21
+
+User reported incoherent output and requested diagnosis, actual improvement and new teaching folders. Read the separate quality-recovery/README.md. Diagnostic evidence: reports/quality_recovery/01_diagnosis.json. A predeclared larger-data/tokenizer/context scratch run follows planning/QUALITY_RECOVERY_PROTOCOL.json. Old final evidence stays used; new reserved evaluation stays unencoded until candidate freeze. Setup is not yet improved output. Earlier chapters/artifacts remain unchanged.
