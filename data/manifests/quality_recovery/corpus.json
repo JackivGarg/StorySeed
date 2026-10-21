@@ -1,0 +1,44 @@
+{
+  "format": "storyseed.quality-corpus.v1",
+  "protocol_sha256": "8c54aa92ad8c577165cccceae8153ec21f6f02da1207256c1ce0fe954befe4ef",
+  "dataset": "roneneldan/TinyStories",
+  "revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+  "prefix_bytes": 67108864,
+  "prefix_sha256": "1aa3e81618481ba1bd7eab1bd092232bcb3c42699f7c7ab011fe4b7488788d82",
+  "complete_normalized_unique_stories": 74094,
+  "old_prefix_groups_excluded_from_new_reserved": 9562,
+  "group_overlap": 0,
+  "near_duplicates": "normalized exact grouping only; semantic overlap is not ruled out",
+  "tokenizer": "artifacts/quality_recovery/tokenizer.json",
+  "tokenizer_sha256": "d62b0782f46de63e7fcebf6b29f5afd9e8a16989a48e196c9f83a63b3c7db132",
+  "vocabulary": 4096,
+  "tokenizer_fit_population": "expanded training only",
+  "files": {
+    "train": {
+      "stories": 58968,
+      "targets": 13138578,
+      "utf8_bytes": 52201333,
+      "tokens": "data/processed/quality_recovery/train_tokens.npy",
+      "offsets": "data/processed/quality_recovery/train_offsets.npy",
+      "tokens_sha256": "df5da64b884645bfa62b3f6e8898399442bdf5bfbcfcbc1ea731e67b4daa8315",
+      "offsets_sha256": "5a91ff80ec8c3e45078ccad545c38f4f10a5b8687f22029bf16e88b8e5c5cb32"
+    },
+    "development": {
+      "stories": 200,
+      "targets": 46082,
+      "utf8_bytes": 180488,
+      "tokens": "data/processed/quality_recovery/development_tokens.npy",
+      "offsets": "data/processed/quality_recovery/development_offsets.npy",
+      "tokens_sha256": "7b292c2af53d1439a2089d2910e78c2c53f1d028513ba28950030214567ccd46",
+      "offsets_sha256": "0f05e1f59b8c12ae1f2a2678db57eaea8ffa6aeed8a09f165236583d318476db"
+    }
+  },
+  "fresh_final": {
+    "stories": 200,
+    "jsonl_sha256": "a7e3a45c735ca5a1f7f82dcd7925919bfb937b73defc9ac0e50f1424f721243c",
+    "encoded_or_scored": false
+  },
+  "license_declared_by_pinned_source": "cdla-sharing-1.0",
+  "attribution": "Ronen Eldan and Yuanzhi Li, TinyStories (2023)",
+  "sampling": "bounded source prefix convenience population; not representative full benchmark"
+}
