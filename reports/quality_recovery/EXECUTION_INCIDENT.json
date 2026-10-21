@@ -1,0 +1,65 @@
+{
+  "scope": "observed timing outliers and bounded system power log, not a claim of exact second-by-second causal allocation",
+  "largest_recorded_update_seconds": [
+    {
+      "update": 11840,
+      "step_seconds": 8315.462412700057
+    },
+    {
+      "update": 11592,
+      "step_seconds": 318.89359679998597
+    },
+    {
+      "update": 11842,
+      "step_seconds": 2.0377847000490874
+    }
+  ],
+  "windows_power_events": [
+    {
+      "TimeUtc": "2026-10-21T15:15:45.9424248Z",
+      "EventId": 107,
+      "Message": "The system has resumed from sleep."
+    },
+    {
+      "TimeUtc": "2026-10-21T15:15:44.9787608Z",
+      "EventId": 42,
+      "Message": "The system is entering sleep.\r\n\r\nSleep Reason: Button or Lid"
+    },
+    {
+      "TimeUtc": "2026-10-21T15:09:22.4831992Z",
+      "EventId": 107,
+      "Message": "The system has resumed from sleep."
+    },
+    {
+      "TimeUtc": "2026-10-21T15:09:20.3818768Z",
+      "EventId": 42,
+      "Message": "The system is entering sleep.\r\n\r\nSleep Reason: Button or Lid"
+    },
+    {
+      "TimeUtc": "2026-10-21T13:23:44.9239985Z",
+      "EventId": 107,
+      "Message": "The system has resumed from sleep."
+    },
+    {
+      "TimeUtc": "2026-10-21T13:23:44.0515394Z",
+      "EventId": 42,
+      "Message": "The system is entering sleep.\r\n\r\nSleep Reason: Button or Lid"
+    },
+    {
+      "TimeUtc": "2026-10-21T12:54:22.2891581Z",
+      "EventId": 107,
+      "Message": "The system has resumed from sleep."
+    },
+    {
+      "TimeUtc": "2026-10-21T12:54:21.1654170Z",
+      "EventId": 42,
+      "Message": "The system is entering sleep.\r\n\r\nSleep Reason: Button or Lid"
+    }
+  ],
+  "training_state": "continued in same native process with saved progress",
+  "manual_checkpoint_restart_performed": false,
+  "algorithm_or_update_budget_changed": false,
+  "keep_awake_request": "ES_CONTINUOUS | ES_SYSTEM_REQUIRED; does not prevent user-triggered sleep/button/lid actions",
+  "interpretation": "recorded elapsed/update wall time includes system pauses and must not be called pure GPU compute",
+  "reference": "https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-setthreadexecutionstate"
+}
