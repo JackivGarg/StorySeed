@@ -292,3 +292,7 @@ Read external quality-recovery/03-training-and-learning/07-continue-when-a-finis
 ## Recovery execution: save the result before power off
 
 Read external quality-recovery/03-training-and-learning/09-distinguish-training-completion-from-laptop-shutdown.md. Source: scripts/shutdown_after_training.py. Scope: authorized local shutdown after successful training/checkpoint verification; final quality/app work remains pending. Actual setup evidence: reports/quality_recovery/AUTO_SHUTDOWN_SETUP.json.
+
+## Recovery continuation: actual completion
+
+Read external quality-recovery/03-training-and-learning/08-interpret-the-completed-continuation.md. Evidence: 03b_training.json, 03b_curve.json and the preserved stage-boundary observation. The additional 32,000 updates are complete; overall 48,000. Fixed-candidate final evaluation follows separately. Human review and learner mastery remain pending.

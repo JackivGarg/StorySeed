@@ -831,6 +831,11 @@
       "words": 1040
     },
     {
+      "path": "quality-recovery/03-training-and-learning/08-interpret-the-completed-continuation.md",
+      "sha256": "3c71a299728d263aea0dc6444216af10df191c86db5fd3dda3d95b6fb66a5414",
+      "words": 604
+    },
+    {
       "path": "quality-recovery/03-training-and-learning/09-distinguish-training-completion-from-laptop-shutdown.md",
       "sha256": "da093786c81937e3a3d89c5c7450128eb07fc4405a520136d36257aace73dfb6",
       "words": 357
@@ -954,15 +959,15 @@
   "phase09_status": "five increments implemented and taught; actual application observations recorded; independent reconstruction pending",
   "phase09_original_index_archive": "history/4b50ae0-before-phase09-closure",
   "phase09_release_source_revision": "c473ad4c07f34a01dbc168b9d4177fb9329a95dd",
-  "quality_recovery_status": "continuation_training; human assessment and student mastery pending",
+  "quality_recovery_status": "training_complete_evaluation_pending; human assessment and student mastery pending",
   "quality_recovery_assets": [
     {
       "path": "quality-recovery/03-training-and-learning/assets/actual-learning.png",
-      "sha256": "d187f05c1ded731bfebf6f3f663ffc57d0dfd006a44a1d51e2a85cb4ccb14d7b"
+      "sha256": "77e88d39f1cc2bd587bebf0dffed9d594401af20a36f0cfedd8f82638e6735b4"
     },
     {
       "path": "quality-recovery/03-training-and-learning/assets/actual-learning.svg",
-      "sha256": "f16451087bdf3ec87a6ce2dd222ef608b408a02f25f9375cb9e7bbdcb1f5f4d7"
+      "sha256": "f2a66f1d7e44bf072a9b4cade8e3fe406646b5076ce3c168e28eabeead8c7495"
     },
     {
       "path": "quality-recovery/03-training-and-learning/assets/initial-learning.png",
@@ -973,5 +978,5 @@
       "sha256": "f16451087bdf3ec87a6ce2dd222ef608b408a02f25f9375cb9e7bbdcb1f5f4d7"
     }
   ],
-  "quality_recovery_notes_revision_base": "60307a149ce807fab5a3aebc85f5410e333246aa"
+  "quality_recovery_notes_revision_base": "974eeb16e3710008e79dc6692bebbf4c0d0f0aee"
 }
