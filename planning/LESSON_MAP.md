@@ -296,3 +296,7 @@ Read external quality-recovery/03-training-and-learning/09-distinguish-training-
 ## Recovery continuation: actual completion
 
 Read external quality-recovery/03-training-and-learning/08-interpret-the-completed-continuation.md. Evidence: 03b_training.json, 03b_curve.json and the preserved stage-boundary observation. The additional 32,000 updates are complete; overall 48,000. Fixed-candidate final evaluation follows separately. Human review and learner mastery remain pending.
+
+## Quality recovery — reviewed candidate promotion
+
+Read quality-recovery/04-before-and-after for compatible final metrics, the identified all-pairs assistant review and integration reasoning. The app now loads artifacts/application_release.json and retains --original. Actual desktop/bundle execution evidence follows in separate reports. Earlier chapters and model artifacts remain preserved.

@@ -7,18 +7,24 @@ from storyseed.app_service import GenerationRequest, GenerationService
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Continue a story using the fixed scratch-trained StorySeed main model.')
+    parser = argparse.ArgumentParser(description='Continue a story using the declared scratch-trained StorySeed release.')
     parser.add_argument('--prompt', default='Once upon a time')
     parser.add_argument('--seed', type=int, default=17)
     parser.add_argument('--temperature', type=float, default=0.8)
     parser.add_argument('--top-k', type=int, default=40)
-    parser.add_argument('--max-new-tokens', type=int, default=48)
+    parser.add_argument('--max-new-tokens', type=int, default=192)
     parser.add_argument('--json', action='store_true', help='Print generation settings and artifact identity with the text.')
     parser.add_argument('--output', type=Path, help='Save the complete result as a UTF-8 JSON file.')
     parser.add_argument('--gui', action='store_true', help='Open the local desktop interface (requires Tkinter).')
-    parser.add_argument('--bundle', type=Path, help='Load a portable StorySeed-main128 folder instead of repository artifacts.')
+    parser.add_argument('--original', action='store_true', help='Use the historical 512-vocabulary main model for comparison.')
+    parser.add_argument('--bundle', type=Path, help='Load a portable StorySeed release folder instead of repository artifacts.')
     args = parser.parse_args()
+    if args.original and args.bundle:
+        parser.error('Choose either --original or --bundle.')
     def service_factory():
+        if args.original:
+            from storyseed.corpus import ROOT
+            return GenerationService(ROOT / 'checkpoints/phase07/main128-inference.pt')
         if args.bundle:
             from storyseed.release_bundle import load_bundle
             return load_bundle(args.bundle)

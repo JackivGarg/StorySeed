@@ -33,6 +33,7 @@ class StorySeedWindow:
         frame.pack(fill='both', expand=True)
         ttk.Label(frame, text='StorySeed', style='Title.TLabel').pack(anchor='w')
         ttk.Label(frame, text='Write an opening. Explore what our scratch-trained model continues.').pack(anchor='w', pady=(3, 14))
+        ttk.Label(frame, text='Experimental model: stories can repeat or lose track of characters.').pack(anchor='w', pady=(0, 10))
         ttk.Label(frame, text='YOUR STORY OPENING').pack(anchor='w')
         self.prompt = ScrolledText(frame, height=4, wrap='word', font=('Segoe UI', 12), bg='#f4f6f2', fg='#182332', padx=12, pady=10)
         self.prompt.pack(fill='x', pady=(6, 12))
@@ -40,7 +41,7 @@ class StorySeedWindow:
         options = ttk.Frame(frame)
         options.pack(fill='x', pady=(0, 12))
         self.settings = {}
-        for column, (label, value) in enumerate([('Seed', '17'), ('Temperature', '0.8'), ('Top-k', '40'), ('New IDs', '48')]):
+        for column, (label, value) in enumerate([('Seed', '17'), ('Temperature', '0.8'), ('Top-k', '40'), ('New IDs', '192')]):
             cell = ttk.Frame(options)
             cell.grid(row=0, column=column, padx=(0, 18), sticky='w')
             ttk.Label(cell, text=label).pack(anchor='w')
@@ -59,8 +60,9 @@ class StorySeedWindow:
         self.output = ScrolledText(frame, height=12, wrap='word', font=('Segoe UI', 12), bg='#eaf4ee', fg='#182332', padx=12, pady=12, state='disabled')
         self.output.pack(fill='both', expand=True, pady=(6, 10))
         ttk.Label(frame, textvariable=self.status, wraplength=900).pack(anchor='w')
-        ttk.Label(frame, text='Learning prototype · 6.6M parameters · 128-ID context · local CPU\nMay produce grammatical errors or lose the story thread. New IDs are not words.',
-                  wraplength=900, foreground='#afbccb').pack(anchor='w', pady=(12, 0))
+        self.footer = ttk.Label(frame, text='Learning prototype · loading model identity...\nGenerated text can still contain errors. New IDs are not words.',
+                  wraplength=900, foreground='#afbccb')
+        self.footer.pack(anchor='w', pady=(12, 0))
         threading.Thread(target=self._load, daemon=True).start()
         root.after(80, self.poll)
 
@@ -99,13 +101,14 @@ class StorySeedWindow:
                 self.busy = False
                 if event == 'loaded':
                     self.service = value
+                    self.footer.configure(text=f"{value.metadata['model']} · {value.metadata['parameters']:,} parameters · {value.metadata['context']}-ID context · local CPU\nLearning prototype; text can contain errors. New IDs are not words.")
                     self.generate_button.configure(state='normal')
                     self.status.set('Ready. The trained model stays fixed while you explore continuations.')
                 elif event == 'result':
                     self.last_result = value
                     self.output.configure(state='normal')
                     self.output.delete('1.0', 'end')
-                    self.output.insert('1.0', value['text'])
+                    self.output.insert('1.0', value['continuation'])
                     self.output.configure(state='disabled')
                     for button in (self.generate_button, self.copy_button, self.save_button):
                         button.configure(state='normal')

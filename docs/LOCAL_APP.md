@@ -1,5 +1,25 @@
 # Run StorySeed locally
 
+## Current release — quality recovery
+
+Restart the app after the update so it loads StorySeed-recovery4096. From the project:
+
+```powershell
+.venv/Scripts/python -m storyseed.app --gui
+.venv/Scripts/python -m storyseed.app --prompt "Once upon a time tere was a fox and it was blue but" --json
+.venv/Scripts/python -m storyseed.app --original --max-new-tokens 48 --json
+```
+
+The current model has 8,473,088 parameters, a 4,096-entry training-only tokenizer and a 256-ID context. Default generation: seed 17, temperature 0.8, top-k 40, at most 192 new IDs. Accepted top-k is checked against the loaded vocabulary; new-ID cap is 512. The continuation box now displays generated text separately from the original prompt. JSON preserves both. Short-prefix CPU inference skips unnecessary padding; historical `--original` sampling retains its old layout.
+
+Read RECOVERY_MODEL_CARD.md, QUALITY_RECOVERY_REPORT.md and reports/quality_recovery/ASSISTANT_REVIEW.md for actual measurements and remaining limits. Both final populations are now used evidence. Independent human ratings remain pending. Improved text is not a guarantee of perfect plot logic.
+
+Package the current model with `.venv/Scripts/python scripts/package_quality_app.py`. The new exports/StorySeed-quality-recovery folder/ZIP contains runtime source, weights, tokenizer and evidence; Python/dependencies are installed separately. From an extracted bundle after setup: `.venv/Scripts/python launch.py --gui`. The repository `--original` option needs the old local checkpoint; a new-only portable bundle intentionally contains just its declared model.
+
+Original artifacts, release ZIPs and reports remain intact. The instructions below are the historical Phase 9 reference, including its old defaults; dependency-installation principles still apply.
+
+## Historical Phase 9 reference
+
 ## On the current development laptop
 
 Open PowerShell in `C:/Users/JACKIV/OneDrive/Desktop/StorySeed`:
