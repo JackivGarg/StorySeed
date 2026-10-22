@@ -861,6 +861,16 @@
       "words": 567
     },
     {
+      "path": "quality-recovery/04-before-and-after/04-observed-results-and-their-limits.md",
+      "sha256": "9241b01b054a5af42dc552c0affeef7735047ad014464868585d7ea893b8d8b4",
+      "words": 728
+    },
+    {
+      "path": "quality-recovery/04-before-and-after/05-what-the-retained-stories-actually-show.md",
+      "sha256": "83ded393f5f358561ecbb0a956553f70e75822ee2b0802321d39f0700eae1608",
+      "words": 748
+    },
+    {
       "path": "quality-recovery/README.md",
       "sha256": "1f80f9718d256b150440ba7f5f8f092d18e34a19aa01090e97445851c5bc1906",
       "words": 446
@@ -967,7 +977,7 @@
     },
     {
       "path": "quality-recovery/03-training-and-learning/assets/actual-learning.svg",
-      "sha256": "f2a66f1d7e44bf072a9b4cade8e3fe406646b5076ce3c168e28eabeead8c7495"
+      "sha256": "a60ad2e649e46d3f57888b8f9a2c57da4205ae137eb100e1ef1f70f5d9b6db48"
     },
     {
       "path": "quality-recovery/03-training-and-learning/assets/initial-learning.png",
@@ -976,7 +986,15 @@
     {
       "path": "quality-recovery/03-training-and-learning/assets/initial-learning.svg",
       "sha256": "f16451087bdf3ec87a6ce2dd222ef608b408a02f25f9375cb9e7bbdcb1f5f4d7"
+    },
+    {
+      "path": "quality-recovery/04-before-and-after/assets/same-text-comparison.png",
+      "sha256": "973e90d2471a4a20c970516d53a843a0a41d866424f7addfe133c289cf8d4955"
+    },
+    {
+      "path": "quality-recovery/04-before-and-after/assets/same-text-comparison.svg",
+      "sha256": "32be9d88daa3ac694a4194c8738993bccf545e2b10dd183aefba0fc94d4d8a96"
     }
   ],
-  "quality_recovery_notes_revision_base": "974eeb16e3710008e79dc6692bebbf4c0d0f0aee"
+  "quality_recovery_notes_revision_base": "640ce197d779c18216c4a9a335964b3c8551054c"
 }
