@@ -17,3 +17,6 @@ artifacts/phase02/tokenizer.json -text
 /planning/QUALITY_RECOVERY_CONTINUATION_PROTOCOL.json text eol=lf
 /planning/QUALITY_RECOVERY_CANDIDATE.json text eol=lf
 /artifacts/application_release.json text eol=lf
+
+# Preserve generated vector charts byte-for-byte and omit verbose path diffs.
+/docs/media/**/*.svg -text -diff

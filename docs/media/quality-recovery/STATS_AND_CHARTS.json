@@ -1,0 +1,149 @@
+{
+  "format": "storyseed.shareable-results.v1",
+  "date": "2026-10-22",
+  "source_revision": "3642ab4f2f11caefa76049672d2d56e9e45d65c2",
+  "model": "StorySeed-recovery4096",
+  "model_sha256": "5abebfe480e5f50fddba62cd9227d22b434a69248fc2c647cc5e403d7b2805e0",
+  "parameters": 8473088,
+  "training_stories": 58968,
+  "development_stories": 200,
+  "development_targets": 46082,
+  "final_stories": 200,
+  "final_utf8_content_bytes": 172006,
+  "successful_updates": 48000,
+  "target_presentations": 150743877,
+  "initial_development_nll": 8.342617363044203,
+  "selected_development_nll": 1.7309948544835507,
+  "original_bits_per_utf8_content_byte": 1.7079534092228315,
+  "recovery_bits_per_utf8_content_byte": 0.6264874320438555,
+  "relative_encoded_path_bits_per_byte_reduction_percent": 63.31940738776209,
+  "paired_story_bootstrap_95_percentile": [
+    -1.0989358811337409,
+    -1.0638897301928756
+  ],
+  "reliable_story_continuation": false,
+  "human_ratings": "pending",
+  "scope": "combined data/tokenizer/context/training recovery; readability improved, recurring reference/plot errors remain",
+  "charts": [
+    {
+      "scope": "current recovery",
+      "file": "01-full-recovery-learning.png",
+      "sha256": "77e88d39f1cc2bd587bebf0dffed9d594401af20a36f0cfedd8f82638e6735b4",
+      "source_notes_path": "quality-recovery/03-training-and-learning/assets/actual-learning.png"
+    },
+    {
+      "scope": "current recovery",
+      "file": "01-full-recovery-learning.svg",
+      "sha256": "f36bc7d2825311d714c68b6f392fc66f7cf85cca5f2151527b0b82f122df061b",
+      "source_notes_path": "quality-recovery/03-training-and-learning/assets/actual-learning.svg"
+    },
+    {
+      "scope": "current recovery",
+      "file": "02-continuation-detail.png",
+      "sha256": "cde2c8f6245e13781aa9ee657d8c8182b339e568880b22ec0982fb9d4d5d85b0",
+      "source_notes_path": "quality-recovery/03-training-and-learning/assets/continuation-detail.png"
+    },
+    {
+      "scope": "current recovery",
+      "file": "02-continuation-detail.svg",
+      "sha256": "79043e1634df1ed9cb869ef33e03460ddcb6f1b1648e4614fc7c50db98cb51d3",
+      "source_notes_path": "quality-recovery/03-training-and-learning/assets/continuation-detail.svg"
+    },
+    {
+      "scope": "current recovery",
+      "file": "03-same-text-comparison.png",
+      "sha256": "973e90d2471a4a20c970516d53a843a0a41d866424f7addfe133c289cf8d4955",
+      "source_notes_path": "quality-recovery/04-before-and-after/assets/same-text-comparison.png"
+    },
+    {
+      "scope": "current recovery",
+      "file": "03-same-text-comparison.svg",
+      "sha256": "5a2815dcb1e761766612c82eadace999218fa496451dc16767520cadb4f8f675",
+      "source_notes_path": "quality-recovery/04-before-and-after/assets/same-text-comparison.svg"
+    },
+    {
+      "scope": "current recovery",
+      "file": "04-initial-16000-learning.png",
+      "sha256": "d187f05c1ded731bfebf6f3f663ffc57d0dfd006a44a1d51e2a85cb4ccb14d7b",
+      "source_notes_path": "quality-recovery/03-training-and-learning/assets/initial-learning.png"
+    },
+    {
+      "scope": "current recovery",
+      "file": "04-initial-16000-learning.svg",
+      "sha256": "f16451087bdf3ec87a6ce2dd222ef608b408a02f25f9375cb9e7bbdcb1f5f4d7",
+      "source_notes_path": "quality-recovery/03-training-and-learning/assets/initial-learning.svg"
+    },
+    {
+      "scope": "historical phase",
+      "file": "historical/phase05/assets/tiny-batch-loss.png",
+      "sha256": "577900bb31331a44bb3a618c92ed828692ec97e365783f4d9f82f561f1bd00b3",
+      "source_notes_path": "phase05/assets/tiny-batch-loss.png"
+    },
+    {
+      "scope": "historical phase",
+      "file": "historical/phase05/assets/tiny-batch-loss.svg",
+      "sha256": "1794d2ab7686fa5e03bd0e1e4e2202e474b1355025401be00f1554cb3de5cc3b",
+      "source_notes_path": "phase05/assets/tiny-batch-loss.svg"
+    },
+    {
+      "scope": "historical phase",
+      "file": "historical/phase06/assets/pilot-training-loss.png",
+      "sha256": "d36b1a26df000102c569fbf2cbc1703ca972ad3ccbd517b7119308df0adf8642",
+      "source_notes_path": "phase06/assets/pilot-training-loss.png"
+    },
+    {
+      "scope": "historical phase",
+      "file": "historical/phase06/assets/pilot-training-loss.svg",
+      "sha256": "ad5167e2318f98a5c08fb06a2ec740181776d418f73d6f0ea1bf11826008ed79",
+      "source_notes_path": "phase06/assets/pilot-training-loss.svg"
+    },
+    {
+      "scope": "historical phase",
+      "file": "historical/phase06/assets/development-loss.png",
+      "sha256": "5ff81d4d2b59258768ae5556dfc5a50397b5118e64080a96ca9ee63a29d74540",
+      "source_notes_path": "phase06/assets/development-loss.png"
+    },
+    {
+      "scope": "historical phase",
+      "file": "historical/phase06/assets/development-loss.svg",
+      "sha256": "7b25bcde89cb386f8ed074f68a2a12700b1c46b47294e3cb4be4773d8b538aa7",
+      "source_notes_path": "phase06/assets/development-loss.svg"
+    },
+    {
+      "scope": "historical phase",
+      "file": "historical/phase07/assets/main128-learning.png",
+      "sha256": "76c3e1018d9690a32c6375989eb3afb6fa15183500cc1d2c83dc71495b422a79",
+      "source_notes_path": "phase07/assets/main128-learning.png"
+    },
+    {
+      "scope": "historical phase",
+      "file": "historical/phase07/assets/main128-learning.svg",
+      "sha256": "9b0fe886536f61edb14866322c847d0ad61999e9dba197e76c0f6bcb33c6148f",
+      "source_notes_path": "phase07/assets/main128-learning.svg"
+    },
+    {
+      "scope": "historical phase",
+      "file": "historical/phase07/assets/context64-learning.png",
+      "sha256": "115d3ea58b5ede527f10dc2a80943ea05b8d4ce685d63f65a52346da5d84ae38",
+      "source_notes_path": "phase07/assets/context64-learning.png"
+    },
+    {
+      "scope": "historical phase",
+      "file": "historical/phase07/assets/context64-learning.svg",
+      "sha256": "777210e2082edbaff89aca69e795cb344aab9082393d08b99b2008a4a5c53e11",
+      "source_notes_path": "phase07/assets/context64-learning.svg"
+    },
+    {
+      "scope": "historical phase",
+      "file": "historical/phase08/assets/final-loss.png",
+      "sha256": "1eb37fee06ea7f089e61d71c8f4af00f91c35177171af742c4be1bc2d03cae6b",
+      "source_notes_path": "phase08/assets/final-loss.png"
+    },
+    {
+      "scope": "historical phase",
+      "file": "historical/phase08/assets/final-loss.svg",
+      "sha256": "3487707d8ac7ad42aad38f648e02f2531577645f2c2cba7dc5b722b567747df0",
+      "source_notes_path": "phase08/assets/final-loss.svg"
+    }
+  ]
+}
