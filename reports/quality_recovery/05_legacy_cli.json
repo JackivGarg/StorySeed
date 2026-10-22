@@ -1,0 +1,17 @@
+{
+  "scope": "actual public historical-model CLI on the existing CPU runtime",
+  "generated_ids_match_phase09": true,
+  "text_matches_phase09": true,
+  "release": {
+    "model": "StorySeed-main128",
+    "model_sha256": "f0f7241af4770372738c3c9b057e205cc60e66cc7fa1d21397a6281f383c0eed",
+    "tokenizer_sha256": "3540aba1c244ed063b9fb317f0d62280a63d00725cac980e16c3b583cdf549cb",
+    "parameters": 6605312,
+    "context": 128,
+    "device": "cpu",
+    "precision": "float32",
+    "training_performed": false
+  },
+  "original_artifacts_overwritten": false,
+  "training_performed": false
+}

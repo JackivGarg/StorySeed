@@ -862,8 +862,8 @@
     },
     {
       "path": "quality-recovery/04-before-and-after/04-observed-results-and-their-limits.md",
-      "sha256": "9241b01b054a5af42dc552c0affeef7735047ad014464868585d7ea893b8d8b4",
-      "words": 728
+      "sha256": "6b7cb54d030fa9ee833b0f85ba2dc85143f648ce272c78b1c500a57236a7d6b1",
+      "words": 736
     },
     {
       "path": "quality-recovery/04-before-and-after/05-what-the-retained-stories-actually-show.md",
@@ -969,7 +969,7 @@
   "phase09_status": "five increments implemented and taught; actual application observations recorded; independent reconstruction pending",
   "phase09_original_index_archive": "history/4b50ae0-before-phase09-closure",
   "phase09_release_source_revision": "c473ad4c07f34a01dbc168b9d4177fb9329a95dd",
-  "quality_recovery_status": "training_complete_evaluation_pending; human assessment and student mastery pending",
+  "quality_recovery_status": "evaluation_complete_app_observed_packaging_pending; human assessment and student mastery pending",
   "quality_recovery_assets": [
     {
       "path": "quality-recovery/03-training-and-learning/assets/actual-learning.png",
@@ -996,5 +996,5 @@
       "sha256": "32be9d88daa3ac694a4194c8738993bccf545e2b10dd183aefba0fc94d4d8a96"
     }
   ],
-  "quality_recovery_notes_revision_base": "640ce197d779c18216c4a9a335964b3c8551054c"
+  "quality_recovery_notes_revision_base": "2edc7c464d4b5d60d2c859655eaeada7f65ed9d5"
 }

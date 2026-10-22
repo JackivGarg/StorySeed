@@ -8,23 +8,23 @@ The original project delivered a functioning scratch-training and application pi
 
 Bounded sampled-row observations found correct next-ID shift, scored masks and story boundaries. Earlier logits did not change when future IDs were altered in the causal check. Padding and final-projection differences were below1e-4. The screenshot prompt used21old IDs including BOS, so initial cropping was not the explanation. These observations rule against the checked mechanisms, not every possible bug.
 
-The original6.6M model received only1,884,373scored target presentations, about0.669of its available-target pool, sampled with replacement. It also used512-entry BPE,128input IDs and a48-new-ID application cap. Insufficient learning exposure was a strong suspect; fragmentation/context and output length were additional measured limitations, not individually isolated causes.
+The original6.6M model received only1,884,373 scored target presentations, about 0.669 of its available-target pool, sampled with replacement. It also used512-entry BPE,128 input IDs and a48-new-ID application cap. Insufficient learning exposure was a strong suspect; fragmentation/context and output length were additional measured limitations, not individually isolated causes.
 
 ## Combined recovery design
 
 Expand the same pinned source to 64 MiB, fit 4,096-entry BPE on training only, increase context to 256 IDs, and train a new 8,473,088-parameter explicit decoder from random initialization. Declare an initial 16,000-update budget with recoverable state. Its diagnostic samples still confused entities, so a separate 32,000-update continuation and new stage-local schedule were declared before any fresh-final access. This is a development-informed extension, not a claim that 48,000 updates were the original unchanged plan. The expanded train contains 58,968 stories. New development/final groups exclude all 9,562 groups from the old 8 MiB prefix. Each new reserved population has 200 stories. Exact normalized group overlap is zero; semantic duplicates are not ruled out.
 
-On the same new development text, the old tokenizer uses1.694times as many content IDs. None of those200stories fit BOS plus complete content within the old window;152fit under the new representation/window. This measures available context capacity, not successful learned narrative memory.
+On the same new development text, the old tokenizer uses1.694 times as many content IDs. None of those 200 stories fit BOS plus complete content within the old window;152 fit under the new representation/window. This measures available context capacity, not successful learned narrative memory.
 
 ## Actual training and selection
 
 The measured resource pilot used about 1.1 GB allocated GPU memory. Training completed 48,000 updates/150,743,877 scored-event presentations in 6.26 gross recorded hours on the RTX 3050 Laptop GPU. Full-state checkpoints were saved every 250 updates. The first stage continued in the same native process across recorded system sleep interruptions; EXECUTION_INCIDENT.json preserves those observations. The second stage deliberately loaded the completed first stage's full state; 03b_STAGE_BOUNDARY.json records equality of actual parameters, AdamW state, scaler, random states and row generator at that transition. The gross duration includes pauses and is not GPU compute time. Windows rejected Codex Process Jobs before launch, so native finite execution was used, not an unsupported tracked background job.
 
-Initial fixed-development NLL8.342617fell to the selected value1.730995at update48,000. Selection used only the fixed-development criterion. Early samples documented readable words before consistent narrative behavior; those intermediate failures remain preserved.
+Initial fixed-development NLL8.342617fell to the selected value1.730995 at update48,000. Selection used only the fixed-development criterion. Early samples documented readable words before consistent narrative behavior; those intermediate failures remain preserved.
 
 ## Same-text final measurement
 
-After freezing the selected artifact, original/recovery models scored the same200freshly reserved stories/172,006bytes. Canonical encoded-path bits/byte were1.707953and0.626487, respectively (63.3%lower for recovery). This is a compatible normalization of differently segmented text, not a direct comparison of raw token NLL or a percentage story-quality improvement.
+After freezing the selected artifact, original/recovery models scored the same 200freshly reserved stories/172,006 bytes. Canonical encoded-path bits/byte were1.707953and0.626487, respectively (63.3%lower for recovery). This is a compatible normalization of differently segmented text, not a direct comparison of raw token NLL or a percentage story-quality improvement.
 
 The complete paired packet includes32raw outputs under frozen prompts/seeds/settings. Identified assistant observations are in ASSISTANT_REVIEW.md. Independent human ratings remain pending. All samples, not just a favorable story, must inform the quality description.
 

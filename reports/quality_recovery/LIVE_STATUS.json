@@ -1,0 +1,11 @@
+{
+  "state": "evaluation_complete_app_observed_packaging_pending",
+  "updates": 48000,
+  "training_active": false,
+  "best_update": 48000,
+  "best_development_nll": 1.7309948544835507,
+  "fresh_final_now_used": true,
+  "reliable_story_continuation": false,
+  "human_ratings": "pending",
+  "learner_understanding": "pending"
+}
