@@ -1,11 +1,13 @@
 {
-  "state": "evaluation_complete_app_observed_packaging_pending",
-  "updates": 48000,
+  "state": "completed",
   "training_active": false,
-  "best_update": 48000,
-  "best_development_nll": 1.7309948544835507,
+  "updates": 48000,
+  "selected_update": 48000,
+  "model_sha256": "5abebfe480e5f50fddba62cd9227d22b434a69248fc2c647cc5e403d7b2805e0",
   "fresh_final_now_used": true,
   "reliable_story_continuation": false,
+  "quality_scope": "readability and prediction improved; recurring story logic/reference errors remain",
+  "notes": "C:\\Users\\JACKIV\\OneDrive\\Desktop\\StorySeed-Study-Notes\\quality-recovery",
   "human_ratings": "pending",
   "learner_understanding": "pending"
 }

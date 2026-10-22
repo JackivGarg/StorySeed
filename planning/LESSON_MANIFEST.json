@@ -7,8 +7,8 @@
   "files": [
     {
       "path": "AGENTS.md",
-      "sha256": "6faac7ef02e237e0a75c316b4fca913981bc7dad5cd0dc7e4598f2eec5e91e72",
-      "words": 1630
+      "sha256": "210593bbedec25e980de364b5a0a5223e2d4882ae5f6ecd61c2755de36b85484",
+      "words": 1863
     },
     {
       "path": "phase01/00-follow-one-character-through-the-system.md",
@@ -796,6 +796,11 @@
       "words": 447
     },
     {
+      "path": "quality-recovery/02-what-we-changed/04-understand-which-stories-teach-and-which-measure.md",
+      "sha256": "294e99605abba699e70c97b4bda1a9e897a3ac969f958d56bac16bb4b841a8f2",
+      "words": 528
+    },
+    {
       "path": "quality-recovery/03-training-and-learning/01-pilot-before-spending-the-training-budget.md",
       "sha256": "4069ca92887e82bef3b8464e4f827fefb205b15b518dd4d17fbe0b2f930383ce",
       "words": 896
@@ -842,8 +847,8 @@
     },
     {
       "path": "quality-recovery/03-training-and-learning/LOSS_AND_LEARNING.md",
-      "sha256": "fe12a92f9f34f93f23bb60a7e5788e48915bb805ec47259a5b5c94dafd24ae71",
-      "words": 685
+      "sha256": "57595620f8ecd37993744486c2d4b6ded06c43f63df2098e67841d53fddbe4d2",
+      "words": 940
     },
     {
       "path": "quality-recovery/04-before-and-after/01-compare-the-same-text-with-different-representations.md",
@@ -871,19 +876,24 @@
       "words": 748
     },
     {
+      "path": "quality-recovery/04-before-and-after/06-use-and-reconstruct-the-reviewed-release.md",
+      "sha256": "eaa002452d05fa5ebae1415618549ca7ebc7ea0fa5d876ff42fdd072ce239b55",
+      "words": 661
+    },
+    {
       "path": "quality-recovery/README.md",
-      "sha256": "1f80f9718d256b150440ba7f5f8f092d18e34a19aa01090e97445851c5bc1906",
-      "words": 446
+      "sha256": "7826dc4ff6a0f124a582d730c919502f90ae832de80da0c44d116ee50279829a",
+      "words": 610
     },
     {
       "path": "READING_ORDER.md",
-      "sha256": "9d528876ac55a05e65ea669e52448e9cfc36e4c9f848d18aa93f32349df0a679",
-      "words": 789
+      "sha256": "9a589b3c8c5a4ed7561721977877030e78fe7d8b641f132fa38a16a210ea87df",
+      "words": 841
     },
     {
       "path": "README.md",
-      "sha256": "b4db03d956c63cce3884c576232710bf2d0adf56c2ec392c6f51516e126027bf",
-      "words": 739
+      "sha256": "bf581737fb8ff1eae61504c3b32c974fde3eb4c9ca3c736f97bdac190ad9ff96",
+      "words": 791
     },
     {
       "path": "samples/SAMPLE_01_WHY_PYTORCH_AND_HOW_LEARNING_WORKS.md",
@@ -892,8 +902,8 @@
     },
     {
       "path": "START_HERE.md",
-      "sha256": "dc87eda2bfd0fb496d40202e7959e9b1179852a60cb0c93ab95ce1148c09ba0f",
-      "words": 693
+      "sha256": "212cda271cba3a77495eaa4db853c071b775bd09e0c4c612cb4d5c2f328b8898",
+      "words": 745
     },
     {
       "path": "THE_SLM_JOURNEY.md",
@@ -969,7 +979,7 @@
   "phase09_status": "five increments implemented and taught; actual application observations recorded; independent reconstruction pending",
   "phase09_original_index_archive": "history/4b50ae0-before-phase09-closure",
   "phase09_release_source_revision": "c473ad4c07f34a01dbc168b9d4177fb9329a95dd",
-  "quality_recovery_status": "evaluation_complete_app_observed_packaging_pending; human assessment and student mastery pending",
+  "quality_recovery_status": "completed training, fixed final evaluation, identified assistant review, CPU application and isolated portable execution; human assessment and student mastery pending",
   "quality_recovery_assets": [
     {
       "path": "quality-recovery/03-training-and-learning/assets/actual-learning.png",
@@ -977,7 +987,15 @@
     },
     {
       "path": "quality-recovery/03-training-and-learning/assets/actual-learning.svg",
-      "sha256": "a60ad2e649e46d3f57888b8f9a2c57da4205ae137eb100e1ef1f70f5d9b6db48"
+      "sha256": "f36bc7d2825311d714c68b6f392fc66f7cf85cca5f2151527b0b82f122df061b"
+    },
+    {
+      "path": "quality-recovery/03-training-and-learning/assets/continuation-detail.png",
+      "sha256": "cde2c8f6245e13781aa9ee657d8c8182b339e568880b22ec0982fb9d4d5d85b0"
+    },
+    {
+      "path": "quality-recovery/03-training-and-learning/assets/continuation-detail.svg",
+      "sha256": "79043e1634df1ed9cb869ef33e03460ddcb6f1b1648e4614fc7c50db98cb51d3"
     },
     {
       "path": "quality-recovery/03-training-and-learning/assets/initial-learning.png",
@@ -993,8 +1011,12 @@
     },
     {
       "path": "quality-recovery/04-before-and-after/assets/same-text-comparison.svg",
-      "sha256": "32be9d88daa3ac694a4194c8738993bccf545e2b10dd183aefba0fc94d4d8a96"
+      "sha256": "5a2815dcb1e761766612c82eadace999218fa496451dc16767520cadb4f8f675"
     }
   ],
-  "quality_recovery_notes_revision_base": "2edc7c464d4b5d60d2c859655eaeada7f65ed9d5"
+  "quality_recovery_notes_revision_base": "17c46874c4e85b4119be1e771ff33d190d03f4e6",
+  "quality_recovery_reliable_story_continuation": false,
+  "quality_recovery_successful_updates": 48000,
+  "quality_recovery_training_stories": 58968,
+  "quality_recovery_final_population_used": true
 }
