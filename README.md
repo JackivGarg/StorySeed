@@ -1,121 +1,98 @@
-# StorySeed
+# StorySeed 🌱
 
-## Quality recovery completed — 2026-10-21
+**A small language model built from scratch to continue short English stories.**
 
-The separate recovery completed 48,000 random-initialized updates. Its development-selected model is StorySeed-recovery4096: 8,473,088 parameters, 4,096-entry BPE and 256-ID context. The current app now loads that declared artifact rather than the old 512-entry prototype. Restart any already-open app to load the update.
+Write a story opening, choose generation settings, and explore what the model writes next. StorySeed covers text preparation, tokenization, Transformer training, evaluation, and a local desktop app.
 
-Same-text final canonical encoded-path bits per UTF-8 content byte: **1.707953 → 0.626487**, across 200 newly reserved stories after candidate freeze. Read reports/quality_recovery/ASSISTANT_REVIEW.md for the identified review of all 16 sample pairs and remaining failures. This is a combined recovery, not an isolated ablation or independent human study. Both final populations are now used evidence.
+The weights were trained from random initialization using PyTorch and a subset of **TinyStories**. Generation runs locally without a hosted AI API.
 
-Word formation and readability improved substantially. Reliable story continuation remains unachieved: recurring reference confusion and weak plot logic remain. The current release is an improved experimental prototype, not a claim that the broader quality goal is complete.
+## What we built
 
-Actual integration evidence covers CPU generation, a withdrawn Tk submit/display/save callback and fresh isolated-process source/weight relocation on this laptop. The Save path was supplied by the observation harness; human visual review and a clean second-machine dependency installation are unclaimed. Learner reconstruction and independent human ratings remain pending. No training job remains running.
+- An explicitly implemented GPT-style causal Transformer.
+- A training-only byte-level BPE tokenizer and separate story-level data splits.
+- GPU training with mixed precision, gradient accumulation, and resumable checkpoints.
+- A Tkinter desktop app and command-line interface for CPU generation.
+- Recorded learning curves, model comparisons, and unedited sample outputs.
 
-Start reading the separate Desktop StorySeed-Study-Notes/quality-recovery/README.md. Current setup/use: docs/LOCAL_APP.md. Model and university evidence: docs/RECOVERY_MODEL_CARD.md and docs/QUALITY_RECOVERY_REPORT.md. Portable release identity: reports/quality_recovery/FINAL_RELEASE.json. Earlier phase results and chapters remain historical evidence.
+## Model at a glance
 
-## Earlier progression
+| Detail | Value |
+|---|---|
+| Parameters | 8.47 million |
+| Architecture | 8 Transformer layers, 8 attention heads per layer |
+| Vocabulary / context | 4,096 tokens / 256 tokens |
+| Training stories | 58,968 |
+| Development / final-test stories | 200 / 200 separate stories |
+| Training updates | 48,000 across two declared stages |
+| Tools | Python, PyTorch, NumPy, Hugging Face Tokenizers, Tkinter |
 
-## Active quality recovery — continuation running
+## How it works
 
-The original app's poor story quality is not treated as solved. A separate scratch recovery completed 16,000 updates, but its diagnostic stories still confused characters. An additional 32,000-update full-state stage is running under planning/QUALITY_RECOVERY_CONTINUATION_PROTOCOL.json. Current counters and checkpoint: reports/quality_recovery/LIVE_STATUS.json. Native execution session: 71643 in the active chat; do not launch a duplicate.
-
-The new final stories remain unencoded/unscored; evaluation and application promotion are pending. The current app still serves the historical model. Read the separate Desktop StorySeed-Study-Notes/quality-recovery folder for diagnosis, actual learning and the continuation decision. Earlier pipeline completion is not a quality guarantee.
-
-## Earlier progression
-
-## Use the trained local app
-
-```powershell
-.venv/Scripts/python -m storyseed.app --gui
-.venv/Scripts/python -m storyseed.app --prompt "Once upon a time" --json
+```text
+Story opening → token IDs → embeddings → Transformer blocks
+             → next-token scores → sample a token → repeat
 ```
 
-Use [local setup and release instructions](docs/LOCAL_APP.md), [model card](docs/MODEL_CARD.md), [university report](docs/UNIVERSITY_REPORT.md), [demo guide](docs/DEMO_GUIDE.md) and [independent reconstruction workbook](docs/RECONSTRUCTION_WORKBOOK.md). Trained weights remain local/ignored: cloning this repository alone does not supply them. Final complete release identity: reports/phase09/FINAL_RELEASE.json.
+The model generates one token at a time, using the latest 256 tokens as context. A token can be a word, part of a word, or punctuation.
 
-All nine planned implementation phases are delivered, with detailed concept-first notes in the separate Desktop StorySeed-Study-Notes/phase09 folder. The app serves the predeclared main128 model, not newly tuned weights. Grammar and continuity limitations remain. Human ratings and independent student reconstruction are pending. Older progress entries below preserve historical states.
+## Run locally
 
-## Historical progression
+**Trained weights are excluded from Git. Cloning alone does not provide a runnable trained model.** Use the separately provided `StorySeed-quality-recovery.zip` bundle, which contains the weights, matching tokenizer, and application source.
 
-A small language model built and trained from random initialization for short English story continuation.
-
-This fresh repository began on 2026-10-14. Its Phase 1 code and lessons were developed here without importing earlier project history or source files. Phase 1 trained and saved a small character bigram; Phases 2–6 now add the story pipeline, contextual baselines, explicit complete causal decoder and repeatable training system. Main model training and fixed evaluation now run in completed Phases 7–8; Phase 9 now supplies the local application, portable release and reconstruction guidance.
-
-Learning proceeds alongside implementation through detailed, connected chapters. The intended outcome is understanding tokenization, the causal transformer, training, evaluation, and generation.
-
-The active teaching approach follows the concepts and reasoning needed to build each component: project need, prerequisite learning, return to the build, implementation and the next limitation. The user approved the PyTorch/learning-mechanism sample on 2026-10-15. All current Phase 1 teaching files now follow that style in the separate Desktop notes folder. See [the approved teaching reference](planning/TEACHING_PREVIEW.md) and [teaching agreement](planning/TEACHING_RULES.md).
-
-## Start here
-
-- [Build-and-teach plan: 49 core subphases](planning/END_TO_END_PLAN.md).
-- [Detailed notes standard](planning/NOTES_STANDARD.md).
-- [Commit-based learning workflow](planning/COMMIT_WORKFLOW.md).
-- [Study book location and chapter map](planning/LESSON_MAP.md).
-- [Current progress](planning/PROGRESS.md).
-
-Each subphase pairs a natural code commit with its explanation and observed behavior. Main weights start randomly. Model size and training budget follow a measured hardware pilot.
-
-Branch: main. Remote origin: https://github.com/JackivGarg/StorySeed.git. Git authentication and publication succeeded. Earlier project folders are preserved as references.
-
-## Phase 1: run and study
-
-Teaching notes are stored separately on this computer in `C:/Users/JACKIV/OneDrive/Desktop/StorySeed-Study-Notes`. Open `START_HERE.md` there for the study guide and reading index. See [the chapter map](planning/LESSON_MAP.md) for corresponding code commits. The original eight subphase commits still contain their historical explanations; current lessons live in the separate Desktop folder.
-
-On this machine the project environment reuses the installed PyTorch CUDA build through system-site-packages. The environment and a fully isolated alternate installation are explained in the first chapter. After setup:
+Install Python 3.12, extract the bundle, and run these commands from its folder on Windows:
 
 ```powershell
-.venv\Scripts\python scripts\train_phase01.py --device auto
-.venv\Scripts\python scripts\generate.py --prompt "mia " --seed 17
-.venv\Scripts\python scripts\generate.py --prompt "mia " --top-k 1
-.venv\Scripts\python -m unittest discover -s tests -v
+py -3.12 -m venv .venv
+.venv/Scripts/python -m pip install -r requirements-inference.txt
+.venv/Scripts/python launch.py --gui
 ```
 
-Training starts with random weights. The local checkpoint is checkpoints/phase01/bigram.pt and stays outside Git. Recreate it using the first command; its observed artifact identity is recorded in reports/phase01/08_checkpoint.json. Generation loads weights without retraining. CPU training/generation also ran successfully.
-
-The toy model has 289 parameters and was trained on 16 authored sentences. CUDA training loss fell from 2.835582 to 1.212152; development loss fell from 2.834067 to 1.216261 over 400 steps. Its one-character context can learn transitions but cannot reliably write coherent stories. All eight contract checks passed. Implementation completeness does not establish student mastery; learning checkpoints remain pending.
-
-## Phase 2: reproducible story pipeline
-
-Six completed increments capture/split a pinned TinyStories teaching prefix, demonstrate BPE explicitly, fit/save a training-only tokenizer, build boundary-aware masked batches and train a compatible baseline. Read the external StorySeed-Study-Notes/phase02/README.md; [lesson references and original commits](planning/LESSON_MAP.md) remain in this repository.
-
-Generate from its local checkpoint with `.venv/Scripts/python scripts/generate_phase02.py --json`. The final holdout remains reserved. See [the measured Phase 2 summary](reports/phase02/SUMMARY.md).
-
-## Phase 3: learned representations and contextual prediction
-
-The fixed-window neural baseline and its four build-and-teach subphases are implemented. Both K=1/8 conditions learned from random initialization, but this short pilot did not beat the Phase 2 bigram. See [actual outcome](reports/phase03/SUMMARY.md). The separate Desktop StorySeed-Study-Notes/phase03 folder contains the conceptual reading journey. Generate locally without fitting again:
+Or generate from the command line:
 
 ```powershell
-.venv/Scripts/python scripts/generate_phase03.py --prompt "Once upon a time" --json
+.venv/Scripts/python launch.py --prompt "A little rabbit found a red box."
 ```
 
-The local checkpoint is ignored by Git; its identity is recorded in data/manifests/phase03. Attention and the final Transformer remain later phases.
+The desktop app requires Tkinter. After dependency installation, inference works offline. See [setup instructions](docs/LOCAL_APP.md) for repository usage and troubleshooting.
 
-## Phase 4: explicit causal attention
+### App controls
 
-Q/K/V retrieval, score scaling, causal/padding restrictions and learned positions now form a trained single-head teaching predictor. See [actual outcomes and limitations](reports/phase04/SUMMARY.md). Detailed concept-first chapters are in the separate Desktop StorySeed-Study-Notes/phase04 folder. Generate without fitting again:
+| Control | Default | Purpose |
+|---|---:|---|
+| Seed | 17 | Makes random sampling repeatable on the same setup |
+| Temperature | 0.8 | Adjusts how strongly higher-scoring tokens are favored |
+| Top-k | 40 | Chooses from the highest-scoring 40 candidates at each step |
+| New IDs | 192 | Maximum additional tokens to generate; app limit is 512 |
 
-```powershell
-.venv/Scripts/python scripts/generate_phase04.py --prompt "Once upon a time" --json
-```
+The app can copy the full story or save the output and settings as JSON. Generation stops at an end token or the requested limit.
 
-The local inference checkpoint remains ignored by Git and is identified in data/manifests/phase04/attention.json. This short pilot did not beat the previous baselines; the full decoder and main scratch-training run are later phases.
+## Results
 
-## Phases 5–6: complete decoder and dependable training
+Both models were evaluated on the same **200 final-test stories**:
 
-Six increments per phase implement the explicit pre-normalized decoder and a configurable training workflow with masked target accounting, AdamW/schedule/clipping, correct accumulation, measured CUDA precision and full-state resume. Read [Phase 5 results](reports/phase05/SUMMARY.md) and [Phase 6 results](reports/phase06/SUMMARY.md).
+| Model | Encoded-path bits per UTF-8 content byte ↓ |
+|---|---:|
+| Original StorySeed | 1.708 |
+| Recovery model | 0.626 |
 
-Detailed teaching is in the separate Desktop StorySeed-Study-Notes/phase05 and phase06 folders. Each has a loss-and-learning chapter with actual charts, explaining what changed and why the measured populations matter. The tiny memorization result is not a model-quality comparison. The ten-update CPU pilot improves full-development NLL but is not main training. The separate 6.6M CUDA model is only a measured resource candidate.
+This is a **63.3% reduction in predictive loss per byte**, not an accuracy or story-quality percentage. Data, tokenization, context, and training budget changed together, so the comparison does not isolate any single improvement.
 
-Generate from the local pilot export without retraining:
+![Original and recovery model comparison](docs/media/quality-recovery/03-same-text-comparison.png)
 
-```powershell
-.venv/Scripts/python scripts/generate_decoder.py --checkpoint checkpoints/phase06/pilot-inference.pt --json
-```
+**Readability improved, but reliable story continuation remains an unfinished goal.** Outputs can repeat, confuse characters, change objects, or stop mid-sentence. This is an educational prototype; independent human quality ratings are pending.
 
-The full training CLI is `scripts/train_decoder.py`; use `--help` and the recorded teaching config/protocol before starting a new run. Checkpoint tensors remain local/ignored. Next: Phase 7's frozen main-training protocol. Final holdout remains unencoded/unscored; student understanding remains pending.
+## Explore the project
 
-## Phases 7–8: main training and research workflow
+| Location | Contents |
+|---|---|
+| [`src/storyseed/`](src/storyseed/) | Data, models, training, generation, and app |
+| [`scripts/`](scripts/) | Preparation, training, evaluation, and packaging commands |
+| [`reports/quality_recovery/`](reports/quality_recovery/) | Actual results and retained sample outputs |
+| [`docs/media/quality-recovery/`](docs/media/quality-recovery/) | Charts, exact statistics, and captions |
+| [Build roadmap](planning/END_TO_END_PLAN.md) | The phased learning and implementation journey |
 
-The separate Desktop phase07/phase08 notes teach the frozen expanded-corpus scratch run and context-policy study. Source and protocol are prepared; actual runtime status is in reports/phase07_08_STATUS.json. Main training and final metrics are not claimed before completion. The finite workload is scripts/run_phase07_08.py; do not launch a duplicate while its tracked job is active. Human review remains pending.
+For more detail, read the [model card](docs/RECOVERY_MODEL_CARD.md), [project report](docs/QUALITY_RECOVERY_REPORT.md), and [sample review](reports/quality_recovery/ASSISTANT_REVIEW.md). Detailed teaching chapters are maintained separately; the [lesson map](planning/LESSON_MAP.md) connects them to the code. The [earlier README](docs/history/README-before-2026-11-23.md) preserves historical progress.
 
-## Main scratch-trained result and evaluation
+## Acknowledgments
 
-Phases 7–8 executed successfully. See reports/phase07/SUMMARY.md and reports/phase08/SUMMARY.md for actual measured results, resources, limits and artifact identities. The main local model is checkpoints/phase07/main128-inference.pt. The paired context study, generated samples and PAPER_DRAFT.md are in reports/phase08. Human ratings and learner understanding remain pending; Phase 9 is next.
+Training text comes from **TinyStories**, introduced by Ronen Eldan and Yuanzhi Li. Dataset attribution, pinned source revision, and terms are recorded in the [model card](docs/RECOVERY_MODEL_CARD.md).
