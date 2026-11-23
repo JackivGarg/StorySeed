@@ -1,98 +1,69 @@
 # StorySeed 🌱
 
-**A small language model built from scratch to continue short English stories.**
+**A small language model trained from scratch for short English story continuation.**
 
-Write a story opening, choose generation settings, and explore what the model writes next. StorySeed covers text preparation, tokenization, Transformer training, evaluation, and a local desktop app.
+StorySeed takes a story opening and generates what comes next, one token at a time. The project brings together a custom Transformer, text tokenization, model training, evaluation, and a local desktop application.
 
-The weights were trained from random initialization using PyTorch and a subset of **TinyStories**. Generation runs locally without a hosted AI API.
+The model was trained from random initialization on a subset of **TinyStories**, using PyTorch. Its predictions come from learned weights, with inference running locally.
 
-## What we built
+## Project highlights
 
-- An explicitly implemented GPT-style causal Transformer.
-- A training-only byte-level BPE tokenizer and separate story-level data splits.
-- GPU training with mixed precision, gradient accumulation, and resumable checkpoints.
-- A Tkinter desktop app and command-line interface for CPU generation.
-- Recorded learning curves, model comparisons, and unedited sample outputs.
+- **GPT-style Transformer:** explicitly implemented causal self-attention, positional embeddings, feed-forward layers, residual connections, and layer normalization.
+- **Custom text pipeline:** byte-level BPE tokenization, story-level data splits, and next-token training examples.
+- **GPU training:** mixed precision, gradient accumulation, and checkpoints that preserve training state.
+- **Local application:** a desktop interface with adjustable sampling settings, story copying, and saved generation results.
+- **Recorded evaluation:** learning curves, comparisons with the original model, and retained story outputs.
 
-## Model at a glance
+## Model details
 
 | Detail | Value |
 |---|---|
 | Parameters | 8.47 million |
-| Architecture | 8 Transformer layers, 8 attention heads per layer |
-| Vocabulary / context | 4,096 tokens / 256 tokens |
+| Transformer layers | 8 |
+| Attention heads per layer | 8 |
+| Vocabulary size | 4,096 tokens |
+| Context window | 256 tokens |
 | Training stories | 58,968 |
 | Development / final-test stories | 200 / 200 separate stories |
-| Training updates | 48,000 across two declared stages |
-| Tools | Python, PyTorch, NumPy, Hugging Face Tokenizers, Tkinter |
+| Training updates | 48,000 |
 
-## How it works
+## From an opening to a continuation
 
 ```text
-Story opening → token IDs → embeddings → Transformer blocks
-             → next-token scores → sample a token → repeat
+Story opening → tokenization → embeddings → Transformer
+             → next-token prediction → generated continuation
 ```
 
-The model generates one token at a time, using the latest 256 tokens as context. A token can be a word, part of a word, or punctuation.
-
-## Run locally
-
-**Trained weights are excluded from Git. Cloning alone does not provide a runnable trained model.** Use the separately provided `StorySeed-quality-recovery.zip` bundle, which contains the weights, matching tokenizer, and application source.
-
-Install Python 3.12, extract the bundle, and run these commands from its folder on Windows:
-
-```powershell
-py -3.12 -m venv .venv
-.venv/Scripts/python -m pip install -r requirements-inference.txt
-.venv/Scripts/python launch.py --gui
-```
-
-Or generate from the command line:
-
-```powershell
-.venv/Scripts/python launch.py --prompt "A little rabbit found a red box."
-```
-
-The desktop app requires Tkinter. After dependency installation, inference works offline. See [setup instructions](docs/LOCAL_APP.md) for repository usage and troubleshooting.
-
-### App controls
-
-| Control | Default | Purpose |
-|---|---:|---|
-| Seed | 17 | Makes random sampling repeatable on the same setup |
-| Temperature | 0.8 | Adjusts how strongly higher-scoring tokens are favored |
-| Top-k | 40 | Chooses from the highest-scoring 40 candidates at each step |
-| New IDs | 192 | Maximum additional tokens to generate; app limit is 512 |
-
-The app can copy the full story or save the output and settings as JSON. Generation stops at an end token or the requested limit.
+The model repeatedly predicts and selects the next token using the recent story context. The application offers seed, temperature, top-k, and output-length controls to explore different continuations.
 
 ## Results
 
-Both models were evaluated on the same **200 final-test stories**:
+The original and improved models were evaluated on the same **200 final-test stories**.
 
-| Model | Encoded-path bits per UTF-8 content byte ↓ |
+| Model | Predictive loss: bits per UTF-8 content byte ↓ |
 |---|---:|
 | Original StorySeed | 1.708 |
-| Recovery model | 0.626 |
+| Improved StorySeed | 0.626 |
 
-This is a **63.3% reduction in predictive loss per byte**, not an accuracy or story-quality percentage. Data, tokenization, context, and training budget changed together, so the comparison does not isolate any single improvement.
+The improved model achieved **63.3% lower predictive loss per byte**. This measures prediction performance, rather than story-quality accuracy. The comparison combines changes to data, tokenization, context, and training budget.
 
-![Original and recovery model comparison](docs/media/quality-recovery/03-same-text-comparison.png)
+![Original and improved model comparison](docs/media/quality-recovery/03-same-text-comparison.png)
 
-**Readability improved, but reliable story continuation remains an unfinished goal.** Outputs can repeat, confuse characters, change objects, or stop mid-sentence. This is an educational prototype; independent human quality ratings are pending.
+## Limitations
 
-## Explore the project
+Generated text is more readable than the original model's output, but it can still repeat, confuse characters, change objects, or produce inconsistent events. StorySeed is an educational prototype, and reliable narrative coherence is not established. The recorded qualitative review was performed by an identified assistant; independent human quality ratings are pending.
 
-| Location | Contents |
-|---|---|
-| [`src/storyseed/`](src/storyseed/) | Data, models, training, generation, and app |
-| [`scripts/`](scripts/) | Preparation, training, evaluation, and packaging commands |
-| [`reports/quality_recovery/`](reports/quality_recovery/) | Actual results and retained sample outputs |
-| [`docs/media/quality-recovery/`](docs/media/quality-recovery/) | Charts, exact statistics, and captions |
-| [Build roadmap](planning/END_TO_END_PLAN.md) | The phased learning and implementation journey |
+## Technology
 
-For more detail, read the [model card](docs/RECOVERY_MODEL_CARD.md), [project report](docs/QUALITY_RECOVERY_REPORT.md), and [sample review](reports/quality_recovery/ASSISTANT_REVIEW.md). Detailed teaching chapters are maintained separately; the [lesson map](planning/LESSON_MAP.md) connects them to the code. The [earlier README](docs/history/README-before-2026-11-23.md) preserves historical progress.
+**Python · PyTorch · NumPy · Hugging Face Tokenizers · Tkinter**
+
+## Project evidence
+
+- [Model card](docs/RECOVERY_MODEL_CARD.md)
+- [Project report](docs/QUALITY_RECOVERY_REPORT.md)
+- [Generated story review](reports/quality_recovery/ASSISTANT_REVIEW.md)
+- [Charts and exact statistics](docs/media/quality-recovery/)
 
 ## Acknowledgments
 
-Training text comes from **TinyStories**, introduced by Ronen Eldan and Yuanzhi Li. Dataset attribution, pinned source revision, and terms are recorded in the [model card](docs/RECOVERY_MODEL_CARD.md).
+Training text comes from **TinyStories**, introduced by Ronen Eldan and Yuanzhi Li. Dataset attribution and source details are recorded in the model card.
