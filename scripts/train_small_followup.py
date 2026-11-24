@@ -71,7 +71,7 @@ def main():
         data_id = dict(parent['identity'], followup_protocol_sha256=digest(PROTOCOL))
         history_path = RUN / 'history.json'
         checkpoint = WEIGHTS / 'latest.pt'
-        tokenizer = StoryTokenizer.load(TOKENIZER)
+        tokenizer = StoryTokenizer.load(TOKENIZER, expected_sha256=parent['identity']['tokenizer_sha256'])
         if checkpoint.exists():
             runner = load_training(checkpoint, config, data=data, identity=data_id)
             history = read(history_path)

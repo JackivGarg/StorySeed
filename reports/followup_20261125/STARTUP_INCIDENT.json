@@ -1,0 +1,5 @@
+{
+  "error": "Tokenizer bytes differ from the expected artifact.",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\JACKIV\\OneDrive\\Desktop\\StorySeed\\scripts\\train_small_followup.py\", line 74, in main\n    tokenizer = StoryTokenizer.load(TOKENIZER)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\JACKIV\\OneDrive\\Desktop\\StorySeed\\src\\storyseed\\story_tokenizer.py\", line 41, in load\n    raise ValueError('Tokenizer bytes differ from the expected artifact.')\nValueError: Tokenizer bytes differ from the expected artifact.\n",
+  "pid": 14072
+}
