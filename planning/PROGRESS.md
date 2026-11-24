@@ -175,3 +175,8 @@ exports/StorySeed-main128-final.zip was created from clean committed source c473
 ## Quality recovery — 2026-10-21
 
 User reported incoherent output and requested diagnosis, actual improvement and new teaching folders. Read the separate quality-recovery/README.md. Diagnostic evidence: reports/quality_recovery/01_diagnosis.json. A predeclared larger-data/tokenizer/context scratch run follows planning/QUALITY_RECOVERY_PROTOCOL.json. Old final evidence stays used; new reserved evaluation stays unencoded until candidate freeze. Setup is not yet improved output. Earlier chapters/artifacts remain unchanged.
+
+
+## Small follow-up setup — 2026-11-25
+
+Read separate followup-2026-11-25/01-why-a-small-continuation.md and LOSS_AND_LEARNING.md. A separately declared 4,000-update experiment preserves the parent and reserves new final groups. Actual execution/outcome is tracked by reports/followup_20261125; launch is not a completed improvement.

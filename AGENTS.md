@@ -89,3 +89,8 @@ The new 200-story final population was encoded/scored after the candidate freeze
 Continue the approved concept-first teaching flow. Canonical recovery notes live in Desktop/StorySeed-Study-Notes/quality-recovery, with separate diagnosis, changes, learning and comparison subfolders. Explain actual loss changes using the recorded population, masks, timing and denominator; preserve historical curves and outputs. Future quality changes require a separately declared design and new evaluation population for fresh claims.
 
 Recovery quality boundary: the training/evaluation/local release workflow is complete, but reliable story continuation remains unachieved. The current artifact improves prediction/readability and still has recurring character-reference and plot errors. Both final populations are now used evidence. Further training requires a separately declared follow-up; no new run or shutdown authorization is active.
+
+
+## Small follow-up — 2026-11-25
+
+User requested a little additional training. Read planning/FOLLOWUP_20261125.json and reports/followup_20261125/STATUS.json. Additional budget 4,000 updates, same training data/model/tokenizer, low LR 0.00003 to 0.00001. Separate artifacts and new 200-story final reservation; old final sets remain used and are not rescored. App/ZIP remain at 48,000 pending review. Notes: StorySeed-Study-Notes/followup-2026-11-25. No automatic shutdown authorization for this run. Check the actual process/logs before any restart; never launch duplicate training.

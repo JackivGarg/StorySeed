@@ -6,11 +6,6 @@
   "originals_archive": "history/059c13b-before-practical-rewrite",
   "files": [
     {
-      "path": "AGENTS.md",
-      "sha256": "210593bbedec25e980de364b5a0a5223e2d4882ae5f6ecd61c2755de36b85484",
-      "words": 1863
-    },
-    {
       "path": "phase01/00-follow-one-character-through-the-system.md",
       "sha256": "e57f2f3addc9d99af8c3975c939f609fbd11562114b0680355eb15b0e548177a",
       "words": 918
@@ -909,6 +904,26 @@
       "path": "THE_SLM_JOURNEY.md",
       "sha256": "5f53e282d2623c9425523b9e04de15f5a72c72ee30dd6b7acedb27befd8433de",
       "words": 1519
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "f3097b908b77bf5df392430c86f5e67db40c6aecfa6bd950c2038012f612b667",
+      "words": 1932
+    },
+    {
+      "path": "followup-2026-11-25/01-why-a-small-continuation.md",
+      "sha256": "a7ab2fd493aab2f7a059a92c5525aaf5e27d87417260b9bb007e4fb9462dbaf2",
+      "words": 676
+    },
+    {
+      "path": "followup-2026-11-25/LOSS_AND_LEARNING.md",
+      "sha256": "989ca6ad5185cbd1bd50249acb280513f885b17b13b64c9a45f66e12a647c537",
+      "words": 111
+    },
+    {
+      "path": "followup-2026-11-25/README.md",
+      "sha256": "224bab75cf1f0b42be4de0e3d33490c2afbe6698028c03618582f89acf501de7",
+      "words": 92
     }
   ],
   "teaching_preview": {
@@ -1018,5 +1033,6 @@
   "quality_recovery_reliable_story_continuation": false,
   "quality_recovery_successful_updates": 48000,
   "quality_recovery_training_stories": 58968,
-  "quality_recovery_final_population_used": true
+  "quality_recovery_final_population_used": true,
+  "small_followup_20261125": "declared, not yet launched; prior final populations used; current app preserved"
 }

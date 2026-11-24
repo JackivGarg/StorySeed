@@ -312,3 +312,8 @@ Word formation and readability improved substantially. Reliable story continuati
 Actual integration evidence covers CPU generation, a withdrawn Tk submit/display/save callback and fresh isolated-process source/weight relocation on this laptop. The Save path was supplied by the observation harness; human visual review and a clean second-machine dependency installation are unclaimed. Learner reconstruction and independent human ratings remain pending. No training job remains running.
 
 Start reading the separate Desktop StorySeed-Study-Notes/quality-recovery/README.md. Current setup/use: docs/LOCAL_APP.md. Model and university evidence: docs/RECOVERY_MODEL_CARD.md and docs/QUALITY_RECOVERY_REPORT.md. Portable release identity: reports/quality_recovery/FINAL_RELEASE.json. Earlier phase results and chapters remain historical evidence.
+
+
+## Small follow-up setup — 2026-11-25
+
+Read separate followup-2026-11-25/01-why-a-small-continuation.md and LOSS_AND_LEARNING.md. A separately declared 4,000-update experiment preserves the parent and reserves new final groups. Actual execution/outcome is tracked by reports/followup_20261125; launch is not a completed improvement.

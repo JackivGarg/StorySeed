@@ -1,0 +1,41 @@
+{
+  "format": "storyseed.small-followup.v1",
+  "date": "2026-11-25",
+  "additional_updates": 4000,
+  "parent_global_updates": 48000,
+  "overall_updates": 52000,
+  "parent_checkpoint_sha256": "83818d6a47c299858ea49955ce125f285d9a5ea0379e56a841f1755b9b4c521d",
+  "hypothesis": "A short low-learning-rate continuation may modestly improve prediction and some continuations; character/plot consistency is not guaranteed.",
+  "learning_rate_peak": 3e-05,
+  "learning_rate_minimum": 1e-05,
+  "warmup_updates": 0,
+  "schedule": "stage-local cosine, retain AdamW moments/counters and RNG streams",
+  "unchanged": "same 58,968 training stories, tokenizer, architecture, masks, batch size, BF16, dropout, optimizer groups and development 200",
+  "development": "same 46,082 events, FP32 evaluation every 500 additional updates; used for selection",
+  "selection": "minimum fixed-development NLL including the parent; ties keep parent; no test-driven selection",
+  "checkpoint_every": 250,
+  "maximum_training_seconds": 5400,
+  "fresh_final_path": "data/processed/followup_20261125/final.jsonl",
+  "fresh_final_sha256": "87f7d9d4805fde39b9205d0590113fdba3c7be5a17986fdc7a7be3b6acd957da",
+  "fresh_final_rule": "first 200 sorted normalized-group IDs in final_holdout bucket excluding every old 8MiB group and the used recovery final 200",
+  "fresh_final_access": "encode/score after completed budget and candidate freeze only; then used evidence",
+  "evaluation": "compare parent versus selected candidate with identical 4096 tokenizer and context 256 on the new 200 texts",
+  "prompts": [
+    "Once upon a time there was a fox and it was blue, but",
+    "One day, Lily lost her red balloon.",
+    "A small rabbit found a carrot beside the river.",
+    "Tom wanted to help his friend.",
+    "Mia found a small red box.",
+    "The little bird was afraid of the rain."
+  ],
+  "sampling": {
+    "seed": 17,
+    "temperature": 0.8,
+    "top_k": 40,
+    "max_new_tokens": 192
+  },
+  "promotion": "review all paired samples; app/model ZIP unchanged until a reviewed decision",
+  "notes_folder": "C:\\Users\\JACKIV\\OneDrive\\Desktop\\StorySeed-Study-Notes\\followup-2026-11-25",
+  "automatic_shutdown": false,
+  "limitations": "one continued training trajectory, development-informed budget; prior final sets stay used and are not rescored"
+}

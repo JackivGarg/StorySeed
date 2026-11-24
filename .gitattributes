@@ -20,3 +20,7 @@ artifacts/phase02/tokenizer.json -text
 
 # Preserve generated vector charts byte-for-byte and omit verbose path diffs.
 /docs/media/**/*.svg -text -diff
+
+/planning/FOLLOWUP_20261125.json text eol=lf
+/data/manifests/followup_20261125/*.json text eol=lf
+/reports/followup_20261125/*.json text eol=lf
