@@ -907,8 +907,8 @@
     },
     {
       "path": "AGENTS.md",
-      "sha256": "f3097b908b77bf5df392430c86f5e67db40c6aecfa6bd950c2038012f612b667",
-      "words": 1932
+      "sha256": "a7f9b7e5b6cae9330cbcc4f79f73de3c09a91e211a27e321871ece459f9008c1",
+      "words": 1983
     },
     {
       "path": "followup-2026-11-25/01-why-a-small-continuation.md",
@@ -922,8 +922,8 @@
     },
     {
       "path": "followup-2026-11-25/README.md",
-      "sha256": "224bab75cf1f0b42be4de0e3d33490c2afbe6698028c03618582f89acf501de7",
-      "words": 92
+      "sha256": "15a0b7022fb5596669da11ae4b3b29309ba831749f28b0f5269b2550852310e2",
+      "words": 143
     }
   ],
   "teaching_preview": {
@@ -1034,5 +1034,5 @@
   "quality_recovery_successful_updates": 48000,
   "quality_recovery_training_stories": 58968,
   "quality_recovery_final_population_used": true,
-  "small_followup_20261125": "declared, not yet launched; prior final populations used; current app preserved"
+  "small_followup_20261125": "stopped at user request; last saved checkpoint retained; app unchanged; focus on learning"
 }

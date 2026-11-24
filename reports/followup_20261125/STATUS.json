@@ -1,0 +1,10 @@
+{
+  "state": "stopped_by_user",
+  "reason": "User requested leaving further training and focusing on learning",
+  "saved_stage_updates": 250,
+  "saved_global_updates": 48250,
+  "checkpoint_sha256": "77585319d1c6178182fed478655d6b352872ab3fec00d606387c4b88c1958969",
+  "app_changed": false,
+  "fresh_final_encoded_or_scored": false,
+  "note": "Uncheckpointed updates may be lost; completed new-quality result is not claimed."
+}

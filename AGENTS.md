@@ -94,3 +94,7 @@ Recovery quality boundary: the training/evaluation/local release workflow is com
 ## Small follow-up — 2026-11-25
 
 User requested a little additional training. Read planning/FOLLOWUP_20261125.json and reports/followup_20261125/STATUS.json. Additional budget 4,000 updates, same training data/model/tokenizer, low LR 0.00003 to 0.00001. Separate artifacts and new 200-story final reservation; old final sets remain used and are not rescored. App/ZIP remain at 48,000 pending review. Notes: StorySeed-Study-Notes/followup-2026-11-25. No automatic shutdown authorization for this run. Check the actual process/logs before any restart; never launch duplicate training.
+
+## Follow-up stopped by user — 2026-11-25
+
+User requested stopping extra training and focusing on learning. No follow-up training process should be running. Read reports/followup_20261125/STATUS.json for the last saved boundary. Current app remains the reviewed 48,000-update model. New final reservation remains unencoded/unscored. Do not restart training without a new user request.

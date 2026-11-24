@@ -180,3 +180,7 @@ User reported incoherent output and requested diagnosis, actual improvement and 
 ## Small follow-up setup — 2026-11-25
 
 Read separate followup-2026-11-25/01-why-a-small-continuation.md and LOSS_AND_LEARNING.md. A separately declared 4,000-update experiment preserves the parent and reserves new final groups. Actual execution/outcome is tracked by reports/followup_20261125; launch is not a completed improvement.
+
+## Follow-up stopped by user — 2026-11-25
+
+User requested stopping extra training and focusing on learning. No follow-up training process should be running. Read reports/followup_20261125/STATUS.json for the last saved boundary. Current app remains the reviewed 48,000-update model. New final reservation remains unencoded/unscored. Do not restart training without a new user request.
