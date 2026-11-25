@@ -924,6 +924,16 @@
       "path": "followup-2026-11-25/README.md",
       "sha256": "15a0b7022fb5596669da11ae4b3b29309ba831749f28b0f5269b2550852310e2",
       "words": 143
+    },
+    {
+      "path": "viva-2026-11-25/01-explain-your-slides-and-report.md",
+      "sha256": "7f3e8ede3397998cfbf161740a5aabe64f252ac0117d21aa2fc717c6d2fe8d7a",
+      "words": 2361
+    },
+    {
+      "path": "viva-2026-11-25/README.md",
+      "sha256": "c053c77527b41ddce3f2c34ba435b31dcbf114d1bdd8dc38b2a695de489f6940",
+      "words": 83
     }
   ],
   "teaching_preview": {
@@ -1034,5 +1044,6 @@
   "quality_recovery_successful_updates": 48000,
   "quality_recovery_training_stories": 58968,
   "quality_recovery_final_population_used": true,
-  "small_followup_20261125": "stopped at user request; last saved checkpoint retained; app unchanged; focus on learning"
+  "small_followup_20261125": "stopped at user request; last saved checkpoint retained; app unchanged; focus on learning",
+  "viva_20261125": "10-slide and 5-page supplied document explanation; unsupported claims corrected in companion; originals unchanged; learner understanding pending"
 }

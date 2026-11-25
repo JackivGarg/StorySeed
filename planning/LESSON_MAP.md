@@ -317,3 +317,7 @@ Start reading the separate Desktop StorySeed-Study-Notes/quality-recovery/README
 ## Small follow-up setup — 2026-11-25
 
 Read separate followup-2026-11-25/01-why-a-small-continuation.md and LOSS_AND_LEARNING.md. A separately declared 4,000-update experiment preserves the parent and reserves new final groups. Actual execution/outcome is tracked by reports/followup_20261125; launch is not a completed improvement.
+
+## Viva preparation — supplied presentation and report, 2026-11-25
+
+Read external viva-2026-11-25/01-explain-your-slides-and-report.md. It explains all 10 supplied slides and maps the five report pages to the concepts. It corrects unsupported Phase 3/4 causal claims, assigned head roles, BF16/checkpoint guarantees, words versus tokens, context/perplexity interpretation and EOS versus narrative quality. Original supplied documents and phase chapters are unchanged. Extra training remains stopped at user request. Learner understanding pending.
